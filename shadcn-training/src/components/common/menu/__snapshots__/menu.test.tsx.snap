@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Menu component renders menu component 1`] = `
+<div>
+  <nav
+    aria-label="breadcrumb"
+    data-slot="breadcrumb"
+  >
+    <ol
+      class="text-muted-foreground flex-wrap items-center gap-1.5 text-sm break-words flex sm:gap-8"
+      data-slot="breadcrumb-list"
+    >
+      <li
+        class="inline-flex items-center gap-1.5"
+        data-slot="breadcrumb-item"
+      >
+        <a
+          class="transition-colors font-poppins hover:text-green-50 text-base"
+          data-slot="breadcrumb-link"
+          href="/shop"
+        >
+          Shop
+        </a>
+      </li>
+      <li
+        class="inline-flex items-center gap-1.5"
+        data-slot="breadcrumb-item"
+      >
+        <a
+          class="transition-colors font-poppins hover:text-green-50 cursor-not-allowed text-base"
+          data-slot="breadcrumb-link"
+        >
+          New Arrivals
+        </a>
+      </li>
+      <li
+        class="inline-flex items-center gap-1.5"
+        data-slot="breadcrumb-item"
+      >
+        <a
+          class="transition-colors font-poppins hover:text-green-50 cursor-not-allowed text-base"
+          data-slot="breadcrumb-link"
+        >
+          About Us
+        </a>
+      </li>
+      <li
+        class="inline-flex items-center gap-1.5"
+        data-slot="breadcrumb-item"
+      >
+        <a
+          class="transition-colors font-poppins hover:text-green-50 text-base"
+          data-slot="breadcrumb-link"
+          href="sign-in"
+        >
+          Sign in
+        </a>
+      </li>
+    </ol>
+  </nav>
+</div>
+`;
