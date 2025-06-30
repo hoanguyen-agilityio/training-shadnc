@@ -1,10 +1,13 @@
+// Libs
 import '@testing-library/jest-dom';
-import { Menu } from '.';
 import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 
+// Components
+import { Menu } from '.';
+
 describe('Menu component', () => {
-  test('renders menu component', () => {
+  test('Renders menu component', () => {
     const { container } = render(
       <MemoryRouter>
         <Menu />

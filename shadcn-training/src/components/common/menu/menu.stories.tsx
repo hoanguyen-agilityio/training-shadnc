@@ -19,6 +19,6 @@ export default {
 
 type Story = StoryObj<typeof Menu>;
 
-export const BannerDefault: Story = {
+export const MenuDefault: Story = {
   args: {},
 };
