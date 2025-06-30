@@ -17,16 +17,10 @@ import {
   DropdownMenuTrigger,
 } from '@radix-ui/react-dropdown-menu';
 import HamburgerIcon from '@/components/icons/hamburger-icon';
+import { MenuProps } from '@/types';
 
-export const Menu = () => {
+export const Menu = ({ menuItems }: MenuProps) => {
   const location = useLocation();
-
-  const menuItems = [
-    { label: 'Shop', href: '/shop', disabled: false },
-    { label: 'New Arrivals', href: undefined, disabled: true },
-    { label: 'About Us', href: undefined, disabled: true },
-    { label: 'Sign in', href: 'sign-in', disabled: false },
-  ];
 
   return (
     <>

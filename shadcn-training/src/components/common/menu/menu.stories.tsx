@@ -2,6 +2,9 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 import { BrowserRouter } from 'react-router-dom';
 
+// Constants
+import { MENU_ITEMS_HEADER } from '@/constants';
+
 // Components
 import { Menu } from './index';
 
@@ -20,5 +23,7 @@ export default {
 type Story = StoryObj<typeof Menu>;
 
 export const MenuDefault: Story = {
-  args: {},
+  args: {
+    menuItems: MENU_ITEMS_HEADER,
+  },
 };
