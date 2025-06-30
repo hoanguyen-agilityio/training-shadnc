@@ -4,3 +4,8 @@
   --font-poppins: Poppins, sans-serif;
   --color-green-50: #6c9d30;
 }
+
+[data-radix-popper-content-wrapper] {
+  width: 100%;
+  padding: 0 16px;
+}
