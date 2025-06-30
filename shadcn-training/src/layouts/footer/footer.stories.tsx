@@ -3,11 +3,11 @@ import type { Meta, StoryObj } from '@storybook/react-vite';
 import { MemoryRouter } from 'react-router-dom';
 
 // Layouts
-import { Header } from './index';
+import { Footer } from './index';
 
 export default {
-  title: 'Layouts/Header',
-  component: Header,
+  title: 'Layouts/Footer',
+  component: Footer,
   decorators: [
     (Story) => (
       <MemoryRouter>
@@ -15,9 +15,9 @@ export default {
       </MemoryRouter>
     ),
   ],
-} as Meta<typeof Header>;
+} as Meta<typeof Footer>;
 
-type Story = StoryObj<typeof Header>;
+type Story = StoryObj<typeof Footer>;
 
 export const MenuDefault: Story = {
   args: {},

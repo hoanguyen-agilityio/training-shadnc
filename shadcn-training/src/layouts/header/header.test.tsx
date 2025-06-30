@@ -6,8 +6,8 @@ import { MemoryRouter } from 'react-router-dom';
 // Layouts
 import { Header } from '.';
 
-describe('Menu component', () => {
-  test('Renders menu component', () => {
+describe('Header component', () => {
+  test('Renders header component', () => {
     const { container } = render(
       <MemoryRouter>
         <Header />

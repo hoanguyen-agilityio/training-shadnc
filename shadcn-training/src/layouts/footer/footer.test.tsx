@@ -3,17 +3,14 @@ import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 
-// Constants
-import { MENU_ITEMS_HEADER } from '@/constants';
+// Layouts
+import { Footer } from '.';
 
-// Components
-import { Menu } from '.';
-
-describe('Menu component', () => {
-  test('Renders menu component', () => {
+describe('Footer component', () => {
+  test('Renders footer component', () => {
     const { container } = render(
       <MemoryRouter>
-        <Menu menuItems={MENU_ITEMS_HEADER} />
+        <Footer />
       </MemoryRouter>,
     );
     expect(container).toMatchSnapshot();
