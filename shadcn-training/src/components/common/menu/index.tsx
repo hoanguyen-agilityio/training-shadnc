@@ -1,6 +1,6 @@
 // Libs
 import clsx from 'clsx';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 // Components
 import {
@@ -9,42 +9,79 @@ import {
   BreadcrumbLink,
   BreadcrumbList,
 } from '@/components/ui/breadcrumb';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from '@radix-ui/react-dropdown-menu';
+import HamburgerIcon from '@/components/icons/hamburger-icon';
 
 export const Menu = () => {
   const location = useLocation();
 
+  const menuItems = [
+    { label: 'Shop', href: '/shop', disabled: false },
+    { label: 'New Arrivals', href: undefined, disabled: true },
+    { label: 'About Us', href: undefined, disabled: true },
+    { label: 'Sign in', href: 'sign-in', disabled: false },
+  ];
+
   return (
-    <Breadcrumb>
-      <BreadcrumbList className="flex sm:gap-8">
-        <BreadcrumbItem>
-          <BreadcrumbLink
-            href="/shop"
-            className={clsx(
-              'font-poppins hover:text-green-50 text-base',
-              location.pathname === '/shop' && 'text-green-50',
-            )}
-          >
-            Shop
-          </BreadcrumbLink>
-        </BreadcrumbItem>
+    <>
+      <Breadcrumb className="hidden min-[680px]:flex">
+        <BreadcrumbList className="flex sm:gap-8">
+          {menuItems.map((item) => (
+            <BreadcrumbItem key={item.label}>
+              <BreadcrumbLink
+                href={item.disabled ? undefined : item.href}
+                className={clsx('font-poppins hover:text-green-50 text-base', {
+                  'cursor-not-allowed': item.disabled,
+                  'text-green-50': location.pathname === item.href,
+                })}
+              >
+                {item.label}
+              </BreadcrumbLink>
+            </BreadcrumbItem>
+          ))}
+        </BreadcrumbList>
+      </Breadcrumb>
 
-        <BreadcrumbItem>
-          <BreadcrumbLink className="font-poppins hover:text-green-50 cursor-not-allowed text-base">
-            New Arrivals
-          </BreadcrumbLink>
-        </BreadcrumbItem>
-
-        <BreadcrumbItem>
-          <BreadcrumbLink className="font-poppins hover:text-green-50 cursor-not-allowed text-base">
-            About Us
-          </BreadcrumbLink>
-        </BreadcrumbItem>
-        <BreadcrumbItem>
-          <BreadcrumbLink href="sign-in" className="font-poppins hover:text-green-50 text-base">
-            Sign in
-          </BreadcrumbLink>
-        </BreadcrumbItem>
-      </BreadcrumbList>
-    </Breadcrumb>
+      <DropdownMenu>
+        <DropdownMenuTrigger className="flex min-[680px]:hidden cursor-pointer">
+          <HamburgerIcon width="24px" height="24px" />
+        </DropdownMenuTrigger>
+        <DropdownMenuContent
+          className={clsx(
+            'flex flex-col gap-2',
+            'bg-white rounded-lg shadow-xl',
+            'p-2',
+            'transition-transform duration-200 ease-in-out',
+            'transform-gpu',
+            'backdrop-blur-sm backdrop-saturate-150',
+            'border border-gray-200',
+          )}
+        >
+          {menuItems.map((item, index) => (
+            <div key={item.label}>
+              <DropdownMenuItem
+                disabled={item.disabled}
+                className={clsx('font-poppins text-base hover:text-green-50', {
+                  'cursor-not-allowed': item.disabled,
+                  'text-green-50': location.pathname === item.href,
+                })}
+                asChild
+              >
+                {item.href ? <Link to={item.href}>{item.label}</Link> : <span>{item.label}</span>}
+              </DropdownMenuItem>
+              {index < menuItems.length - 1 && (
+                <DropdownMenuSeparator className="border border-black mt-2" />
+              )}
+            </div>
+          ))}
+        </DropdownMenuContent>
+      </DropdownMenu>
+    </>
   );
 };
