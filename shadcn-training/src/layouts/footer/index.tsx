@@ -1,7 +1,7 @@
+import { Link } from 'react-router-dom';
 import { Menu } from '@/components';
 import { Logo } from '@/components/icons';
 import { MENU_ITEMS_FOOTER } from '@/constants';
-import { Link } from 'react-router-dom';
 
 export const Footer = () => (
   <footer className="px-4 text-center">
