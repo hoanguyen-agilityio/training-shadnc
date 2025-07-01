@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { ThemeProvider } from '@/components';
-import { Badge } from './components/badge';
+import { Subscribe } from './components/subscribe';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         path="/"
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-            <Badge name="shadcn" />
+            <Subscribe />
           </ThemeProvider>
         }
       />

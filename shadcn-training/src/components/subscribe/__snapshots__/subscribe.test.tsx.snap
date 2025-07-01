@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Subscribe component Renders subscribe component 1`] = `
+<div>
+  <section
+    class="max-h-[867px] w-full h-[867px] relative"
+  >
+    <img
+      alt=""
+      class="w-full h-full object-cover"
+      src="/src/assets/subscribe.webp"
+    />
+    <div
+      class="absolute inset-0 flex flex-col justify-center items-center text-center px-4"
+    >
+      <p
+        class="text-[46px] text-[#8A8A8A]"
+      >
+        Subscribe To Our Newsletter
+      </p>
+      <p
+        class="text-lg text-charcoalGray-50 max-w-[688px] mt-[15px]"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
+      </p>
+      <div
+        class="flex flex-col items-center gap-[30px] w-full max-w-md mt-2.5"
+      >
+        <div
+          class="grid w-full max-w-sm items-center gap-3"
+        >
+          <label
+            class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50"
+            data-slot="label"
+          />
+          <input
+            class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 w-full min-w-0 rounded-md bg-transparent py-1 transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 border-0 shadow-md pt-7 pb-8 px-[30px]"
+            data-slot="input"
+            name="email"
+            placeholder="michael@ymail.com"
+            type="email"
+          />
+        </div>
+        <button
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 py-4 rounded-[10px] px-[30px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 cursor-not-allowed"
+          data-slot="button"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 25 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M9.62588 17.8644C9.58598 17.8216 9.55432 17.7706 9.53272 17.7146C9.51112 17.6585 9.5 17.5984 9.5 17.5377C9.5 17.477 9.51112 17.4169 9.53272 17.3608C9.55432 17.3048 9.58598 17.2538 9.62588 17.211L14.4649 11.9999L9.62588 6.7888C9.58604 6.74589 9.55444 6.69495 9.53288 6.63889C9.51132 6.58283 9.50022 6.52275 9.50022 6.46207C9.50022 6.40139 9.51132 6.3413 9.53288 6.28524C9.55444 6.22918 9.58604 6.17824 9.62588 6.13534C9.66571 6.09243 9.71301 6.05839 9.76506 6.03517C9.8171 6.01195 9.87289 6 9.92923 6C9.98557 6 10.0414 6.01195 10.0934 6.03517C10.1454 6.05839 10.1927 6.09243 10.2326 6.13534L15.3741 11.6731C15.414 11.716 15.4457 11.7669 15.4673 11.823C15.4889 11.8791 15.5 11.9392 15.5 11.9999C15.5 12.0606 15.4889 12.1207 15.4673 12.1768C15.4457 12.2328 15.414 12.2837 15.3741 12.3266L10.2326 17.8644C10.1928 17.9074 10.1455 17.9415 10.0934 17.9648C10.0414 17.988 9.98559 18 9.92923 18C9.87287 18 9.81707 17.988 9.76501 17.9648C9.71296 17.9415 9.66568 17.9074 9.62588 17.8644Z"
+              fill="white"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Subscribe Now
+        </button>
+      </div>
+    </div>
+  </section>
+</div>
+`;
