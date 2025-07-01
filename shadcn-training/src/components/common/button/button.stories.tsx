@@ -22,7 +22,7 @@ export const ButtonDefault: Story = {
 export const ButtonWithVariants: Story = {
   args: {
     label: 'Button',
-    variant: 's',
+    size: 'sm',
   },
 };
 

@@ -16,6 +16,6 @@ export const Header = () => (
       </Link>
       <Menu menuItems={MENU_ITEMS_HEADER} />
     </div>
-    <Button label="Sign Up" variant="m" onClick={() => {}} />
+    <Button label="Sign Up" size="sm" onClick={() => {}} />
   </header>
 );

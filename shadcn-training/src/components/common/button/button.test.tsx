@@ -8,20 +8,20 @@ import { ArrowIcon } from '@/components/icons';
 
 describe('Button component', () => {
   test('Renders menu component', () => {
-    const { container } = render(<Button label="Button" onClick={() => {}} variant="m" />);
+    const { container } = render(<Button label="Button" onClick={() => {}} size="sm" />);
     expect(container).toMatchSnapshot();
   });
 
   test('calls onClick handler when clicked', () => {
     const handleClick = jest.fn();
-    render(<Button label="Click me" onClick={handleClick} variant="m" />);
+    render(<Button label="Click me" onClick={handleClick} size="sm" />);
     const button = screen.getByRole('button');
     fireEvent.click(button);
     expect(handleClick).toHaveBeenCalledTimes(1);
   });
 
   test('applies correct variant classes', () => {
-    const { container } = render(<Button label="Small" onClick={() => {}} variant="s" />);
+    const { container } = render(<Button label="Small" onClick={() => {}} size="default" />);
     expect(container.firstChild).toHaveClass('py-2.5');
   });
 
@@ -30,7 +30,7 @@ describe('Button component', () => {
       <Button
         label="Icon button"
         onClick={() => {}}
-        variant="m"
+        size="sm"
         icon={<ArrowIcon dataTestId="icon" />}
       />,
     );
