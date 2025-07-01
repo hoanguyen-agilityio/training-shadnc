@@ -6,7 +6,7 @@ import { ComponentProps, ReactNode } from 'react';
 import { Button as ButtonShadcn } from '@/components/ui/button';
 
 interface IButton extends ComponentProps<typeof ButtonShadcn> {
-  label: string;
+  label?: string;
   icon?: ReactNode;
   className?: string;
   onClick: () => void;
@@ -16,8 +16,8 @@ export const Button = ({ label, icon, className, onClick, ...props }: IButton) =
   return (
     <ButtonShadcn
       className={clsx(
-        'bg-black text-white rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out',
-        'hover:brightness-110 active:scale-95 focus:outline-none focus:ring-2',
+        'cursor-pointer transition-all duration-200 ease-in-out',
+        'active:scale-95 focus:outline-none focus:ring-2',
         className,
       )}
       onClick={onClick}
