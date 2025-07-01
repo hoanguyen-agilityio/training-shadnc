@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`Menu component Renders menu component 1`] = `
+exports[`Evaluate component Renders evaluate component 1`] = `
 <div>
   <div
     class="flex gap-1"

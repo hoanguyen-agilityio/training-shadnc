@@ -3,6 +3,7 @@
 @theme {
   --font-poppins: Poppins, sans-serif;
   --color-green-50: #6c9d30;
+  --color-charcoalGray-50: #484848;
 }
 
 [data-radix-popper-content-wrapper] {
@@ -12,8 +13,10 @@
 
 :root {
   --font-poppins: 'Poppins', sans-serif;
+  --charcoal-gray: #484848;
 }
 
 body {
   font-family: var(--font-poppins);
+  color: var(--charcoal-gray);
 }

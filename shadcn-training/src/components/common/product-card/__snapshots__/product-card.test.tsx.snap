@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Menu component Renders menu component 1`] = `
+<div>
+  <div
+    class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-full max-w-sm group"
+    data-slot="card"
+  >
+    <div
+      class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+      data-slot="card-header"
+    >
+      <div
+        class="relative"
+      >
+        <img
+          alt="simple"
+          src="/src/assets/product.svg"
+        />
+      </div>
+    </div>
+    <div
+      class="px-6 flex flex-col gap-6"
+      data-slot="card-content"
+    >
+      <div
+        class="flex justify-between items-center"
+      >
+        <div>
+          <div
+            class="font-semibold text-xl"
+            data-slot="card-title"
+          >
+            Chinese cabbage
+          </div>
+          <div
+            class="text-xs text-[#8A8A8A]"
+            data-slot="card-description"
+          >
+            Al Karam
+          </div>
+        </div>
+        <div
+          class="flex gap-1"
+        >
+          <svg
+            fill="none"
+            height="19px"
+            viewBox="0 0 20 19"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+              fill="#FCA120"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="19px"
+            viewBox="0 0 20 19"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+              fill="#FCA120"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="19px"
+            viewBox="0 0 20 19"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+              fill="#FCA120"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="19px"
+            viewBox="0 0 20 19"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+              fill="#FCA120"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="19px"
+            viewBox="0 0 20 19"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+              fill="#FCA120"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="text-muted-foreground text-xs"
+        data-slot="card-description"
+      >
+        (4.1k) Customer Reviews
+      </div>
+      <div
+        class="flex justify-between items-center"
+      >
+        <div
+          class="text-muted-foreground text-2xl font-bold"
+          data-slot="card-description"
+        >
+          $95.50
+        </div>
+        <div
+          class="text-xs text-[#FF4646]"
+          data-slot="card-description"
+        >
+          Almost Sold Out
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
