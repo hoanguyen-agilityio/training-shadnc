@@ -3,7 +3,7 @@
 exports[`FeatureBar component Renders featureBar component 1`] = `
 <div>
   <section
-    class="flex justify-between"
+    class="grid grid-cols-1 min-[600px]:grid-cols-2 gap-5 min-[1090px]:grid-cols-4 mt-[60px]"
   >
     <div
       class="flex gap-[13px]"
