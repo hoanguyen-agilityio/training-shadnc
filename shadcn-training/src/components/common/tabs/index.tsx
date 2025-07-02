@@ -16,16 +16,18 @@ interface ICard {
 export const Tabs = ({ tabs, cards }: ICard) => {
   return (
     <TabShadcn defaultValue="lorem1">
-      <TabsList>
-        {tabs.map(({ label, value }, index) => {
-          return (
-            <TabsTrigger value={value} key={index}>
-              {label}
-            </TabsTrigger>
-          );
-        })}
-      </TabsList>
-      <div className="w-full grid grid-cols-3 gap-4">
+      <div className="flex justify-center w-full overflow-x-auto whitespace-nowrap">
+        <TabsList>
+          {tabs.map(({ label, value }, index) => {
+            return (
+              <TabsTrigger value={value} key={index}>
+                {label}
+              </TabsTrigger>
+            );
+          })}
+        </TabsList>
+      </div>
+      <div className="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start ">
         {cards.map(
           ({ img, imgAlt, variant, title, brand, rating, price, reviewLabel, value }, index) => {
             return (

@@ -20,7 +20,7 @@ export const ProductCard = ({
   variant = 'simple',
 }: IProductCard) => {
   return (
-    <CardShadcn className="w-full max-w-sm group">
+    <CardShadcn className="w-[393px] group">
       <CardHeader>
         <div className="relative">
           <img src={img} alt={imgAlt} />
@@ -63,7 +63,7 @@ export const ProductCard = ({
       </CardHeader>
       {variant === 'simple' && (
         <CardContent className="flex flex-col gap-6">
-          <div className="flex justify-between items-center">
+          <div className="flex gap-2 justify-between items-center">
             <div>
               <CardTitle className="text-xl">{title}</CardTitle>
               <CardDescription className="text-xs text-[#8A8A8A]">{brand}</CardDescription>

@@ -2,7 +2,7 @@
 import { FEATURE_BAR } from '@/mocks/feature-bar';
 
 export const FeatureBar = () => (
-  <section className="flex justify-between">
+  <section className="grid grid-cols-1 min-[600px]:grid-cols-2 gap-5 min-[1090px]:grid-cols-4 mt-[60px]">
     {FEATURE_BAR.map(({ icon, title, describe }, index) => (
       <div className="flex gap-[13px]" key={index}>
         {icon}
