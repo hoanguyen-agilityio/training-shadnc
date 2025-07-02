@@ -5,3 +5,7 @@ export { default as StarIcon } from './star-icon';
 export { default as HeartIcon } from './heart-icon';
 export { default as CartIcon } from './cart-icon';
 export { default as EyeIcon } from './eye-icon';
+export { default as HighQualityIcon } from './high-quality-icon';
+export { default as MedalIcon } from './medal-icon';
+export { default as ContainerIcon } from './container-icon';
+export { default as PhoneIcon } from './phone-icon';
