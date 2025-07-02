@@ -6,7 +6,7 @@ import { Button } from './index';
 import { ArrowIcon } from '@/components/icons';
 
 export default {
-  title: 'Components/Button',
+  title: 'Components/Common/Button',
   component: Button,
   decorators: [],
 } as Meta;

@@ -7,19 +7,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { CartIcon, EyeIcon, HeartIcon } from '@/components/icons';
-
-type ProductCardVariant = 'simple' | 'withActions';
-
-interface IProductCard {
-  img: string;
-  imgAlt: string;
-  title: string;
-  brand: string;
-  price: string;
-  rating: number;
-  reviewLabel?: string;
-  variant?: ProductCardVariant;
-}
+import { IProductCard } from '@/types/product-card';
 
 export const ProductCard = ({
   img,

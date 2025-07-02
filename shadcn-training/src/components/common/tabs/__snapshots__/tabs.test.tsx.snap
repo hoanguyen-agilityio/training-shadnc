@@ -1,0 +1,1270 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Tabs component Renders tabs component 1`] = `
+<div>
+  <div
+    class="flex flex-col gap-[50px]"
+    data-orientation="horizontal"
+    data-slot="tabs"
+    dir="ltr"
+  >
+    <div
+      aria-orientation="horizontal"
+      class="bg-muted text-muted-foreground inline-flex h-9 w-fit items-center justify-center rounded-lg p-[3px] gap-4"
+      data-orientation="horizontal"
+      data-slot="tabs-list"
+      role="tablist"
+      style="outline: none;"
+      tabindex="0"
+    >
+      <button
+        aria-controls="radix-«r0»-content-lorem1"
+        aria-selected="true"
+        class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+        data-orientation="horizontal"
+        data-radix-collection-item=""
+        data-slot="tabs-trigger"
+        data-state="active"
+        id="radix-«r0»-trigger-lorem1"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Lorem ipsum
+      </button>
+      <button
+        aria-controls="radix-«r0»-content-lorem2"
+        aria-selected="false"
+        class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+        data-orientation="horizontal"
+        data-radix-collection-item=""
+        data-slot="tabs-trigger"
+        data-state="inactive"
+        id="radix-«r0»-trigger-lorem2"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Dolor sit
+      </button>
+      <button
+        aria-controls="radix-«r0»-content-lorem3"
+        aria-selected="false"
+        class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+        data-orientation="horizontal"
+        data-radix-collection-item=""
+        data-slot="tabs-trigger"
+        data-state="inactive"
+        id="radix-«r0»-trigger-lorem3"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Amet consectetur
+      </button>
+      <button
+        aria-controls="radix-«r0»-content-lorem4"
+        aria-selected="false"
+        class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+        data-orientation="horizontal"
+        data-radix-collection-item=""
+        data-slot="tabs-trigger"
+        data-state="inactive"
+        id="radix-«r0»-trigger-lorem4"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Adipiscing elit
+      </button>
+      <button
+        aria-controls="radix-«r0»-content-lorem5"
+        aria-selected="false"
+        class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+        data-orientation="horizontal"
+        data-radix-collection-item=""
+        data-slot="tabs-trigger"
+        data-state="inactive"
+        id="radix-«r0»-trigger-lorem5"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Sed do eiusmod
+      </button>
+    </div>
+    <div
+      class="w-full grid grid-cols-3 gap-4"
+    >
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem1"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="active"
+        id="radix-«r0»-content-lorem1"
+        role="tabpanel"
+        style="animation-duration: 0s;"
+        tabindex="0"
+      >
+        <div
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-full max-w-sm group"
+          data-slot="card"
+        >
+          <div
+            class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+            data-slot="card-header"
+          >
+            <div
+              class="relative"
+            >
+              <img
+                alt="img product"
+                src="https://picsum.photos/seed/1/354/244"
+              />
+            </div>
+          </div>
+          <div
+            class="px-6 flex flex-col gap-6"
+            data-slot="card-content"
+          >
+            <div
+              class="flex justify-between items-center"
+            >
+              <div>
+                <div
+                  class="font-semibold text-xl"
+                  data-slot="card-title"
+                >
+                  Chinese cabbage 1
+                </div>
+                <div
+                  class="text-xs text-[#8A8A8A]"
+                  data-slot="card-description"
+                >
+                  Al Karam
+                </div>
+              </div>
+              <div
+                class="flex gap-1"
+              >
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="text-muted-foreground text-xs"
+              data-slot="card-description"
+            >
+              (4.1k) Customer Reviews
+            </div>
+            <div
+              class="flex justify-between items-center"
+            >
+              <div
+                class="text-muted-foreground text-2xl font-bold"
+                data-slot="card-description"
+              >
+                $95.50
+              </div>
+              <div
+                class="text-xs text-[#FF4646]"
+                data-slot="card-description"
+              >
+                Almost Sold Out
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem1"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="active"
+        id="radix-«r0»-content-lorem1"
+        role="tabpanel"
+        style="animation-duration: 0s;"
+        tabindex="0"
+      >
+        <div
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-full max-w-sm group"
+          data-slot="card"
+        >
+          <div
+            class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+            data-slot="card-header"
+          >
+            <div
+              class="relative"
+            >
+              <img
+                alt="img product"
+                src="https://picsum.photos/seed/2/354/244"
+              />
+            </div>
+          </div>
+          <div
+            class="px-6 flex flex-col gap-6"
+            data-slot="card-content"
+          >
+            <div
+              class="flex justify-between items-center"
+            >
+              <div>
+                <div
+                  class="font-semibold text-xl"
+                  data-slot="card-title"
+                >
+                  Chinese cabbage 2
+                </div>
+                <div
+                  class="text-xs text-[#8A8A8A]"
+                  data-slot="card-description"
+                >
+                  Al Karam
+                </div>
+              </div>
+              <div
+                class="flex gap-1"
+              >
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="text-muted-foreground text-xs"
+              data-slot="card-description"
+            >
+              (3.2k) Customer Reviews
+            </div>
+            <div
+              class="flex justify-between items-center"
+            >
+              <div
+                class="text-muted-foreground text-2xl font-bold"
+                data-slot="card-description"
+              >
+                $55.50
+              </div>
+              <div
+                class="text-xs text-[#FF4646]"
+                data-slot="card-description"
+              >
+                Almost Sold Out
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem1"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="active"
+        id="radix-«r0»-content-lorem1"
+        role="tabpanel"
+        style="animation-duration: 0s;"
+        tabindex="0"
+      >
+        <div
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-full max-w-sm group"
+          data-slot="card"
+        >
+          <div
+            class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+            data-slot="card-header"
+          >
+            <div
+              class="relative"
+            >
+              <img
+                alt="img product"
+                src="https://picsum.photos/seed/3/354/244"
+              />
+            </div>
+          </div>
+          <div
+            class="px-6 flex flex-col gap-6"
+            data-slot="card-content"
+          >
+            <div
+              class="flex justify-between items-center"
+            >
+              <div>
+                <div
+                  class="font-semibold text-xl"
+                  data-slot="card-title"
+                >
+                  Chinese cabbage 3
+                </div>
+                <div
+                  class="text-xs text-[#8A8A8A]"
+                  data-slot="card-description"
+                >
+                  Al Karam
+                </div>
+              </div>
+              <div
+                class="flex gap-1"
+              >
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="text-muted-foreground text-xs"
+              data-slot="card-description"
+            >
+              (1.1k) Customer Reviews
+            </div>
+            <div
+              class="flex justify-between items-center"
+            >
+              <div
+                class="text-muted-foreground text-2xl font-bold"
+                data-slot="card-description"
+              >
+                $45.50
+              </div>
+              <div
+                class="text-xs text-[#FF4646]"
+                data-slot="card-description"
+              >
+                Almost Sold Out
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem1"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="active"
+        id="radix-«r0»-content-lorem1"
+        role="tabpanel"
+        style="animation-duration: 0s;"
+        tabindex="0"
+      >
+        <div
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-full max-w-sm group"
+          data-slot="card"
+        >
+          <div
+            class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+            data-slot="card-header"
+          >
+            <div
+              class="relative"
+            >
+              <img
+                alt="img product"
+                src="https://picsum.photos/seed/4/354/244"
+              />
+            </div>
+          </div>
+          <div
+            class="px-6 flex flex-col gap-6"
+            data-slot="card-content"
+          >
+            <div
+              class="flex justify-between items-center"
+            >
+              <div>
+                <div
+                  class="font-semibold text-xl"
+                  data-slot="card-title"
+                >
+                  Chinese cabbage 4
+                </div>
+                <div
+                  class="text-xs text-[#8A8A8A]"
+                  data-slot="card-description"
+                >
+                  Al Karam
+                </div>
+              </div>
+              <div
+                class="flex gap-1"
+              >
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="text-muted-foreground text-xs"
+              data-slot="card-description"
+            >
+              (2.9k) Customer Reviews
+            </div>
+            <div
+              class="flex justify-between items-center"
+            >
+              <div
+                class="text-muted-foreground text-2xl font-bold"
+                data-slot="card-description"
+              >
+                $75.50
+              </div>
+              <div
+                class="text-xs text-[#FF4646]"
+                data-slot="card-description"
+              >
+                Almost Sold Out
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem1"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="active"
+        id="radix-«r0»-content-lorem1"
+        role="tabpanel"
+        style="animation-duration: 0s;"
+        tabindex="0"
+      >
+        <div
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-full max-w-sm group"
+          data-slot="card"
+        >
+          <div
+            class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+            data-slot="card-header"
+          >
+            <div
+              class="relative"
+            >
+              <img
+                alt="img product"
+                src="https://picsum.photos/seed/5/354/244"
+              />
+            </div>
+          </div>
+          <div
+            class="px-6 flex flex-col gap-6"
+            data-slot="card-content"
+          >
+            <div
+              class="flex justify-between items-center"
+            >
+              <div>
+                <div
+                  class="font-semibold text-xl"
+                  data-slot="card-title"
+                >
+                  Chinese cabbage 5
+                </div>
+                <div
+                  class="text-xs text-[#8A8A8A]"
+                  data-slot="card-description"
+                >
+                  Al Karam
+                </div>
+              </div>
+              <div
+                class="flex gap-1"
+              >
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="text-muted-foreground text-xs"
+              data-slot="card-description"
+            >
+              (4.8k) Customer Reviews
+            </div>
+            <div
+              class="flex justify-between items-center"
+            >
+              <div
+                class="text-muted-foreground text-2xl font-bold"
+                data-slot="card-description"
+              >
+                $95.50
+              </div>
+              <div
+                class="text-xs text-[#FF4646]"
+                data-slot="card-description"
+              >
+                Almost Sold Out
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem1"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="active"
+        id="radix-«r0»-content-lorem1"
+        role="tabpanel"
+        style="animation-duration: 0s;"
+        tabindex="0"
+      >
+        <div
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-full max-w-sm group"
+          data-slot="card"
+        >
+          <div
+            class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+            data-slot="card-header"
+          >
+            <div
+              class="relative"
+            >
+              <img
+                alt="img product"
+                src="https://picsum.photos/seed/6/354/244"
+              />
+            </div>
+          </div>
+          <div
+            class="px-6 flex flex-col gap-6"
+            data-slot="card-content"
+          >
+            <div
+              class="flex justify-between items-center"
+            >
+              <div>
+                <div
+                  class="font-semibold text-xl"
+                  data-slot="card-title"
+                >
+                  Chinese cabbage 6
+                </div>
+                <div
+                  class="text-xs text-[#8A8A8A]"
+                  data-slot="card-description"
+                >
+                  Al Karam
+                </div>
+              </div>
+              <div
+                class="flex gap-1"
+              >
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <svg
+                  fill="none"
+                  height="19px"
+                  viewBox="0 0 20 19"
+                  width="20px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                    fill="#FCA120"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="text-muted-foreground text-xs"
+              data-slot="card-description"
+            >
+              (3.5k) Customer Reviews
+            </div>
+            <div
+              class="flex justify-between items-center"
+            >
+              <div
+                class="text-muted-foreground text-2xl font-bold"
+                data-slot="card-description"
+              >
+                $85.50
+              </div>
+              <div
+                class="text-xs text-[#FF4646]"
+                data-slot="card-description"
+              >
+                Almost Sold Out
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem2"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem2"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem2"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem2"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem2"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem2"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem2"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem2"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem2"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem2"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem2"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem2"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem3"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem3"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem3"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem3"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem3"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem3"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem3"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem3"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem3"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem3"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem3"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem3"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem4"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem4"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem4"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem4"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem4"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem4"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem4"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem4"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem4"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem4"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem4"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem4"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem5"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem5"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem5"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem5"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem5"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem5"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem5"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem5"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem5"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem5"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem5"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem5"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem6"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem6"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem6"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem6"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem6"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem6"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem6"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem6"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem6"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem6"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem6"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem6"
+        role="tabpanel"
+        tabindex="0"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -5,7 +5,7 @@ import type { Meta, StoryObj } from '@storybook/react-vite';
 import { ProductCard } from './index';
 
 export default {
-  title: 'Components/ProductCard',
+  title: 'Components/Common/ProductCard',
   component: ProductCard,
   decorators: [],
 } as Meta;

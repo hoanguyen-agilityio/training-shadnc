@@ -9,7 +9,7 @@ import { MENU_ITEMS_HEADER } from '@/constants';
 import { Menu } from './index';
 
 export default {
-  title: 'Components/Menu',
+  title: 'Components/Common/Menu',
   component: Menu,
   decorators: [
     (Story) => (
