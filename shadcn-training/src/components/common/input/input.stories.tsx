@@ -5,7 +5,7 @@ import type { Meta, StoryObj } from '@storybook/react-vite';
 import { Input } from './index';
 
 export default {
-  title: 'Components/Input',
+  title: 'Components/Common/Input',
   component: Input,
   decorators: [],
 } as Meta;

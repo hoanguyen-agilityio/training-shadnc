@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { ThemeProvider } from '@/components';
 import { Subscribe } from './components/subscribe';
+import { Tabs } from './components/common/tabs';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         path="/"
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-            <Subscribe />
+            <Tabs />
           </ThemeProvider>
         }
       />
