@@ -7,6 +7,6 @@ export const SocialGallery = () => (
         sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
       </span>
     </div>
-    <img src="/src/assets/social-gallery.svg" alt="Social Gallery" className="w-full" />
+    <img src="/public/assets/social-gallery.svg" alt="Social Gallery" className="w-full" />
   </section>
 );

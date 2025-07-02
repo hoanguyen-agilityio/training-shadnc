@@ -10,7 +10,7 @@ describe('Menu component', () => {
     const { container } = render(
       <ProductCard
         variant="simple"
-        img="/src/assets/product.svg"
+        img="/public/assets/product.svg"
         imgAlt="simple"
         title="Chinese cabbage"
         brand="Al Karam"

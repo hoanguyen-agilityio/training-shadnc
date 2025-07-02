@@ -5,7 +5,7 @@ import { ArrowIcon } from '@/components/icons';
 export const Subscribe = () => {
   return (
     <section className="max-h-[867px] w-full h-[867px] relative mt-[60px]">
-      <img src="/src/assets/subscribe.webp" alt="" className="w-full h-full object-cover" />
+      <img src="/public/assets/subscribe.webp" alt="" className="w-full h-full object-cover" />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
         <p className="text-[46px] text-[#8A8A8A]">Subscribe To Our Newsletter</p>
         <p className="text-lg text-charcoalGray-50 max-w-[688px] mt-[15px]">

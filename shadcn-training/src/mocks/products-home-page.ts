@@ -412,17 +412,17 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
 
 const NEW_IN_CARD = [
   {
-    img: '/src/assets/product.svg',
+    img: '/public/assets/product.svg',
     title: 'Lorem ipsum',
     imgAlt: 'img product',
   },
   {
-    img: '/src/assets/product.svg',
+    img: '/public/assets/product.svg',
     title: 'Lorem ipsum',
     imgAlt: 'img product',
   },
   {
-    img: '/src/assets/product.svg',
+    img: '/public/assets/product.svg',
     title: 'Lorem ipsum',
     imgAlt: 'img product',
   },
