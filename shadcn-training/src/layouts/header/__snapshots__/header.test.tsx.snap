@@ -3,7 +3,7 @@
 exports[`Header component Renders header component 1`] = `
 <div>
   <header
-    class="flex items-center justify-between mt-5 px-4"
+    class="flex items-center justify-between mt-5"
   >
     <div
       class="flex items-center min-[680px]:gap-8 gap-0"

@@ -3,7 +3,7 @@
 exports[`Subscribe component Renders subscribe component 1`] = `
 <div>
   <section
-    class="max-h-[867px] w-full h-[867px] relative"
+    class="max-h-[867px] w-full h-[867px] relative mt-[60px]"
   >
     <img
       alt=""

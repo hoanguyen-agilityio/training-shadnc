@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Dropdown component Renders dropdown component 1`] = `
+<div>
+  <div
+    aria-expanded="false"
+    aria-haspopup="menu"
+    class="relative w-max"
+    data-slot="dropdown-menu-trigger"
+    data-state="closed"
+    id="radix-«r0»"
+    type="button"
+  >
+    <input
+      class="w-full border border-[#E6E6E6] rounded px-4 py-2.5 cursor-pointer text-sm"
+      readonly=""
+      value="Sort by: defaultValue"
+    />
+    <span
+      class="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none"
+    >
+      <svg
+        aria-hidden="true"
+        class="lucide lucide-chevron-down"
+        fill="none"
+        height="16"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m6 9 6 6 6-6"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
+`;

@@ -9,92 +9,96 @@ exports[`Tabs component Renders tabs component 1`] = `
     dir="ltr"
   >
     <div
-      aria-orientation="horizontal"
-      class="bg-muted text-muted-foreground inline-flex h-9 w-fit items-center justify-center rounded-lg p-[3px] gap-4"
-      data-orientation="horizontal"
-      data-slot="tabs-list"
-      role="tablist"
-      style="outline: none;"
-      tabindex="0"
+      class="flex justify-center w-full overflow-x-auto whitespace-nowrap"
     >
-      <button
-        aria-controls="radix-«r0»-content-lorem1"
-        aria-selected="true"
-        class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+      <div
+        aria-orientation="horizontal"
+        class="bg-muted text-muted-foreground inline-flex w-fit items-center justify-center rounded-lg p-[3px] gap-4"
         data-orientation="horizontal"
-        data-radix-collection-item=""
-        data-slot="tabs-trigger"
-        data-state="active"
-        id="radix-«r0»-trigger-lorem1"
-        role="tab"
-        tabindex="-1"
-        type="button"
+        data-slot="tabs-list"
+        role="tablist"
+        style="outline: none;"
+        tabindex="0"
       >
-        Lorem ipsum
-      </button>
-      <button
-        aria-controls="radix-«r0»-content-lorem2"
-        aria-selected="false"
-        class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
-        data-orientation="horizontal"
-        data-radix-collection-item=""
-        data-slot="tabs-trigger"
-        data-state="inactive"
-        id="radix-«r0»-trigger-lorem2"
-        role="tab"
-        tabindex="-1"
-        type="button"
-      >
-        Dolor sit
-      </button>
-      <button
-        aria-controls="radix-«r0»-content-lorem3"
-        aria-selected="false"
-        class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
-        data-orientation="horizontal"
-        data-radix-collection-item=""
-        data-slot="tabs-trigger"
-        data-state="inactive"
-        id="radix-«r0»-trigger-lorem3"
-        role="tab"
-        tabindex="-1"
-        type="button"
-      >
-        Amet consectetur
-      </button>
-      <button
-        aria-controls="radix-«r0»-content-lorem4"
-        aria-selected="false"
-        class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
-        data-orientation="horizontal"
-        data-radix-collection-item=""
-        data-slot="tabs-trigger"
-        data-state="inactive"
-        id="radix-«r0»-trigger-lorem4"
-        role="tab"
-        tabindex="-1"
-        type="button"
-      >
-        Adipiscing elit
-      </button>
-      <button
-        aria-controls="radix-«r0»-content-lorem5"
-        aria-selected="false"
-        class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
-        data-orientation="horizontal"
-        data-radix-collection-item=""
-        data-slot="tabs-trigger"
-        data-state="inactive"
-        id="radix-«r0»-trigger-lorem5"
-        role="tab"
-        tabindex="-1"
-        type="button"
-      >
-        Sed do eiusmod
-      </button>
+        <button
+          aria-controls="radix-«r0»-content-lorem1"
+          aria-selected="true"
+          class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-slot="tabs-trigger"
+          data-state="active"
+          id="radix-«r0»-trigger-lorem1"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Lorem ipsum
+        </button>
+        <button
+          aria-controls="radix-«r0»-content-lorem2"
+          aria-selected="false"
+          class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-slot="tabs-trigger"
+          data-state="inactive"
+          id="radix-«r0»-trigger-lorem2"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Dolor sit
+        </button>
+        <button
+          aria-controls="radix-«r0»-content-lorem3"
+          aria-selected="false"
+          class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-slot="tabs-trigger"
+          data-state="inactive"
+          id="radix-«r0»-trigger-lorem3"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Amet consectetur
+        </button>
+        <button
+          aria-controls="radix-«r0»-content-lorem4"
+          aria-selected="false"
+          class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-slot="tabs-trigger"
+          data-state="inactive"
+          id="radix-«r0»-trigger-lorem4"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Adipiscing elit
+        </button>
+        <button
+          aria-controls="radix-«r0»-content-lorem5"
+          aria-selected="false"
+          class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-slot="tabs-trigger"
+          data-state="inactive"
+          id="radix-«r0»-trigger-lorem5"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Sed do eiusmod
+        </button>
+      </div>
     </div>
     <div
-      class="w-full grid grid-cols-3 gap-4"
+      class="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start "
     >
       <div
         aria-labelledby="radix-«r0»-trigger-lorem1"
@@ -108,7 +112,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-full max-w-sm group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-[393px] group"
           data-slot="card"
         >
           <div
@@ -125,18 +129,18 @@ exports[`Tabs component Renders tabs component 1`] = `
             </div>
           </div>
           <div
-            class="px-6 flex flex-col gap-6"
+            class="flex flex-col gap-6"
             data-slot="card-content"
           >
             <div
-              class="flex justify-between items-center"
+              class="flex gap-2 justify-between items-center"
             >
               <div>
                 <div
                   class="font-semibold text-xl"
                   data-slot="card-title"
                 >
-                  Chinese cabbage 1
+                  Lorem ipsum 1
                 </div>
                 <div
                   class="text-xs text-[#8A8A8A]"
@@ -257,7 +261,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-full max-w-sm group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-[393px] group"
           data-slot="card"
         >
           <div
@@ -274,18 +278,18 @@ exports[`Tabs component Renders tabs component 1`] = `
             </div>
           </div>
           <div
-            class="px-6 flex flex-col gap-6"
+            class="flex flex-col gap-6"
             data-slot="card-content"
           >
             <div
-              class="flex justify-between items-center"
+              class="flex gap-2 justify-between items-center"
             >
               <div>
                 <div
                   class="font-semibold text-xl"
                   data-slot="card-title"
                 >
-                  Chinese cabbage 2
+                  Lorem ipsum 2
                 </div>
                 <div
                   class="text-xs text-[#8A8A8A]"
@@ -392,7 +396,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-full max-w-sm group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-[393px] group"
           data-slot="card"
         >
           <div
@@ -409,18 +413,18 @@ exports[`Tabs component Renders tabs component 1`] = `
             </div>
           </div>
           <div
-            class="px-6 flex flex-col gap-6"
+            class="flex flex-col gap-6"
             data-slot="card-content"
           >
             <div
-              class="flex justify-between items-center"
+              class="flex gap-2 justify-between items-center"
             >
               <div>
                 <div
                   class="font-semibold text-xl"
                   data-slot="card-title"
                 >
-                  Chinese cabbage 3
+                  Lorem ipsum 3
                 </div>
                 <div
                   class="text-xs text-[#8A8A8A]"
@@ -513,7 +517,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-full max-w-sm group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-[393px] group"
           data-slot="card"
         >
           <div
@@ -530,18 +534,18 @@ exports[`Tabs component Renders tabs component 1`] = `
             </div>
           </div>
           <div
-            class="px-6 flex flex-col gap-6"
+            class="flex flex-col gap-6"
             data-slot="card-content"
           >
             <div
-              class="flex justify-between items-center"
+              class="flex gap-2 justify-between items-center"
             >
               <div>
                 <div
                   class="font-semibold text-xl"
                   data-slot="card-title"
                 >
-                  Chinese cabbage 4
+                  Lorem ipsum 4
                 </div>
                 <div
                   class="text-xs text-[#8A8A8A]"
@@ -648,7 +652,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-full max-w-sm group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-[393px] group"
           data-slot="card"
         >
           <div
@@ -665,18 +669,18 @@ exports[`Tabs component Renders tabs component 1`] = `
             </div>
           </div>
           <div
-            class="px-6 flex flex-col gap-6"
+            class="flex flex-col gap-6"
             data-slot="card-content"
           >
             <div
-              class="flex justify-between items-center"
+              class="flex gap-2 justify-between items-center"
             >
               <div>
                 <div
                   class="font-semibold text-xl"
                   data-slot="card-title"
                 >
-                  Chinese cabbage 5
+                  Lorem ipsum 5
                 </div>
                 <div
                   class="text-xs text-[#8A8A8A]"
@@ -797,7 +801,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-full max-w-sm group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-[393px] group"
           data-slot="card"
         >
           <div
@@ -814,18 +818,18 @@ exports[`Tabs component Renders tabs component 1`] = `
             </div>
           </div>
           <div
-            class="px-6 flex flex-col gap-6"
+            class="flex flex-col gap-6"
             data-slot="card-content"
           >
             <div
-              class="flex justify-between items-center"
+              class="flex gap-2 justify-between items-center"
             >
               <div>
                 <div
                   class="font-semibold text-xl"
                   data-slot="card-title"
                 >
-                  Chinese cabbage 6
+                  Lorem ipsum 6
                 </div>
                 <div
                   class="text-xs text-[#8A8A8A]"
