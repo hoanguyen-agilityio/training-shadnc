@@ -16,7 +16,7 @@ export const NewArrivals = () => (
     <div className="flex justify-center mt-[50px]">
       <Button
         label="View More"
-        icon={<ArrowIcon />}
+        icon={<ArrowIcon fill="white" />}
         onClick={() => {}}
         size="sm"
         className="flex flex-row-reverse"

@@ -23,7 +23,7 @@ export const Subscribe = () => {
           <Button
             size="sm"
             label="Subscribe Now"
-            icon={<ArrowIcon />}
+            icon={<ArrowIcon fill="white" />}
             onClick={() => {}}
             className="cursor-not-allowed"
           />

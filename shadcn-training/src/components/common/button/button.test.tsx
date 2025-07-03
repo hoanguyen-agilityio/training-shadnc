@@ -31,7 +31,7 @@ describe('Button component', () => {
         label="Icon button"
         onClick={() => {}}
         size="sm"
-        icon={<ArrowIcon dataTestId="icon" />}
+        icon={<ArrowIcon dataTestId="icon" fill="white" />}
       />,
     );
     expect(screen.getByTestId('icon')).toBeInTheDocument();

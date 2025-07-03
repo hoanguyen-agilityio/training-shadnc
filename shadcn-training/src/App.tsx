@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { ThemeProvider } from '@/components';
-import { HomePage } from './page';
+import { HomePage, ShopPage } from './page';
 
 function App() {
   return (
@@ -11,6 +11,14 @@ function App() {
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
             <HomePage />
+          </ThemeProvider>
+        }
+      />
+      <Route
+        path="/shop"
+        element={
+          <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+            <ShopPage />
           </ThemeProvider>
         }
       />
