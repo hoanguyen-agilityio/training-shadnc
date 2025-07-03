@@ -8,7 +8,7 @@ exports[`Subscribe component Renders subscribe component 1`] = `
     <img
       alt=""
       class="w-full h-full object-cover"
-      src="/src/assets/subscribe.webp"
+      src="/public/assets/subscribe.webp"
     />
     <div
       class="absolute inset-0 flex flex-col justify-center items-center text-center px-4"

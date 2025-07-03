@@ -15,7 +15,7 @@ exports[`Menu component Renders menu component 1`] = `
       >
         <img
           alt="simple"
-          src="/src/assets/product.svg"
+          src="/public/assets/product.svg"
         />
       </div>
     </div>

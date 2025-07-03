@@ -3,7 +3,7 @@
 exports[`Breadcrumb component Renders breadcrumb component 1`] = `
 <div>
   <section
-    class="flex gap-3"
+    class="flex gap-3 mt-[25px]"
   >
     <a
       data-discover="true"
