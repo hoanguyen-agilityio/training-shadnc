@@ -1,11 +1,19 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { ThemeProvider } from '@/components';
-import { HomePage, ShopPage } from './page';
+import { HomePage, LoginPage, ShopPage } from './page';
 
 function App() {
   return (
     <Routes>
+      <Route
+        path="/login"
+        element={
+          <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+            <LoginPage />
+          </ThemeProvider>
+        }
+      />
       <Route
         path="/"
         element={
