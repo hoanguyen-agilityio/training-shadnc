@@ -13,5 +13,9 @@ export default {
 type Story = StoryObj<typeof Pagination>;
 
 export const PaginationDefault: Story = {
-  args: {},
+  args: {
+    totalPages: 5,
+    currentPage: 1,
+    onPageChange: (page) => console.log('Page changed to:', page),
+  },
 };

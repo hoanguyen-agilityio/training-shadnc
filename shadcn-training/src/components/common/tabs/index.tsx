@@ -27,7 +27,7 @@ export const Tabs = ({ tabs, cards }: ICard) => {
           })}
         </TabsList>
       </div>
-      <div className="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start ">
+      <div className="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start">
         {cards.map(
           ({ img, imgAlt, variant, title, brand, rating, price, reviewLabel, value }, index) => {
             return (

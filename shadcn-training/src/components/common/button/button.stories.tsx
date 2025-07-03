@@ -29,7 +29,7 @@ export const ButtonWithVariants: Story = {
 export const ButtonWithIcon: Story = {
   args: {
     label: 'Button',
-    icon: <ArrowIcon width="24px" height="24px" />,
+    icon: <ArrowIcon width="24px" height="24px" fill="white" />,
     className: 'flex gap-2 w-[250px]',
   },
 };

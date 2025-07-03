@@ -10,7 +10,7 @@ function Pagination({ className, ...props }: React.ComponentProps<'nav'>) {
       role="navigation"
       aria-label="pagination"
       data-slot="pagination"
-      className={cn('mx-auto flex w-full justify-center', className)}
+      className={cn('', className)}
       {...props}
     />
   );
@@ -20,7 +20,7 @@ function PaginationContent({ className, ...props }: React.ComponentProps<'ul'>) 
   return (
     <ul
       data-slot="pagination-content"
-      className={cn('flex flex-row items-center gap-1 shadow-lg', className)}
+      className={cn('flex flex-row items-center shadow-lg', className)}
       {...props}
     />
   );
@@ -46,7 +46,8 @@ function PaginationLink({ className, isActive, size = 'icon', ...props }: Pagina
           variant: isActive ? 'outline' : 'ghost',
           size,
         }),
-        'px-5 py-[25px] border size-auto rounded-none font-bold',
+        'px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer',
+        'aria-disabled:bg-[#F3F3F3] aria-disabled:text-[#BDBDBD] aria-disabled:cursor-not-allowed',
         className,
       )}
       {...props}
@@ -60,12 +61,12 @@ function PaginationPrevious({ className, ...props }: React.ComponentProps<typeof
       aria-label="Go to previous page"
       size="default"
       className={cn(
-        'border p-[25px] rounded-l-lg rounded-r-none font-bold text-sm text-green-50',
+        'border p-[25px] rounded-l-lg rounded-r-none font-bold text-sm text-green-50 cursor-pointer',
         className,
       )}
       {...props}
     >
-      <span className="hidden sm:block">First</span>
+      <span className="">First</span>
     </PaginationLink>
   );
 }
@@ -76,12 +77,12 @@ function PaginationNext({ className, ...props }: React.ComponentProps<typeof Pag
       aria-label="Go to next page"
       size="default"
       className={cn(
-        'border p-[25px] rounded-r-lg rounded-l-none font-bold text-sm text-green-50',
+        'border p-[25px] rounded-r-lg rounded-l-none font-bold text-sm text-green-50 cursor-pointer',
         className,
       )}
       {...props}
     >
-      <span className="hidden sm:block">Next</span>
+      <span className="">Next</span>
     </PaginationLink>
   );
 }

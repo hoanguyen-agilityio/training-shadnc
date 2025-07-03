@@ -12,7 +12,7 @@ export const NewIn = () => (
           Shop the latest fashion trends from the top luxury designers.
         </span>
         <Button
-          icon={<ArrowIcon />}
+          icon={<ArrowIcon fill="white" />}
           label="Shop New In"
           size="sm"
           onClick={() => {}}

@@ -7,24 +7,42 @@ import {
   PaginationPrevious,
 } from '@/components/ui/pagination';
 
-export const Pagination = () => {
+interface IPagination {
+  totalPages: number;
+  currentPage: number;
+  onPageChange: (page: number) => void;
+}
+
+export const Pagination = ({ totalPages, currentPage, onPageChange }: IPagination) => {
+  const pages = Array.from({ length: totalPages }, (_, i) => i + 1);
+
   return (
     <PaginationShadcn>
       <PaginationContent>
         <PaginationItem>
-          <PaginationPrevious />
+          <PaginationPrevious
+            onClick={
+              currentPage === 1 ? undefined : () => onPageChange(Math.max(currentPage - 1, 1))
+            }
+            aria-disabled={currentPage === 1}
+          />
         </PaginationItem>
+        {pages.map((page) => (
+          <PaginationItem key={page}>
+            <PaginationLink isActive={page === currentPage} onClick={() => onPageChange(page)}>
+              {page}
+            </PaginationLink>
+          </PaginationItem>
+        ))}
         <PaginationItem>
-          <PaginationLink>1</PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink isActive>2</PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink>3</PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationNext />
+          <PaginationNext
+            onClick={
+              currentPage === totalPages
+                ? undefined
+                : () => onPageChange(Math.min(currentPage + 1, totalPages))
+            }
+            aria-disabled={currentPage === totalPages}
+          />
         </PaginationItem>
       </PaginationContent>
     </PaginationShadcn>
