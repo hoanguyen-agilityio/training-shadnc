@@ -6,10 +6,10 @@
   --color-charcoalGray-50: #484848;
 }
 
-[data-radix-popper-content-wrapper] {
+/* [data-radix-popper-content-wrapper] {
   width: 100%;
   padding: 0 16px;
-}
+} */
 
 :root {
   --font-poppins: 'Poppins', sans-serif;

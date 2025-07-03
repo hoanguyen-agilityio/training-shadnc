@@ -11,7 +11,6 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
-
 interface IDropdown {
   label?: string;
   defaultValue?: string;
@@ -36,7 +35,7 @@ export const Dropdown = ({ label, defaultValue, options }: IDropdown) => {
           </span>
         </div>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-[178px]">
+      <DropdownMenuContent className="w-[178px] bg-white">
         <DropdownMenuSeparator />
         <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>
           {options.map((opt) => (

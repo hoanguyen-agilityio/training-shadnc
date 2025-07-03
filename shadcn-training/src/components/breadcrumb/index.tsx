@@ -9,7 +9,7 @@ interface IBreadcrumb {
 export const Breadcrumb = ({ breadcrumbName }: IBreadcrumb) => {
   const location = useLocation();
   return (
-    <section className="flex gap-3">
+    <section className="flex gap-3 mt-[25px]">
       <Link to="/">
         <HomeIcon width="24px" height="24px" />
       </Link>
