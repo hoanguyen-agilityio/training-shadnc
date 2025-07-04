@@ -95,11 +95,12 @@ export const LoginPage = () => {
           </div>
           {loginError && <p className="text-red-500">{loginError}</p>}
           <Button
-            label="Login"
+            label={form.formState.isSubmitting ? 'Logging in...' : 'Login'}
             icon={<ArrowIcon fill="white" />}
             size="default"
             type="submit"
             className="w-full"
+            disabled={form.formState.isSubmitting}
           />
         </form>
       </Form>

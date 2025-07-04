@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { ThemeProvider } from '@/components';
-import { HomePage, LoginPage, ShopPage } from './page';
+import { HomePage, LoginPage, ShopPage, LoadingPage } from './page';
 import { ROUTES } from './constants';
 import { Suspense } from 'react';
 
@@ -12,7 +12,7 @@ function App() {
         path={ROUTES.SIGN_IN}
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<LoadingPage />}>
               <LoginPage />
             </Suspense>
           </ThemeProvider>
@@ -22,7 +22,9 @@ function App() {
         path={ROUTES.HOME}
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-            <HomePage />
+            <Suspense fallback={<LoadingPage />}>
+              <HomePage />
+            </Suspense>
           </ThemeProvider>
         }
       />
@@ -30,7 +32,9 @@ function App() {
         path={ROUTES.SHOP}
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-            <ShopPage />
+            <Suspense fallback={<LoadingPage />}>
+              <ShopPage />
+            </Suspense>
           </ThemeProvider>
         }
       />
