@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import { ThemeProvider } from '@/components';
-import { HomePage, LoginPage, ShopPage, LoadingPage } from './page';
+import { AuthGuard, ThemeProvider } from '@/components';
+import { HomePage, LoginPage, ShopPage, LoadingPage, SignUpPage } from './page';
 import { ROUTES } from './constants';
 import { Suspense } from 'react';
 
@@ -9,11 +9,27 @@ function App() {
   return (
     <Routes>
       <Route
+        path={ROUTES.SIGN_UP}
+        element={
+          <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+            <Suspense fallback={<LoadingPage />}>
+              {/* only block sign up page after user logs in */}
+              <AuthGuard blockIfAuthenticated>
+                <SignUpPage />
+              </AuthGuard>
+            </Suspense>
+          </ThemeProvider>
+        }
+      />
+      <Route
         path={ROUTES.SIGN_IN}
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
             <Suspense fallback={<LoadingPage />}>
-              <LoginPage />
+              {/* only block sign in page after user logs in */}
+              <AuthGuard blockIfAuthenticated>
+                <LoginPage />
+              </AuthGuard>
             </Suspense>
           </ThemeProvider>
         }
@@ -23,6 +39,7 @@ function App() {
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
             <Suspense fallback={<LoadingPage />}>
+              {/* no guard, freely accessible even if logged out */}
               <HomePage />
             </Suspense>
           </ThemeProvider>
@@ -33,6 +50,7 @@ function App() {
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
             <Suspense fallback={<LoadingPage />}>
+              {/* no guard, freely accessible even if logged out */}
               <ShopPage />
             </Suspense>
           </ThemeProvider>

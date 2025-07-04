@@ -4,6 +4,8 @@ export * from './badge';
 export * from './evaluate';
 export * from './breadcrumb';
 export * from './spinner';
+export * from './auth-guard';
+export * from './avatar';
 
 export * from './common/menu';
 export * from './common/button';
