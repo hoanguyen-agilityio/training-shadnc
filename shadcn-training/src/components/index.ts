@@ -3,6 +3,7 @@ export * from './theme-provider';
 export * from './badge';
 export * from './evaluate';
 export * from './breadcrumb';
+export * from './spinner';
 
 export * from './common/menu';
 export * from './common/button';

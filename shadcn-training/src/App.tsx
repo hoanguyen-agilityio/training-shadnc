@@ -1,24 +1,40 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { ThemeProvider } from '@/components';
-import { HomePage, ShopPage } from './page';
+import { HomePage, LoginPage, ShopPage, LoadingPage } from './page';
+import { ROUTES } from './constants';
+import { Suspense } from 'react';
 
 function App() {
   return (
     <Routes>
       <Route
-        path="/"
+        path={ROUTES.SIGN_IN}
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-            <HomePage />
+            <Suspense fallback={<LoadingPage />}>
+              <LoginPage />
+            </Suspense>
           </ThemeProvider>
         }
       />
       <Route
-        path="/shop"
+        path={ROUTES.HOME}
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-            <ShopPage />
+            <Suspense fallback={<LoadingPage />}>
+              <HomePage />
+            </Suspense>
+          </ThemeProvider>
+        }
+      />
+      <Route
+        path={ROUTES.SHOP}
+        element={
+          <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+            <Suspense fallback={<LoadingPage />}>
+              <ShopPage />
+            </Suspense>
           </ThemeProvider>
         }
       />

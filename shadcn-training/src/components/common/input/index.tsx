@@ -32,7 +32,7 @@ export const Input = ({
     className,
   );
   return (
-    <div className="grid w-full max-w-sm items-center gap-3">
+    <div className="grid w-full items-center gap-3">
       <Label htmlFor={htmlFor}>{label}</Label>
       <InputShadcn
         type={type}
