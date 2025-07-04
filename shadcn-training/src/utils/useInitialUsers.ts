@@ -1,4 +1,4 @@
-import { getUsers } from '@/services/getUsers';
+import { getUsers } from '@/services';
 import { User } from '@/types';
 import { use } from 'react';
 

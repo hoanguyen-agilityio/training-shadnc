@@ -3,10 +3,10 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { useForm } from 'react-hook-form';
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 // Constants
-import { ERROR_MESSAGES } from '@/constants';
+import { ERROR_MESSAGES, ROUTES } from '@/constants';
 
 // Layouts
 import { AuthLayout } from '@/layouts';
@@ -44,7 +44,7 @@ export const LoginPage = () => {
       return;
     }
 
-    navigate('/');
+    navigate(ROUTES.HOME);
   };
 
   return (
@@ -87,15 +87,18 @@ export const LoginPage = () => {
               </FormItem>
             )}
           />
-          <div className="flex items-center gap-2">
-            <Checkbox />
-            <span>
-              I agree to the <b>Terms & Conditions</b>
-            </span>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <Checkbox />
+              <span>Remember Me</span>
+            </div>
+            <Link to="#" className="text-sm	text-black">
+              Forgot Password?
+            </Link>
           </div>
           {loginError && <p className="text-red-500">{loginError}</p>}
           <Button
-            label={form.formState.isSubmitting ? 'Logging in...' : 'Login'}
+            label={form.formState.isSubmitting ? 'Logging in...' : 'LOGIN'}
             icon={<ArrowIcon fill="white" />}
             size="default"
             type="submit"
