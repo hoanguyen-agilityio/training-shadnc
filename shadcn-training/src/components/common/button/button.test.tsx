@@ -4,7 +4,7 @@ import { render, screen, fireEvent } from '@testing-library/react';
 
 // Components
 import { Button } from '.';
-import { ArrowIcon } from '@/components/icons';
+import { ChevronIcon } from '@/components/icons';
 
 describe('Button component', () => {
   test('Renders menu component', () => {
@@ -31,7 +31,7 @@ describe('Button component', () => {
         label="Icon button"
         onClick={() => {}}
         size="sm"
-        icon={<ArrowIcon dataTestId="icon" fill="white" />}
+        icon={<ChevronIcon dataTestId="icon" fill="white" />}
       />,
     );
     expect(screen.getByTestId('icon')).toBeInTheDocument();

@@ -1,6 +1,6 @@
 import { Button } from '@/components';
 import { Tabs } from '@/components/common/tabs';
-import { ArrowIcon } from '@/components/icons';
+import { ChevronIcon } from '@/components/icons';
 import { PRODUCTS_HOME_PAGE, TABS_LABEL } from '@/mocks';
 
 export const NewArrivals = () => (
@@ -16,7 +16,7 @@ export const NewArrivals = () => (
     <div className="flex justify-center mt-[50px]">
       <Button
         label="View More"
-        icon={<ArrowIcon fill="white" />}
+        icon={<ChevronIcon fill="white" />}
         onClick={() => {}}
         size="sm"
         className="flex flex-row-reverse"

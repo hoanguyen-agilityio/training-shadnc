@@ -34,7 +34,7 @@ export const Header = () => {
       {isLoggedIn ? (
         <DropdownMenu>
           <DropdownMenuTrigger className="cursor-pointer">
-            <Avatar />
+            <Avatar src="https://github.com/shadcn.png" alt="avatar user" avatarFallback="User" />
           </DropdownMenuTrigger>
           <DropdownMenuContent>
             <DropdownMenuItem onClick={handleLogout}>Logout</DropdownMenuItem>

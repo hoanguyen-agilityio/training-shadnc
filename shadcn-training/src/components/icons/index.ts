@@ -1,5 +1,5 @@
 export { default as Logo } from './logo';
-export { default as ArrowIcon } from './arrow-icon';
+export { default as ChevronIcon } from './chevron-icon';
 export { default as HamburgerIcon } from './hamburger-icon';
 export { default as StarIcon } from './star-icon';
 export { default as HeartIcon } from './heart-icon';
@@ -11,3 +11,4 @@ export { default as ContainerIcon } from './container-icon';
 export { default as PhoneIcon } from './phone-icon';
 export { default as HomeIcon } from './home-icon';
 export { default as WavingHandIcon } from './waving-hand-icon';
+export { default as ArrowIcon } from './arrow-icon';

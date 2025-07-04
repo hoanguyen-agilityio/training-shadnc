@@ -1,6 +1,6 @@
 // Components
 import { Button, Input } from '@/components';
-import { ArrowIcon } from '@/components/icons';
+import { ChevronIcon } from '@/components/icons';
 
 export const Subscribe = () => {
   return (
@@ -23,7 +23,7 @@ export const Subscribe = () => {
           <Button
             size="sm"
             label="Subscribe Now"
-            icon={<ArrowIcon fill="white" />}
+            icon={<ChevronIcon fill="white" />}
             onClick={() => {}}
             className="cursor-not-allowed"
           />
