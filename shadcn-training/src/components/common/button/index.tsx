@@ -9,7 +9,7 @@ interface IButton extends ComponentProps<typeof ButtonShadcn> {
   label?: string;
   icon?: ReactNode;
   className?: string;
-  onClick: () => void;
+  onClick?: () => void;
 }
 
 export const Button = ({ label, icon, className, onClick, ...props }: IButton) => {

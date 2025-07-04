@@ -10,3 +10,4 @@ export { default as MedalIcon } from './medal-icon';
 export { default as ContainerIcon } from './container-icon';
 export { default as PhoneIcon } from './phone-icon';
 export { default as HomeIcon } from './home-icon';
+export { default as WavingHandIcon } from './waving-hand-icon';

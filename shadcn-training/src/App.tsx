@@ -2,20 +2,24 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { ThemeProvider } from '@/components';
 import { HomePage, LoginPage, ShopPage } from './page';
+import { ROUTES } from './constants';
+import { Suspense } from 'react';
 
 function App() {
   return (
     <Routes>
       <Route
-        path="/login"
+        path={ROUTES.SIGN_IN}
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-            <LoginPage />
+            <Suspense fallback={<div>Loading...</div>}>
+              <LoginPage />
+            </Suspense>
           </ThemeProvider>
         }
       />
       <Route
-        path="/"
+        path={ROUTES.HOME}
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
             <HomePage />
@@ -23,7 +27,7 @@ function App() {
         }
       />
       <Route
-        path="/shop"
+        path={ROUTES.SHOP}
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
             <ShopPage />
