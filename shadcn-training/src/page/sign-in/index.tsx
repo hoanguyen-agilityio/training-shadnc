@@ -44,6 +44,7 @@ export const LoginPage = () => {
       return;
     }
 
+    localStorage.setItem('token', matchedUser.email);
     navigate(ROUTES.HOME);
   };
 

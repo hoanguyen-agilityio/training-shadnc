@@ -54,6 +54,7 @@ export const SignUpPage = () => {
         lastName: values.lastName,
       });
 
+      localStorage.setItem('token', values.email);
       navigate(ROUTES.HOME);
     } catch (error) {
       console.error('Failed to create user:', error);

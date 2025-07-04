@@ -4,6 +4,7 @@ export * from './badge';
 export * from './evaluate';
 export * from './breadcrumb';
 export * from './spinner';
+export * from './auth-guard';
 
 export * from './common/menu';
 export * from './common/button';
