@@ -13,8 +13,8 @@ function App() {
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
             <Suspense fallback={<LoadingPage />}>
-              {/* public page */}
-              <AuthGuard requiresAuth={false}>
+              {/* only block sign up page after user logs in */}
+              <AuthGuard blockIfAuthenticated>
                 <SignUpPage />
               </AuthGuard>
             </Suspense>
@@ -26,8 +26,8 @@ function App() {
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
             <Suspense fallback={<LoadingPage />}>
-              {/* public page */}
-              <AuthGuard requiresAuth={false}>
+              {/* only block sign in page after user logs in */}
+              <AuthGuard blockIfAuthenticated>
                 <LoginPage />
               </AuthGuard>
             </Suspense>
@@ -39,10 +39,8 @@ function App() {
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
             <Suspense fallback={<LoadingPage />}>
-              {/* private page */}
-              <AuthGuard requiresAuth={true}>
-                <HomePage />
-              </AuthGuard>
+              {/* no guard, freely accessible even if logged out */}
+              <HomePage />
             </Suspense>
           </ThemeProvider>
         }
@@ -52,10 +50,8 @@ function App() {
         element={
           <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
             <Suspense fallback={<LoadingPage />}>
-              {/* private page */}
-              <AuthGuard requiresAuth={true}>
-                <ShopPage />
-              </AuthGuard>
+              {/* no guard, freely accessible even if logged out */}
+              <ShopPage />
             </Suspense>
           </ThemeProvider>
         }

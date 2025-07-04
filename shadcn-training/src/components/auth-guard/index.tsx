@@ -3,24 +3,17 @@ import { Navigate } from 'react-router-dom';
 
 interface IAuthGuard {
   children: React.ReactNode;
-  requiresAuth?: boolean;
+  blockIfAuthenticated?: boolean; // rename for clarity
 }
 
-export const AuthGuard = ({ children, requiresAuth = true }: IAuthGuard) => {
+export const AuthGuard = ({ children, blockIfAuthenticated = false }: IAuthGuard) => {
   const isLoggedIn = !!localStorage.getItem('token');
-  const test = localStorage.getItem('token');
-  console.log({ test });
 
-  if (requiresAuth && !isLoggedIn) {
-    // protect *private* pages
-    return <Navigate to={ROUTES.SIGN_IN} replace />;
-  }
-
-  if (!requiresAuth && isLoggedIn) {
-    // user is logged in but visiting a public page, redirect to HOME
+  if (blockIfAuthenticated && isLoggedIn) {
+    // user is logged in, but tries to go to sign-in or sign-up page
     return <Navigate to={ROUTES.HOME} replace />;
   }
 
-  // if no block conditions
+  // otherwise, allow
   return <>{children}</>;
 };
