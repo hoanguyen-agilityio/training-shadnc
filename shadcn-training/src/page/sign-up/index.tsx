@@ -18,7 +18,7 @@ import { AuthLayout } from '@/layouts';
 import { formSchemaSignup, useInitialUsers } from '@/utils';
 // Components
 import { Button, Input } from '@/components';
-import { ArrowIcon } from '@/components/icons';
+import { ChevronIcon } from '@/components/icons';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Form, FormControl, FormField, FormItem, FormMessage } from '@/components/ui/form';
 
@@ -147,7 +147,7 @@ export const SignUpPage = () => {
           </div>
           <Button
             label={form.formState.isSubmitting ? 'Signing up...' : 'SIGNUP'}
-            icon={<ArrowIcon fill="white" />}
+            icon={<ChevronIcon fill="white" />}
             size="default"
             type="submit"
             className="w-full"

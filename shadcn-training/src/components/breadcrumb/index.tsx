@@ -1,5 +1,5 @@
 import { HomeIcon } from 'lucide-react';
-import { ArrowIcon } from '../icons';
+import { ChevronIcon } from '../icons';
 import { Link, useLocation } from 'react-router-dom';
 import { ROUTES } from '@/constants';
 
@@ -14,7 +14,7 @@ export const Breadcrumb = ({ breadcrumbName }: IBreadcrumb) => {
       <Link to={ROUTES.HOME}>
         <HomeIcon width="24px" height="24px" />
       </Link>
-      <ArrowIcon width="24px" height="24px" fill="#666666" />
+      <ChevronIcon width="24px" height="24px" fill="#666666" />
       <Link to={location.pathname}>
         <span className="text-base text-green-50">{breadcrumbName}</span>
       </Link>

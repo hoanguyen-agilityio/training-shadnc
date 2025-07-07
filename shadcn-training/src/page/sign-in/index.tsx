@@ -17,7 +17,7 @@ import { formSchema, useInitialUsers } from '@/utils';
 // Components
 import { Button, Input } from '@/components';
 import { Form, FormControl, FormField, FormItem, FormMessage } from '@/components/ui/form';
-import { ArrowIcon } from '@/components/icons';
+import { ChevronIcon } from '@/components/icons';
 import { Checkbox } from '@/components/ui/checkbox';
 
 export const LoginPage = () => {
@@ -100,7 +100,7 @@ export const LoginPage = () => {
           {loginError && <p className="text-red-500">{loginError}</p>}
           <Button
             label={form.formState.isSubmitting ? 'Logging in...' : 'LOGIN'}
-            icon={<ArrowIcon fill="white" />}
+            icon={<ChevronIcon fill="white" />}
             size="default"
             type="submit"
             className="w-full"

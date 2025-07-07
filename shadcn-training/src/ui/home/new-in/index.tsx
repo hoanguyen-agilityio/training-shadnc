@@ -1,5 +1,5 @@
 import { Button } from '@/components';
-import { ArrowIcon } from '@/components/icons';
+import { ChevronIcon } from '@/components/icons';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { NEW_IN_CARD } from '@/mocks';
 
@@ -12,7 +12,7 @@ export const NewIn = () => (
           Shop the latest fashion trends from the top luxury designers.
         </span>
         <Button
-          icon={<ArrowIcon fill="white" />}
+          icon={<ChevronIcon fill="white" />}
           label="Shop New In"
           size="sm"
           onClick={() => {}}
