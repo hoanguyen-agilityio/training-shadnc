@@ -1,7 +1,10 @@
+// Libs
 import { Quote } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
 import { useState } from 'react';
+
+// Components
+import { Card, CardContent } from '@/components/ui/card';
 import {
   CarouselApi,
   CarouselContent,
@@ -9,53 +12,12 @@ import {
   CarouselNext,
   CarouselPrevious,
   Carousel as CarouselShadcn,
-} from '../../ui/carousel';
+} from '@/components/ui/carousel';
 import { ArrowIcon } from '@/components/icons';
-import { Avatar } from '@/components/avatar';
-import { Evaluate } from '@/components/evaluate';
+import { Avatar, Evaluate } from '@/components';
 
-const testimonials = [
-  {
-    id: 1,
-    text: 'Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget',
-    name: 'Robert Fox',
-    role: 'Customer',
-    avatar: 'https://github.com/leerob.png',
-    alt: 'Robert Fox',
-    avatarFallback: 'RF',
-    rating: 5,
-  },
-  {
-    id: 2,
-    text: 'Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget',
-    name: 'Dianne Russell',
-    role: 'Customer',
-    avatar: 'https://github.com/evilrabbit.png',
-    alt: 'Dianne Russell',
-    avatarFallback: 'DR',
-    rating: 5,
-  },
-  {
-    id: 3,
-    text: 'Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget',
-    name: 'Eleanor Pena',
-    role: 'Customer',
-    avatar: 'https://github.com/shadcn.png',
-    alt: 'Eleanor Pena',
-    avatarFallback: 'EP',
-    rating: 5,
-  },
-  {
-    id: 4,
-    text: 'Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget',
-    name: 'Eleanor Pena',
-    role: 'Customer',
-    avatar: 'https://github.com/dan5py.png',
-    alt: 'Eleanor Pena',
-    avatarFallback: 'EP',
-    rating: 5,
-  },
-];
+// Mocks
+import { clientReviews } from '@/mocks';
 
 export const CarouselWithTopControls = () => {
   const [api, setApi] = useState<CarouselApi>();
@@ -103,8 +65,8 @@ export const CarouselWithTopControls = () => {
         className="w-full"
       >
         <CarouselContent className="-ml-4">
-          {testimonials.map((testimonial) => (
-            <CarouselItem key={testimonial.id} className="pl-4 md:basis-1/2 lg:basis-1/3">
+          {clientReviews.map((clientReview) => (
+            <CarouselItem key={clientReview.id} className="pl-4 md:basis-1/2 lg:basis-1/3">
               <Card className="h-full border-0 shadow-none p-0">
                 <CardContent className="p-6 h-full flex flex-col">
                   {/* Quote Icon */}
@@ -114,7 +76,7 @@ export const CarouselWithTopControls = () => {
 
                   {/* Testimonial Text */}
                   <p className="text-[#4D4D4D] font-normal text-sm	mb-6 flex-grow">
-                    {testimonial.text}
+                    {clientReview.text}
                   </p>
 
                   {/* Customer Info */}
@@ -122,18 +84,18 @@ export const CarouselWithTopControls = () => {
                     <div className="flex items-center gap-3">
                       <Avatar
                         className="h-14 w-14"
-                        src={testimonial.avatar}
-                        alt={testimonial.alt}
-                        avatarFallback={testimonial.avatarFallback}
+                        src={clientReview.avatar}
+                        alt={clientReview.alt}
+                        avatarFallback={clientReview.avatarFallback}
                       ></Avatar>
                       <div>
-                        <h4 className="font-semibold text-black text-sm">{testimonial.name}</h4>
-                        <p className="text-gray-500 text-xs font-normal">{testimonial.role}</p>
+                        <h4 className="font-semibold text-black text-sm">{clientReview.name}</h4>
+                        <p className="text-gray-500 text-xs font-normal">{clientReview.role}</p>
                       </div>
                     </div>
 
                     {/* Star Rating */}
-                    <Evaluate value={testimonial.rating} />
+                    <Evaluate value={clientReview.rating} />
                   </div>
                 </CardContent>
               </Card>

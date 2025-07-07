@@ -3,7 +3,7 @@ import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 
 // Components
-import { CarouselWithTopControls } from '.';
+import { CarouselWithSideControls } from '.';
 
 jest.mock('@/components/ui/carousel', () => {
   const actual = jest.requireActual('@/components/ui/carousel');
@@ -17,9 +17,9 @@ jest.mock('@/components/ui/carousel', () => {
   };
 });
 
-describe('CarouselWithTopControls component', () => {
-  test('Renders carouselWithTopControls component', () => {
-    const { container } = render(<CarouselWithTopControls />);
+describe('CarouselWithSideControls component', () => {
+  test('Renders CarouselWithSideControls component', () => {
+    const { container } = render(<CarouselWithSideControls />);
     expect(container).toMatchSnapshot();
   });
 });
