@@ -1,7 +1,15 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { AuthGuard, ThemeProvider } from '@/components';
-import { HomePage, LoginPage, ShopPage, LoadingPage, SignUpPage, AboutPage } from './page';
+import {
+  HomePage,
+  LoginPage,
+  ShopPage,
+  LoadingPage,
+  SignUpPage,
+  AboutPage,
+  ContactPage,
+} from './page';
 import { ROUTES } from './constants';
 import { Suspense } from 'react';
 
@@ -63,6 +71,17 @@ function App() {
             <Suspense fallback={<LoadingPage />}>
               {/* no guard, freely accessible even if logged out */}
               <AboutPage />
+            </Suspense>
+          </ThemeProvider>
+        }
+      />
+      <Route
+        path={ROUTES.CONTACT}
+        element={
+          <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+            <Suspense fallback={<LoadingPage />}>
+              {/* no guard, freely accessible even if logged out */}
+              <ContactPage />
             </Suspense>
           </ThemeProvider>
         }

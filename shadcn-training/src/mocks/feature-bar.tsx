@@ -1,4 +1,4 @@
-import { ContainerIcon, HighQualityIcon, PhoneIcon, MedalIcon } from '@/components/icons';
+import { ContainerIcon, HighQualityIcon, MedalIcon, PhoneSettingIcon } from '@/components/icons';
 
 const FEATURE_BAR = [
   {
@@ -17,7 +17,7 @@ const FEATURE_BAR = [
     describe: 'Order over 150 $',
   },
   {
-    icon: <PhoneIcon width="50px" height="50px" />,
+    icon: <PhoneSettingIcon width="50px" height="50px" />,
     title: '24 / 7 Support',
     describe: 'Dedicated support',
   },

@@ -14,7 +14,7 @@ export const AboutPage = () => {
     <>
       <div className="max-w-[1320px] mx-auto flex flex-col px-10">
         <Header />
-        <Breadcrumb breadcrumbName="Contact Us" />
+        <Breadcrumb breadcrumbName="FAQ’s" />
         <Banner title="About US" />
       </div>
       <OrganicFoodStore />
