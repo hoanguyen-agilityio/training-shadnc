@@ -6,6 +6,12 @@ export * from './breadcrumb';
 export * from './spinner';
 export * from './auth-guard';
 export * from './avatar';
+export * from './carousel';
+export * from './banner';
+export * from './subscribe';
+export * from './feature-bar';
+export * from './pagination';
+export * from './subscribe';
 
 export * from './common/menu';
 export * from './common/button';

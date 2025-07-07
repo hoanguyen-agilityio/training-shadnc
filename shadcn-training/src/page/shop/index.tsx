@@ -1,8 +1,13 @@
-import { Breadcrumb, Dropdown, ProductCard } from '@/components';
-import { FeatureBar } from '@/components/feature-bar';
-import { Pagination } from '@/components/pagination';
-import { Subscribe } from '@/components/subscribe';
+// Libs
+import { useState } from 'react';
+
+// Layouts
 import { Footer, Header } from '@/layouts';
+
+// Ui
+import { ActiveFilter, HeroImg, ShopBanner } from '@/ui';
+
+// Mocks
 import {
   CATEGORY_OPTIONS,
   PRICE_OPTIONS,
@@ -11,8 +16,9 @@ import {
   SHOW_OPTIONS,
   SORT_OPTIONS,
 } from '@/mocks';
-import { ActiveFilter, HeroImg, ShopBanner } from '@/ui';
-import { useState } from 'react';
+
+// Components
+import { Breadcrumb, Dropdown, ProductCard, FeatureBar, Pagination, Subscribe } from '@/components';
 
 export const ShopPage = () => {
   const [currentPage, setCurrentPage] = useState(1);

@@ -23,13 +23,18 @@ export const Header = () => {
     navigate(ROUTES.SIGN_IN, { replace: true });
   };
 
+  // dynamically build menu items
+  const menuItems = isLoggedIn
+    ? MENU_ITEMS_HEADER
+    : [...MENU_ITEMS_HEADER, { label: 'Sign in', href: ROUTES.SIGN_IN, disabled: false }];
+
   return (
     <header className="flex items-center justify-between mt-5 border-b-1 border-[#EAEAEA] pb-5">
       <div className="flex items-center min-[680px]:gap-8 gap-0">
         <Link to={ROUTES.HOME}>
           <Logo width="100px" height="100px" />
         </Link>
-        <Menu menuItems={MENU_ITEMS_HEADER} />
+        <Menu menuItems={menuItems} />
       </div>
       {isLoggedIn ? (
         <DropdownMenu>

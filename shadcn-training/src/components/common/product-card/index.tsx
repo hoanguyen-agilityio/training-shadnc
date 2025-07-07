@@ -20,7 +20,7 @@ export const ProductCard = ({
   variant = 'simple',
 }: IProductCard) => {
   return (
-    <CardShadcn className="w-[393px] group">
+    <CardShadcn className="w-full max-w-[393px] group">
       <CardHeader>
         <div className="relative">
           <img src={img} alt={imgAlt} />
