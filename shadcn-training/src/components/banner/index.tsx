@@ -4,15 +4,19 @@ interface IBanner {
 
 export const Banner = ({ title }: IBanner) => {
   return (
-    <section className="relative w-full overflow-visible">
+    <section className="relative w-full overflow-visible mt-[42px]">
       <img src="/assets/common-bg-banner.svg" alt="background banner" className="w-full" />
 
       <span className="text-white text-[40px] font-semibold absolute top-1/2 left-10 transform -translate-y-1/2">
         {title}
       </span>
 
-      <div className="absolute top-1/2 right-0 transform -translate-y-1/2  -translate-x-1/2 overflow-visible">
-        <img src="/assets/common-banner.svg" alt="common banner" className="" />
+      <div className="absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-1/5  min-[1000px]:-translate-x-1/2 overflow-visible">
+        <img
+          src="/assets/common-banner.svg"
+          alt="common banner"
+          className="w-[100px] h-[400px] min-[650px]:w-[200px] min-[650px]:h-[736px] min-[800px]:w-[264px] min-[800px]:h-[500px] min-[1000px]:w-full"
+        />
       </div>
     </section>
   );

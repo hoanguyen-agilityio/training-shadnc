@@ -12,7 +12,7 @@ export const ShopBanner = () => {
         alt="shop banner"
         className="w-auto h-[350px] min-[950px]:w-full min-[950px]:h-auto object-cover"
       />
-      <div className="text-center absolute inset-0 flex flex-col justify-center items-center max-w-[352px] w-full">
+      <div className="text-center absolute inset-0 flex flex-col justify-center items-center w-full">
         <span className="text-sm uppercase text-white">Best Deals</span>
         <span className="text-4xl min-[720px]:text-[40px] font-semibold mt-3 text-white">
           Sale of the Month

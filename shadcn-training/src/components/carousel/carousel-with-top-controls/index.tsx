@@ -30,7 +30,7 @@ export const CarouselWithTopControls = () => {
     api?.scrollNext();
   };
   return (
-    <div className="w-full max-w-7xl mx-auto p-6 bg-white">
+    <div className="w-full max-w-7xl mx-auto p-6">
       {/* Header */}
       <div className="flex items-center justify-between mb-[50px]">
         <h2 className="text-[46px]">Client Testimonial</h2>
@@ -67,7 +67,7 @@ export const CarouselWithTopControls = () => {
         <CarouselContent className="-ml-4">
           {clientReviews.map((clientReview) => (
             <CarouselItem key={clientReview.id} className="pl-4 md:basis-1/2 lg:basis-1/3">
-              <Card className="h-full border-0 shadow-none p-0">
+              <Card className="h-full border-0 shadow-none p-0 bg-white rounded-lg">
                 <CardContent className="p-6 h-full flex flex-col">
                   {/* Quote Icon */}
                   <div className="mb-4">

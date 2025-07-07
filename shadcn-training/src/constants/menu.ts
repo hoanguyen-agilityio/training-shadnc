@@ -1,8 +1,7 @@
 const MENU_ITEMS_HEADER = [
   { label: 'Shop', href: '/shop', disabled: false },
   { label: 'New Arrivals', href: undefined, disabled: true },
-  { label: 'About Us', href: undefined, disabled: true },
-  { label: 'Sign in', href: 'sign-in', disabled: false },
+  { label: 'About Us', href: '/about' },
 ];
 
 const MENU_ITEMS_FOOTER = [
