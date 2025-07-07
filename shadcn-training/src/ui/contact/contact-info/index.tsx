@@ -1,0 +1,44 @@
+// Libs
+import clsx from 'clsx';
+
+// Components
+import { AddressIcon, EmailIcon, PhoneIcon } from '@/components/icons';
+import { Card, CardContent } from '@/components/ui/card';
+
+const ContactInfoData = [
+  {
+    icon: <AddressIcon width="51px" height="51px" />,
+    information: '2715 Ash Dr. San Jose, South',
+    moreInformation: 'Dakota 83475',
+  },
+  {
+    icon: <EmailIcon width="51px" height="51px" />,
+    information: 'Proxy@gmail.com',
+    moreInformation: 'Help.proxy@gmail.com',
+  },
+  {
+    icon: <PhoneIcon width="51px" height="51px" />,
+    information: '(219) 555-0114',
+    moreInformation: '(164) 333-0487',
+  },
+];
+
+export const ContactInfo = () => (
+  <Card className="max-w-[312px] py-4 shadow-xl rounded-[10px] mx-auto min-[800px]:mx-0">
+    {ContactInfoData.map((item, index) => (
+      <CardContent
+        key={index}
+        className={clsx(
+          'px-5 py-6 flex flex-col justify-center items-center gap-4',
+          index !== ContactInfoData.length - 1 && 'border-b border-gray-200',
+        )}
+      >
+        {item.icon}
+        <div className="flex flex-col gap-1 text-center">
+          <span className="text-base">{item.information}</span>
+          <span className="text-base">{item.moreInformation}</span>
+        </div>
+      </CardContent>
+    ))}
+  </Card>
+);

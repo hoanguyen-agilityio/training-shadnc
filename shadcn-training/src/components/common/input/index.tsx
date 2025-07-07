@@ -1,8 +1,9 @@
 import { Input as InputShadcn } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import clsx from 'clsx';
+import { ComponentProps } from 'react';
 
-interface IInput {
+interface IInput extends ComponentProps<typeof InputShadcn> {
   variant: 'default' | 'primary';
   type: string;
   placeholder: string;
@@ -10,7 +11,7 @@ interface IInput {
   name: string;
   htmlFor?: string;
   className?: string;
-  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
 export const Input = ({
@@ -22,6 +23,7 @@ export const Input = ({
   onChange,
   htmlFor,
   className,
+  ...props
 }: IInput) => {
   const inputClasses = clsx(
     'font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0',
@@ -40,6 +42,7 @@ export const Input = ({
         name={name}
         onChange={onChange}
         className={inputClasses}
+        {...props}
       />
     </div>
   );
