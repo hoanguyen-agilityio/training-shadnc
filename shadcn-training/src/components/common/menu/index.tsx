@@ -44,7 +44,7 @@ export const Menu = ({ menuItems }: MenuProps) => {
 
       <DropdownMenu>
         <DropdownMenuTrigger className="flex min-[850px]:hidden cursor-pointer">
-          <HamburgerIcon width="24px" height="24px" />
+          <HamburgerIcon width="24px" height="24px" className="text-black dark:text-white" />
         </DropdownMenuTrigger>
         <DropdownMenuContent
           className={clsx(
@@ -55,6 +55,7 @@ export const Menu = ({ menuItems }: MenuProps) => {
             'transform-gpu',
             'backdrop-blur-sm backdrop-saturate-150',
             'border border-gray-200',
+            'dark:bg-black dark:text-white dark:border-gray-700',
           )}
         >
           {menuItems.map((item, index) => (
@@ -70,7 +71,7 @@ export const Menu = ({ menuItems }: MenuProps) => {
                 {item.href ? <Link to={item.href}>{item.label}</Link> : <span>{item.label}</span>}
               </DropdownMenuItem>
               {index < menuItems.length - 1 && (
-                <DropdownMenuSeparator className="border border-black mt-2" />
+                <DropdownMenuSeparator className="border border-black mt-2 dark:border-white" />
               )}
             </div>
           ))}

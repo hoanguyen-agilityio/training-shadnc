@@ -19,7 +19,7 @@ export const ContactForm = () => {
   return (
     <Card className="w-full shadow-xl rounded-[10px]">
       <CardHeader>
-        <h3 className="text-2xl font-bold text-black">Just Say Hello!</h3>
+        <h3 className="text-2xl font-bold text-black dark:text-white">Just Say Hello!</h3>
         <p className="text-sm font-normal text-[#808080]">
           Do you fancy saying hi to me or you want to get started with your project and you need my
           help? Feel free to contact me.
@@ -68,7 +68,7 @@ export const ContactForm = () => {
                       setDate(date);
                       setOpen(false);
                     }}
-                    className="!bg-white"
+                    className="!bg-white dark:!bg-black"
                   />
                 </PopoverContent>
               </Popover>
@@ -88,10 +88,10 @@ export const ContactForm = () => {
             </div>
           </div>
           <div className="flex flex-col gap-3">
-            <Label>Subject</Label>
+            <Label className="dark:text-white">Subject</Label>
             <Textarea
               placeholder="Subject"
-              className="px-3 py-4 border border-[#E2E2E2] rounded-[10px] min-h-[180px]"
+              className="px-3 py-4 border border-[#E2E2E2] rounded-[10px] min-h-[180px] dark:text-white"
             />
           </div>
           <Button

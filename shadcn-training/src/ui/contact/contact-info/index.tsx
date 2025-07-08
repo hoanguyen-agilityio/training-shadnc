@@ -24,21 +24,29 @@ const ContactInfoData = [
 ];
 
 export const ContactInfo = () => (
-  <Card className="max-w-[312px] py-4 shadow-xl rounded-[10px] mx-auto min-[800px]:mx-0">
-    {ContactInfoData.map((item, index) => (
-      <CardContent
-        key={index}
-        className={clsx(
-          'px-5 py-6 flex flex-col justify-center items-center gap-4',
-          index !== ContactInfoData.length - 1 && 'border-b border-gray-200',
-        )}
-      >
-        {item.icon}
-        <div className="flex flex-col gap-1 text-center">
-          <span className="text-base">{item.information}</span>
-          <span className="text-base">{item.moreInformation}</span>
-        </div>
-      </CardContent>
-    ))}
+  <Card className="w-full max-w-[312px] py-4 shadow-xl rounded-[10px] mx-auto min-[800px]:mx-0">
+    {ContactInfoData.map((item, index) => {
+      const isFirst = index === 0;
+      const isLast = index === ContactInfoData.length - 1;
+
+      return (
+        <CardContent
+          key={index}
+          className={clsx(
+            'flex flex-col items-center gap-4',
+            !isFirst && 'pt-6',
+            !isLast && 'pb-6 border-b border-gray-200',
+            isFirst && 'pt-0',
+            isLast && 'pb-0',
+          )}
+        >
+          {item.icon}
+          <div className="flex flex-col gap-1 text-center dark:text-white">
+            <span className="text-base">{item.information}</span>
+            <span className="text-base">{item.moreInformation}</span>
+          </div>
+        </CardContent>
+      );
+    })}
   </Card>
 );

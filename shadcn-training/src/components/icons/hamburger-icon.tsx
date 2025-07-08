@@ -2,7 +2,7 @@ import { IconProps } from '@/types';
 
 const HamburgerIcon: React.FC<IconProps> = ({ width, height, className, dataTestId }) => (
   <svg
-    fill="#000000"
+    fill="currentColor"
     width={width}
     height={height}
     className={className}
