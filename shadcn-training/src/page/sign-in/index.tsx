@@ -88,7 +88,7 @@ export const LoginPage = () => {
               </FormItem>
             )}
           />
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between dark:text-white">
             <div className="flex items-center gap-2">
               <Checkbox />
               <span>Remember Me</span>
