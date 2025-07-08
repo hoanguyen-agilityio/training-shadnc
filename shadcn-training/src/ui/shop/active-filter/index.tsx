@@ -6,16 +6,24 @@ export const ActiveFilter = () => (
       <div className="flex flex-col gap-2.5 min-[520px]:flex-row min-[520px]:gap-6">
         <span className="text-[#808080] text-sm">Active Filters:</span>
         <div className="flex items-center gap-2">
-          <span className="text-sm text-black">Wing Chair</span>
-          <XIcon width="12px" height="12px" className="fill-[#9A9CAA] hover:fill-black" />
+          <span className="text-sm text-black dark:text-white">Wing Chair</span>
+          <XIcon
+            width="12px"
+            height="12px"
+            className="text-[#9A9CAA] hover:text-black dark:hover:text-white cursor-pointer"
+          />
         </div>
         <div className="flex items-center gap-2">
-          <span className="text-sm text-black">Min $300 - Max 500</span>
-          <XIcon width="12px" height="12px" className="fill-[#9A9CAA] hover:fill-black" />
+          <span className="text-sm text-black dark:text-white">Min $300 - Max 500</span>
+          <XIcon
+            width="12px"
+            height="12px"
+            className="text-[#9A9CAA] hover:text-black dark:hover:text-white cursor-pointer"
+          />
         </div>
       </div>
-      <div className="flex gap-0.5">
-        <span className="text-sm text-black">2,547</span>
+      <div className="flex gap-1">
+        <span className="text-sm text-black dark:text-white">2,547</span>
         <span className="text-[#808080] text-sm">Results found.</span>
       </div>
     </div>

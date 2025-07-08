@@ -24,7 +24,7 @@ export const Menu = ({ menuItems }: MenuProps) => {
 
   return (
     <>
-      <Breadcrumb className="hidden min-[680px]:flex">
+      <Breadcrumb className="hidden min-[850px]:flex">
         <BreadcrumbList className="flex sm:gap-8">
           {menuItems.map((item) => (
             <BreadcrumbItem key={item.label}>
@@ -32,7 +32,7 @@ export const Menu = ({ menuItems }: MenuProps) => {
                 href={item.disabled ? undefined : item.href}
                 className={clsx('font-poppins hover:text-green-50 text-base', 'dark:text-white', {
                   'cursor-not-allowed': item.disabled,
-                  'text-green-50': location.pathname === item.href,
+                  'text-green-50 dark:text-green-50': location.pathname === item.href,
                 })}
               >
                 {item.label}
@@ -43,7 +43,7 @@ export const Menu = ({ menuItems }: MenuProps) => {
       </Breadcrumb>
 
       <DropdownMenu>
-        <DropdownMenuTrigger className="flex min-[680px]:hidden cursor-pointer">
+        <DropdownMenuTrigger className="flex min-[850px]:hidden cursor-pointer">
           <HamburgerIcon width="24px" height="24px" />
         </DropdownMenuTrigger>
         <DropdownMenuContent

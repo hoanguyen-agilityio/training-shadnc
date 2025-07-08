@@ -83,12 +83,12 @@ export const ProductCard = ({
       {variant === 'withActions' && (
         <CardContent className="flex flex-col gap-3">
           <div className="flex justify-between items-center">
-            <CardTitle className="text-xl">{title}</CardTitle>
+            <CardTitle className="text-xl dark:text-white">{title}</CardTitle>
             <CardDescription className="text-xs text-[#8A8A8A]">{brand}</CardDescription>
           </div>
           <div className="flex gap-0.5">
             <Evaluate value={rating} />
-            <span>{reviewLabel}</span>
+            <span className="dark:text-[#8A8A8A]">{reviewLabel}</span>
           </div>
           <div className="flex justify-between items-center">
             <CardDescription className="text-2xl font-bold dark:text-white">

@@ -19,7 +19,7 @@ export const HeroImg = () => (
         <Button
           label="Explore"
           size="default"
-          onClick={() => {}}
+          disabled
           className="mt-[30px] w-[294px] cursor-not-allowed"
         />
       </div>

@@ -12,9 +12,9 @@ export const Breadcrumb = ({ breadcrumbName }: IBreadcrumb) => {
   return (
     <section className="flex gap-3 mt-[25px]">
       <Link to={ROUTES.HOME}>
-        <HomeIcon width="24px" height="24px" />
+        <HomeIcon width="24px" height="24px" className="text-black dark:text-white" />
       </Link>
-      <ChevronIcon width="24px" height="24px" fill="#666666" />
+      <ChevronIcon width="24px" height="24px" className="text-[#666666] dark:text-white" />
       <Link to={location.pathname}>
         <span className="text-base text-green-50">{breadcrumbName}</span>
       </Link>
