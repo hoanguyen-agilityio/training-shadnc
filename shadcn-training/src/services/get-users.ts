@@ -1,4 +1,5 @@
 // Libs
+import dotenv from 'dotenv';
 
 // APIs
 import { apiRequest } from './api';
@@ -6,13 +7,16 @@ import { apiRequest } from './api';
 // Modals
 import { User } from '@/types';
 
-export const getUsers = async () => {
-  try {
-    if (!import.meta.env.VITE_ACCOUNT_URL) {
-      throw new Error('VITE_BASE_URL is not defined in the environment variables.');
-    }
+dotenv.config();
 
-    const data: User[] = await apiRequest(import.meta.env.VITE_ACCOUNT_URL, 'GET');
+export const getUsers = async () => {
+  const VITE_ACCOUNT_URL = process.env.VITE_ACCOUNT_URL;
+  if (!VITE_ACCOUNT_URL) {
+    throw new Error('Missing VITE_ACCOUNT_URL in environment variables');
+  }
+
+  try {
+    const data: User[] = await apiRequest(VITE_ACCOUNT_URL, 'GET');
     return data.reverse();
   } catch (error) {
     console.error(`An error occurred while getting users: ${error}`);

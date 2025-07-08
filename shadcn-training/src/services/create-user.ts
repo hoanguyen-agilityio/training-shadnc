@@ -1,10 +1,20 @@
+// Libs
+import dotenv from 'dotenv';
+
 // APIs
 import { apiRequest } from './api';
 import { User } from '@/types';
 
+dotenv.config();
+
 export const createUser = async (userData: User) => {
+  const VITE_ACCOUNT_URL = process.env.VITE_ACCOUNT_URL;
+  if (!VITE_ACCOUNT_URL) {
+    throw new Error('Missing VITE_ACCOUNT_URL in environment variables');
+  }
+
   try {
-    const newUser = (await apiRequest(import.meta.env.VITE_ACCOUNT_URL, 'POST', {
+    const newUser = (await apiRequest(VITE_ACCOUNT_URL, 'POST', {
       email: userData.email,
       password: userData.password,
       firstName: userData.firstName,
