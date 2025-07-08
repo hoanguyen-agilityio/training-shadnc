@@ -13,5 +13,9 @@ export default {
 type Story = StoryObj<typeof Avatar>;
 
 export const AvatarDefault: Story = {
-  args: {},
+  args: {
+    src: 'https://github.com/shadcn.png',
+    alt: 'avatar',
+    avatarFallback: 'User',
+  },
 };

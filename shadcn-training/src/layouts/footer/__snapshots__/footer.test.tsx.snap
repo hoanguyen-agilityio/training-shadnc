@@ -3,7 +3,7 @@
 exports[`Footer component Renders footer component 1`] = `
 <div>
   <footer
-    class="px-4 text-center"
+    class="px-4 text-center mb-[30px]"
   >
     <div
       class="flex items-center justify-between"
@@ -48,7 +48,7 @@ exports[`Footer component Renders footer component 1`] = `
       </a>
       <nav
         aria-label="breadcrumb"
-        class="hidden min-[680px]:flex"
+        class="hidden min-[850px]:flex"
         data-slot="breadcrumb"
       >
         <ol
@@ -60,7 +60,7 @@ exports[`Footer component Renders footer component 1`] = `
             data-slot="breadcrumb-item"
           >
             <a
-              class="transition-colors font-poppins hover:text-green-50 text-base cursor-not-allowed"
+              class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white cursor-not-allowed"
               data-slot="breadcrumb-link"
             >
               Support Center
@@ -71,7 +71,7 @@ exports[`Footer component Renders footer component 1`] = `
             data-slot="breadcrumb-item"
           >
             <a
-              class="transition-colors font-poppins hover:text-green-50 text-base"
+              class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white"
               data-slot="breadcrumb-link"
               href="/contact"
             >
@@ -83,7 +83,7 @@ exports[`Footer component Renders footer component 1`] = `
             data-slot="breadcrumb-item"
           >
             <a
-              class="transition-colors font-poppins hover:text-green-50 text-base cursor-not-allowed"
+              class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white cursor-not-allowed"
               data-slot="breadcrumb-link"
             >
               Blog
@@ -94,8 +94,9 @@ exports[`Footer component Renders footer component 1`] = `
             data-slot="breadcrumb-item"
           >
             <a
-              class="transition-colors font-poppins hover:text-green-50 text-base cursor-not-allowed"
+              class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white"
               data-slot="breadcrumb-link"
+              href="/about"
             >
               FAQ,s
             </a>
@@ -105,14 +106,15 @@ exports[`Footer component Renders footer component 1`] = `
       <button
         aria-expanded="false"
         aria-haspopup="menu"
-        class="flex min-[680px]:hidden cursor-pointer"
+        class="flex min-[850px]:hidden cursor-pointer"
         data-state="closed"
         id="radix-«r0»"
         type="button"
       >
         <svg
+          class="text-black dark:text-white"
           enable-background="new 0 0 32 32"
-          fill="#000000"
+          fill="currentColor"
           height="24px"
           id="Glyph"
           version="1.1"
@@ -151,7 +153,7 @@ exports[`Footer component Renders footer component 1`] = `
       </button>
     </div>
     <span
-      class="font-poppins text-base pt-3"
+      class="font-poppins text-base pt-3 dark:text-[#8A8A8A]"
     >
       Copyright © 2024 . All Rights Reserved.
     </span>

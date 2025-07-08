@@ -23,7 +23,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem1"
           aria-selected="true"
-          class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -38,7 +38,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem2"
           aria-selected="false"
-          class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -53,7 +53,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem3"
           aria-selected="false"
-          class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -68,7 +68,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem4"
           aria-selected="false"
-          class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -83,7 +83,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem5"
           aria-selected="false"
-          class="cursor-pointer text-base data-[state=active]:bg-black data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -112,7 +112,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
           data-slot="card"
         >
           <div
@@ -137,7 +137,7 @@ exports[`Tabs component Renders tabs component 1`] = `
             >
               <div>
                 <div
-                  class="font-semibold text-xl"
+                  class="font-semibold text-xl dark:text-white"
                   data-slot="card-title"
                 >
                   Lorem ipsum 1
@@ -225,7 +225,7 @@ exports[`Tabs component Renders tabs component 1`] = `
               </div>
             </div>
             <div
-              class="text-muted-foreground text-xs"
+              class="text-muted-foreground text-xs dark:text-white"
               data-slot="card-description"
             >
               (4.1k) Customer Reviews
@@ -234,7 +234,7 @@ exports[`Tabs component Renders tabs component 1`] = `
               class="flex justify-between items-center"
             >
               <div
-                class="text-muted-foreground text-2xl font-bold"
+                class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
                 $95.50
@@ -261,7 +261,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
           data-slot="card"
         >
           <div
@@ -286,7 +286,7 @@ exports[`Tabs component Renders tabs component 1`] = `
             >
               <div>
                 <div
-                  class="font-semibold text-xl"
+                  class="font-semibold text-xl dark:text-white"
                   data-slot="card-title"
                 >
                   Lorem ipsum 2
@@ -360,7 +360,7 @@ exports[`Tabs component Renders tabs component 1`] = `
               </div>
             </div>
             <div
-              class="text-muted-foreground text-xs"
+              class="text-muted-foreground text-xs dark:text-white"
               data-slot="card-description"
             >
               (3.2k) Customer Reviews
@@ -369,7 +369,7 @@ exports[`Tabs component Renders tabs component 1`] = `
               class="flex justify-between items-center"
             >
               <div
-                class="text-muted-foreground text-2xl font-bold"
+                class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
                 $55.50
@@ -396,7 +396,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
           data-slot="card"
         >
           <div
@@ -421,7 +421,7 @@ exports[`Tabs component Renders tabs component 1`] = `
             >
               <div>
                 <div
-                  class="font-semibold text-xl"
+                  class="font-semibold text-xl dark:text-white"
                   data-slot="card-title"
                 >
                   Lorem ipsum 3
@@ -481,7 +481,7 @@ exports[`Tabs component Renders tabs component 1`] = `
               </div>
             </div>
             <div
-              class="text-muted-foreground text-xs"
+              class="text-muted-foreground text-xs dark:text-white"
               data-slot="card-description"
             >
               (1.1k) Customer Reviews
@@ -490,7 +490,7 @@ exports[`Tabs component Renders tabs component 1`] = `
               class="flex justify-between items-center"
             >
               <div
-                class="text-muted-foreground text-2xl font-bold"
+                class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
                 $45.50
@@ -517,7 +517,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
           data-slot="card"
         >
           <div
@@ -542,7 +542,7 @@ exports[`Tabs component Renders tabs component 1`] = `
             >
               <div>
                 <div
-                  class="font-semibold text-xl"
+                  class="font-semibold text-xl dark:text-white"
                   data-slot="card-title"
                 >
                   Lorem ipsum 4
@@ -616,7 +616,7 @@ exports[`Tabs component Renders tabs component 1`] = `
               </div>
             </div>
             <div
-              class="text-muted-foreground text-xs"
+              class="text-muted-foreground text-xs dark:text-white"
               data-slot="card-description"
             >
               (2.9k) Customer Reviews
@@ -625,7 +625,7 @@ exports[`Tabs component Renders tabs component 1`] = `
               class="flex justify-between items-center"
             >
               <div
-                class="text-muted-foreground text-2xl font-bold"
+                class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
                 $75.50
@@ -652,7 +652,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
           data-slot="card"
         >
           <div
@@ -677,7 +677,7 @@ exports[`Tabs component Renders tabs component 1`] = `
             >
               <div>
                 <div
-                  class="font-semibold text-xl"
+                  class="font-semibold text-xl dark:text-white"
                   data-slot="card-title"
                 >
                   Lorem ipsum 5
@@ -765,7 +765,7 @@ exports[`Tabs component Renders tabs component 1`] = `
               </div>
             </div>
             <div
-              class="text-muted-foreground text-xs"
+              class="text-muted-foreground text-xs dark:text-white"
               data-slot="card-description"
             >
               (4.8k) Customer Reviews
@@ -774,7 +774,7 @@ exports[`Tabs component Renders tabs component 1`] = `
               class="flex justify-between items-center"
             >
               <div
-                class="text-muted-foreground text-2xl font-bold"
+                class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
                 $95.50
@@ -801,7 +801,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
           data-slot="card"
         >
           <div
@@ -826,7 +826,7 @@ exports[`Tabs component Renders tabs component 1`] = `
             >
               <div>
                 <div
-                  class="font-semibold text-xl"
+                  class="font-semibold text-xl dark:text-white"
                   data-slot="card-title"
                 >
                   Lorem ipsum 6
@@ -914,7 +914,7 @@ exports[`Tabs component Renders tabs component 1`] = `
               </div>
             </div>
             <div
-              class="text-muted-foreground text-xs"
+              class="text-muted-foreground text-xs dark:text-white"
               data-slot="card-description"
             >
               (3.5k) Customer Reviews
@@ -923,7 +923,7 @@ exports[`Tabs component Renders tabs component 1`] = `
               class="flex justify-between items-center"
             >
               <div
-                class="text-muted-foreground text-2xl font-bold"
+                class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
                 $85.50

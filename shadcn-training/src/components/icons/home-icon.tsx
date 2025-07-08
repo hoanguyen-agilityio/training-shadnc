@@ -12,9 +12,9 @@ const HomeIcon: React.FC<IconProps> = ({ width, height, className }) => (
     <path
       d="M4.00024 10L12.0002 3L20.0002 10V20H15.0002V16C15.0002 15.2044 14.6842 14.4413 14.1216 13.8787C13.559 13.3161 12.7959 13 12.0002 13C11.2046 13 10.4415 13.3161 9.87892 13.8787C9.31631 14.4413 9.00024 15.2044 9.00024 16V20H4.00024V10Z"
       stroke="#666666"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );

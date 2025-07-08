@@ -10,7 +10,7 @@ exports[`Avatar component Renders Avatar component 1`] = `
       class="bg-muted flex size-full items-center justify-center rounded-full"
       data-slot="avatar-fallback"
     >
-      CN
+      User
     </span>
   </span>
 </div>
