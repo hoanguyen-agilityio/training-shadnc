@@ -14,7 +14,9 @@
     "!src/main.tsx",
     "!src/components/ui/*.{js,jsx,ts,tsx}",
     "!src/components/icons/*.{js,jsx,ts,tsx}",
-    "!src/types/*.{js,jsx,ts,tsx}"
+    "!src/types/*.{js,jsx,ts,tsx}",
+    "!src/App.tsx",
+    "!src/page/index.ts"
   ],
   "testMatch": [
     "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
