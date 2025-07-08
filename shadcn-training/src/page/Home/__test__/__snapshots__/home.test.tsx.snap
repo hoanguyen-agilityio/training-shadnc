@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`Contact page Renders Contact page 1`] = `
+exports[`Home page Renders Home page 1`] = `
 <div>
   <div
-    class="max-w-[1320px] mx-auto flex flex-col px-10"
+    class="max-w-[1320px] mx-auto flex flex-col gap-[60px] px-10 bg-white dark:bg-black"
   >
     <header
       class="flex items-center justify-between mt-5 border-b-1 border-[#EAEAEA] pb-5"
@@ -241,435 +241,1764 @@ exports[`Contact page Renders Contact page 1`] = `
       </div>
     </header>
     <section
-      class="flex gap-3 mt-[25px]"
-    >
-      <a
-        data-discover="true"
-        href="/"
-      >
-        <svg
-          aria-hidden="true"
-          class="lucide lucide-house text-black dark:text-white"
-          fill="none"
-          height="24px"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          width="24px"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"
-          />
-          <path
-            d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
-          />
-        </svg>
-      </a>
-      <svg
-        class="text-[#666666] dark:text-white"
-        fill="none"
-        height="24px"
-        viewBox="0 0 25 24"
-        width="24px"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          class="fill-current"
-          clip-rule="evenodd"
-          d="M9.62588 17.8644C9.58598 17.8216 9.55432 17.7706 9.53272 17.7146C9.51112 17.6585 9.5 17.5984 9.5 17.5377C9.5 17.477 9.51112 17.4169 9.53272 17.3608C9.55432 17.3048 9.58598 17.2538 9.62588 17.211L14.4649 11.9999L9.62588 6.7888C9.58604 6.74589 9.55444 6.69495 9.53288 6.63889C9.51132 6.58283 9.50022 6.52275 9.50022 6.46207C9.50022 6.40139 9.51132 6.3413 9.53288 6.28524C9.55444 6.22918 9.58604 6.17824 9.62588 6.13534C9.66571 6.09243 9.71301 6.05839 9.76506 6.03517C9.8171 6.01195 9.87289 6 9.92923 6C9.98557 6 10.0414 6.01195 10.0934 6.03517C10.1454 6.05839 10.1927 6.09243 10.2326 6.13534L15.3741 11.6731C15.414 11.716 15.4457 11.7669 15.4673 11.823C15.4889 11.8791 15.5 11.9392 15.5 11.9999C15.5 12.0606 15.4889 12.1207 15.4673 12.1768C15.4457 12.2328 15.414 12.2837 15.3741 12.3266L10.2326 17.8644C10.1928 17.9074 10.1455 17.9415 10.0934 17.9648C10.0414 17.988 9.98559 18 9.92923 18C9.87287 18 9.81707 17.988 9.76501 17.9648C9.71296 17.9415 9.66568 17.9074 9.62588 17.8644Z"
-          fill-rule="evenodd"
-        />
-      </svg>
-      <a
-        data-discover="true"
-        href="/"
-      >
-        <span
-          class="text-base text-green-50"
-        >
-          Contact US
-        </span>
-      </a>
-    </section>
-    <section
-      class="relative w-full overflow-visible mt-[42px]"
+      class="flex flex-col md:flex-row gap-[30px] items-stretch w-full"
     >
       <img
-        alt="background banner"
-        class="w-full"
-        src="/assets/common-bg-banner.svg"
+        alt="left home banner"
+        class="w-full min-w-[100px] object-contain"
+        src="/public/assets/left-home-banner.svg"
       />
-      <h1
-        class="text-white text-4xl min-[500px]:text-[40px] font-semibold absolute top-1/2 left-10 transform -translate-y-1/2"
-      >
-        Contact US
-      </h1>
       <div
-        class="absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-1/5  min-[1000px]:-translate-x-1/2 overflow-visible"
+        class="flex flex-col gap-9 w-full"
       >
         <img
-          alt="common banner"
-          class="w-[100px] h-[400px] min-[650px]:w-[200px] min-[800px]:w-[264px] min-[800px]:h-[400px] min-[1150px]:w-full min-[1150px]:h-auto"
-          src="/assets/common-banner.svg"
+          alt=""
+          class="w-full object-contain"
+          src="/public/assets/psyllium-home-banner.svg"
+        />
+        <div
+          class="flex flex-col items-center justify-center text-center px-4"
+        >
+          <h1
+            class="text-[clamp(2rem,8vw,5rem)] uppercase leading-none dark:text-white"
+          >
+            Ultimate
+          </h1>
+          <h1
+            class="text-[clamp(4rem,16vw,10rem)] uppercase text-transparent stroke leading-none dark:text-white"
+          >
+            SALE
+          </h1>
+          <span
+            class="text-base md:text-xl uppercase tracking-widest text-charcoalGray-50 dark:text-white"
+          >
+            New Collection
+          </span>
+          <button
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-full mt-1.5"
+            data-slot="button"
+            disabled=""
+          >
+            SHOP NOW
+          </button>
+        </div>
+        <img
+          alt=""
+          class="w-full object-contain"
+          src="/public/assets/sandalwood-home-banner.svg"
         />
       </div>
+      <img
+        alt="right home banner"
+        class="w-full min-w-[100px] object-contain"
+        src="/public/assets/right-home-banner.svg"
+      />
     </section>
     <section
-      class="flex flex-col gap-5 min-[1000px]:gap-[74px] mt-20 mb-[30px] min-[800px]:flex-row"
+      class="text-center"
+    >
+      <h3
+        class="text-[46px] dark:text-white"
+      >
+        A style that fits everyone
+      </h3>
+      <p
+        class="text-lg text-[#8A8A8A] mt-4"
+      >
+        Be inspired by sleek shapes, fresh colors and expressive prints
+         
+      </p>
+      <button
+        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 mt-8"
+        data-slot="button"
+        disabled=""
+      >
+        Shop collection
+      </button>
+    </section>
+  </div>
+  <section
+    class="bg-[#F0F0F0] mt-[53px] dark:bg-zinc-800"
+  >
+    <div
+      class="flex flex-col max-w-[1320px] mx-auto justify-between min-[1140px]:flex-row py-[50px] px-10"
     >
       <div
-        class="bg-card text-card-foreground flex flex-col gap-6 p-5 dark:bg-zinc-800 w-full max-w-[312px] py-4 shadow-xl rounded-[10px] mx-auto min-[800px]:mx-0"
-        data-slot="card"
+        class="flex flex-col justify-center w-full min-[1140px]:w-[414px] items-center min-[1140px]:items-start text-center min-[1140px]:text-left"
+      >
+        <h3
+          class="text-[46px] dark:text-white"
+        >
+          New In
+        </h3>
+        <p
+          class="text-lg dark:text-slate-400"
+        >
+          Shop the latest fashion trends from the top luxury designers.
+        </p>
+        <button
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-[210px] mt-10"
+          data-slot="button"
+          disabled=""
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 25 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="fill-current"
+              clip-rule="evenodd"
+              d="M9.62588 17.8644C9.58598 17.8216 9.55432 17.7706 9.53272 17.7146C9.51112 17.6585 9.5 17.5984 9.5 17.5377C9.5 17.477 9.51112 17.4169 9.53272 17.3608C9.55432 17.3048 9.58598 17.2538 9.62588 17.211L14.4649 11.9999L9.62588 6.7888C9.58604 6.74589 9.55444 6.69495 9.53288 6.63889C9.51132 6.58283 9.50022 6.52275 9.50022 6.46207C9.50022 6.40139 9.51132 6.3413 9.53288 6.28524C9.55444 6.22918 9.58604 6.17824 9.62588 6.13534C9.66571 6.09243 9.71301 6.05839 9.76506 6.03517C9.8171 6.01195 9.87289 6 9.92923 6C9.98557 6 10.0414 6.01195 10.0934 6.03517C10.1454 6.05839 10.1927 6.09243 10.2326 6.13534L15.3741 11.6731C15.414 11.716 15.4457 11.7669 15.4673 11.823C15.4889 11.8791 15.5 11.9392 15.5 11.9999C15.5 12.0606 15.4889 12.1207 15.4673 12.1768C15.4457 12.2328 15.414 12.2837 15.3741 12.3266L10.2326 17.8644C10.1928 17.9074 10.1455 17.9415 10.0934 17.9648C10.0414 17.988 9.98559 18 9.92923 18C9.87287 18 9.81707 17.988 9.76501 17.9648C9.71296 17.9415 9.66568 17.9074 9.62588 17.8644Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Shop New In
+        </button>
+      </div>
+      <div
+        class="flex flex-col items-center justify-center gap-[30px] min-[1140px]:justify-start mt-5 min-[1140px]:mt-0 min-[730px]:flex-row min-[730px]:items-start"
       >
         <div
-          class="flex flex-col items-center gap-4 pb-6 border-b border-gray-200 pt-0"
-          data-slot="card-content"
+          class="text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 bg-white w-[230px]"
+          data-slot="card"
         >
-          <svg
-            fill="none"
-            height="51px"
-            viewBox="0 0 52 52"
-            width="51px"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M11.6562 46.7188H40.3438"
-              stroke="#6C9D30"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-            />
-            <path
-              d="M26 27.5938C27.6908 27.5938 29.3123 26.9221 30.5078 25.7266C31.7033 24.531 32.375 22.9095 32.375 21.2188C32.375 19.528 31.7033 17.9065 30.5078 16.7109C29.3123 15.5154 27.6908 14.8438 26 14.8438C24.3092 14.8438 22.6877 15.5154 21.4922 16.7109C20.2966 17.9065 19.625 19.528 19.625 21.2188C19.625 22.9095 20.2966 24.531 21.4922 25.7266C22.6877 26.9221 24.3092 27.5938 26 27.5938V27.5938Z"
-              stroke="#6C9D30"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-            />
-            <path
-              d="M41.9375 21.2188C41.9375 35.5625 26 46.7188 26 46.7188C26 46.7188 10.0625 35.5625 10.0625 21.2188C10.0625 16.9919 11.7416 12.9381 14.7305 9.94924C17.7193 6.96037 21.7731 5.28125 26 5.28125C30.2269 5.28125 34.2807 6.96037 37.2695 9.94924C40.2584 12.9381 41.9375 16.9919 41.9375 21.2188V21.2188Z"
-              stroke="#6C9D30"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-            />
-          </svg>
           <div
-            class="flex flex-col gap-1 text-center dark:text-white"
+            class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+            data-slot="card-header"
           >
-            <span
-              class="text-base"
+            <img
+              alt="img product"
+              class="w-full h-full max-w-[190px] max-h-[260px]"
+              src="/public/assets/product.svg"
+            />
+          </div>
+          <div
+            class=""
+            data-slot="card-content"
+          >
+            <div
+              class="font-semibold text-base"
+              data-slot="card-title"
             >
-              2715 Ash Dr. San Jose, South
-            </span>
-            <span
-              class="text-base"
-            >
-              Dakota 83475
-            </span>
+              Lorem ipsum
+            </div>
           </div>
         </div>
         <div
-          class="flex flex-col items-center gap-4 pt-6 pb-6 border-b border-gray-200"
-          data-slot="card-content"
+          class="text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 bg-white w-[230px]"
+          data-slot="card"
         >
-          <svg
-            fill="none"
-            height="51px"
-            viewBox="0 0 52 52"
-            width="51px"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g
-              clip-path="url(#clip0_215_3073)"
-            >
-              <path
-                d="M48.95 6.44983H3.05C1.64172 6.44983 0.5 7.59145 0.5 8.99983V42.9998C0.5 44.4081 1.64162 45.5498 3.05 45.5498H48.95C50.3583 45.5498 51.5 44.4082 51.5 42.9998V8.99983C51.5 7.59155 50.3584 6.44983 48.95 6.44983ZM49.8 42.9999C49.8 43.4694 49.4195 43.8499 48.95 43.8499H3.05C2.58054 43.8499 2.20003 43.4694 2.20003 42.9999V8.99983C2.20003 8.53037 2.58054 8.14986 3.05 8.14986H48.95C49.4195 8.14986 49.8 8.53037 49.8 8.99983V42.9999Z"
-                fill="#6C9D30"
-              />
-              <path
-                d="M47.3244 9.85314C47.0998 9.83351 46.8766 9.90394 46.7039 10.049L27.0943 26.5219C26.4619 27.0535 25.5388 27.0535 24.9064 26.5219L5.29703 10.0489C5.06444 9.85363 4.74529 9.79725 4.45991 9.90105C4.17453 10.0048 3.96614 10.2531 3.91335 10.5522C3.86056 10.8513 3.97132 11.1558 4.20391 11.3511L23.8134 27.8232C25.0773 28.8873 26.9236 28.8873 28.1876 27.8232L47.797 11.3512C47.9697 11.2062 48.0777 10.9986 48.0973 10.774C48.1169 10.5494 48.0465 10.3262 47.9014 10.1536C47.7566 9.98074 47.549 9.87276 47.3244 9.85314Z"
-                fill="#6C9D30"
-              />
-              <path
-                d="M16.8483 27.7059C16.5474 27.6387 16.2339 27.7397 16.0287 27.9698L4.12863 40.7198C3.91327 40.9403 3.83418 41.2603 3.92204 41.5557C4.00989 41.8513 4.25085 42.076 4.55167 42.1431C4.85259 42.2103 5.16616 42.1093 5.37135 41.8792L17.2714 29.1292C17.4867 28.9086 17.5658 28.5887 17.478 28.2932C17.3901 27.9978 17.1493 27.773 16.8483 27.7059Z"
-                fill="#6C9D30"
-              />
-              <path
-                d="M35.9709 27.9699C35.7658 27.7398 35.4521 27.6388 35.1512 27.706C34.8503 27.7731 34.6094 27.9979 34.5216 28.2934C34.4337 28.5889 34.5128 28.9088 34.7282 29.1293L46.6282 41.8793C46.9509 42.2098 47.4785 42.2221 47.8162 41.907C48.154 41.5918 48.1783 41.0647 47.8709 40.7198L35.9709 27.9699Z"
-                fill="#6C9D30"
-              />
-            </g>
-            <defs>
-              <clippath
-                id="clip0_215_3073"
-              >
-                <rect
-                  fill="white"
-                  height="51"
-                  transform="translate(0.5 0.5)"
-                  width="51"
-                />
-              </clippath>
-            </defs>
-          </svg>
           <div
-            class="flex flex-col gap-1 text-center dark:text-white"
+            class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+            data-slot="card-header"
           >
-            <span
-              class="text-base"
+            <img
+              alt="img product"
+              class="w-full h-full max-w-[190px] max-h-[260px]"
+              src="/public/assets/product.svg"
+            />
+          </div>
+          <div
+            class=""
+            data-slot="card-content"
+          >
+            <div
+              class="font-semibold text-base"
+              data-slot="card-title"
             >
-              Proxy@gmail.com
-            </span>
-            <span
-              class="text-base"
-            >
-              Help.proxy@gmail.com
-            </span>
+              Lorem ipsum
+            </div>
           </div>
         </div>
         <div
-          class="flex flex-col items-center gap-4 pt-6 pb-0"
-          data-slot="card-content"
+          class="text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 bg-white w-[230px]"
+          data-slot="card"
         >
-          <svg
-            fill="none"
-            height="51px"
-            viewBox="0 0 42 42"
-            width="51px"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M26.9824 2.742C29.9244 3.53327 32.6069 5.08366 34.7611 7.2379C36.9154 9.39214 38.4658 12.0746 39.257 15.0166"
-              stroke="#6C9D30"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-            />
-            <path
-              d="M25.1867 9.45001C26.9515 9.9248 28.5606 10.8549 29.8529 12.1472C31.1452 13.4395 32.0753 15.0486 32.5501 16.8134"
-              stroke="#6C9D30"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-            />
-            <path
-              d="M12.4625 21.1413C14.2621 24.8218 17.2449 27.7917 20.933 29.5755C21.2031 29.7034 21.5018 29.7587 21.7998 29.7359C22.0977 29.713 22.3846 29.6129 22.632 29.4453L28.0639 25.8252C28.3038 25.665 28.5799 25.5672 28.8671 25.5405C29.1544 25.5139 29.4437 25.5592 29.709 25.6725L39.8699 30.0284C40.215 30.175 40.5032 30.4298 40.691 30.7544C40.8788 31.079 40.9561 31.4558 40.9112 31.828C40.5895 34.3409 39.3631 36.6504 37.4616 38.3242C35.56 39.998 33.1135 40.9214 30.5802 40.9216C22.7558 40.9216 15.2518 37.8134 9.71909 32.2807C4.18637 26.748 1.07813 19.244 1.07812 11.4195C1.07836 8.8864 2.00185 6.4402 3.67571 4.5389C5.34957 2.6376 7.65903 1.41156 10.1717 1.09033C10.544 1.04543 10.9208 1.1227 11.2454 1.31049C11.5699 1.49829 11.8247 1.78645 11.9713 2.13158L16.3307 12.3011C16.4428 12.5639 16.4883 12.8503 16.4632 13.1348C16.4381 13.4194 16.3431 13.6934 16.1867 13.9324L12.577 19.4476C12.4132 19.6959 12.3165 19.9825 12.2964 20.2794C12.2764 20.5762 12.3336 20.8732 12.4625 21.1413V21.1413Z"
-              stroke="#6C9D30"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-            />
-          </svg>
           <div
-            class="flex flex-col gap-1 text-center dark:text-white"
+            class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+            data-slot="card-header"
           >
-            <span
-              class="text-base"
+            <img
+              alt="img product"
+              class="w-full h-full max-w-[190px] max-h-[260px]"
+              src="/public/assets/product.svg"
+            />
+          </div>
+          <div
+            class=""
+            data-slot="card-content"
+          >
+            <div
+              class="font-semibold text-base"
+              data-slot="card-title"
             >
-              (219) 555-0114
-            </span>
-            <span
-              class="text-base"
-            >
-              (164) 333-0487
-            </span>
+              Lorem ipsum
+            </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+  <div
+    class="max-w-[1320px] mx-auto px-10 mt-[60px]"
+  >
+    <section
+      class="max-w-[1320px] mx-auto"
+    >
       <div
-        class="bg-card text-card-foreground flex flex-col gap-6 p-5 dark:bg-zinc-800 w-full shadow-xl rounded-[10px]"
-        data-slot="card"
+        class="flex flex-col text-center gap-3.5 mb-4 items-center"
+      >
+        <h3
+          class="text-[46px] text-[#484848] dark:text-white"
+        >
+          New Arrivals
+        </h3>
+        <p
+          class="text-lg text-[#8A8A8A] w-full max-w-[746px]"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
+        </p>
+      </div>
+      <div
+        class="flex flex-col gap-[50px]"
+        data-orientation="horizontal"
+        data-slot="tabs"
+        dir="ltr"
       >
         <div
-          class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
-          data-slot="card-header"
+          class="flex justify-center w-full overflow-x-auto whitespace-nowrap"
         >
-          <h3
-            class="text-2xl font-bold text-black dark:text-white"
+          <div
+            aria-orientation="horizontal"
+            class="bg-muted text-muted-foreground inline-flex w-fit items-center justify-center rounded-lg p-[3px] gap-4"
+            data-orientation="horizontal"
+            data-slot="tabs-list"
+            role="tablist"
+            style="outline: none;"
+            tabindex="0"
           >
-            Just Say Hello!
-          </h3>
-          <p
-            class="text-sm font-normal text-[#808080]"
-          >
-            Do you fancy saying hi to me or you want to get started with your project and you need my help? Feel free to contact me.
-          </p>
+            <button
+              aria-controls="radix-«r2»-content-lorem1"
+              aria-selected="true"
+              class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+              data-orientation="horizontal"
+              data-radix-collection-item=""
+              data-slot="tabs-trigger"
+              data-state="active"
+              id="radix-«r2»-trigger-lorem1"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              Lorem ipsum
+            </button>
+            <button
+              aria-controls="radix-«r2»-content-lorem2"
+              aria-selected="false"
+              class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+              data-orientation="horizontal"
+              data-radix-collection-item=""
+              data-slot="tabs-trigger"
+              data-state="inactive"
+              id="radix-«r2»-trigger-lorem2"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              Dolor sit
+            </button>
+            <button
+              aria-controls="radix-«r2»-content-lorem3"
+              aria-selected="false"
+              class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+              data-orientation="horizontal"
+              data-radix-collection-item=""
+              data-slot="tabs-trigger"
+              data-state="inactive"
+              id="radix-«r2»-trigger-lorem3"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              Amet consectetur
+            </button>
+            <button
+              aria-controls="radix-«r2»-content-lorem4"
+              aria-selected="false"
+              class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+              data-orientation="horizontal"
+              data-radix-collection-item=""
+              data-slot="tabs-trigger"
+              data-state="inactive"
+              id="radix-«r2»-trigger-lorem4"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              Adipiscing elit
+            </button>
+            <button
+              aria-controls="radix-«r2»-content-lorem5"
+              aria-selected="false"
+              class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-[#8A8A8A] dark:text-muted-foreground inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+              data-orientation="horizontal"
+              data-radix-collection-item=""
+              data-slot="tabs-trigger"
+              data-state="inactive"
+              id="radix-«r2»-trigger-lorem5"
+              role="tab"
+              tabindex="-1"
+              type="button"
+            >
+              Sed do eiusmod
+            </button>
+          </div>
         </div>
         <div
-          class=""
-          data-slot="card-content"
+          class="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start"
         >
-          <form
-            class="flex flex-col gap-3"
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem1"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="active"
+            id="radix-«r2»-content-lorem1"
+            role="tabpanel"
+            style="animation-duration: 0s;"
+            tabindex="0"
           >
             <div
-              class="flex gap-4"
+              class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+              data-slot="card"
             >
               <div
-                class="grid w-full items-center gap-3"
-              >
-                <label
-                  class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
-                  data-slot="label"
-                >
-                  Name
-                </label>
-                <input
-                  class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 rounded-[10px] border border-[#E2E2E2] py-4 px-3"
-                  data-slot="input"
-                  name="name"
-                  placeholder="Name"
-                  type="text"
-                />
-              </div>
-              <div
-                class="grid w-full items-center gap-3"
-              >
-                <label
-                  class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
-                  data-slot="label"
-                >
-                  Phone Number
-                </label>
-                <input
-                  class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 rounded-[10px] border border-[#E2E2E2] py-4 px-3"
-                  data-slot="input"
-                  name="phone number"
-                  placeholder="Phone Number"
-                  type="number"
-                />
-              </div>
-            </div>
-            <div
-              class="grid w-full items-center gap-3"
-            >
-              <label
-                class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
-                data-slot="label"
-              >
-                Email
-              </label>
-              <input
-                class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 rounded-[10px] border border-[#E2E2E2] py-4 px-3"
-                data-slot="input"
-                name="email"
-                placeholder="Email"
-                type="email"
-              />
-            </div>
-            <div
-              class="flex gap-4"
-            >
-              <div
-                class="flex flex-col gap-3"
+                class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+                data-slot="card-header"
               >
                 <div
-                  aria-controls="radix-«r2»"
-                  aria-expanded="false"
-                  aria-haspopup="dialog"
-                  class="relative w-max"
-                  data-slot="popover-trigger"
-                  data-state="closed"
-                  type="button"
+                  class="relative"
                 >
-                  <div
-                    class="grid w-full items-center gap-3"
-                  >
-                    <label
-                      class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
-                      data-slot="label"
-                    >
-                      Date
-                    </label>
-                    <input
-                      class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 rounded-[10px] border border-[#E2E2E2] py-4 px-3 pr-8 cursor-pointer"
-                      data-slot="input"
-                      id="date-picker"
-                      name="date"
-                      placeholder="Select date"
-                      readonly=""
-                      type="text"
-                      value=""
-                    />
-                  </div>
-                  <span
-                    class="absolute right-3 top-[60%] -translate-y-1/2 pointer-events-none"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      class="lucide lucide-chevron-down"
-                      fill="none"
-                      height="16"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                      width="16"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="m6 9 6 6 6-6"
-                      />
-                    </svg>
-                  </span>
-                </div>
-              </div>
-              <div
-                class="flex flex-col gap-3"
-              >
-                <div
-                  class="grid w-full items-center gap-3"
-                >
-                  <label
-                    class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
-                    data-slot="label"
-                  >
-                    Time
-                  </label>
-                  <input
-                    class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 rounded-[10px] border border-[#E2E2E2] py-4 px-3 bg-background appearance-none [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
-                    data-slot="input"
-                    id="time-picker"
-                    name="time picker"
-                    placeholder=""
-                    step="60"
-                    type="time"
-                    value="16:17"
+                  <img
+                    alt="img product"
+                    src="https://picsum.photos/seed/1/354/244"
                   />
                 </div>
               </div>
-            </div>
-            <div
-              class="flex flex-col gap-3"
-            >
-              <label
-                class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
-                data-slot="label"
+              <div
+                class="flex flex-col gap-6"
+                data-slot="card-content"
               >
-                Subject
-              </label>
-              <textarea
-                class="placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 flex field-sizing-content w-full bg-transparent text-base shadow-xs transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 md:text-sm px-3 py-4 border border-[#E2E2E2] rounded-[10px] min-h-[180px] dark:text-white"
-                data-slot="textarea"
-                placeholder="Subject"
-              />
+                <div
+                  class="flex gap-2 justify-between items-center"
+                >
+                  <div>
+                    <div
+                      class="font-semibold text-xl dark:text-white"
+                      data-slot="card-title"
+                    >
+                      Lorem ipsum 1
+                    </div>
+                    <div
+                      class="text-xs text-[#8A8A8A]"
+                      data-slot="card-description"
+                    >
+                      Al Karam
+                    </div>
+                  </div>
+                  <div
+                    class="flex gap-1"
+                  >
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  class="text-muted-foreground text-xs dark:text-white"
+                  data-slot="card-description"
+                >
+                  (4.1k) Customer Reviews
+                </div>
+                <div
+                  class="flex justify-between items-center"
+                >
+                  <div
+                    class="text-muted-foreground text-2xl font-bold dark:text-white"
+                    data-slot="card-description"
+                  >
+                    $95.50
+                  </div>
+                  <div
+                    class="text-xs text-[#FF4646]"
+                    data-slot="card-description"
+                  >
+                    Almost Sold Out
+                  </div>
+                </div>
+              </div>
             </div>
-            <button
-              class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-[10px] px-[30px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-[177px] text-base cursor-not-allowed"
-              data-slot="button"
-              disabled=""
+          </div>
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem1"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="active"
+            id="radix-«r2»-content-lorem1"
+            role="tabpanel"
+            style="animation-duration: 0s;"
+            tabindex="0"
+          >
+            <div
+              class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+              data-slot="card"
             >
-              SEND MESSAGE
-            </button>
-          </form>
+              <div
+                class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+                data-slot="card-header"
+              >
+                <div
+                  class="relative"
+                >
+                  <img
+                    alt="img product"
+                    src="https://picsum.photos/seed/2/354/244"
+                  />
+                </div>
+              </div>
+              <div
+                class="flex flex-col gap-6"
+                data-slot="card-content"
+              >
+                <div
+                  class="flex gap-2 justify-between items-center"
+                >
+                  <div>
+                    <div
+                      class="font-semibold text-xl dark:text-white"
+                      data-slot="card-title"
+                    >
+                      Lorem ipsum 2
+                    </div>
+                    <div
+                      class="text-xs text-[#8A8A8A]"
+                      data-slot="card-description"
+                    >
+                      Al Karam
+                    </div>
+                  </div>
+                  <div
+                    class="flex gap-1"
+                  >
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  class="text-muted-foreground text-xs dark:text-white"
+                  data-slot="card-description"
+                >
+                  (3.2k) Customer Reviews
+                </div>
+                <div
+                  class="flex justify-between items-center"
+                >
+                  <div
+                    class="text-muted-foreground text-2xl font-bold dark:text-white"
+                    data-slot="card-description"
+                  >
+                    $55.50
+                  </div>
+                  <div
+                    class="text-xs text-[#FF4646]"
+                    data-slot="card-description"
+                  >
+                    Almost Sold Out
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem1"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="active"
+            id="radix-«r2»-content-lorem1"
+            role="tabpanel"
+            style="animation-duration: 0s;"
+            tabindex="0"
+          >
+            <div
+              class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+              data-slot="card"
+            >
+              <div
+                class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+                data-slot="card-header"
+              >
+                <div
+                  class="relative"
+                >
+                  <img
+                    alt="img product"
+                    src="https://picsum.photos/seed/3/354/244"
+                  />
+                </div>
+              </div>
+              <div
+                class="flex flex-col gap-6"
+                data-slot="card-content"
+              >
+                <div
+                  class="flex gap-2 justify-between items-center"
+                >
+                  <div>
+                    <div
+                      class="font-semibold text-xl dark:text-white"
+                      data-slot="card-title"
+                    >
+                      Lorem ipsum 3
+                    </div>
+                    <div
+                      class="text-xs text-[#8A8A8A]"
+                      data-slot="card-description"
+                    >
+                      Al Karam
+                    </div>
+                  </div>
+                  <div
+                    class="flex gap-1"
+                  >
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  class="text-muted-foreground text-xs dark:text-white"
+                  data-slot="card-description"
+                >
+                  (1.1k) Customer Reviews
+                </div>
+                <div
+                  class="flex justify-between items-center"
+                >
+                  <div
+                    class="text-muted-foreground text-2xl font-bold dark:text-white"
+                    data-slot="card-description"
+                  >
+                    $45.50
+                  </div>
+                  <div
+                    class="text-xs text-[#FF4646]"
+                    data-slot="card-description"
+                  >
+                    Almost Sold Out
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem1"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="active"
+            id="radix-«r2»-content-lorem1"
+            role="tabpanel"
+            style="animation-duration: 0s;"
+            tabindex="0"
+          >
+            <div
+              class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+              data-slot="card"
+            >
+              <div
+                class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+                data-slot="card-header"
+              >
+                <div
+                  class="relative"
+                >
+                  <img
+                    alt="img product"
+                    src="https://picsum.photos/seed/4/354/244"
+                  />
+                </div>
+              </div>
+              <div
+                class="flex flex-col gap-6"
+                data-slot="card-content"
+              >
+                <div
+                  class="flex gap-2 justify-between items-center"
+                >
+                  <div>
+                    <div
+                      class="font-semibold text-xl dark:text-white"
+                      data-slot="card-title"
+                    >
+                      Lorem ipsum 4
+                    </div>
+                    <div
+                      class="text-xs text-[#8A8A8A]"
+                      data-slot="card-description"
+                    >
+                      Al Karam
+                    </div>
+                  </div>
+                  <div
+                    class="flex gap-1"
+                  >
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  class="text-muted-foreground text-xs dark:text-white"
+                  data-slot="card-description"
+                >
+                  (2.9k) Customer Reviews
+                </div>
+                <div
+                  class="flex justify-between items-center"
+                >
+                  <div
+                    class="text-muted-foreground text-2xl font-bold dark:text-white"
+                    data-slot="card-description"
+                  >
+                    $75.50
+                  </div>
+                  <div
+                    class="text-xs text-[#FF4646]"
+                    data-slot="card-description"
+                  >
+                    Almost Sold Out
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem1"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="active"
+            id="radix-«r2»-content-lorem1"
+            role="tabpanel"
+            style="animation-duration: 0s;"
+            tabindex="0"
+          >
+            <div
+              class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+              data-slot="card"
+            >
+              <div
+                class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+                data-slot="card-header"
+              >
+                <div
+                  class="relative"
+                >
+                  <img
+                    alt="img product"
+                    src="https://picsum.photos/seed/5/354/244"
+                  />
+                </div>
+              </div>
+              <div
+                class="flex flex-col gap-6"
+                data-slot="card-content"
+              >
+                <div
+                  class="flex gap-2 justify-between items-center"
+                >
+                  <div>
+                    <div
+                      class="font-semibold text-xl dark:text-white"
+                      data-slot="card-title"
+                    >
+                      Lorem ipsum 5
+                    </div>
+                    <div
+                      class="text-xs text-[#8A8A8A]"
+                      data-slot="card-description"
+                    >
+                      Al Karam
+                    </div>
+                  </div>
+                  <div
+                    class="flex gap-1"
+                  >
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  class="text-muted-foreground text-xs dark:text-white"
+                  data-slot="card-description"
+                >
+                  (4.8k) Customer Reviews
+                </div>
+                <div
+                  class="flex justify-between items-center"
+                >
+                  <div
+                    class="text-muted-foreground text-2xl font-bold dark:text-white"
+                    data-slot="card-description"
+                  >
+                    $95.50
+                  </div>
+                  <div
+                    class="text-xs text-[#FF4646]"
+                    data-slot="card-description"
+                  >
+                    Almost Sold Out
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem1"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="active"
+            id="radix-«r2»-content-lorem1"
+            role="tabpanel"
+            style="animation-duration: 0s;"
+            tabindex="0"
+          >
+            <div
+              class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+              data-slot="card"
+            >
+              <div
+                class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+                data-slot="card-header"
+              >
+                <div
+                  class="relative"
+                >
+                  <img
+                    alt="img product"
+                    src="https://picsum.photos/seed/6/354/244"
+                  />
+                </div>
+              </div>
+              <div
+                class="flex flex-col gap-6"
+                data-slot="card-content"
+              >
+                <div
+                  class="flex gap-2 justify-between items-center"
+                >
+                  <div>
+                    <div
+                      class="font-semibold text-xl dark:text-white"
+                      data-slot="card-title"
+                    >
+                      Lorem ipsum 6
+                    </div>
+                    <div
+                      class="text-xs text-[#8A8A8A]"
+                      data-slot="card-description"
+                    >
+                      Al Karam
+                    </div>
+                  </div>
+                  <div
+                    class="flex gap-1"
+                  >
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                    <svg
+                      fill="none"
+                      height="19px"
+                      viewBox="0 0 20 19"
+                      width="20px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clip-rule="evenodd"
+                        d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                        fill="#FCA120"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  class="text-muted-foreground text-xs dark:text-white"
+                  data-slot="card-description"
+                >
+                  (3.5k) Customer Reviews
+                </div>
+                <div
+                  class="flex justify-between items-center"
+                >
+                  <div
+                    class="text-muted-foreground text-2xl font-bold dark:text-white"
+                    data-slot="card-description"
+                  >
+                    $85.50
+                  </div>
+                  <div
+                    class="text-xs text-[#FF4646]"
+                    data-slot="card-description"
+                  >
+                    Almost Sold Out
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem2"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem2"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem2"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem2"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem2"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem2"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem2"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem2"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem2"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem2"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem2"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem2"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem3"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem3"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem3"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem3"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem3"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem3"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem3"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem3"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem3"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem3"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem3"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem3"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem4"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem4"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem4"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem4"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem4"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem4"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem4"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem4"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem4"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem4"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem4"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem4"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem5"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem5"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem5"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem5"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem5"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem5"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem5"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem5"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem5"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem5"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem5"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem5"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem6"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem6"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem6"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem6"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem6"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem6"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem6"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem6"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem6"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem6"
+            role="tabpanel"
+            tabindex="0"
+          />
+          <div
+            aria-labelledby="radix-«r2»-trigger-lorem6"
+            class="flex-1 outline-none"
+            data-orientation="horizontal"
+            data-slot="tabs-content"
+            data-state="inactive"
+            hidden=""
+            id="radix-«r2»-content-lorem6"
+            role="tabpanel"
+            tabindex="0"
+          />
+        </div>
+      </div>
+      <div
+        class="flex justify-center mt-[50px]"
+      >
+        <button
+          class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse"
+          data-slot="button"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 25 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="fill-current"
+              clip-rule="evenodd"
+              d="M9.62588 17.8644C9.58598 17.8216 9.55432 17.7706 9.53272 17.7146C9.51112 17.6585 9.5 17.5984 9.5 17.5377C9.5 17.477 9.51112 17.4169 9.53272 17.3608C9.55432 17.3048 9.58598 17.2538 9.62588 17.211L14.4649 11.9999L9.62588 6.7888C9.58604 6.74589 9.55444 6.69495 9.53288 6.63889C9.51132 6.58283 9.50022 6.52275 9.50022 6.46207C9.50022 6.40139 9.51132 6.3413 9.53288 6.28524C9.55444 6.22918 9.58604 6.17824 9.62588 6.13534C9.66571 6.09243 9.71301 6.05839 9.76506 6.03517C9.8171 6.01195 9.87289 6 9.92923 6C9.98557 6 10.0414 6.01195 10.0934 6.03517C10.1454 6.05839 10.1927 6.09243 10.2326 6.13534L15.3741 11.6731C15.414 11.716 15.4457 11.7669 15.4673 11.823C15.4889 11.8791 15.5 11.9392 15.5 11.9999C15.5 12.0606 15.4889 12.1207 15.4673 12.1768C15.4457 12.2328 15.414 12.2837 15.3741 12.3266L10.2326 17.8644C10.1928 17.9074 10.1455 17.9415 10.0934 17.9648C10.0414 17.988 9.98559 18 9.92923 18C9.87287 18 9.81707 17.988 9.76501 17.9648C9.71296 17.9415 9.66568 17.9074 9.62588 17.8644Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          View More
+        </button>
+      </div>
+    </section>
+    <section
+      class="grid grid-cols-1 min-[600px]:grid-cols-2 gap-5 min-[1090px]:grid-cols-4 my-[60px]"
+    >
+      <div
+        class="flex gap-[13px]"
+      >
+        <svg
+          class="text-black dark:text-white"
+          fill="none"
+          height="50px"
+          viewBox="0 0 51 50"
+          width="51px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="fill-current"
+            d="M17.2072 15.3743L16.0772 21.9632C16.0178 22.2726 16.0471 22.5925 16.1617 22.8858C16.2764 23.179 16.4716 23.4335 16.7247 23.6196C16.9736 23.8068 17.2697 23.9204 17.5794 23.9475C17.8892 23.9746 18.2004 23.9142 18.4778 23.773L24.586 20.7055L30.3767 23.7362C30.6531 23.8859 30.9659 23.9545 31.2793 23.934C31.5926 23.9136 31.894 23.805 32.1488 23.6208C32.4037 23.4365 32.6018 23.1839 32.7205 22.8918C32.8392 22.5998 32.8736 22.2801 32.82 21.9693L31.6899 15.4049L36.4422 10.7362C36.6656 10.5183 36.8237 10.2419 36.8988 9.93831C36.9738 9.63473 36.9627 9.31611 36.8667 9.01855C36.7707 8.72098 36.5936 8.45637 36.3556 8.25468C36.1175 8.05298 35.828 7.92227 35.5198 7.87735L28.8924 6.90802L25.9359 0.920302C25.7958 0.641439 25.5809 0.407484 25.3153 0.244869C25.0498 0.0822528 24.7443 -0.00254379 24.4333 5.81273e-05C24.1234 -0.00139847 23.8191 0.0839385 23.5548 0.246491C23.2904 0.409043 23.0764 0.642377 22.9368 0.920302L19.9743 6.90802L13.3468 7.86508C13.0356 7.90727 12.7425 8.03689 12.5014 8.239C12.2603 8.44111 12.0809 8.7075 11.9839 9.0075C11.8869 9.3075 11.8762 9.62892 11.9531 9.93476C12.0299 10.2406 12.1912 10.5184 12.4184 10.7362L17.2072 15.3743ZM20.7073 8.66262C20.851 8.63849 20.987 8.58026 21.1038 8.49276C21.2207 8.40527 21.3151 8.29104 21.3792 8.15955L24.4333 2.02459L27.4874 8.15955C27.5533 8.29333 27.6505 8.40902 27.7707 8.49666C27.891 8.5843 28.0306 8.64126 28.1777 8.66262L34.9456 9.64421L30.059 14.3927C29.9515 14.4964 29.8708 14.625 29.824 14.7672C29.7771 14.9094 29.7656 15.0609 29.7903 15.2086L30.9447 21.9264L25.0258 18.8282C24.8964 18.7615 24.7529 18.7267 24.6074 18.7267C24.4619 18.7267 24.3184 18.7615 24.189 18.8282L17.9586 21.9693L19.1191 15.2209C19.1395 15.0736 19.124 14.9236 19.074 14.7836C19.024 14.6436 18.941 14.5179 18.832 14.4172L13.9454 9.66875L20.7073 8.66262Z"
+          />
+          <path
+            class="fill-current"
+            d="M50.0878 27.3007C49.781 26.9447 49.4072 26.6531 48.9879 26.4425C48.5687 26.232 48.1121 26.1066 47.6445 26.0737C47.177 26.0414 46.7077 26.1041 46.2649 26.258C45.822 26.4119 45.4145 26.6538 45.0668 26.9694L36.6068 34.6013C36.5848 34.4317 36.5522 34.2637 36.5091 34.0982C36.367 33.5666 36.1122 33.0722 35.7622 32.6486C35.4121 32.2251 34.9752 31.8825 34.4812 31.6442C32.9113 30.9817 30.7307 31.2884 28.6233 31.5951C27.3908 31.8375 26.1319 31.9159 24.879 31.8283C24.3214 31.6878 23.7822 31.4818 23.2725 31.2148C21.6721 30.497 19.4793 29.5154 15.3989 30.4172C13.2923 30.9637 11.3573 32.0357 9.77323 33.5338V31.2884C9.77323 31.0443 9.6767 30.8103 9.50487 30.6377C9.33304 30.4651 9.09999 30.3682 8.85699 30.3682H0.91624C0.673238 30.3682 0.440189 30.4651 0.26836 30.6377C0.0965321 30.8103 0 31.0443 0 31.2884V49.0798C0 49.3238 0.0965321 49.5579 0.26836 49.7305C0.440189 49.9031 0.673238 50 0.91624 50H8.85699C9.09999 50 9.33304 49.9031 9.50487 49.7305C9.6767 49.5579 9.77323 49.3238 9.77323 49.0798V47.8037C10.9949 48.092 16.5412 49.3865 20.6398 49.3865C24.9156 49.3865 30.1443 48.4049 33.3634 47C39.2945 44.4172 49.0616 33.27 49.8557 32.3681C50.5437 31.7201 50.9528 30.8281 50.9962 29.8817C51.0395 28.9354 50.7136 28.0094 50.0878 27.3007ZM7.94075 48.1595H1.83248V32.2086H7.94075V48.1595ZM48.5852 31.0369L48.4996 31.1228C48.3958 31.2393 38.305 42.8467 32.6182 45.319C29.6251 46.6258 24.6896 47.546 20.6398 47.546C16.364 47.546 10.0542 45.9755 9.99313 45.9632C9.9201 45.9543 9.84626 45.9543 9.77323 45.9632V36.1473C10.439 35.3804 12.7907 32.8896 15.796 32.227C19.2899 31.4602 21.0124 32.227 22.5151 32.908C23.1633 33.2287 23.8486 33.4678 24.5552 33.6197C25.9978 33.7563 27.4525 33.6819 28.8738 33.3988C30.6513 33.1534 32.667 32.8712 33.7604 33.3313C33.9955 33.4671 34.201 33.6489 34.3647 33.866C34.5284 34.0831 34.6469 34.3311 34.7133 34.5951C34.802 34.9573 34.8034 35.3355 34.7174 35.6982C34.6313 36.061 34.4603 36.398 34.2185 36.681C32.8258 38.5583 24.3537 41.3681 20.8781 41.0921C20.6351 41.0734 20.3946 41.1524 20.2096 41.3117C20.0246 41.4711 19.9102 41.6977 19.8916 41.9418C19.8729 42.1858 19.9516 42.4273 20.1103 42.6131C20.2689 42.7989 20.4946 42.9138 20.7376 42.9326C20.9269 42.9326 21.1346 42.9326 21.3484 42.9326C25.1416 42.9326 32.386 40.6872 35.037 38.4418L35.1042 38.4049L46.2457 28.3436C46.5805 28.0441 47.0197 27.8897 47.4674 27.9142C47.7016 27.9284 47.9306 27.9901 48.1406 28.0956C48.3505 28.201 48.5371 28.348 48.689 28.5277C49.0027 28.8761 49.1676 29.3343 49.1482 29.8036C49.1287 30.2729 48.9266 30.7158 48.5852 31.0369Z"
+          />
+        </svg>
+        <div
+          class="flex flex-col"
+        >
+          <p
+            class="text-xl text-charcoalGray-50 dark:text-white"
+          >
+            High Quality
+          </p>
+          <p
+            class="text-base font-normal text-charcoalGray-50 dark:text-[#8A8A8A]"
+          >
+            crafted from top materials
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex gap-[13px]"
+      >
+        <svg
+          class="text-black dark:text-white"
+          fill="none"
+          height="50px"
+          viewBox="0 0 39 50"
+          width="38px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="fill-current"
+            d="M38.1102 18.2508L34.8536 14.6943L35.8726 10.0042C35.9671 9.58818 35.715 9.1722 35.3053 9.03701L30.6935 7.56032L29.2123 2.99501C29.0757 2.58943 28.6555 2.35025 28.2353 2.43344L23.4975 3.44218L19.9047 0.218386C19.5895 -0.0727954 19.0958 -0.0727954 18.7806 0.218386L15.1878 3.44218L10.45 2.43344C10.0298 2.33985 9.60958 2.58943 9.47301 2.99501L7.98127 7.56032L3.35898 9.03701C2.94928 9.1722 2.70767 9.58818 2.79171 10.0042L3.81071 14.6943L0.554105 18.2508C0.25996 18.5628 0.25996 19.0516 0.554105 19.3636L3.81071 22.9201L2.79171 27.6102C2.69717 28.0262 2.94928 28.4422 3.35898 28.5774L7.97077 30.0541L8.15986 30.6468L2.67616 45.6947C2.55009 46.0275 2.65515 46.4018 2.93879 46.6202C3.21191 46.8386 3.6006 46.8698 3.90525 46.6826L9.50453 43.2924L11.6161 49.4384C11.7316 49.7712 12.0468 50 12.404 50H12.4145C12.7716 50 13.0868 49.7816 13.2024 49.4488L17.8982 36.5953L18.7806 37.3856C18.9382 37.5312 19.1378 37.604 19.3479 37.604C19.558 37.604 19.7471 37.5312 19.9152 37.3856L20.7976 36.5953L25.4934 49.4488C25.609 49.7816 25.9347 50 26.2813 50H26.2918C26.649 50 26.9642 49.7712 27.0797 49.4384L29.1913 43.2924L34.7905 46.6826C35.0952 46.8698 35.4839 46.8386 35.757 46.6202C36.0302 46.4018 36.1352 46.0275 36.0197 45.6947L30.5254 30.6572L30.7145 30.0645L35.3263 28.5878C35.736 28.4526 35.9776 28.0366 35.8936 27.6206L34.8746 22.9305L38.1312 19.374C38.4043 19.0516 38.4043 18.5732 38.1102 18.2508ZM12.425 46.6618L10.7441 41.7741C10.6601 41.5349 10.471 41.3478 10.2294 41.2542C9.98777 41.1606 9.72513 41.1918 9.50453 41.327L5.05032 44.0204L8.98977 33.2363L9.44149 34.6194C9.57806 35.025 9.99827 35.2641 10.4185 35.1809L15.1563 34.1722L16.522 35.3993L12.425 46.6618ZM33.6035 44.0308L29.1493 41.3374C28.9286 41.2022 28.666 41.1814 28.4244 41.2646C28.1828 41.3478 27.9937 41.5349 27.9096 41.7845L26.2288 46.6722L22.1108 35.4097L23.4764 34.1826L28.2143 35.1913C28.6345 35.2849 29.0547 35.0354 29.1913 34.6298L29.643 33.2467L33.6035 44.0308ZM33.3303 22.1298C33.1517 22.3274 33.0782 22.5977 33.1307 22.8577L34.0762 27.2359L29.7796 28.6086C29.5274 28.6918 29.3173 28.8893 29.2333 29.1493L28.8236 30.3972L27.8466 33.4027L23.4239 32.4667C23.1613 32.4147 22.8882 32.4875 22.6886 32.6643L19.3374 35.6593L15.9862 32.6539C15.8287 32.5187 15.6291 32.4355 15.419 32.4355C15.3559 32.4355 15.3034 32.4459 15.2404 32.4563L10.8177 33.3923L9.84069 30.3869L9.43099 29.1389C9.34695 28.8893 9.14735 28.6814 8.88472 28.5982L4.5986 27.2359L5.54406 22.8577C5.59659 22.5977 5.52305 22.3274 5.34447 22.1298L2.31898 18.8124L5.35497 15.495C5.53356 15.2974 5.6071 15.027 5.55457 14.767L4.6091 10.3889L8.90573 9.01621C9.15785 8.93302 9.36796 8.73544 9.452 8.47546L10.8282 4.22213L15.2509 5.15807C15.5135 5.21007 15.7866 5.13727 15.9862 4.96048L19.3374 1.96547L22.6886 4.97088C22.8882 5.14767 23.1613 5.22047 23.4239 5.16847L27.8466 4.23253L29.2333 8.48586C29.3173 8.73544 29.5169 8.94342 29.7796 9.02661L34.0762 10.3993L33.1307 14.7774C33.0782 15.0374 33.1517 15.3078 33.3303 15.5054L36.3558 18.8124L33.3303 22.1298Z"
+          />
+          <path
+            class="fill-current"
+            d="M19.3377 6.74915C12.3832 6.74915 6.73145 12.344 6.73145 19.2283C6.73145 26.1127 12.3832 31.7076 19.3377 31.7076C26.2921 31.7076 31.9439 26.1127 31.9439 19.2283C31.9439 12.344 26.2921 6.74915 19.3377 6.74915ZM19.3377 30.0437C13.3182 30.0437 8.41228 25.1872 8.41228 19.2283C8.41228 13.2695 13.3182 8.41304 19.3377 8.41304C25.3572 8.41304 30.2631 13.2695 30.2631 19.2283C30.2631 25.1872 25.3572 30.0437 19.3377 30.0437Z"
+          />
+          <path
+            class="fill-current"
+            d="M24.0332 13.0511L16.8161 20.1227L14.6415 17.9908C13.9902 17.3565 12.9292 17.3565 12.2674 17.9908L10.9332 19.2907C10.618 19.6027 10.4395 20.0187 10.4395 20.4659C10.4395 20.913 10.618 21.329 10.9332 21.641L15.629 26.2375C15.9547 26.5599 16.3854 26.7159 16.8161 26.7159C17.2468 26.7159 17.6775 26.5599 18.0032 26.2375L27.7415 16.7117C28.0567 16.3997 28.2353 15.9838 28.2353 15.5366C28.2353 15.0894 28.0567 14.6734 27.7415 14.3615L26.4074 13.0615C25.756 12.4168 24.6845 12.4168 24.0332 13.0511ZM18.7491 23.1697L16.8161 25.052L12.1308 20.4659L13.465 19.1763L16.2278 21.8802C16.5535 22.2026 17.0787 22.2026 17.4044 21.8802L25.2203 14.2367L24.632 13.6439L26.5544 15.5262L18.7491 23.1697Z"
+          />
+        </svg>
+        <div
+          class="flex flex-col"
+        >
+          <p
+            class="text-xl text-charcoalGray-50 dark:text-white"
+          >
+            Warrany Protection
+          </p>
+          <p
+            class="text-base font-normal text-charcoalGray-50 dark:text-[#8A8A8A]"
+          >
+            Over 2 years
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex gap-[13px]"
+      >
+        <svg
+          class="text-black dark:text-white"
+          fill="none"
+          height="50px"
+          viewBox="0 0 47 50"
+          width="46px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="fill-current"
+            d="M46.2245 12.1712L24.0764 0.101156C23.9531 0.0347358 23.8156 0 23.676 0C23.5364 0 23.3989 0.0347358 23.2756 0.101156L1.12748 12.1712C0.989864 12.2434 0.87431 12.3522 0.793256 12.4858C0.712194 12.6195 0.668707 12.7731 0.66748 12.9299V37.07C0.667889 37.226 0.710099 37.3789 0.789602 37.5126C0.869114 37.6461 0.982938 37.7554 1.11896 37.8287L23.2671 49.8988C23.3904 49.9653 23.5279 50 23.6675 50C23.8071 50 23.9446 49.9653 24.0679 49.8988L46.216 37.8287C46.352 37.7554 46.4658 37.6461 46.5453 37.5126C46.6249 37.3789 46.6671 37.226 46.6675 37.07V12.9299C46.6679 12.7748 46.6269 12.6225 46.549 12.489C46.471 12.3554 46.3589 12.2457 46.2245 12.1712ZM23.6675 1.84269L44.0267 12.9299L38.0638 16.1802L18.4116 4.70502L23.6675 1.84269ZM3.30822 12.9299L9.72267 9.4813L29.3664 20.9134L23.6675 24.0171L3.30822 12.9299ZM16.6482 5.66201L36.3004 17.1372L31.1297 19.9564L11.486 8.47259L16.6482 5.66201ZM32.2627 21.2927L36.8967 18.7753V25.2069L35.1078 23.4136C35.0084 23.3137 34.8863 23.2401 34.752 23.1994C34.6179 23.1587 34.4758 23.1521 34.3385 23.1802C34.2011 23.2084 34.0728 23.2704 33.9648 23.3607C33.8568 23.451 33.7725 23.5669 33.7193 23.6981L32.2627 27.2502V21.2927ZM2.37118 14.3697L22.8156 25.5173V47.7003L2.37118 36.5527V14.3697ZM24.5193 47.7003V25.5173L30.559 22.2238V31.5868C30.5688 31.7798 30.6425 31.964 30.7682 32.1095C30.8938 32.2551 31.0642 32.3536 31.2519 32.3895C31.4396 32.4253 31.6337 32.3962 31.8031 32.3069C31.9725 32.2176 32.1074 32.0734 32.186 31.8971L34.7927 25.5259L37.1267 27.8709C37.2459 27.9926 37.3981 28.0754 37.564 28.1091C37.7299 28.1428 37.9019 28.1258 38.0582 28.0601C38.2145 27.9944 38.3479 27.8832 38.4414 27.7404C38.5349 27.5977 38.5844 27.43 38.5834 27.2588V17.8441L44.9553 14.3955V36.5527L24.5193 47.7003Z"
+          />
+        </svg>
+        <div
+          class="flex flex-col"
+        >
+          <p
+            class="text-xl text-charcoalGray-50 dark:text-white"
+          >
+            Free Shipping
+          </p>
+          <p
+            class="text-base font-normal text-charcoalGray-50 dark:text-[#8A8A8A]"
+          >
+            Order over 150 $
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex gap-[13px]"
+      >
+        <svg
+          class="text-black dark:text-white"
+          fill="none"
+          height="50px"
+          viewBox="0 0 50 50"
+          width="50px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="fill-current"
+            d="M40.8581 26.9042C40.3871 26.4333 39.7484 26.1688 39.0823 26.1688C38.4163 26.1688 37.7776 26.4333 37.3065 26.9042L34.938 29.2727C34.933 29.2727 34.9313 29.2836 34.9271 29.2878L33.755 30.4541C33.3675 30.844 32.9068 31.1535 32.3993 31.3646C31.8918 31.5758 31.3475 31.6846 30.7979 31.6846C30.2482 31.6846 29.7039 31.5758 29.1964 31.3646C28.6889 31.1535 28.2282 30.844 27.8408 30.4541L19.5521 22.1654C19.1621 21.7779 18.8526 21.317 18.6415 20.8094C18.4302 20.3017 18.3215 19.7573 18.3215 19.2075C18.3215 18.6577 18.4302 18.1133 18.6415 17.6056C18.8526 17.098 19.1621 16.6371 19.5521 16.2495L20.7192 15.0774L20.7301 15.0707L23.0986 12.703C23.3319 12.4697 23.517 12.1929 23.6432 11.8881C23.7694 11.5834 23.8345 11.2567 23.8345 10.9268C23.8345 10.5969 23.7694 10.2702 23.6432 9.96547C23.517 9.66072 23.3319 9.38385 23.0986 9.15059L15.9922 2.03994C15.5137 1.58306 14.8776 1.32812 14.216 1.32812C13.5544 1.32812 12.9183 1.58306 12.4398 2.03994L10.0721 4.40765L10.0662 4.41686C7.24634 7.2422 5.59278 11.0251 5.43425 15.0137C5.27572 19.0023 6.62381 22.9045 9.21058 25.9447V28.8625C9.09001 28.9102 8.97364 28.9588 8.85977 29.0082L6.63775 26.7861C6.47779 26.6348 6.26598 26.5506 6.04582 26.5506C5.82566 26.5506 5.61386 26.6348 5.4539 26.7861L1.90401 30.336C1.74706 30.493 1.65888 30.7059 1.65888 30.9279C1.65888 31.15 1.74706 31.3629 1.90401 31.5199L4.12604 33.7419C4.07581 33.8558 4.02808 33.9721 3.98036 34.0927H0.838213C0.616161 34.0927 0.40321 34.1809 0.246195 34.3379C0.0891878 34.4949 0.000976562 34.7079 0.000976562 34.9299V39.9534C0.000976562 40.1754 0.0891878 40.3884 0.246195 40.5454C0.40321 40.7023 0.616161 40.7906 0.838213 40.7906H3.98036C4.02808 40.9112 4.07581 41.0275 4.12604 41.1406L1.90401 43.3634C1.74706 43.5204 1.65888 43.7333 1.65888 43.9553C1.65888 44.1774 1.74706 44.3903 1.90401 44.5473L5.4539 48.0972C5.6109 48.2541 5.82382 48.3423 6.04582 48.3423C6.26782 48.3423 6.48074 48.2541 6.63775 48.0972L8.85977 45.8751C8.97364 45.9245 9.09001 45.9731 9.21058 46.0208V49.163C9.21058 49.385 9.29882 49.598 9.4558 49.755C9.61278 49.9119 9.82578 50.0002 10.0478 50.0002H15.0712C15.2933 50.0002 15.5063 49.9119 15.6632 49.755C15.8202 49.598 15.9085 49.385 15.9085 49.163V46.0208C16.029 45.9731 16.1454 45.9245 16.2593 45.8751L18.4813 48.0972C18.6413 48.2484 18.853 48.3327 19.0732 48.3327C19.2934 48.3327 19.5051 48.2484 19.6651 48.0972L23.215 44.5473C23.372 44.3903 23.4602 44.1774 23.4602 43.9553C23.4602 43.7333 23.372 43.5204 23.215 43.3634L20.993 41.1406C21.0432 41.0275 21.091 40.9112 21.1387 40.7906H24.0556C27.0937 43.3817 30.9966 44.7326 34.9863 44.5741C38.9761 44.4157 42.7596 42.7596 45.5826 39.9358L45.5935 39.9291L47.9612 37.5605C48.1945 37.3273 48.3796 37.0504 48.5058 36.7457C48.632 36.4409 48.6971 36.1142 48.6971 35.7843C48.6971 35.4545 48.632 35.1278 48.5058 34.823C48.3796 34.5183 48.1945 34.2414 47.9612 34.0081L40.8581 26.9042ZM13.6253 3.22296C13.7848 3.07075 13.9968 2.98582 14.2172 2.98582C14.4377 2.98582 14.6497 3.07075 14.8092 3.22296L21.9131 10.3277C22.0699 10.4847 22.1578 10.6975 22.1578 10.9193C22.1578 11.141 22.0699 11.3538 21.9131 11.5108L20.1382 13.2849L11.8495 4.99622L13.6253 3.22296ZM23.4436 39.1161H20.5468C20.3695 39.1161 20.1968 39.1724 20.0536 39.2768C19.9104 39.3812 19.804 39.5284 19.7497 39.6972C19.6198 40.1159 19.4501 40.5213 19.2432 40.9078C19.1563 41.0665 19.1232 41.2492 19.1488 41.4284C19.1745 41.6076 19.2576 41.7736 19.3855 41.9016L21.4384 43.9553L19.0732 46.3214L17.0195 44.2676C16.8914 44.1395 16.7252 44.0563 16.5459 44.0307C16.3665 44.005 16.1838 44.0382 16.0248 44.1253C15.6386 44.3329 15.2332 44.5025 14.8142 44.6318C14.6456 44.6863 14.4986 44.7927 14.3943 44.9359C14.2901 45.0791 14.2339 45.2517 14.234 45.4289V48.3257H10.885V45.4289C10.8851 45.2517 10.829 45.0791 10.7247 44.9359C10.6205 44.7927 10.4735 44.6863 10.3048 44.6318C9.88589 44.5025 9.48042 44.3329 9.0942 44.1253C8.93529 44.0382 8.75252 44.005 8.57319 44.0307C8.39385 44.0563 8.22766 44.1395 8.09956 44.2676L6.04582 46.3214L3.68482 43.9553L5.73772 41.9016C5.86567 41.7736 5.9487 41.6076 5.97436 41.4284C6.00003 41.2492 5.96693 41.0665 5.88005 40.9078C5.67449 40.5212 5.50628 40.1158 5.37771 39.6972C5.32304 39.527 5.21537 39.3788 5.07045 39.2744C4.92553 39.1698 4.75097 39.1144 4.57229 39.1161H1.67545V35.7672H4.57229C4.74955 35.7672 4.92223 35.7109 5.06546 35.6065C5.2087 35.5021 5.31509 35.3549 5.36934 35.1861C5.49791 34.7675 5.66612 34.3621 5.87168 33.9755C5.95856 33.8167 5.99165 33.6341 5.96599 33.4549C5.94033 33.2757 5.8573 33.1097 5.72935 32.9817L3.68482 30.9279L6.04582 28.5619L8.09956 30.6157C8.22766 30.7438 8.39385 30.827 8.57319 30.8526C8.75252 30.8783 8.93529 30.8451 9.0942 30.758C9.48042 30.5504 9.88589 30.3808 10.3048 30.2515C10.4735 30.197 10.6205 30.0906 10.7247 29.9474C10.829 29.8041 10.8851 29.6316 10.885 29.4544V26.5576H14.234V29.4544C14.2339 29.6316 14.2901 29.8041 14.3943 29.9474C14.4986 30.0906 14.6456 30.197 14.8142 30.2515C15.2332 30.3808 15.6386 30.5504 16.0248 30.758C16.1838 30.8451 16.3665 30.8783 16.5459 30.8526C16.7252 30.827 16.8914 30.7438 17.0195 30.6157L19.0732 28.5619L21.4384 30.9279L19.3855 32.9817C19.2576 33.1097 19.1745 33.2757 19.1488 33.4549C19.1232 33.6341 19.1563 33.8167 19.2432 33.9755C19.4501 34.362 19.6198 34.7673 19.7497 35.1861C19.804 35.3549 19.9104 35.5021 20.0536 35.6065C20.1968 35.7109 20.3695 35.7672 20.5468 35.7672H23.4436V39.1161ZM25.1181 39.4987V34.9299C25.1181 34.7079 25.0298 34.4949 24.8728 34.3379C24.7159 34.1809 24.5029 34.0927 24.2808 34.0927H21.1387C21.091 33.9721 21.0432 33.8558 20.993 33.7419L23.215 31.5199C23.372 31.3629 23.4602 31.15 23.4602 30.9279C23.4602 30.7059 23.372 30.493 23.215 30.336L19.6651 26.7861C19.5082 26.6292 19.2953 26.541 19.0732 26.541C18.8512 26.541 18.6383 26.6292 18.4813 26.7861L16.2593 29.0082C16.1454 28.9588 16.029 28.9102 15.9085 28.8625V25.7203C15.9085 25.4983 15.8202 25.2853 15.6632 25.1283C15.5063 24.9713 15.2933 24.8831 15.0712 24.8831H10.5033C8.27295 22.2723 7.06248 18.9429 7.09538 15.5093C7.12837 12.0758 8.40248 8.77015 10.6824 6.20268L18.9518 14.4721L18.3658 15.0632C17.8198 15.6064 17.3865 16.2522 17.0909 16.9634C16.7953 17.6747 16.6431 18.4373 16.6431 19.2075C16.6431 19.9776 16.7953 20.7403 17.0909 21.4515C17.3865 22.1628 17.8198 22.8085 18.3658 23.3518L26.6544 31.6404C27.1971 32.1861 27.8423 32.6192 28.5528 32.9149C29.2634 33.2105 30.0253 33.3629 30.7949 33.3633C31.5645 33.3637 32.3266 33.2121 33.0375 32.9171C33.7483 32.6222 34.3939 32.1897 34.9372 31.6446L35.5324 31.0535L43.8027 39.3229C41.2344 41.6032 37.9277 42.8772 34.4933 42.9096C31.0589 42.9419 27.7288 41.7303 25.1181 39.4987ZM46.7774 36.3767L45.0033 38.1508L36.7146 29.8621L38.4896 28.0889C38.6465 27.9319 38.8595 27.8437 39.0815 27.8437C39.3035 27.8437 39.5164 27.9319 39.6734 28.0889L46.7774 35.1928C46.9343 35.3498 47.0225 35.5627 47.0225 35.7848C47.0225 36.0068 46.9343 36.2197 46.7774 36.3767Z"
+          />
+          <path
+            class="fill-current"
+            d="M12.5597 33.2556C11.7318 33.2556 10.9224 33.5011 10.234 33.9611C9.54559 34.4211 9.009 35.0748 8.69219 35.8398C8.37538 36.6047 8.29241 37.4464 8.454 38.2585C8.6155 39.0706 9.0142 39.8165 9.59967 40.4018C10.1851 40.9873 10.931 41.386 11.7431 41.5475C12.5551 41.7091 13.3968 41.6261 14.1617 41.3093C14.9267 40.9925 15.5804 40.4559 16.0404 39.7675C16.5004 39.0791 16.7459 38.2697 16.7459 37.4418C16.7446 36.332 16.3031 35.268 15.5183 34.4832C14.7335 33.6984 13.6696 33.257 12.5597 33.2556ZM12.5597 39.9535C12.063 39.9535 11.5773 39.8062 11.1643 39.5302C10.7512 39.2542 10.4293 38.8619 10.2392 38.4029C10.0491 37.9441 9.99937 37.439 10.0962 36.9518C10.1932 36.4646 10.4324 36.017 10.7837 35.6658C11.1349 35.3145 11.5825 35.0753 12.0697 34.9783C12.557 34.8814 13.062 34.9312 13.521 35.1213C13.9798 35.3114 14.3722 35.6333 14.6481 36.0464C14.9242 36.4594 15.0714 36.9451 15.0714 37.4418C15.0714 38.1079 14.8068 38.7468 14.3358 39.2178C13.8647 39.6889 13.2259 39.9535 12.5597 39.9535Z"
+          />
+          <path
+            class="fill-current"
+            d="M28.5808 0.00777998C28.3607 -0.0224191 28.1377 0.0360366 27.9607 0.170279C27.7838 0.304522 27.6674 0.503566 27.6372 0.723617C27.607 0.943668 27.6654 1.1667 27.7997 1.34366C27.9339 1.52061 28.133 1.63698 28.353 1.66718C33.4026 2.37321 38.0846 4.7055 41.69 8.31082C45.2953 11.9162 47.6276 16.5982 48.3337 21.6478C48.3611 21.8482 48.4603 22.0318 48.6126 22.1647C48.7649 22.2977 48.9603 22.371 49.1625 22.3712C49.2006 22.3712 49.2386 22.3687 49.2764 22.3637C49.3853 22.3488 49.4903 22.3125 49.5853 22.257C49.6802 22.2015 49.7633 22.1278 49.8298 22.0402C49.8963 21.9526 49.9448 21.8527 49.9727 21.7463C50.0006 21.6399 50.0072 21.529 49.9922 21.4201C49.2355 16.0088 46.7362 10.9915 42.8727 7.1278C39.0092 3.26417 33.992 0.764658 28.5808 0.00777998Z"
+          />
+          <path
+            class="fill-current"
+            d="M28.3223 6.7528C32.0399 7.41112 35.4655 9.19586 38.1351 11.8655C40.8047 14.5352 42.5894 17.9606 43.2477 21.6782C43.2816 21.8724 43.3829 22.0483 43.5337 22.1751C43.6846 22.3019 43.8753 22.3714 44.0724 22.3714C44.121 22.3714 44.1694 22.3672 44.2173 22.3589C44.4359 22.3207 44.6305 22.1971 44.7582 22.0155C44.8859 21.8339 44.9361 21.6089 44.8979 21.3902C44.1804 17.3333 42.2332 13.595 39.3201 10.6819C36.407 7.76862 32.6688 5.82119 28.612 5.10344C28.5038 5.08442 28.3927 5.08692 28.2854 5.11079C28.1781 5.13467 28.0765 5.17944 27.9864 5.24257C27.8964 5.3057 27.8197 5.38594 27.7607 5.47872C27.7017 5.57149 27.6615 5.67498 27.6425 5.78328C27.6235 5.89158 27.626 6.00256 27.6499 6.1099C27.6737 6.21723 27.7185 6.31881 27.7816 6.40884C27.8448 6.49887 27.925 6.57556 28.0177 6.63458C28.1106 6.69361 28.2141 6.7338 28.3223 6.7528Z"
+          />
+          <path
+            class="fill-current"
+            d="M28.2711 11.8658C30.6577 12.4563 32.8377 13.6871 34.5761 15.4256C36.3145 17.1642 37.5452 19.3443 38.1354 21.731C38.1584 21.8407 38.2032 21.9447 38.2671 22.0369C38.331 22.129 38.4128 22.2073 38.5077 22.2672C38.6025 22.3272 38.7083 22.3673 38.819 22.3856C38.9296 22.4038 39.0428 22.3996 39.1518 22.3732C39.2608 22.3468 39.3633 22.2989 39.4534 22.2321C39.5435 22.1653 39.6193 22.0812 39.6762 21.9846C39.7331 21.8879 39.7701 21.7809 39.7849 21.6698C39.7996 21.5586 39.7919 21.4455 39.7622 21.3375C39.0984 18.6519 37.7138 16.1987 35.7577 14.2426C33.8017 12.2866 31.3485 10.902 28.663 10.2382C28.5551 10.2098 28.4428 10.2032 28.3324 10.2188C28.2221 10.2344 28.1159 10.2719 28.0202 10.3291C27.9245 10.3862 27.8412 10.4618 27.7751 10.5517C27.7091 10.6414 27.6617 10.7435 27.6356 10.8518C27.6095 10.9602 27.6053 11.0727 27.6233 11.1827C27.6412 11.2927 27.681 11.398 27.7402 11.4925C27.7993 11.5869 27.8768 11.6685 27.968 11.7327C28.0591 11.7968 28.1622 11.842 28.2711 11.8658Z"
+          />
+          <path
+            class="fill-current"
+            d="M30.1414 23.2088C30.8038 23.2088 31.4513 23.0123 32.002 22.6444C32.5528 22.2764 32.982 21.7533 33.2354 21.1414C33.4889 20.5294 33.5553 19.8561 33.426 19.2064C33.2968 18.5568 32.9778 17.9601 32.5095 17.4918C32.0411 17.0234 31.4444 16.7044 30.7948 16.5753C30.1451 16.446 29.4718 16.5123 28.8599 16.7658C28.2479 17.0192 27.7248 17.4485 27.3569 17.9992C26.9889 18.55 26.7925 19.1975 26.7925 19.8598C26.7925 20.748 27.1453 21.5998 27.7734 22.2279C28.4014 22.8559 29.2532 23.2088 30.1414 23.2088ZM30.1414 18.1853C30.4726 18.1853 30.7963 18.2835 31.0717 18.4676C31.347 18.6515 31.5617 18.9131 31.6885 19.219C31.8151 19.525 31.8483 19.8617 31.7837 20.1865C31.7191 20.5113 31.5596 20.8097 31.3254 21.0438C31.0913 21.278 30.7929 21.4375 30.4681 21.5021C30.1433 21.5667 29.8066 21.5335 29.5006 21.4069C29.1947 21.2801 28.9331 21.0654 28.7492 20.7901C28.5652 20.5147 28.467 20.191 28.467 19.8598C28.467 19.4157 28.6434 18.9898 28.9574 18.6758C29.2715 18.3617 29.6974 18.1853 30.1414 18.1853Z"
+          />
+        </svg>
+        <div
+          class="flex flex-col"
+        >
+          <p
+            class="text-xl text-charcoalGray-50 dark:text-white"
+          >
+            24 / 7 Support
+          </p>
+          <p
+            class="text-base font-normal text-charcoalGray-50 dark:text-[#8A8A8A]"
+          >
+            Dedicated support
+          </p>
         </div>
       </div>
     </section>
+  </div>
+  <section
+    class="flex flex-col gap-[100px] mb-[60px]"
+  >
+    <div
+      class="flex flex-col items-center text-center gap-5 px-10"
+    >
+      <h3
+        class="text-[46px] dark:text-white"
+      >
+        Follow Us On Instagram
+      </h3>
+      <p
+        class="text-lg w-full max-w-[758px] text-[#8A8A8A]"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
+      </p>
+    </div>
+    <img
+      alt="Social Gallery"
+      class="w-full"
+      src="/public/assets/social-gallery.svg"
+    />
+  </section>
+  <section
+    class="max-h-[867px] w-full h-[867px] relative"
+  >
+    <img
+      alt=""
+      class="w-full h-full object-cover"
+      src="/public/assets/subscribe.webp"
+    />
+    <div
+      class="absolute inset-0 flex flex-col justify-center items-center text-center px-4"
+    >
+      <h3
+        class="text-[46px] text-[#8A8A8A]"
+      >
+        Subscribe To Our Newsletter
+      </h3>
+      <p
+        class="text-lg text-charcoalGray-50 max-w-[688px] mt-[15px]"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
+      </p>
+      <div
+        class="flex flex-col items-center gap-[30px] w-full max-w-md mt-2.5"
+      >
+        <div
+          class="grid w-full items-center gap-3"
+        >
+          <label
+            class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
+            data-slot="label"
+          />
+          <input
+            class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex w-full min-w-0 rounded-md bg-transparent py-1 transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 border-0 shadow-md pt-7 pb-8 px-[30px]"
+            data-slot="input"
+            name="email"
+            placeholder="michael@ymail.com"
+            type="email"
+          />
+        </div>
+        <button
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 py-4 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 dark:bg-black dark:text-white"
+          data-slot="button"
+          disabled=""
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 25 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="fill-current"
+              clip-rule="evenodd"
+              d="M9.62588 17.8644C9.58598 17.8216 9.55432 17.7706 9.53272 17.7146C9.51112 17.6585 9.5 17.5984 9.5 17.5377C9.5 17.477 9.51112 17.4169 9.53272 17.3608C9.55432 17.3048 9.58598 17.2538 9.62588 17.211L14.4649 11.9999L9.62588 6.7888C9.58604 6.74589 9.55444 6.69495 9.53288 6.63889C9.51132 6.58283 9.50022 6.52275 9.50022 6.46207C9.50022 6.40139 9.51132 6.3413 9.53288 6.28524C9.55444 6.22918 9.58604 6.17824 9.62588 6.13534C9.66571 6.09243 9.71301 6.05839 9.76506 6.03517C9.8171 6.01195 9.87289 6 9.92923 6C9.98557 6 10.0414 6.01195 10.0934 6.03517C10.1454 6.05839 10.1927 6.09243 10.2326 6.13534L15.3741 11.6731C15.414 11.716 15.4457 11.7669 15.4673 11.823C15.4889 11.8791 15.5 11.9392 15.5 11.9999C15.5 12.0606 15.4889 12.1207 15.4673 12.1768C15.4457 12.2328 15.414 12.2837 15.3741 12.3266L10.2326 17.8644C10.1928 17.9074 10.1455 17.9415 10.0934 17.9648C10.0414 17.988 9.98559 18 9.92923 18C9.87287 18 9.81707 17.988 9.76501 17.9648C9.71296 17.9415 9.66568 17.9074 9.62588 17.8644Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Subscribe Now
+        </button>
+      </div>
+    </div>
+  </section>
+  <div
+    class="max-w-[1320px] mx-auto px-10 mt-[30px]"
+  >
     <footer
       class="px-4 text-center mb-[30px]"
     >
@@ -776,7 +2105,7 @@ exports[`Contact page Renders Contact page 1`] = `
           aria-haspopup="menu"
           class="flex min-[850px]:hidden cursor-pointer"
           data-state="closed"
-          id="radix-«r3»"
+          id="radix-«r8»"
           type="button"
         >
           <svg
