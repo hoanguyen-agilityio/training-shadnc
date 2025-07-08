@@ -33,7 +33,7 @@ export const CarouselWithTopControls = () => {
     <div className="w-full max-w-7xl mx-auto p-6">
       {/* Header */}
       <div className="flex items-center justify-between mb-[50px]">
-        <h2 className="text-[46px]">Client Testimonial</h2>
+        <h3 className="text-[46px] dark:text-white">Client Testimonial</h3>
         <div className="flex gap-2">
           <Button
             variant="outline"
@@ -75,7 +75,7 @@ export const CarouselWithTopControls = () => {
                   </div>
 
                   {/* Testimonial Text */}
-                  <p className="text-[#4D4D4D] font-normal text-sm	mb-6 flex-grow">
+                  <p className="text-[#4D4D4D] dark:text-[#8A8A8A] font-normal text-sm	mb-6 flex-grow">
                     {clientReview.text}
                   </p>
 
@@ -89,8 +89,10 @@ export const CarouselWithTopControls = () => {
                         avatarFallback={clientReview.avatarFallback}
                       ></Avatar>
                       <div>
-                        <h4 className="font-semibold text-black text-sm">{clientReview.name}</h4>
-                        <p className="text-gray-500 text-xs font-normal">{clientReview.role}</p>
+                        <h4 className="font-semibold text-black dark:text-white text-sm">
+                          {clientReview.name}
+                        </h4>
+                        <p className="text-[#999999] text-xs font-normal">{clientReview.role}</p>
                       </div>
                     </div>
 
