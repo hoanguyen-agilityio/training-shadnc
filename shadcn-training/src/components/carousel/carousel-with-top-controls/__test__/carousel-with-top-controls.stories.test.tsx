@@ -3,7 +3,7 @@ import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 
 // Components
-import { CarouselWithTopControls } from '.';
+import { CarouselWithTopControls } from '..';
 
 jest.mock('@/components/ui/carousel', () => {
   const actual = jest.requireActual('@/components/ui/carousel');

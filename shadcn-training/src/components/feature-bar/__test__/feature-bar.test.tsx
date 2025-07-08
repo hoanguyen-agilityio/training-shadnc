@@ -3,7 +3,7 @@ import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 
 // Components
-import { FeatureBar } from '.';
+import { FeatureBar } from '..';
 
 describe('FeatureBar component', () => {
   test('Renders featureBar component', () => {

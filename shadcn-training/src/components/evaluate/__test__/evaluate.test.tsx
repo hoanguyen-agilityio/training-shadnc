@@ -3,7 +3,7 @@ import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 
 // Components
-import { Evaluate } from '.';
+import { Evaluate } from '..';
 
 describe('Evaluate component', () => {
   test('Renders evaluate component', () => {

@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 
 // Layouts
-import { Footer } from '.';
+import { Footer } from '..';
 
 describe('Footer component', () => {
   test('Renders footer component', () => {

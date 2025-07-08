@@ -3,7 +3,7 @@ import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 
 // Components
-import { Pagination } from '.';
+import { Pagination } from '..';
 
 describe('Pagination component', () => {
   test('Renders pagination component', () => {

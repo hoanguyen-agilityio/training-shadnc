@@ -3,7 +3,7 @@ import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 
 // Components
-import { Banner } from '.';
+import { Banner } from '..';
 
 describe('Banner component', () => {
   test('Renders banner component', () => {

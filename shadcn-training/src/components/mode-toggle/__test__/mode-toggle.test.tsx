@@ -1,10 +1,9 @@
 // Libs
 import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
-import { MemoryRouter } from 'react-router-dom';
 
-// Layouts
-import { Header } from '.';
+// Components
+import { ModeToggle } from '..';
 
 beforeAll(() => {
   // Mock window.matchMedia
@@ -23,13 +22,9 @@ beforeAll(() => {
   });
 });
 
-describe('Header component', () => {
-  test('Renders header component', () => {
-    const { container } = render(
-      <MemoryRouter>
-        <Header />
-      </MemoryRouter>,
-    );
+describe('ModeToggle component', () => {
+  test('Renders modeToggle component', () => {
+    const { container } = render(<ModeToggle />);
     expect(container).toMatchSnapshot();
   });
 });

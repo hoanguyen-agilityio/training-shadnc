@@ -4,17 +4,13 @@ import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 
 // Components
-import { AuthLayout } from '.';
+import { Breadcrumb } from '..';
 
-describe('AuthLayout component', () => {
-  test('Renders AuthLayout component', () => {
+describe('Breadcrumb component', () => {
+  test('Renders breadcrumb component', () => {
     const { container } = render(
       <MemoryRouter>
-        <AuthLayout title="Welcome" description="Please login here">
-          <div>
-            <p>Test</p>
-          </div>
-        </AuthLayout>
+        <Breadcrumb breadcrumbName="Shop" />
       </MemoryRouter>,
     );
     expect(container).toMatchSnapshot();
