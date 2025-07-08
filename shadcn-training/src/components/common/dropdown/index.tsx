@@ -28,18 +28,26 @@ export const Dropdown = ({ label, defaultValue, options }: IDropdown) => {
           <input
             readOnly
             value={label ? `${label}: ${position}` : position}
-            className="w-full border border-[#E6E6E6] rounded px-4 py-2.5 cursor-pointer text-sm"
+            className="w-full border border-[#E6E6E6] rounded px-4 py-2.5 cursor-pointer text-sm dark:text-white"
           />
           <span className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none">
-            {open ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+            {open ? (
+              <ChevronUp size={16} className="text-black dark:text-white" />
+            ) : (
+              <ChevronDown size={16} className="text-black dark:text-white" />
+            )}
           </span>
         </div>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-[178px] bg-white">
+      <DropdownMenuContent className="w-[178px] bg-white dark:bg-black">
         <DropdownMenuSeparator />
         <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>
           {options.map((opt) => (
-            <DropdownMenuRadioItem key={opt.value} value={opt.value}>
+            <DropdownMenuRadioItem
+              key={opt.value}
+              value={opt.value}
+              className="text-black dark:text-white"
+            >
               {opt.label}
             </DropdownMenuRadioItem>
           ))}

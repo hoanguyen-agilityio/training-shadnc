@@ -9,9 +9,9 @@ export const HeroImg = () => (
     />
     <div className="absolute inset-0 flex justify-center items-center px-10">
       <div className="border-4 border-white p-10 text-center min-[1080px]:p-20">
-        <span className="block text-white text-4xl min-[850px]:text-[46px]">
+        <h3 className="block text-white text-4xl min-[850px]:text-[46px]">
           -50 PROMOTION HOT SUMMER
-        </span>
+        </h3>
         <span className="block text-sm mt-2.5 text-white max-w-[467px] mx-auto">
           Problems trying to resolve the conflict between the two major realms of Classical physics:
           Newtonian mechanics
@@ -19,7 +19,7 @@ export const HeroImg = () => (
         <Button
           label="Explore"
           size="default"
-          onClick={() => {}}
+          disabled
           className="mt-[30px] w-[294px] cursor-not-allowed"
         />
       </div>

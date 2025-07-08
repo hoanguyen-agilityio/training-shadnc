@@ -24,15 +24,15 @@ export const Menu = ({ menuItems }: MenuProps) => {
 
   return (
     <>
-      <Breadcrumb className="hidden min-[680px]:flex">
+      <Breadcrumb className="hidden min-[850px]:flex">
         <BreadcrumbList className="flex sm:gap-8">
           {menuItems.map((item) => (
             <BreadcrumbItem key={item.label}>
               <BreadcrumbLink
                 href={item.disabled ? undefined : item.href}
-                className={clsx('font-poppins hover:text-green-50 text-base', {
+                className={clsx('font-poppins hover:text-green-50 text-base', 'dark:text-white', {
                   'cursor-not-allowed': item.disabled,
-                  'text-green-50': location.pathname === item.href,
+                  'text-green-50 dark:text-green-50': location.pathname === item.href,
                 })}
               >
                 {item.label}
@@ -43,8 +43,8 @@ export const Menu = ({ menuItems }: MenuProps) => {
       </Breadcrumb>
 
       <DropdownMenu>
-        <DropdownMenuTrigger className="flex min-[680px]:hidden cursor-pointer">
-          <HamburgerIcon width="24px" height="24px" />
+        <DropdownMenuTrigger className="flex min-[850px]:hidden cursor-pointer">
+          <HamburgerIcon width="24px" height="24px" className="text-black dark:text-white" />
         </DropdownMenuTrigger>
         <DropdownMenuContent
           className={clsx(
@@ -55,6 +55,7 @@ export const Menu = ({ menuItems }: MenuProps) => {
             'transform-gpu',
             'backdrop-blur-sm backdrop-saturate-150',
             'border border-gray-200',
+            'dark:bg-black dark:text-white dark:border-gray-700',
           )}
         >
           {menuItems.map((item, index) => (
@@ -70,7 +71,7 @@ export const Menu = ({ menuItems }: MenuProps) => {
                 {item.href ? <Link to={item.href}>{item.label}</Link> : <span>{item.label}</span>}
               </DropdownMenuItem>
               {index < menuItems.length - 1 && (
-                <DropdownMenuSeparator className="border border-black mt-2" />
+                <DropdownMenuSeparator className="border border-black mt-2 dark:border-white" />
               )}
             </div>
           ))}

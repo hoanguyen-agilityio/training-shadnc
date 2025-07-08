@@ -3,7 +3,7 @@
 exports[`Menu component Renders menu component 1`] = `
 <div>
   <div
-    class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm w-[393px] group"
+    class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
     data-slot="card"
   >
     <div
@@ -28,7 +28,7 @@ exports[`Menu component Renders menu component 1`] = `
       >
         <div>
           <div
-            class="font-semibold text-xl"
+            class="font-semibold text-xl dark:text-white"
             data-slot="card-title"
           >
             Chinese cabbage
@@ -116,7 +116,7 @@ exports[`Menu component Renders menu component 1`] = `
         </div>
       </div>
       <div
-        class="text-muted-foreground text-xs"
+        class="text-muted-foreground text-xs dark:text-white"
         data-slot="card-description"
       >
         (4.1k) Customer Reviews
@@ -125,7 +125,7 @@ exports[`Menu component Renders menu component 1`] = `
         class="flex justify-between items-center"
       >
         <div
-          class="text-muted-foreground text-2xl font-bold"
+          class="text-muted-foreground text-2xl font-bold dark:text-white"
           data-slot="card-description"
         >
           $95.50

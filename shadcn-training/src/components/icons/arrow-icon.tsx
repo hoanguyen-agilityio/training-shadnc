@@ -12,16 +12,16 @@ const ArrowIcon: React.FC<IconProps> = ({ width, height, className }) => (
     <path
       d="M1.25 7.72607H16.25"
       stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       d="M7.30005 1.70105L1.25005 7.72505L7.30005 13.75"
       stroke="currentColor"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );

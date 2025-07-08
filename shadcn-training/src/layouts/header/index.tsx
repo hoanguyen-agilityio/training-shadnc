@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { MENU_ITEMS_HEADER, ROUTES } from '@/constants';
 
 // Components
-import { Menu, Button, Avatar } from '@/components';
+import { Menu, Button, Avatar, ModeToggle } from '@/components';
 import { Logo } from '@/components/icons';
 import {
   DropdownMenu,
@@ -28,6 +28,9 @@ export const Header = () => {
     ? MENU_ITEMS_HEADER
     : [...MENU_ITEMS_HEADER, { label: 'Sign in', href: ROUTES.SIGN_IN, disabled: false }];
 
+  const handleNavigateToSignupPage = () => {
+    return navigate(ROUTES.SIGN_UP, { replace: true });
+  };
   return (
     <header className="flex items-center justify-between mt-5 border-b-1 border-[#EAEAEA] pb-5">
       <div className="flex items-center min-[680px]:gap-8 gap-0">
@@ -36,20 +39,21 @@ export const Header = () => {
         </Link>
         <Menu menuItems={menuItems} />
       </div>
-      {isLoggedIn ? (
-        <DropdownMenu>
-          <DropdownMenuTrigger className="cursor-pointer">
-            <Avatar src="https://github.com/shadcn.png" alt="avatar user" avatarFallback="User" />
-          </DropdownMenuTrigger>
-          <DropdownMenuContent>
-            <DropdownMenuItem onClick={handleLogout}>Logout</DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
-      ) : (
-        <Link to={ROUTES.SIGN_UP}>
-          <Button label="Sign Up" size="sm" onClick={() => {}} />
-        </Link>
-      )}
+      <div className="flex items-center gap-4">
+        <ModeToggle />
+        {isLoggedIn ? (
+          <DropdownMenu>
+            <DropdownMenuTrigger className="cursor-pointer">
+              <Avatar src="https://github.com/shadcn.png" alt="avatar user" avatarFallback="User" />
+            </DropdownMenuTrigger>
+            <DropdownMenuContent>
+              <DropdownMenuItem onClick={handleLogout}>Logout</DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        ) : (
+          <Button label="Sign Up" size="sm" onClick={handleNavigateToSignupPage} />
+        )}
+      </div>
     </header>
   );
 };

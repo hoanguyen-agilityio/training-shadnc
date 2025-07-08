@@ -26,3 +26,4 @@ export { default as InstagramIcon } from './instagram-icon';
 export { default as AddressIcon } from './address-icon';
 export { default as EmailIcon } from './email-icon';
 export { default as PhoneIcon } from './phone-icon';
+export { default as NotFound } from './not-found';

@@ -11,7 +11,7 @@ export * from './banner';
 export * from './subscribe';
 export * from './feature-bar';
 export * from './pagination';
-export * from './subscribe';
+export * from './mode-toggle';
 
 export * from './common/menu';
 export * from './common/button';

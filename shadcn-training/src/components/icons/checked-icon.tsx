@@ -14,9 +14,9 @@ const CheckedIcon: React.FC<IconProps> = ({ width, height, className }) => (
       <path
         d="M14.4167 7.125L8.68754 12.8542L6.08337 10.25"
         stroke="#2C742F"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </g>
     <defs>

@@ -4,7 +4,7 @@ exports[`Menu component Renders menu component 1`] = `
 <div>
   <nav
     aria-label="breadcrumb"
-    class="hidden min-[680px]:flex"
+    class="hidden min-[850px]:flex"
     data-slot="breadcrumb"
   >
     <ol
@@ -16,7 +16,7 @@ exports[`Menu component Renders menu component 1`] = `
         data-slot="breadcrumb-item"
       >
         <a
-          class="transition-colors font-poppins hover:text-green-50 text-base"
+          class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white"
           data-slot="breadcrumb-link"
           href="/shop"
         >
@@ -28,7 +28,7 @@ exports[`Menu component Renders menu component 1`] = `
         data-slot="breadcrumb-item"
       >
         <a
-          class="transition-colors font-poppins hover:text-green-50 text-base cursor-not-allowed"
+          class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white cursor-not-allowed"
           data-slot="breadcrumb-link"
         >
           New Arrivals
@@ -39,22 +39,11 @@ exports[`Menu component Renders menu component 1`] = `
         data-slot="breadcrumb-item"
       >
         <a
-          class="transition-colors font-poppins hover:text-green-50 text-base cursor-not-allowed"
+          class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white"
           data-slot="breadcrumb-link"
+          href="/about"
         >
           About Us
-        </a>
-      </li>
-      <li
-        class="inline-flex items-center gap-1.5"
-        data-slot="breadcrumb-item"
-      >
-        <a
-          class="transition-colors font-poppins hover:text-green-50 text-base"
-          data-slot="breadcrumb-link"
-          href="sign-in"
-        >
-          Sign in
         </a>
       </li>
     </ol>
@@ -62,14 +51,15 @@ exports[`Menu component Renders menu component 1`] = `
   <button
     aria-expanded="false"
     aria-haspopup="menu"
-    class="flex min-[680px]:hidden cursor-pointer"
+    class="flex min-[850px]:hidden cursor-pointer"
     data-state="closed"
     id="radix-«r0»"
     type="button"
   >
     <svg
+      class="text-black dark:text-white"
       enable-background="new 0 0 32 32"
-      fill="#000000"
+      fill="currentColor"
       height="24px"
       id="Glyph"
       version="1.1"

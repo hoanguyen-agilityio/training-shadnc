@@ -48,7 +48,7 @@ export const ShopPage = () => {
         </section>
       </div>
       <ActiveFilter />
-      <section className="max-w-[1320px] mx-auto px-10">
+      <section className="max-w-[1320px] mx-auto mt-20 px-10">
         <div className="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start">
           {currentProducts.map(
             ({ img, imgAlt, variant, title, brand, rating, price, reviewLabel }, index) => (
@@ -67,7 +67,7 @@ export const ShopPage = () => {
           )}
         </div>
         <div className="flex flex-col gap-2.5 justify-between items-center mt-[30px] min-[750px]:gap-0 min-[750px]:flex-row">
-          <span className="text-sm">
+          <span className="text-sm dark:text-white">
             Showing {indexOfFirstProduct + 1}–
             {Math.min(indexOfLastProduct, PRODUCTS_SHOP_PAGE.length)} of {PRODUCTS_SHOP_PAGE.length}{' '}
             items

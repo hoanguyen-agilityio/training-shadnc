@@ -35,7 +35,9 @@ export const Input = ({
   );
   return (
     <div className="grid w-full items-center gap-3">
-      <Label htmlFor={htmlFor}>{label}</Label>
+      <Label htmlFor={htmlFor} className="dark:text-white">
+        {label}
+      </Label>
       <InputShadcn
         type={type}
         placeholder={placeholder}

@@ -6,7 +6,7 @@ import { Subscribe } from '@/components/subscribe';
 export const HomePage = () => {
   return (
     <>
-      <div className="max-w-[1320px] mx-auto flex flex-col gap-[60px] px-10">
+      <div className="max-w-[1320px] mx-auto flex flex-col gap-[60px] px-10 bg-white dark:bg-black">
         <Header />
         <HomeBanner />
         <CollectionHero />

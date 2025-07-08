@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Avatar component Renders Avatar component 1`] = `
+<div>
+  <span
+    class="relative flex size-8 shrink-0 overflow-hidden rounded-full"
+    data-slot="avatar"
+  >
+    <span
+      class="bg-muted flex size-full items-center justify-center rounded-full"
+      data-slot="avatar-fallback"
+    >
+      User
+    </span>
+  </span>
+</div>
+`;

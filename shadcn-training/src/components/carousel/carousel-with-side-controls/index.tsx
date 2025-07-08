@@ -61,8 +61,10 @@ export const CarouselWithSideControls = () => {
                     </div>
                   </CardHeader>
                   <CardContent className="flex flex-col">
-                    <span className="text-lg font-semibold text-black">{member.name}</span>
-                    <p className="text-gray-500 text-sm font-normal">{member.position}</p>
+                    <span className="text-lg font-semibold text-black dark:text-white">
+                      {member.name}
+                    </span>
+                    <p className="text-[#8A8A8A] text-sm font-normal">{member.position}</p>
                   </CardContent>
                 </Card>
               </div>
