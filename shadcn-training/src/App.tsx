@@ -9,6 +9,7 @@ import {
   SignUpPage,
   AboutPage,
   ContactPage,
+  NotFoundPage,
 } from './page';
 import { ROUTES } from './constants';
 import { Suspense } from 'react';
@@ -72,6 +73,14 @@ function App() {
             <Suspense fallback={<LoadingPage />}>
               {/* no guard, freely accessible even if logged out */}
               <ContactPage />
+            </Suspense>
+          }
+        />
+        <Route
+          path="*"
+          element={
+            <Suspense fallback={<LoadingPage />}>
+              <NotFoundPage />
             </Suspense>
           }
         />
