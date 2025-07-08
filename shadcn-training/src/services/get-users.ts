@@ -1,13 +1,8 @@
-// Libs
-import dotenv from 'dotenv';
-
 // APIs
 import { apiRequest } from './api';
 
 // Modals
 import { User } from '@/types';
-
-dotenv.config();
 
 export const getUsers = async () => {
   const VITE_ACCOUNT_URL = process.env.VITE_ACCOUNT_URL;

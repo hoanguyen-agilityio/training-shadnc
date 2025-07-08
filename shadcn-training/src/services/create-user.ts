@@ -1,11 +1,6 @@
-// Libs
-import dotenv from 'dotenv';
-
 // APIs
 import { apiRequest } from './api';
 import { User } from '@/types';
-
-dotenv.config();
 
 export const createUser = async (userData: User) => {
   const VITE_ACCOUNT_URL = process.env.VITE_ACCOUNT_URL;

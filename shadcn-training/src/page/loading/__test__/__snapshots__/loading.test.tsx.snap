@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`Home page Renders Home page 1`] = `
+exports[`Loading page Renders Loading page 1`] = `
 <div>
   <div
     class="flex justify-center items-center h-screen"

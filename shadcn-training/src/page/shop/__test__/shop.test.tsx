@@ -22,8 +22,8 @@ beforeAll(() => {
   });
 });
 
-describe('ShopPage page', () => {
-  test('Renders ShopPage page', () => {
+describe('Shop page', () => {
+  test('Renders Shop page', () => {
     const { container } = render(
       <MemoryRouter>
         <ShopPage />

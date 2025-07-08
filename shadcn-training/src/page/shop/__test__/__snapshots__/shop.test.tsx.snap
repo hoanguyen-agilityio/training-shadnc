@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`ShopPage page Renders ShopPage page 1`] = `
+exports[`Shop page Renders Shop page 1`] = `
 <div>
   <div
     class="max-w-[1320px] mx-auto flex flex-col px-10"
