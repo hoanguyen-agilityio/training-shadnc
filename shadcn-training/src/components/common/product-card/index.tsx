@@ -20,7 +20,7 @@ export const ProductCard = ({
   variant = 'simple',
 }: IProductCard) => {
   return (
-    <CardShadcn className="w-full max-w-[393px] group">
+    <CardShadcn className="w-[393px] group">
       <CardHeader>
         <div className="relative">
           <img src={img} alt={imgAlt} />
@@ -65,14 +65,16 @@ export const ProductCard = ({
         <CardContent className="flex flex-col gap-6">
           <div className="flex gap-2 justify-between items-center">
             <div>
-              <CardTitle className="text-xl">{title}</CardTitle>
+              <CardTitle className="text-xl dark:text-white">{title}</CardTitle>
               <CardDescription className="text-xs text-[#8A8A8A]">{brand}</CardDescription>
             </div>
             <Evaluate value={rating} />
           </div>
-          <CardDescription className="text-xs">{reviewLabel}</CardDescription>
+          <CardDescription className="text-xs dark:text-white">{reviewLabel}</CardDescription>
           <div className="flex justify-between items-center">
-            <CardDescription className="text-2xl font-bold">{price}</CardDescription>
+            <CardDescription className="text-2xl font-bold dark:text-white">
+              {price}
+            </CardDescription>
             <CardDescription className="text-xs text-[#FF4646]">Almost Sold Out</CardDescription>
           </div>
         </CardContent>
@@ -89,7 +91,9 @@ export const ProductCard = ({
             <span>{reviewLabel}</span>
           </div>
           <div className="flex justify-between items-center">
-            <CardDescription className="text-2xl font-bold">{price}</CardDescription>
+            <CardDescription className="text-2xl font-bold dark:text-white">
+              {price}
+            </CardDescription>
             <CardDescription className="text-xs text-[#FF4646]">Almost Sold Out</CardDescription>
           </div>
         </CardContent>

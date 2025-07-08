@@ -11,6 +11,8 @@ export const Footer = () => (
       </Link>
       <Menu menuItems={MENU_ITEMS_FOOTER} />
     </div>
-    <span className="font-poppins text-base pt-3">Copyright © 2024 . All Rights Reserved.</span>
+    <span className="font-poppins text-base pt-3 dark:text-[#8A8A8A]">
+      Copyright © 2024 . All Rights Reserved.
+    </span>
   </footer>
 );

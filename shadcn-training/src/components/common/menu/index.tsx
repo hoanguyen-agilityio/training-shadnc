@@ -30,7 +30,7 @@ export const Menu = ({ menuItems }: MenuProps) => {
             <BreadcrumbItem key={item.label}>
               <BreadcrumbLink
                 href={item.disabled ? undefined : item.href}
-                className={clsx('font-poppins hover:text-green-50 text-base', {
+                className={clsx('font-poppins hover:text-green-50 text-base', 'dark:text-white', {
                   'cursor-not-allowed': item.disabled,
                   'text-green-50': location.pathname === item.href,
                 })}

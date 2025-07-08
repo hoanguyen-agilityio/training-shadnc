@@ -24,8 +24,8 @@ export const Subscribe = () => {
             size="sm"
             label="Subscribe Now"
             icon={<ChevronIcon fill="white" />}
-            onClick={() => {}}
-            className="cursor-not-allowed"
+            disabled
+            className="dark:bg-black dark:text-white"
           />
         </div>
       </div>

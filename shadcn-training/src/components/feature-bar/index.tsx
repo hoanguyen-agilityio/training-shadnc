@@ -7,8 +7,10 @@ export const FeatureBar = () => (
       <div className="flex gap-[13px]" key={index}>
         {icon}
         <div className="flex flex-col">
-          <p className="text-xl text-charcoalGray-50">{title}</p>
-          <p className="text-base font-normal text-charcoalGray-50">{describe}</p>
+          <p className="text-xl text-charcoalGray-50 dark:text-white">{title}</p>
+          <p className="text-base font-normal text-charcoalGray-50 dark:text-[#8A8A8A]">
+            {describe}
+          </p>
         </div>
       </div>
     ))}

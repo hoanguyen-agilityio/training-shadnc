@@ -4,18 +4,18 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { NEW_IN_CARD } from '@/mocks';
 
 export const NewIn = () => (
-  <section className="bg-[#F0F0F0] mt-[53px]">
+  <section className="bg-[#F0F0F0] mt-[53px] dark:bg-zinc-800">
     <div className="flex flex-col max-w-[1320px] mx-auto justify-between min-[1140px]:flex-row py-[50px] px-10">
       <div className="flex flex-col justify-center w-full min-[1140px]:w-[414px] items-center min-[1140px]:items-start text-center min-[1140px]:text-left">
-        <span className="text-[46px]">New In</span>
-        <span className="text-lg">
+        <h3 className="text-[46px] dark:text-white">New In</h3>
+        <p className="text-lg dark:text-slate-400">
           Shop the latest fashion trends from the top luxury designers.
-        </span>
+        </p>
         <Button
-          icon={<ChevronIcon fill="white" />}
+          icon={<ChevronIcon />}
           label="Shop New In"
           size="sm"
-          onClick={() => {}}
+          disabled
           className="w-[210px] mt-10"
         />
       </div>

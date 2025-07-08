@@ -2,22 +2,22 @@ import { ContainerIcon, HighQualityIcon, MedalIcon, PhoneSettingIcon } from '@/c
 
 const FEATURE_BAR = [
   {
-    icon: <HighQualityIcon width="51px" height="50px" />,
+    icon: <HighQualityIcon width="51px" height="50px" className="text-black dark:text-white" />,
     title: 'High Quality',
     describe: 'crafted from top materials',
   },
   {
-    icon: <MedalIcon width="38px" height="50px" />,
+    icon: <MedalIcon width="38px" height="50px" className="text-black dark:text-white" />,
     title: 'Warrany Protection',
     describe: 'Over 2 years',
   },
   {
-    icon: <ContainerIcon width="46px" height="50px" />,
+    icon: <ContainerIcon width="46px" height="50px" className="text-black dark:text-white" />,
     title: 'Free Shipping',
     describe: 'Order over 150 $',
   },
   {
-    icon: <PhoneSettingIcon width="50px" height="50px" />,
+    icon: <PhoneSettingIcon width="50px" height="50px" className="text-black dark:text-white" />,
     title: '24 / 7 Support',
     describe: 'Dedicated support',
   },
