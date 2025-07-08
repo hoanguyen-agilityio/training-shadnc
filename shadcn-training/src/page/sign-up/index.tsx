@@ -16,6 +16,7 @@ import { AuthLayout } from '@/layouts';
 
 // Utils
 import { formSchemaSignup, useInitialUsers } from '@/utils';
+
 // Components
 import { Button, Input } from '@/components';
 import { ChevronIcon } from '@/components/icons';
@@ -139,7 +140,7 @@ export const SignUpPage = () => {
               </FormItem>
             )}
           />
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 dark:text-white">
             <Checkbox />
             <span>
               I agree to the <b>Terms & Conditions</b>
