@@ -1,6 +1,12 @@
+// Libs
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import { AuthGuard, ThemeProvider } from '@/components';
+import { Suspense } from 'react';
+
+// Constants
+import { ROUTES } from '@/constants';
+
+// Pages
 import {
   HomePage,
   LoginPage,
@@ -10,9 +16,10 @@ import {
   AboutPage,
   ContactPage,
   NotFoundPage,
-} from './page';
-import { ROUTES } from './constants';
-import { Suspense } from 'react';
+} from '@/page';
+
+// Components
+import { AuthGuard, ThemeProvider } from '@/components';
 
 function App() {
   return (
