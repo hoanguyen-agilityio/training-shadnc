@@ -11,7 +11,7 @@ import { ERROR_MESSAGES, ROUTES } from '@/constants';
 // Layouts
 import { AuthLayout } from '@/layouts';
 
-// @Utils
+// Utils
 import { formSchema, useInitialUsers } from '@/utils';
 
 // Components
@@ -59,6 +59,7 @@ export const LoginPage = () => {
               <FormItem>
                 <FormControl>
                   <Input
+                    aria-label="email address"
                     label="Email Address"
                     placeholder="robertfox@example.com"
                     {...field}
@@ -77,6 +78,7 @@ export const LoginPage = () => {
               <FormItem>
                 <FormControl>
                   <Input
+                    aria-label="password"
                     label="Password"
                     placeholder="**************"
                     {...field}
@@ -90,7 +92,7 @@ export const LoginPage = () => {
           />
           <div className="flex items-center justify-between dark:text-white">
             <div className="flex items-center gap-2">
-              <Checkbox />
+              <Checkbox aria-label="checkbox" />
               <span>Remember Me</span>
             </div>
             <Link to="#" className="text-sm	text-black">
