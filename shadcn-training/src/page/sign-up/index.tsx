@@ -82,7 +82,7 @@ export const SignUpPage = () => {
                     variant="default"
                   />
                 </FormControl>
-                <FormMessage className="text-red-500" />
+                <FormMessage className="text-red-600 dark:text-red-400" />
               </FormItem>
             )}
           />
@@ -101,7 +101,7 @@ export const SignUpPage = () => {
                     variant="default"
                   />
                 </FormControl>
-                <FormMessage className="text-red-500" />
+                <FormMessage className="text-red-600 dark:text-red-400" />
               </FormItem>
             )}
           />
@@ -120,8 +120,8 @@ export const SignUpPage = () => {
                     variant="default"
                   />
                 </FormControl>
-                <FormMessage className="text-red-500" />
-                {signupError && <p className="text-red-500">{signupError}</p>}
+                <FormMessage className="text-red-600 dark:text-red-400" />
+                {signupError && <p className="text-red-600 dark:text-red-400">{signupError}</p>}
               </FormItem>
             )}
           />
@@ -141,7 +141,7 @@ export const SignUpPage = () => {
                     variant="default"
                   />
                 </FormControl>
-                <FormMessage className="text-red-500" />
+                <FormMessage className="text-red-600 dark:text-red-400" />
               </FormItem>
             )}
           />

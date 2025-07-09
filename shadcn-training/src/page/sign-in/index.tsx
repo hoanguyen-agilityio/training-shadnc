@@ -67,7 +67,7 @@ export const LoginPage = () => {
                     variant="default"
                   />
                 </FormControl>
-                <FormMessage className="text-red-500" />
+                <FormMessage className="text-red-600 dark:text-red-400" />
               </FormItem>
             )}
           />
@@ -86,7 +86,7 @@ export const LoginPage = () => {
                     variant="default"
                   />
                 </FormControl>
-                <FormMessage className="text-red-500" />
+                <FormMessage className="text-red-600 dark:text-red-400" />
               </FormItem>
             )}
           />
@@ -99,7 +99,7 @@ export const LoginPage = () => {
               Forgot Password?
             </Link>
           </div>
-          {loginError && <p className="text-red-500">{loginError}</p>}
+          {loginError && <p className="text-red-600 dark:text-red-400">{loginError}</p>}
           <Button
             label={form.formState.isSubmitting ? 'Logging in...' : 'LOGIN'}
             icon={<ChevronIcon fill="white" />}

@@ -57,7 +57,6 @@ export const CarouselWithTopControls = () => {
       </div>
 
       {/* Testimonials Carousel */}
-
       <CarouselShadcn
         setApi={setApi}
         opts={{
@@ -94,7 +93,9 @@ export const CarouselWithTopControls = () => {
                         <h4 className="font-semibold text-black dark:text-white text-sm">
                           {clientReview.name}
                         </h4>
-                        <p className="text-[#999999] text-xs font-normal">{clientReview.role}</p>
+                        <p className="text-charcoalGray-60 dark:text-[#DEDEDE] text-xs font-normal">
+                          {clientReview.role}
+                        </p>
                       </div>
                     </div>
 

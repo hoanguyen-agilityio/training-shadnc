@@ -6,6 +6,7 @@ exports[`Breadcrumb component Renders breadcrumb component 1`] = `
     class="flex gap-3 mt-[25px]"
   >
     <a
+      aria-label="back to home page"
       data-discover="true"
       href="/"
     >
@@ -50,7 +51,7 @@ exports[`Breadcrumb component Renders breadcrumb component 1`] = `
       href="/"
     >
       <span
-        class="text-base text-green-50"
+        class="text-base text-green-700 dark:text-green-50"
       >
         Shop
       </span>

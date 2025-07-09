@@ -11,9 +11,7 @@ export const FeatureBar = () => (
         {icon}
         <div className="flex flex-col">
           <p className="text-xl text-charcoalGray-50 dark:text-white">{title}</p>
-          <p className="text-base font-normal text-charcoalGray-50 dark:text-[#8A8A8A]">
-            {describe}
-          </p>
+          <p className="text-base font-normal text-charcoalGray-50 dark:text-gray-60">{describe}</p>
         </div>
       </div>
     ))}

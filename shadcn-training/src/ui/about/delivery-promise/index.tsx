@@ -20,7 +20,7 @@ export const DeliveryPromise = () => {
     <section className="flex flex-col items-center gap-[30px] min-[1300px]:flex-row">
       <div>
         <h3 className="text-[46px] dark:text-white">We Delivered, You Enjoy Your Order.</h3>
-        <p className="text-lg text-[#8A8A8A] mt-3">
+        <p className="text-lg text-charcoalGray-60 dark:text-gray-60 mt-3">
           Ut suscipit egestas suscipit. Sed posuere pellentesque nunc, ultrices consectetur velit
           dapibus eu. Mauris sollicitudin dignissim diam, ac mattis eros accumsan rhoncus. Curabitur
           auctor bibendum nunc eget elementum.
@@ -29,7 +29,7 @@ export const DeliveryPromise = () => {
           {featureChecklist.map((item, index) => (
             <div key={index} className="flex items-center gap-2">
               {item.icon}
-              <span className="text-base text-[#8A8A8A]">{item.text}</span>
+              <span className="text-base text-charcoalGray-60 dark:text-gray-60">{item.text}</span>
             </div>
           ))}
         </div>

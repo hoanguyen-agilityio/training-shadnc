@@ -7,7 +7,7 @@ export const NewArrivals = () => (
   <section aria-label="new arrivals" className="max-w-[1320px] mx-auto">
     <div className="flex flex-col text-center gap-3.5 mb-4 items-center">
       <h2 className="text-[46px] text-[#484848] dark:text-white">New Arrivals</h2>
-      <p className="text-lg text-[#8A8A8A] w-full max-w-[746px]">
+      <p className="text-lg text-charcoalGray-60 dark:text-gray-60 w-full max-w-[746px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices
         sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
       </p>

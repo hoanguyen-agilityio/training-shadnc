@@ -32,7 +32,7 @@ export const Menu = ({ menuItems }: MenuProps) => {
                 href={item.disabled ? undefined : item.href}
                 className={clsx('font-poppins hover:text-green-50 text-base', 'dark:text-white', {
                   'cursor-not-allowed': item.disabled,
-                  'text-green-50 dark:text-green-50': location.pathname === item.href,
+                  'text-green-700 dark:text-green-50': location.pathname === item.href,
                 })}
               >
                 {item.label}

@@ -2,20 +2,21 @@
 
 exports[`Dropdown component Renders dropdown component 1`] = `
 <div>
-  <div
+  <button
     aria-expanded="false"
     aria-haspopup="menu"
-    class="relative w-max"
+    class="relative w-[178px]"
     data-slot="dropdown-menu-trigger"
     data-state="closed"
     id="radix-«r0»"
     type="button"
   >
-    <input
-      class="w-full border border-[#E6E6E6] rounded px-4 py-2.5 cursor-pointer text-sm dark:text-white"
-      readonly=""
-      value="Sort by: defaultValue"
-    />
+    <span
+      aria-label="dropdown"
+      class="w-full border border-[#E6E6E6] rounded px-4 py-2.5 cursor-pointer text-sm dark:text-white inline-block text-left"
+    >
+      Sort by: defaultValue
+    </span>
     <span
       class="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none"
     >
@@ -37,6 +38,6 @@ exports[`Dropdown component Renders dropdown component 1`] = `
         />
       </svg>
     </span>
-  </div>
+  </button>
 </div>
 `;

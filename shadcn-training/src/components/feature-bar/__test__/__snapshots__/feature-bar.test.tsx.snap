@@ -3,6 +3,7 @@
 exports[`FeatureBar component Renders featureBar component 1`] = `
 <div>
   <section
+    aria-label="feature bar"
     class="grid grid-cols-1 min-[600px]:grid-cols-2 gap-5 min-[1090px]:grid-cols-4 my-[60px]"
   >
     <div
@@ -34,7 +35,7 @@ exports[`FeatureBar component Renders featureBar component 1`] = `
           High Quality
         </p>
         <p
-          class="text-base font-normal text-charcoalGray-50 dark:text-[#8A8A8A]"
+          class="text-base font-normal text-charcoalGray-50 dark:text-gray-60"
         >
           crafted from top materials
         </p>
@@ -73,7 +74,7 @@ exports[`FeatureBar component Renders featureBar component 1`] = `
           Warrany Protection
         </p>
         <p
-          class="text-base font-normal text-charcoalGray-50 dark:text-[#8A8A8A]"
+          class="text-base font-normal text-charcoalGray-50 dark:text-gray-60"
         >
           Over 2 years
         </p>
@@ -104,7 +105,7 @@ exports[`FeatureBar component Renders featureBar component 1`] = `
           Free Shipping
         </p>
         <p
-          class="text-base font-normal text-charcoalGray-50 dark:text-[#8A8A8A]"
+          class="text-base font-normal text-charcoalGray-50 dark:text-gray-60"
         >
           Order over 150 $
         </p>
@@ -155,7 +156,7 @@ exports[`FeatureBar component Renders featureBar component 1`] = `
           24 / 7 Support
         </p>
         <p
-          class="text-base font-normal text-charcoalGray-50 dark:text-[#8A8A8A]"
+          class="text-base font-normal text-charcoalGray-50 dark:text-gray-60"
         >
           Dedicated support
         </p>

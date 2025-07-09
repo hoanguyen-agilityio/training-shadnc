@@ -9,6 +9,7 @@ exports[`Footer component Renders footer component 1`] = `
       class="flex items-center justify-between"
     >
       <a
+        aria-label="logo"
         data-discover="true"
         href="/"
       >
@@ -153,7 +154,7 @@ exports[`Footer component Renders footer component 1`] = `
       </button>
     </div>
     <span
-      class="font-poppins text-base pt-3 dark:text-[#8A8A8A]"
+      class="font-poppins text-base pt-3 dark:text-gray-60"
     >
       Copyright © 2024 . All Rights Reserved.
     </span>

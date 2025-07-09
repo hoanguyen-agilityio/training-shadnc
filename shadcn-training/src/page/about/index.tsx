@@ -26,7 +26,7 @@ export const AboutPage = () => {
           <section className="mt-20">
             <div className="max-w-[640px] text-center mx-auto mb-10">
               <h3 className="text-[46px] dark:text-white">Our Awesome Team</h3>
-              <p className="text-lg text-[#8A8A8A] mt-3">
+              <p className="text-lg text-charcoalGray-60 dark:text-gray-60 mt-3">
                 Pellentesque a ante vulputate leo porttitor luctus sed eget eros. Nulla et rhoncus
                 neque. Duis non diam eget est luctus tincidunt a a mi.
               </p>

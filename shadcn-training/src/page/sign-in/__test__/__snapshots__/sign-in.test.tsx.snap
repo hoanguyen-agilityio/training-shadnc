@@ -2,15 +2,16 @@
 
 exports[`LoginPage renders LoginPage correctly 1`] = `
 <div>
-  <div
+  <main
     class="relative w-full h-screen overflow-hidden"
   >
     <img
       alt="side image"
       class="absolute inset-0 w-full h-full object-cover hidden min-[1200px]:block"
-      src="/public/assets/side-img.svg"
+      src="/assets/side-img.svg"
     />
     <a
+      aria-label="logo"
       class="absolute top-10 left-10 p-[15px] bg-white rounded shadow hidden min-[1200px]:block"
       data-discover="true"
       href="/"
@@ -176,7 +177,7 @@ exports[`LoginPage renders LoginPage correctly 1`] = `
             </svg>
           </div>
           <span
-            class="text-lg text-[#8A8A8A]"
+            class="text-lg text-charcoalGray-60 dark:text-gray-60"
           >
             Please login here
           </span>
@@ -200,6 +201,7 @@ exports[`LoginPage renders LoginPage correctly 1`] = `
               <input
                 aria-describedby="«r0»-form-item-description"
                 aria-invalid="false"
+                aria-label="email address"
                 class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 rounded-[10px] border border-[#E2E2E2] py-4 px-3"
                 data-slot="form-control"
                 id="«r0»-form-item"
@@ -226,6 +228,7 @@ exports[`LoginPage renders LoginPage correctly 1`] = `
               <input
                 aria-describedby="«r1»-form-item-description"
                 aria-invalid="false"
+                aria-label="password"
                 class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 rounded-[10px] border border-[#E2E2E2] py-4 px-3"
                 data-slot="form-control"
                 id="«r1»-form-item"
@@ -244,6 +247,7 @@ exports[`LoginPage renders LoginPage correctly 1`] = `
             >
               <button
                 aria-checked="false"
+                aria-label="checkbox"
                 class="peer border-input dark:bg-input/30 data-[state=checked]:bg-[#CDCDCD] data-[state=checked]:text-white dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
                 data-slot="checkbox"
                 data-state="unchecked"
@@ -292,6 +296,6 @@ exports[`LoginPage renders LoginPage correctly 1`] = `
         </form>
       </div>
     </div>
-  </div>
+  </main>
 </div>
 `;

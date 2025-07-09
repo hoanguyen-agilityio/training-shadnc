@@ -11,7 +11,7 @@ export const Footer = () => (
       </Link>
       <Menu menuItems={MENU_ITEMS_FOOTER} />
     </div>
-    <span className="font-poppins text-base pt-3 dark:text-[#8A8A8A]">
+    <span className="font-poppins text-base pt-3 dark:text-gray-60">
       Copyright © 2024 . All Rights Reserved.
     </span>
   </footer>

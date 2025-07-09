@@ -34,7 +34,7 @@ export const AuthLayout = ({ title, description, icon, children }: IAuthLayout) 
             <span className="text-[46px] dark:text-white">{title}</span>
             {icon && <WavingHandIcon width="64px" height="64px" />}
           </div>
-          <span className="text-lg text-[#8A8A8A]">{description}</span>
+          <span className="text-lg text-charcoalGray-60 dark:text-gray-60">{description}</span>
         </div>
         {children}
       </div>

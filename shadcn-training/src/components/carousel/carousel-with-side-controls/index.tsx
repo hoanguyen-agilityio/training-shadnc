@@ -64,7 +64,7 @@ export const CarouselWithSideControls = () => {
                     <span className="text-lg font-semibold text-black dark:text-white">
                       {member.name}
                     </span>
-                    <p className="text-[#8A8A8A] text-sm font-normal dark:text-slate-400">
+                    <p className="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]">
                       {member.position}
                     </p>
                   </CardContent>
