@@ -15,6 +15,7 @@ exports[`Not Found page Renders Not Found page 1`] = `
           class="flex items-center min-[680px]:gap-8 gap-0"
         >
           <a
+            aria-label="logo"
             data-discover="true"
             href="/"
           >
@@ -163,6 +164,7 @@ exports[`Not Found page Renders Not Found page 1`] = `
           class="flex items-center gap-4"
         >
           <button
+            aria-label="Light mode switch"
             class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-black text-green-50 hover:text-accent-foreground dark:hover:bg-accent/50 relative h-14 w-28 rounded-full p-1 transition-all duration-300 ease-in-out hover:scale-105 focus:scale-105 bg-gray-200 hover:bg-gray-300"
             data-slot="button"
           >
@@ -245,7 +247,7 @@ exports[`Not Found page Renders Not Found page 1`] = `
       </header>
     </div>
     <main
-      class="flex-grow flex items-center justify-center px-4"
+      class="flex-grow flex items-center justify-center p-10"
     >
       <section
         class="max-w-[600px] text-center"
@@ -1026,7 +1028,7 @@ exports[`Not Found page Renders Not Found page 1`] = `
         </button>
       </section>
     </main>
-    <footer
+    <div
       class="border-t border-[#DADADA] pt-[30px]"
     >
       <div
@@ -1039,6 +1041,7 @@ exports[`Not Found page Renders Not Found page 1`] = `
             class="flex items-center justify-between"
           >
             <a
+              aria-label="logo"
               data-discover="true"
               href="/"
             >
@@ -1183,13 +1186,13 @@ exports[`Not Found page Renders Not Found page 1`] = `
             </button>
           </div>
           <span
-            class="font-poppins text-base pt-3 dark:text-[#8A8A8A]"
+            class="font-poppins text-base pt-3 dark:text-gray-60"
           >
             Copyright © 2024 . All Rights Reserved.
           </span>
         </footer>
       </div>
-    </footer>
+    </div>
   </div>
 </div>
 `;

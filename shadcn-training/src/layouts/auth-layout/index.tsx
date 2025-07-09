@@ -14,7 +14,7 @@ interface IAuthLayout {
 }
 
 export const AuthLayout = ({ title, description, icon, children }: IAuthLayout) => (
-  <div className="relative w-full h-screen overflow-hidden">
+  <main className="relative w-full h-screen overflow-hidden">
     <img
       src="/assets/side-img.svg"
       alt="side image"
@@ -23,6 +23,7 @@ export const AuthLayout = ({ title, description, icon, children }: IAuthLayout) 
     <Link
       to={ROUTES.HOME}
       className="absolute top-10 left-10 p-[15px] bg-white rounded shadow hidden min-[1200px]:block"
+      aria-label="logo"
     >
       <Logo width="80px" height="80px" />
     </Link>
@@ -33,10 +34,10 @@ export const AuthLayout = ({ title, description, icon, children }: IAuthLayout) 
             <span className="text-[46px] dark:text-white">{title}</span>
             {icon && <WavingHandIcon width="64px" height="64px" />}
           </div>
-          <span className="text-lg text-[#8A8A8A]">{description}</span>
+          <span className="text-lg text-charcoalGray-60 dark:text-gray-60">{description}</span>
         </div>
         {children}
       </div>
     </div>
-  </div>
+  </main>
 );

@@ -36,6 +36,7 @@ export const CarouselWithTopControls = () => {
         <h3 className="text-[46px] dark:text-white">Client Testimonial</h3>
         <div className="flex gap-2">
           <Button
+            aria-label="previous"
             variant="outline"
             size="icon"
             className="rounded-full border-gray-300 bg-white text-black hover:bg-[#6C9D30] hover:text-white cursor-pointer"
@@ -44,6 +45,7 @@ export const CarouselWithTopControls = () => {
             <ArrowIcon />
           </Button>
           <Button
+            aria-label="next"
             variant="outline"
             size="icon"
             className="rounded-full border-gray-300 bg-white text-black hover:bg-[#6C9D30] hover:text-white cursor-pointer"
@@ -55,7 +57,6 @@ export const CarouselWithTopControls = () => {
       </div>
 
       {/* Testimonials Carousel */}
-
       <CarouselShadcn
         setApi={setApi}
         opts={{
@@ -75,7 +76,7 @@ export const CarouselWithTopControls = () => {
                   </div>
 
                   {/* Testimonial Text */}
-                  <p className="text-[#4D4D4D] dark:text-[#8A8A8A] font-normal text-sm	mb-6 flex-grow">
+                  <p className="text-[#4D4D4D] dark:text-slate-400 font-normal text-sm	mb-6 flex-grow">
                     {clientReview.text}
                   </p>
 
@@ -92,7 +93,9 @@ export const CarouselWithTopControls = () => {
                         <h4 className="font-semibold text-black dark:text-white text-sm">
                           {clientReview.name}
                         </h4>
-                        <p className="text-[#999999] text-xs font-normal">{clientReview.role}</p>
+                        <p className="text-charcoalGray-60 dark:text-[#DEDEDE] text-xs font-normal">
+                          {clientReview.role}
+                        </p>
                       </div>
                     </div>
 

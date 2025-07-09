@@ -74,6 +74,7 @@ export const SignUpPage = () => {
               <FormItem>
                 <FormControl>
                   <Input
+                    aria-label="first name"
                     label="First Name"
                     placeholder="Robert"
                     {...field}
@@ -81,7 +82,7 @@ export const SignUpPage = () => {
                     variant="default"
                   />
                 </FormControl>
-                <FormMessage className="text-red-500" />
+                <FormMessage className="text-red-600 dark:text-red-400" />
               </FormItem>
             )}
           />
@@ -92,6 +93,7 @@ export const SignUpPage = () => {
               <FormItem>
                 <FormControl>
                   <Input
+                    aria-label="last name"
                     label="Last Name"
                     placeholder="Fox"
                     {...field}
@@ -99,7 +101,7 @@ export const SignUpPage = () => {
                     variant="default"
                   />
                 </FormControl>
-                <FormMessage className="text-red-500" />
+                <FormMessage className="text-red-600 dark:text-red-400" />
               </FormItem>
             )}
           />
@@ -110,6 +112,7 @@ export const SignUpPage = () => {
               <FormItem>
                 <FormControl>
                   <Input
+                    aria-label="email address"
                     label="Email Address"
                     placeholder="robertfox@example.com"
                     {...field}
@@ -117,8 +120,8 @@ export const SignUpPage = () => {
                     variant="default"
                   />
                 </FormControl>
-                <FormMessage className="text-red-500" />
-                {signupError && <p className="text-red-500">{signupError}</p>}
+                <FormMessage className="text-red-600 dark:text-red-400" />
+                {signupError && <p className="text-red-600 dark:text-red-400">{signupError}</p>}
               </FormItem>
             )}
           />
@@ -129,6 +132,8 @@ export const SignUpPage = () => {
               <FormItem>
                 <FormControl>
                   <Input
+                    aria-label="password"
+                    id="password"
                     label="Password"
                     placeholder="**************"
                     {...field}
@@ -136,12 +141,12 @@ export const SignUpPage = () => {
                     variant="default"
                   />
                 </FormControl>
-                <FormMessage className="text-red-500" />
+                <FormMessage className="text-red-600 dark:text-red-400" />
               </FormItem>
             )}
           />
           <div className="flex items-center gap-2 dark:text-white">
-            <Checkbox />
+            <Checkbox aria-label="checkbox" />
             <span>
               I agree to the <b>Terms & Conditions</b>
             </span>

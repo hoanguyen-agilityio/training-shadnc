@@ -5,6 +5,8 @@
   --font-poppins: Poppins, sans-serif;
   --color-green-50: #6c9d30;
   --color-charcoalGray-50: #484848;
+  --color-gray-60: #8a8a8a;
+  --color-charcoalGray-60: #424242;
 }
 
 /* [data-radix-popper-content-wrapper] {

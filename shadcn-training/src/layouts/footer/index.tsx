@@ -6,12 +6,12 @@ import { MENU_ITEMS_FOOTER, ROUTES } from '@/constants';
 export const Footer = () => (
   <footer className="px-4 text-center mb-[30px]">
     <div className="flex items-center justify-between">
-      <Link to={ROUTES.HOME}>
+      <Link to={ROUTES.HOME} aria-label="logo">
         <Logo width="100px" height="100px" />
       </Link>
       <Menu menuItems={MENU_ITEMS_FOOTER} />
     </div>
-    <span className="font-poppins text-base pt-3 dark:text-[#8A8A8A]">
+    <span className="font-poppins text-base pt-3 dark:text-gray-60">
       Copyright © 2024 . All Rights Reserved.
     </span>
   </footer>

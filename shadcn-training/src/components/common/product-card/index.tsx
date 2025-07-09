@@ -35,21 +35,22 @@ export const ProductCard = ({
               {/* buttons - hidden by default, show on hover */}
               <div className="absolute bottom-6 left-10 flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <Button
+                  aria-label="heart icon"
                   variant="primary"
                   size="circle"
                   icon={<HeartIcon />}
-                  onClick={() => {}}
                   className="flex-shrink-0 cursor-not-allowed"
                 />
                 <Button
+                  aria-label="add to cart"
                   variant="primary"
                   size="lg"
                   label="Add to Cart"
                   icon={<CartIcon />}
-                  onClick={() => {}}
                   className="flex flex-row-reverse cursor-not-allowed"
                 />
                 <Button
+                  aria-label="eye icon"
                   variant="primary"
                   size="circle"
                   icon={<EyeIcon />}
@@ -66,7 +67,9 @@ export const ProductCard = ({
           <div className="flex gap-2 justify-between items-center">
             <div>
               <CardTitle className="text-xl dark:text-white">{title}</CardTitle>
-              <CardDescription className="text-xs text-[#8A8A8A]">{brand}</CardDescription>
+              <CardDescription className="text-xs text-charcoalGray-60 dark:text-slate-400">
+                {brand}
+              </CardDescription>
             </div>
             <Evaluate value={rating} />
           </div>
@@ -75,7 +78,9 @@ export const ProductCard = ({
             <CardDescription className="text-2xl font-bold dark:text-white">
               {price}
             </CardDescription>
-            <CardDescription className="text-xs text-[#FF4646]">Almost Sold Out</CardDescription>
+            <CardDescription className="text-xs text-red-600 dark:text-red-400">
+              Almost Sold Out
+            </CardDescription>
           </div>
         </CardContent>
       )}
@@ -84,17 +89,21 @@ export const ProductCard = ({
         <CardContent className="flex flex-col gap-3">
           <div className="flex justify-between items-center">
             <CardTitle className="text-xl dark:text-white">{title}</CardTitle>
-            <CardDescription className="text-xs text-[#8A8A8A]">{brand}</CardDescription>
+            <CardDescription className="text-xs text-charcoalGray-60 dark:text-slate-400">
+              {brand}
+            </CardDescription>
           </div>
           <div className="flex gap-0.5">
             <Evaluate value={rating} />
-            <span className="dark:text-[#8A8A8A]">{reviewLabel}</span>
+            <span className="text-charcoalGray-60 dark:text-slate-400">{reviewLabel}</span>
           </div>
           <div className="flex justify-between items-center">
             <CardDescription className="text-2xl font-bold dark:text-white">
               {price}
             </CardDescription>
-            <CardDescription className="text-xs text-[#FF4646]">Almost Sold Out</CardDescription>
+            <CardDescription className="text-xs text-red-600 dark:text-red-400">
+              Almost Sold Out
+            </CardDescription>
           </div>
         </CardContent>
       )}

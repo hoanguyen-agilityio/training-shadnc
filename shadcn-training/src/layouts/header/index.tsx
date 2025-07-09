@@ -34,7 +34,7 @@ export const Header = () => {
   return (
     <header className="flex items-center justify-between mt-5 border-b-1 border-[#EAEAEA] pb-5">
       <div className="flex items-center min-[680px]:gap-8 gap-0">
-        <Link to={ROUTES.HOME}>
+        <Link to={ROUTES.HOME} aria-label="logo">
           <Logo width="100px" height="100px" />
         </Link>
         <Menu menuItems={menuItems} />

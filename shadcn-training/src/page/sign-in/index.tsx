@@ -11,7 +11,7 @@ import { ERROR_MESSAGES, ROUTES } from '@/constants';
 // Layouts
 import { AuthLayout } from '@/layouts';
 
-// @Utils
+// Utils
 import { formSchema, useInitialUsers } from '@/utils';
 
 // Components
@@ -59,6 +59,7 @@ export const LoginPage = () => {
               <FormItem>
                 <FormControl>
                   <Input
+                    aria-label="email address"
                     label="Email Address"
                     placeholder="robertfox@example.com"
                     {...field}
@@ -66,7 +67,7 @@ export const LoginPage = () => {
                     variant="default"
                   />
                 </FormControl>
-                <FormMessage className="text-red-500" />
+                <FormMessage className="text-red-600 dark:text-red-400" />
               </FormItem>
             )}
           />
@@ -77,6 +78,7 @@ export const LoginPage = () => {
               <FormItem>
                 <FormControl>
                   <Input
+                    aria-label="password"
                     label="Password"
                     placeholder="**************"
                     {...field}
@@ -84,20 +86,20 @@ export const LoginPage = () => {
                     variant="default"
                   />
                 </FormControl>
-                <FormMessage className="text-red-500" />
+                <FormMessage className="text-red-600 dark:text-red-400" />
               </FormItem>
             )}
           />
           <div className="flex items-center justify-between dark:text-white">
             <div className="flex items-center gap-2">
-              <Checkbox />
+              <Checkbox aria-label="checkbox" />
               <span>Remember Me</span>
             </div>
             <Link to="#" className="text-sm	text-black">
               Forgot Password?
             </Link>
           </div>
-          {loginError && <p className="text-red-500">{loginError}</p>}
+          {loginError && <p className="text-red-600 dark:text-red-400">{loginError}</p>}
           <Button
             label={form.formState.isSubmitting ? 'Logging in...' : 'LOGIN'}
             icon={<ChevronIcon fill="white" />}

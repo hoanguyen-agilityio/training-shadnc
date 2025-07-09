@@ -6,18 +6,22 @@ import { Subscribe } from '@/components/subscribe';
 export const HomePage = () => {
   return (
     <>
-      <div className="max-w-[1320px] mx-auto flex flex-col gap-[60px] px-10 bg-white dark:bg-black">
+      <div className="max-w-[1320px] mx-auto px-10 bg-white dark:bg-black">
         <Header />
-        <HomeBanner />
-        <CollectionHero />
       </div>
-      <NewIn />
-      <div className="max-w-[1320px] mx-auto px-10 mt-[60px]">
-        <NewArrivals />
-        <FeatureBar />
-      </div>
-      <SocialGallery />
-      <Subscribe />
+      <main>
+        <div className="max-w-[1320px] mx-auto flex flex-col gap-[60px] px-10 bg-white dark:bg-black">
+          <HomeBanner />
+          <CollectionHero />
+        </div>
+        <NewIn />
+        <div className="max-w-[1320px] mx-auto px-10 mt-[60px]">
+          <NewArrivals />
+          <FeatureBar />
+        </div>
+        <SocialGallery />
+        <Subscribe />
+      </main>
       <div className="max-w-[1320px] mx-auto px-10 mt-[30px]">
         <Footer />
       </div>

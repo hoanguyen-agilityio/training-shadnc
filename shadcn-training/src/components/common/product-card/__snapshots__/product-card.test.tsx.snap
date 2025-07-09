@@ -15,7 +15,7 @@ exports[`Menu component Renders menu component 1`] = `
       >
         <img
           alt="simple"
-          src="/public/assets/product.svg"
+          src="/assets/product.svg"
         />
       </div>
     </div>
@@ -34,7 +34,7 @@ exports[`Menu component Renders menu component 1`] = `
             Chinese cabbage
           </div>
           <div
-            class="text-xs text-[#8A8A8A]"
+            class="text-xs text-charcoalGray-60 dark:text-slate-400"
             data-slot="card-description"
           >
             Al Karam
@@ -131,7 +131,7 @@ exports[`Menu component Renders menu component 1`] = `
           $95.50
         </div>
         <div
-          class="text-xs text-[#FF4646]"
+          class="text-xs text-red-600 dark:text-red-400"
           data-slot="card-description"
         >
           Almost Sold Out

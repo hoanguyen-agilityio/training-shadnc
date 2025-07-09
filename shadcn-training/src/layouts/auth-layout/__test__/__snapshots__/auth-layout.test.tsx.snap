@@ -2,15 +2,16 @@
 
 exports[`AuthLayout component Renders AuthLayout component 1`] = `
 <div>
-  <div
+  <main
     class="relative w-full h-screen overflow-hidden"
   >
     <img
       alt="side image"
       class="absolute inset-0 w-full h-full object-cover hidden min-[1200px]:block"
-      src="/public/assets/side-img.svg"
+      src="/assets/side-img.svg"
     />
     <a
+      aria-label="logo"
       class="absolute top-10 left-10 p-[15px] bg-white rounded shadow hidden min-[1200px]:block"
       data-discover="true"
       href="/"
@@ -68,7 +69,7 @@ exports[`AuthLayout component Renders AuthLayout component 1`] = `
             </span>
           </div>
           <span
-            class="text-lg text-[#8A8A8A]"
+            class="text-lg text-charcoalGray-60 dark:text-gray-60"
           >
             Please login here
           </span>
@@ -80,6 +81,6 @@ exports[`AuthLayout component Renders AuthLayout component 1`] = `
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </div>
 `;

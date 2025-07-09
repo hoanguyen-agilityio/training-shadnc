@@ -3,21 +3,22 @@
 exports[`Subscribe component Renders subscribe component 1`] = `
 <div>
   <section
+    aria-label="subscribe"
     class="max-h-[867px] w-full h-[867px] relative"
   >
     <img
       alt=""
       class="w-full h-full object-cover"
-      src="/public/assets/subscribe.webp"
+      src="/assets/subscribe.webp"
     />
     <div
       class="absolute inset-0 flex flex-col justify-center items-center text-center px-4"
     >
-      <h3
-        class="text-[46px] text-[#8A8A8A]"
+      <h2
+        class="text-[46px] text-charcoalGray-60 dark:text-gray-60"
       >
         Subscribe To Our Newsletter
-      </h3>
+      </h2>
       <p
         class="text-lg text-charcoalGray-50 max-w-[688px] mt-[15px]"
       >
@@ -34,7 +35,7 @@ exports[`Subscribe component Renders subscribe component 1`] = `
             data-slot="label"
           />
           <input
-            class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex w-full min-w-0 rounded-md bg-transparent py-1 transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 border-0 shadow-md pt-7 pb-8 px-[30px]"
+            class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex w-full min-w-0 rounded-md bg-transparent py-1 transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 border-0 shadow-md pt-7 pb-8 px-[30px] dark:text-black"
             data-slot="input"
             name="email"
             placeholder="michael@ymail.com"

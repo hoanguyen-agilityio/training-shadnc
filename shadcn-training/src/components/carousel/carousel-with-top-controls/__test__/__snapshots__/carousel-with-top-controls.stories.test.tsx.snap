@@ -17,6 +17,7 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
         class="flex gap-2"
       >
         <button
+          aria-label="previous"
           class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border shadow-xs dark:bg-input/30 dark:border-input dark:hover:bg-input/50 size-9 rounded-full border-gray-300 bg-white text-black hover:bg-[#6C9D30] hover:text-white cursor-pointer"
           data-slot="button"
         >
@@ -42,6 +43,7 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
           </svg>
         </button>
         <button
+          aria-label="next"
           class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border shadow-xs dark:bg-input/30 dark:border-input dark:hover:bg-input/50 size-9 rounded-full border-gray-300 bg-white text-black hover:bg-[#6C9D30] hover:text-white cursor-pointer"
           data-slot="button"
         >
@@ -105,7 +107,7 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                 </svg>
               </div>
               <p
-                class="text-[#4D4D4D] dark:text-[#8A8A8A] font-normal text-sm	mb-6 flex-grow"
+                class="text-[#4D4D4D] dark:text-slate-400 font-normal text-sm	mb-6 flex-grow"
               >
                 Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget
               </p>
@@ -133,7 +135,7 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                       Robert Fox
                     </h4>
                     <p
-                      class="text-[#999999] text-xs font-normal"
+                      class="text-charcoalGray-60 dark:text-[#DEDEDE] text-xs font-normal"
                     >
                       Customer
                     </p>
@@ -251,7 +253,7 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                 </svg>
               </div>
               <p
-                class="text-[#4D4D4D] dark:text-[#8A8A8A] font-normal text-sm	mb-6 flex-grow"
+                class="text-[#4D4D4D] dark:text-slate-400 font-normal text-sm	mb-6 flex-grow"
               >
                 Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget
               </p>
@@ -279,7 +281,7 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                       Dianne Russell
                     </h4>
                     <p
-                      class="text-[#999999] text-xs font-normal"
+                      class="text-charcoalGray-60 dark:text-[#DEDEDE] text-xs font-normal"
                     >
                       Customer
                     </p>
@@ -397,7 +399,7 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                 </svg>
               </div>
               <p
-                class="text-[#4D4D4D] dark:text-[#8A8A8A] font-normal text-sm	mb-6 flex-grow"
+                class="text-[#4D4D4D] dark:text-slate-400 font-normal text-sm	mb-6 flex-grow"
               >
                 Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget
               </p>
@@ -425,7 +427,7 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                       Eleanor Pena
                     </h4>
                     <p
-                      class="text-[#999999] text-xs font-normal"
+                      class="text-charcoalGray-60 dark:text-[#DEDEDE] text-xs font-normal"
                     >
                       Customer
                     </p>
@@ -543,7 +545,7 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                 </svg>
               </div>
               <p
-                class="text-[#4D4D4D] dark:text-[#8A8A8A] font-normal text-sm	mb-6 flex-grow"
+                class="text-[#4D4D4D] dark:text-slate-400 font-normal text-sm	mb-6 flex-grow"
               >
                 Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget
               </p>
@@ -571,7 +573,7 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                       Eleanor Pena
                     </h4>
                     <p
-                      class="text-[#999999] text-xs font-normal"
+                      class="text-charcoalGray-60 dark:text-[#DEDEDE] text-xs font-normal"
                     >
                       Customer
                     </p>
