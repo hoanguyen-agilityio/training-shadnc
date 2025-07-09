@@ -16,7 +16,7 @@ export const Breadcrumb = ({ breadcrumbName }: IBreadcrumb) => {
   const location = useLocation();
   return (
     <section className="flex gap-3 mt-[25px]">
-      <Link to={ROUTES.HOME}>
+      <Link aria-label="back to home page" to={ROUTES.HOME}>
         <HomeIcon width="24px" height="24px" className="text-black dark:text-white" />
       </Link>
       <ChevronIcon width="24px" height="24px" className="text-[#666666] dark:text-white" />

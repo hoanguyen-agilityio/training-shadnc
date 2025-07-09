@@ -26,7 +26,7 @@ export const NewIn = () => (
               <img src={img} alt={imgAlt} className="w-full h-full max-w-[190px] max-h-[260px]" />
             </CardHeader>
             <CardContent>
-              <CardTitle className="text-base">{title}</CardTitle>
+              <CardTitle className="text-base dark:text-white">{title}</CardTitle>
             </CardContent>
           </Card>
         ))}

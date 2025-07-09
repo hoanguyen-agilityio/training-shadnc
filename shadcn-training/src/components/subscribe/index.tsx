@@ -18,7 +18,7 @@ export const Subscribe = () => {
             type="email"
             placeholder="michael@ymail.com"
             name="email"
-            onChange={() => {}}
+            className="dark:text-black"
           />
           <Button
             size="sm"
