@@ -43,7 +43,7 @@ export const OrganicFoodStore = () => {
   return (
     <section className="mt-40 border-b-1 border-[#8A8A8A] dark:text-white">
       <div className="text-center max-w-[1320px] mx-auto px-10">
-        <h3 className="text-[46px]">100% Trusted Organic Food Store</h3>
+        <h2 className="text-[46px]">100% Trusted Organic Food Store</h2>
         <p className="text-lg text-[#8A8A8A] mt-[30px]">
           Morbi porttitor ligula in nunc varius sagittis. Proin dui nisi, laoreet ut tempor ac,
           cursus vitae eros. Cras quis ultricies elit. Proin ac lectus arcu. Maecenas aliquet vel
