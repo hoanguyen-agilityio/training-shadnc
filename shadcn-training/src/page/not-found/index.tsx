@@ -15,7 +15,7 @@ export const NotFoundPage = () => {
       </div>
 
       {/* Main (flex-grow to fill remaining space) */}
-      <main className="flex-grow flex items-center justify-center px-4">
+      <main className="flex-grow flex items-center justify-center p-10">
         <section className="max-w-[600px] text-center">
           <div className="flex justify-center">
             <NotFound width="446px" height="271px" />
@@ -35,11 +35,11 @@ export const NotFoundPage = () => {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-[#DADADA] pt-[30px]">
+      <div className="border-t border-[#DADADA] pt-[30px]">
         <div className="max-w-[1320px] mx-auto px-10 w-full">
           <Footer />
         </div>
-      </footer>
+      </div>
     </div>
   );
 };
