@@ -17,7 +17,7 @@ export const NewArrivals = () => (
       <Button
         label="View More"
         icon={<ChevronIcon fill="white" />}
-        onClick={() => {}}
+        disabled
         size="sm"
         className="flex flex-row-reverse"
       />

@@ -30,12 +30,7 @@ export const ShopBanner = () => {
             </div>
           ))}
         </div>
-        <Button
-          label="Shop Now"
-          size="default"
-          onClick={() => {}}
-          className="mt-8 cursor-not-allowed"
-        />
+        <Button label="Shop Now" size="default" disabled className="mt-8 cursor-not-allowed" />
       </div>
       <div className="bg-[#FF8A00] rounded-full flex flex-col p-3 text-center absolute right-2 top-2 min-[400px]:right-1/12 min-[400px]:top-1/12 min-[720px]:p-6 min-[1180px]:right-3/12">
         <span className="text-xl min-[720px]:text-2xl font-semibold text-white">56%</span>
