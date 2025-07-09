@@ -3,7 +3,7 @@ import { Button } from '@/components';
 export const HeroImg = () => (
   <section className="relative mt-20">
     <img
-      src="/public/assets/shop-hero-img.svg"
+      src="/assets/shop-hero-img.svg"
       alt="shop hero image"
       className="w-auto h-[450px] min-[750px]:w-full min-[750px]:h-full object-cover"
     />

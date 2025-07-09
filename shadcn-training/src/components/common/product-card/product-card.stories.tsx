@@ -14,7 +14,7 @@ type Story = StoryObj<typeof ProductCard>;
 
 export const ProductCardSimple: Story = {
   args: {
-    img: '/public/assets/product.svg',
+    img: '/assets/product.svg',
     imgAlt: 'img product',
     variant: 'simple',
     title: 'Chinese cabbage',
@@ -27,7 +27,7 @@ export const ProductCardSimple: Story = {
 
 export const ProductCardWithActions: Story = {
   args: {
-    img: '/public/assets/product.svg',
+    img: '/assets/product.svg',
     imgAlt: 'img product',
     variant: 'withActions',
     title: 'Chinese cabbage',

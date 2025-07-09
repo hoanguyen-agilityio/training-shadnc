@@ -16,7 +16,7 @@ interface IAuthLayout {
 export const AuthLayout = ({ title, description, icon, children }: IAuthLayout) => (
   <div className="relative w-full h-screen overflow-hidden">
     <img
-      src="/public/assets/side-img.svg"
+      src="/assets/side-img.svg"
       alt="side image"
       className="absolute inset-0 w-full h-full object-cover hidden min-[1200px]:block"
     />

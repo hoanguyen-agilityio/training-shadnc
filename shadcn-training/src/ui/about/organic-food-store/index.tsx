@@ -53,7 +53,7 @@ export const OrganicFoodStore = () => {
       </div>
       <div className="flex flex-col items-center mt-20 gap-[30px] min-[1310px]:flex-row">
         <img
-          src="/public/assets/trusted-organic-food-store.svg"
+          src="/assets/trusted-organic-food-store.svg"
           alt="100% Trusted Organic Food Store"
           className="w-full"
         />
