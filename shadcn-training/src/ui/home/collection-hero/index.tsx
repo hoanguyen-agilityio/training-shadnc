@@ -1,8 +1,8 @@
 import { Button } from '@/components';
 
 export const CollectionHero = () => (
-  <section className="text-center">
-    <h3 className="text-[46px] dark:text-white">A style that fits everyone</h3>
+  <section aria-label="collection hero" className="text-center">
+    <h2 className="text-[46px] dark:text-white">A style that fits everyone</h2>
     <p className="text-lg text-[#8A8A8A] mt-4">
       Be inspired by sleek shapes, fresh colors and expressive prints{' '}
     </p>

@@ -25,6 +25,7 @@ export const ModeToggle = () => {
       variant="ghost"
       size="lg"
       onClick={toggleTheme}
+      aria-label="Light mode switch"
       className={cn(
         'relative h-14 w-28 rounded-full p-1 transition-all duration-300 ease-in-out',
         'hover:scale-105 focus:scale-105',

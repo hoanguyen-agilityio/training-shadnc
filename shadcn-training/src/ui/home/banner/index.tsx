@@ -1,7 +1,10 @@
 import { Button } from '@/components';
 
 export const HomeBanner = () => (
-  <section className="flex flex-col md:flex-row gap-[30px] items-stretch w-full">
+  <section
+    aria-label="banner"
+    className="flex flex-col md:flex-row gap-[30px] items-stretch w-full"
+  >
     <img
       src={'/assets/left-home-banner.svg'}
       alt="left home banner"
