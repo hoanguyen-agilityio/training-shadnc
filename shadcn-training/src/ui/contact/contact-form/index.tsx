@@ -19,7 +19,7 @@ export const ContactForm = () => {
   return (
     <Card className="w-full shadow-xl rounded-[10px]">
       <CardHeader>
-        <h3 className="text-2xl font-bold text-black dark:text-white">Just Say Hello!</h3>
+        <h2 className="text-2xl font-bold text-black dark:text-white">Just Say Hello!</h2>
         <p className="text-sm font-normal text-[#808080]">
           Do you fancy saying hi to me or you want to get started with your project and you need my
           help? Feel free to contact me.
@@ -39,25 +39,27 @@ export const ContactForm = () => {
           </div>
           <Input label="Email" type="email" placeholder="Email" variant="default" name="email" />
           <div className="flex gap-4">
-            <div className="flex flex-col gap-3">
+            {/* Date Picker */}
+            <div className="flex flex-col gap-1.5">
+              <Label htmlFor="date-picker" className="dark:text-white text-sm">
+                Date
+              </Label>
               <Popover open={open} onOpenChange={setOpen}>
                 <PopoverTrigger asChild>
-                  <div className="relative w-max">
-                    <Input
-                      label="Date"
-                      type="text"
-                      variant="default"
-                      placeholder="Select date"
-                      name="date"
-                      id="date-picker"
-                      className="pr-8 cursor-pointer"
-                      readOnly
-                      value={date ? date.toLocaleDateString() : ''}
-                    />
-                    <span className="absolute right-3 top-[60%] -translate-y-1/2 pointer-events-none">
+                  <button
+                    id="date-picker"
+                    type="button"
+                    aria-haspopup="dialog"
+                    aria-expanded={open}
+                    aria-controls="radix-r4"
+                    aria-label="select date"
+                    className="relative border border-[#E6E6E6] px-3 py-4 text-left text-sm dark:text-white rounded-[10px] w-36"
+                  >
+                    {date ? date.toLocaleDateString() : 'Select date'}
+                    <span className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none">
                       {open ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
                     </span>
-                  </div>
+                  </button>
                 </PopoverTrigger>
                 <PopoverContent className="w-auto overflow-hidden p-0" align="start">
                   <Calendar
@@ -73,8 +75,11 @@ export const ContactForm = () => {
                 </PopoverContent>
               </Popover>
             </div>
-            <div className="flex flex-col gap-3">
+
+            {/* Time Picker */}
+            <div className="flex flex-col gap-1.5">
               <Input
+                aria-label="time picker"
                 label="Time"
                 type="time"
                 id="time-picker"
@@ -87,13 +92,19 @@ export const ContactForm = () => {
               />
             </div>
           </div>
-          <div className="flex flex-col gap-3">
-            <Label className="dark:text-white">Subject</Label>
+
+          {/* Subject */}
+          <div className="flex flex-col gap-1.5">
+            <Label htmlFor="subject" className="dark:text-white text-sm">
+              Subject
+            </Label>
             <Textarea
+              id="subject"
               placeholder="Subject"
               className="px-3 py-4 border border-[#E2E2E2] rounded-[10px] min-h-[180px] dark:text-white"
             />
           </div>
+
           <Button
             label="SEND MESSAGE"
             className="w-[177px] text-base cursor-not-allowed"
