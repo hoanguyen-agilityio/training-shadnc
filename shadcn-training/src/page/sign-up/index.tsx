@@ -74,6 +74,7 @@ export const SignUpPage = () => {
               <FormItem>
                 <FormControl>
                   <Input
+                    aria-label="first name"
                     label="First Name"
                     placeholder="Robert"
                     {...field}
@@ -92,6 +93,7 @@ export const SignUpPage = () => {
               <FormItem>
                 <FormControl>
                   <Input
+                    aria-label="last name"
                     label="Last Name"
                     placeholder="Fox"
                     {...field}
@@ -110,6 +112,7 @@ export const SignUpPage = () => {
               <FormItem>
                 <FormControl>
                   <Input
+                    aria-label="email address"
                     label="Email Address"
                     placeholder="robertfox@example.com"
                     {...field}
@@ -129,6 +132,8 @@ export const SignUpPage = () => {
               <FormItem>
                 <FormControl>
                   <Input
+                    aria-label="password"
+                    id="password"
                     label="Password"
                     placeholder="**************"
                     {...field}
@@ -141,7 +146,7 @@ export const SignUpPage = () => {
             )}
           />
           <div className="flex items-center gap-2 dark:text-white">
-            <Checkbox />
+            <Checkbox aria-label="checkbox" />
             <span>
               I agree to the <b>Terms & Conditions</b>
             </span>
