@@ -3,7 +3,7 @@ import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 
 // Components
-import { ProductCard } from '.';
+import { ProductCard } from '..';
 
 describe('Menu component', () => {
   test('Renders menu component', () => {

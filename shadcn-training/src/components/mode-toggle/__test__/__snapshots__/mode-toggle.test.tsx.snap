@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`ModeToggle component Renders modeToggle component 1`] = `
+exports[`ModeToggle component renders ModeToggle button 1`] = `
 <div>
   <button
     aria-label="Light mode switch"

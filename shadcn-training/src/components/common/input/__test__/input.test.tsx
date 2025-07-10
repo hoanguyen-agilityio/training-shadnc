@@ -3,7 +3,7 @@ import '@testing-library/jest-dom';
 import { render, screen, fireEvent } from '@testing-library/react';
 
 // Components
-import { Input } from '.';
+import { Input } from '..';
 
 describe('Button component', () => {
   test('Renders menu component', () => {

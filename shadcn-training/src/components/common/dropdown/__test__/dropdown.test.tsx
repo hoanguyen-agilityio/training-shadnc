@@ -3,7 +3,7 @@ import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 
 // Components
-import { Dropdown } from '.';
+import { Dropdown } from '..';
 
 // Mocks
 import { SORT_OPTIONS } from '@/mocks';

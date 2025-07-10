@@ -638,7 +638,7 @@ exports[`Contact page Renders Contact page 1`] = `
                       placeholder=""
                       step="60"
                       type="time"
-                      value="18:05"
+                      value="15:22"
                     />
                   </div>
                 </div>

@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Delivery promise Component renders delivery promise component 1`] = `
+<div>
+  <section
+    class="flex flex-col items-center gap-[30px] min-[1300px]:flex-row"
+  >
+    <div>
+      <h3
+        class="text-[46px] dark:text-white"
+      >
+        We Delivered, You Enjoy Your Order.
+      </h3>
+      <p
+        class="text-lg text-charcoalGray-60 dark:text-gray-60 mt-3"
+      >
+        Ut suscipit egestas suscipit. Sed posuere pellentesque nunc, ultrices consectetur velit dapibus eu. Mauris sollicitudin dignissim diam, ac mattis eros accumsan rhoncus. Curabitur auctor bibendum nunc eget elementum.
+      </p>
+      <div
+        class="flex flex-col gap-4 mt-[30px]"
+      >
+        <div
+          class="flex items-center gap-2"
+        >
+          <svg
+            fill="none"
+            height="20px"
+            viewBox="0 0 20 20"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clip-path="url(#clip0_215_3265)"
+            >
+              <rect
+                fill="#6C9D30"
+                height="20"
+                opacity="0.1"
+                rx="10"
+                width="20"
+              />
+              <path
+                d="M14.4167 7.125L8.68754 12.8542L6.08337 10.25"
+                stroke="#2C742F"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </g>
+            <defs>
+              <clippath
+                id="clip0_215_3265"
+              >
+                <rect
+                  fill="white"
+                  height="20"
+                  width="20"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          <span
+            class="text-base text-charcoalGray-60 dark:text-gray-60"
+          >
+            Sed in metus pellentesque.
+          </span>
+        </div>
+        <div
+          class="flex items-center gap-2"
+        >
+          <svg
+            fill="none"
+            height="20px"
+            viewBox="0 0 20 20"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clip-path="url(#clip0_215_3265)"
+            >
+              <rect
+                fill="#6C9D30"
+                height="20"
+                opacity="0.1"
+                rx="10"
+                width="20"
+              />
+              <path
+                d="M14.4167 7.125L8.68754 12.8542L6.08337 10.25"
+                stroke="#2C742F"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </g>
+            <defs>
+              <clippath
+                id="clip0_215_3265"
+              >
+                <rect
+                  fill="white"
+                  height="20"
+                  width="20"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          <span
+            class="text-base text-charcoalGray-60 dark:text-gray-60"
+          >
+            Fusce et ex commodo, aliquam nulla efficitur, tempus lorem.
+          </span>
+        </div>
+        <div
+          class="flex items-center gap-2"
+        >
+          <svg
+            fill="none"
+            height="20px"
+            viewBox="0 0 20 20"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clip-path="url(#clip0_215_3265)"
+            >
+              <rect
+                fill="#6C9D30"
+                height="20"
+                opacity="0.1"
+                rx="10"
+                width="20"
+              />
+              <path
+                d="M14.4167 7.125L8.68754 12.8542L6.08337 10.25"
+                stroke="#2C742F"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              />
+            </g>
+            <defs>
+              <clippath
+                id="clip0_215_3265"
+              >
+                <rect
+                  fill="white"
+                  height="20"
+                  width="20"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          <span
+            class="text-base text-charcoalGray-60 dark:text-gray-60"
+          >
+            Maecenas ut nunc fringilla erat varius.
+          </span>
+        </div>
+      </div>
+    </div>
+    <img
+      alt="delivery person with groceries"
+      src="/assets/delivery-person-with-groceries.svg"
+    />
+  </section>
+</div>
+`;

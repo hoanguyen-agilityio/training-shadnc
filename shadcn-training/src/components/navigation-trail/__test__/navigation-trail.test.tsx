@@ -4,13 +4,13 @@ import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 
 // Components
-import { Breadcrumb } from '..';
+import { NavigationTrail } from '..';
 
-describe('Breadcrumb component', () => {
-  test('Renders breadcrumb component', () => {
+describe('NavigationTrail component', () => {
+  test('Renders navigation trail component', () => {
     const { container } = render(
       <MemoryRouter>
-        <Breadcrumb breadcrumbName="Shop" />
+        <NavigationTrail breadcrumbName="Shop" />
       </MemoryRouter>,
     );
     expect(container).toMatchSnapshot();

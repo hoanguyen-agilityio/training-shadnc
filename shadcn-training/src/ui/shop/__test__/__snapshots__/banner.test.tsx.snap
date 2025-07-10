@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Shop banner Component renders shop banner component 1`] = `
+<div>
+  <section
+    class="flex flex-col items-center gap-4 relative mt-[42px]"
+  >
+    <img
+      alt="shop banner"
+      class="w-auto h-[350px] min-[950px]:w-full min-[950px]:h-auto object-cover"
+      src="/assets/shop-banner.svg"
+    />
+    <div
+      class="text-center absolute inset-0 flex flex-col justify-center items-center w-full"
+    >
+      <span
+        class="text-sm uppercase text-white"
+      >
+        Best Deals
+      </span>
+      <h1
+        class="text-4xl min-[720px]:text-[40px] font-semibold mt-3 text-white"
+      >
+        Sale of the Month
+      </h1>
+      <div
+        class="flex items-center gap-2 justify-center mt-5"
+      >
+        <div
+          class="flex gap-2"
+        >
+          <div
+            class="flex flex-col items-center gap-1"
+          >
+            <span
+              class="text-2xl font-semibold text-white"
+            >
+              00
+            </span>
+            <span
+              class="text-xs opacity-50 text-white"
+            >
+              DAYS
+            </span>
+          </div>
+          <span
+            class="text-2xl font-semibold text-white"
+          >
+            :
+          </span>
+        </div>
+        <div
+          class="flex gap-2"
+        >
+          <div
+            class="flex flex-col items-center gap-1"
+          >
+            <span
+              class="text-2xl font-semibold text-white"
+            >
+              02
+            </span>
+            <span
+              class="text-xs opacity-50 text-white"
+            >
+              HOURS
+            </span>
+          </div>
+          <span
+            class="text-2xl font-semibold text-white"
+          >
+            :
+          </span>
+        </div>
+        <div
+          class="flex gap-2"
+        >
+          <div
+            class="flex flex-col items-center gap-1"
+          >
+            <span
+              class="text-2xl font-semibold text-white"
+            >
+              18
+            </span>
+            <span
+              class="text-xs opacity-50 text-white"
+            >
+              MINS
+            </span>
+          </div>
+          <span
+            class="text-2xl font-semibold text-white"
+          >
+            :
+          </span>
+        </div>
+        <div
+          class="flex gap-2"
+        >
+          <div
+            class="flex flex-col items-center gap-1"
+          >
+            <span
+              class="text-2xl font-semibold text-white"
+            >
+              46
+            </span>
+            <span
+              class="text-xs opacity-50 text-white"
+            >
+              SECS
+            </span>
+          </div>
+        </div>
+      </div>
+      <button
+        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-[10px] px-[30px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 mt-8 cursor-not-allowed"
+        data-slot="button"
+        disabled=""
+      >
+        Shop Now
+      </button>
+    </div>
+    <div
+      class="bg-[#824B0C] rounded-full flex flex-col p-3 text-center absolute right-2 top-2 min-[400px]:right-1/12 min-[400px]:top-1/12 min-[720px]:p-6 min-[1180px]:right-3/12"
+    >
+      <span
+        class="text-xl min-[720px]:text-2xl font-semibold text-white"
+      >
+        56%
+      </span>
+      <span
+        class="text-xs text-white opacity-80"
+      >
+        OFF
+      </span>
+    </div>
+  </section>
+</div>
+`;

@@ -18,7 +18,14 @@ import {
 } from '@/mocks';
 
 // Components
-import { Breadcrumb, Dropdown, ProductCard, FeatureBar, Pagination, Subscribe } from '@/components';
+import {
+  NavigationTrail,
+  Dropdown,
+  ProductCard,
+  FeatureBar,
+  Pagination,
+  Subscribe,
+} from '@/components';
 
 export const ShopPage = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -36,7 +43,7 @@ export const ShopPage = () => {
       </div>
       <main>
         <div className="max-w-[1320px] mx-auto flex flex-col px-10">
-          <Breadcrumb breadcrumbName="Shop" />
+          <NavigationTrail breadcrumbName="Shop" />
           <ShopBanner />
           <section className="flex flex-col gap-2.5 justify-between mt-5 min-[1200px]:gap-0 min-[1200px]:flex-row">
             <div className="flex flex-col gap-4 min-[600px]:flex-row">

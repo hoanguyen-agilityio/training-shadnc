@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`New in Component renders new in component 1`] = `
+<div>
+  <section
+    aria-label="new in"
+    class="bg-[#F0F0F0] mt-[53px] dark:bg-zinc-800"
+  >
+    <div
+      class="flex flex-col max-w-[1320px] mx-auto justify-between min-[1140px]:flex-row py-[50px] px-10"
+    >
+      <div
+        class="flex flex-col justify-center w-full min-[1140px]:w-[414px] items-center min-[1140px]:items-start text-center min-[1140px]:text-left"
+      >
+        <h2
+          class="text-[46px] dark:text-white"
+        >
+          New In
+        </h2>
+        <p
+          class="text-lg dark:text-slate-400"
+        >
+          Shop the latest fashion trends from the top luxury designers.
+        </p>
+        <button
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-[210px] mt-10"
+          data-slot="button"
+          disabled=""
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 25 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="fill-current"
+              clip-rule="evenodd"
+              d="M9.62588 17.8644C9.58598 17.8216 9.55432 17.7706 9.53272 17.7146C9.51112 17.6585 9.5 17.5984 9.5 17.5377C9.5 17.477 9.51112 17.4169 9.53272 17.3608C9.55432 17.3048 9.58598 17.2538 9.62588 17.211L14.4649 11.9999L9.62588 6.7888C9.58604 6.74589 9.55444 6.69495 9.53288 6.63889C9.51132 6.58283 9.50022 6.52275 9.50022 6.46207C9.50022 6.40139 9.51132 6.3413 9.53288 6.28524C9.55444 6.22918 9.58604 6.17824 9.62588 6.13534C9.66571 6.09243 9.71301 6.05839 9.76506 6.03517C9.8171 6.01195 9.87289 6 9.92923 6C9.98557 6 10.0414 6.01195 10.0934 6.03517C10.1454 6.05839 10.1927 6.09243 10.2326 6.13534L15.3741 11.6731C15.414 11.716 15.4457 11.7669 15.4673 11.823C15.4889 11.8791 15.5 11.9392 15.5 11.9999C15.5 12.0606 15.4889 12.1207 15.4673 12.1768C15.4457 12.2328 15.414 12.2837 15.3741 12.3266L10.2326 17.8644C10.1928 17.9074 10.1455 17.9415 10.0934 17.9648C10.0414 17.988 9.98559 18 9.92923 18C9.87287 18 9.81707 17.988 9.76501 17.9648C9.71296 17.9415 9.66568 17.9074 9.62588 17.8644Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Shop New In
+        </button>
+      </div>
+      <div
+        class="flex flex-col items-center justify-center gap-[30px] min-[1140px]:justify-start mt-5 min-[1140px]:mt-0 min-[730px]:flex-row min-[730px]:items-start"
+      >
+        <div
+          class="text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 bg-white w-[230px]"
+          data-slot="card"
+        >
+          <div
+            class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+            data-slot="card-header"
+          >
+            <img
+              alt="img product"
+              class="w-full h-full max-w-[190px] max-h-[260px]"
+              src="/assets/product.svg"
+            />
+          </div>
+          <div
+            class=""
+            data-slot="card-content"
+          >
+            <div
+              class="font-semibold text-base dark:text-white"
+              data-slot="card-title"
+            >
+              Lorem ipsum
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 bg-white w-[230px]"
+          data-slot="card"
+        >
+          <div
+            class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+            data-slot="card-header"
+          >
+            <img
+              alt="img product"
+              class="w-full h-full max-w-[190px] max-h-[260px]"
+              src="/assets/product.svg"
+            />
+          </div>
+          <div
+            class=""
+            data-slot="card-content"
+          >
+            <div
+              class="font-semibold text-base dark:text-white"
+              data-slot="card-title"
+            >
+              Lorem ipsum
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 bg-white w-[230px]"
+          data-slot="card"
+        >
+          <div
+            class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+            data-slot="card-header"
+          >
+            <img
+              alt="img product"
+              class="w-full h-full max-w-[190px] max-h-[260px]"
+              src="/assets/product.svg"
+            />
+          </div>
+          <div
+            class=""
+            data-slot="card-content"
+          >
+            <div
+              class="font-semibold text-base dark:text-white"
+              data-slot="card-title"
+            >
+              Lorem ipsum
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

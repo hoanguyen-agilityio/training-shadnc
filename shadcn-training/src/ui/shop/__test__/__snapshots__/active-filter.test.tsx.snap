@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Active filter Component renders active filter component 1`] = `
+<div>
+  <section
+    class="border-b-1 border-t-1 border-[#EAEAEA] p-5 mt-5"
+  >
+    <div
+      class="max-w-[1320px] mx-auto px-10 flex flex-col gap-2.5 justify-between min-[700px]:gap-0 min-[700px]:flex-row"
+    >
+      <div
+        class="flex flex-col gap-2.5 min-[520px]:flex-row min-[520px]:gap-6"
+      >
+        <span
+          class="text-charcoalGray-60 dark:text-gray-60 text-sm"
+        >
+          Active Filters:
+        </span>
+        <div
+          class="flex items-center gap-2"
+        >
+          <span
+            class="text-sm text-black dark:text-white"
+          >
+            Wing Chair
+          </span>
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-x text-[#9A9CAA] hover:text-black dark:hover:text-white cursor-pointer"
+            fill="none"
+            height="12px"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="12px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 6 6 18"
+            />
+            <path
+              d="m6 6 12 12"
+            />
+          </svg>
+        </div>
+        <div
+          class="flex items-center gap-2"
+        >
+          <span
+            class="text-sm text-black dark:text-white"
+          >
+            Min $300 - Max 500
+          </span>
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-x text-[#9A9CAA] hover:text-black dark:hover:text-white cursor-pointer"
+            fill="none"
+            height="12px"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="12px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 6 6 18"
+            />
+            <path
+              d="m6 6 12 12"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="flex gap-1"
+      >
+        <span
+          class="text-sm text-black dark:text-white"
+        >
+          2,547
+        </span>
+        <span
+          class="text-charcoalGray-60 dark:text-gray-60 text-sm"
+        >
+          Results found.
+        </span>
+      </div>
+    </div>
+  </section>
+</div>
+`;

@@ -2,12 +2,12 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 // Components
-import { Breadcrumb } from './index';
+import { NavigationTrail } from './index';
 import { BrowserRouter } from 'react-router-dom';
 
 export default {
-  title: 'Components/Breadcrumb',
-  component: Breadcrumb,
+  title: 'Components/NavigationTrail',
+  component: NavigationTrail,
   decorators: [
     (Story) => (
       <BrowserRouter>
@@ -17,7 +17,7 @@ export default {
   ],
 } as Meta;
 
-type Story = StoryObj<typeof Breadcrumb>;
+type Story = StoryObj<typeof NavigationTrail>;
 
 export const BreadcrumbDefault: Story = {
   args: {

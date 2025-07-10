@@ -8,11 +8,11 @@ import { ROUTES } from '@/constants';
 // Components
 import { ChevronIcon } from '../icons';
 
-interface IBreadcrumb {
+interface INavigationTrail {
   breadcrumbName: string;
 }
 
-export const Breadcrumb = ({ breadcrumbName }: IBreadcrumb) => {
+export const NavigationTrail = ({ breadcrumbName }: INavigationTrail) => {
   const location = useLocation();
   return (
     <section className="flex gap-3 mt-[25px]">

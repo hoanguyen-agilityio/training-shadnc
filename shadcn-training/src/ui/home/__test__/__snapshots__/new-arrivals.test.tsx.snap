@@ -1,0 +1,1316 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`New arrivals Component renders new arrivals component 1`] = `
+<div>
+  <section
+    aria-label="new arrivals"
+    class="max-w-[1320px] mx-auto"
+  >
+    <div
+      class="flex flex-col text-center gap-3.5 mb-4 items-center"
+    >
+      <h2
+        class="text-[46px] text-[#484848] dark:text-white"
+      >
+        New Arrivals
+      </h2>
+      <p
+        class="text-lg text-charcoalGray-60 dark:text-gray-60 w-full max-w-[746px]"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
+      </p>
+    </div>
+    <div
+      class="flex flex-col gap-[50px]"
+      data-orientation="horizontal"
+      data-slot="tabs"
+      dir="ltr"
+    >
+      <div
+        class="flex justify-center w-full overflow-x-auto whitespace-nowrap"
+      >
+        <div
+          aria-orientation="horizontal"
+          class="bg-muted text-muted-foreground inline-flex w-fit items-center justify-center rounded-lg p-[3px] gap-4"
+          data-orientation="horizontal"
+          data-slot="tabs-list"
+          role="tablist"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <button
+            aria-controls="radix-«r0»-content-lorem1"
+            aria-selected="true"
+            class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-slot="tabs-trigger"
+            data-state="active"
+            id="radix-«r0»-trigger-lorem1"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Lorem ipsum
+          </button>
+          <button
+            aria-controls="radix-«r0»-content-lorem2"
+            aria-selected="false"
+            class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-slot="tabs-trigger"
+            data-state="inactive"
+            id="radix-«r0»-trigger-lorem2"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Dolor sit
+          </button>
+          <button
+            aria-controls="radix-«r0»-content-lorem3"
+            aria-selected="false"
+            class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-slot="tabs-trigger"
+            data-state="inactive"
+            id="radix-«r0»-trigger-lorem3"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Amet consectetur
+          </button>
+          <button
+            aria-controls="radix-«r0»-content-lorem4"
+            aria-selected="false"
+            class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-slot="tabs-trigger"
+            data-state="inactive"
+            id="radix-«r0»-trigger-lorem4"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Adipiscing elit
+          </button>
+          <button
+            aria-controls="radix-«r0»-content-lorem5"
+            aria-selected="false"
+            class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-slot="tabs-trigger"
+            data-state="inactive"
+            id="radix-«r0»-trigger-lorem5"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Sed do eiusmod
+          </button>
+        </div>
+      </div>
+      <div
+        class="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start"
+      >
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem1"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="active"
+          id="radix-«r0»-content-lorem1"
+          role="tabpanel"
+          style="animation-duration: 0s;"
+          tabindex="0"
+        >
+          <div
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            data-slot="card"
+          >
+            <div
+              class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+              data-slot="card-header"
+            >
+              <div
+                class="relative"
+              >
+                <img
+                  alt="img product"
+                  src="https://picsum.photos/seed/1/354/244"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-6"
+              data-slot="card-content"
+            >
+              <div
+                class="flex gap-2 justify-between items-center"
+              >
+                <div>
+                  <div
+                    class="font-semibold text-xl dark:text-white"
+                    data-slot="card-title"
+                  >
+                    Lorem ipsum 1
+                  </div>
+                  <div
+                    class="text-xs text-charcoalGray-60 dark:text-slate-400"
+                    data-slot="card-description"
+                  >
+                    Al Karam
+                  </div>
+                </div>
+                <div
+                  class="flex gap-1"
+                >
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="text-muted-foreground text-xs dark:text-white"
+                data-slot="card-description"
+              >
+                (4.1k) Customer Reviews
+              </div>
+              <div
+                class="flex justify-between items-center"
+              >
+                <div
+                  class="text-muted-foreground text-2xl font-bold dark:text-white"
+                  data-slot="card-description"
+                >
+                  $95.50
+                </div>
+                <div
+                  class="text-xs text-red-600 dark:text-red-400"
+                  data-slot="card-description"
+                >
+                  Almost Sold Out
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem1"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="active"
+          id="radix-«r0»-content-lorem1"
+          role="tabpanel"
+          style="animation-duration: 0s;"
+          tabindex="0"
+        >
+          <div
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            data-slot="card"
+          >
+            <div
+              class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+              data-slot="card-header"
+            >
+              <div
+                class="relative"
+              >
+                <img
+                  alt="img product"
+                  src="https://picsum.photos/seed/2/354/244"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-6"
+              data-slot="card-content"
+            >
+              <div
+                class="flex gap-2 justify-between items-center"
+              >
+                <div>
+                  <div
+                    class="font-semibold text-xl dark:text-white"
+                    data-slot="card-title"
+                  >
+                    Lorem ipsum 2
+                  </div>
+                  <div
+                    class="text-xs text-charcoalGray-60 dark:text-slate-400"
+                    data-slot="card-description"
+                  >
+                    Al Karam
+                  </div>
+                </div>
+                <div
+                  class="flex gap-1"
+                >
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="text-muted-foreground text-xs dark:text-white"
+                data-slot="card-description"
+              >
+                (3.2k) Customer Reviews
+              </div>
+              <div
+                class="flex justify-between items-center"
+              >
+                <div
+                  class="text-muted-foreground text-2xl font-bold dark:text-white"
+                  data-slot="card-description"
+                >
+                  $55.50
+                </div>
+                <div
+                  class="text-xs text-red-600 dark:text-red-400"
+                  data-slot="card-description"
+                >
+                  Almost Sold Out
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem1"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="active"
+          id="radix-«r0»-content-lorem1"
+          role="tabpanel"
+          style="animation-duration: 0s;"
+          tabindex="0"
+        >
+          <div
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            data-slot="card"
+          >
+            <div
+              class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+              data-slot="card-header"
+            >
+              <div
+                class="relative"
+              >
+                <img
+                  alt="img product"
+                  src="https://picsum.photos/seed/3/354/244"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-6"
+              data-slot="card-content"
+            >
+              <div
+                class="flex gap-2 justify-between items-center"
+              >
+                <div>
+                  <div
+                    class="font-semibold text-xl dark:text-white"
+                    data-slot="card-title"
+                  >
+                    Lorem ipsum 3
+                  </div>
+                  <div
+                    class="text-xs text-charcoalGray-60 dark:text-slate-400"
+                    data-slot="card-description"
+                  >
+                    Al Karam
+                  </div>
+                </div>
+                <div
+                  class="flex gap-1"
+                >
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="text-muted-foreground text-xs dark:text-white"
+                data-slot="card-description"
+              >
+                (1.1k) Customer Reviews
+              </div>
+              <div
+                class="flex justify-between items-center"
+              >
+                <div
+                  class="text-muted-foreground text-2xl font-bold dark:text-white"
+                  data-slot="card-description"
+                >
+                  $45.50
+                </div>
+                <div
+                  class="text-xs text-red-600 dark:text-red-400"
+                  data-slot="card-description"
+                >
+                  Almost Sold Out
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem1"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="active"
+          id="radix-«r0»-content-lorem1"
+          role="tabpanel"
+          style="animation-duration: 0s;"
+          tabindex="0"
+        >
+          <div
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            data-slot="card"
+          >
+            <div
+              class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+              data-slot="card-header"
+            >
+              <div
+                class="relative"
+              >
+                <img
+                  alt="img product"
+                  src="https://picsum.photos/seed/4/354/244"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-6"
+              data-slot="card-content"
+            >
+              <div
+                class="flex gap-2 justify-between items-center"
+              >
+                <div>
+                  <div
+                    class="font-semibold text-xl dark:text-white"
+                    data-slot="card-title"
+                  >
+                    Lorem ipsum 4
+                  </div>
+                  <div
+                    class="text-xs text-charcoalGray-60 dark:text-slate-400"
+                    data-slot="card-description"
+                  >
+                    Al Karam
+                  </div>
+                </div>
+                <div
+                  class="flex gap-1"
+                >
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="text-muted-foreground text-xs dark:text-white"
+                data-slot="card-description"
+              >
+                (2.9k) Customer Reviews
+              </div>
+              <div
+                class="flex justify-between items-center"
+              >
+                <div
+                  class="text-muted-foreground text-2xl font-bold dark:text-white"
+                  data-slot="card-description"
+                >
+                  $75.50
+                </div>
+                <div
+                  class="text-xs text-red-600 dark:text-red-400"
+                  data-slot="card-description"
+                >
+                  Almost Sold Out
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem1"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="active"
+          id="radix-«r0»-content-lorem1"
+          role="tabpanel"
+          style="animation-duration: 0s;"
+          tabindex="0"
+        >
+          <div
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            data-slot="card"
+          >
+            <div
+              class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+              data-slot="card-header"
+            >
+              <div
+                class="relative"
+              >
+                <img
+                  alt="img product"
+                  src="https://picsum.photos/seed/5/354/244"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-6"
+              data-slot="card-content"
+            >
+              <div
+                class="flex gap-2 justify-between items-center"
+              >
+                <div>
+                  <div
+                    class="font-semibold text-xl dark:text-white"
+                    data-slot="card-title"
+                  >
+                    Lorem ipsum 5
+                  </div>
+                  <div
+                    class="text-xs text-charcoalGray-60 dark:text-slate-400"
+                    data-slot="card-description"
+                  >
+                    Al Karam
+                  </div>
+                </div>
+                <div
+                  class="flex gap-1"
+                >
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="text-muted-foreground text-xs dark:text-white"
+                data-slot="card-description"
+              >
+                (4.8k) Customer Reviews
+              </div>
+              <div
+                class="flex justify-between items-center"
+              >
+                <div
+                  class="text-muted-foreground text-2xl font-bold dark:text-white"
+                  data-slot="card-description"
+                >
+                  $95.50
+                </div>
+                <div
+                  class="text-xs text-red-600 dark:text-red-400"
+                  data-slot="card-description"
+                >
+                  Almost Sold Out
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem1"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="active"
+          id="radix-«r0»-content-lorem1"
+          role="tabpanel"
+          style="animation-duration: 0s;"
+          tabindex="0"
+        >
+          <div
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            data-slot="card"
+          >
+            <div
+              class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+              data-slot="card-header"
+            >
+              <div
+                class="relative"
+              >
+                <img
+                  alt="img product"
+                  src="https://picsum.photos/seed/6/354/244"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-6"
+              data-slot="card-content"
+            >
+              <div
+                class="flex gap-2 justify-between items-center"
+              >
+                <div>
+                  <div
+                    class="font-semibold text-xl dark:text-white"
+                    data-slot="card-title"
+                  >
+                    Lorem ipsum 6
+                  </div>
+                  <div
+                    class="text-xs text-charcoalGray-60 dark:text-slate-400"
+                    data-slot="card-description"
+                  >
+                    Al Karam
+                  </div>
+                </div>
+                <div
+                  class="flex gap-1"
+                >
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="text-muted-foreground text-xs dark:text-white"
+                data-slot="card-description"
+              >
+                (3.5k) Customer Reviews
+              </div>
+              <div
+                class="flex justify-between items-center"
+              >
+                <div
+                  class="text-muted-foreground text-2xl font-bold dark:text-white"
+                  data-slot="card-description"
+                >
+                  $85.50
+                </div>
+                <div
+                  class="text-xs text-red-600 dark:text-red-400"
+                  data-slot="card-description"
+                >
+                  Almost Sold Out
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem2"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem2"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem2"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem2"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem2"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem2"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem2"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem2"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem2"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem2"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem2"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem2"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem3"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem3"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem3"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem3"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem3"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem3"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem3"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem3"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem3"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem3"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem3"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem3"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem4"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem4"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem4"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem4"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem4"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem4"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem4"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem4"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem4"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem4"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem4"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem4"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem5"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem5"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem5"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem5"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem5"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem5"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem5"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem5"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem5"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem5"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem5"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem5"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem6"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem6"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem6"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem6"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem6"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem6"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem6"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem6"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem6"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem6"
+          role="tabpanel"
+          tabindex="0"
+        />
+        <div
+          aria-labelledby="radix-«r0»-trigger-lorem6"
+          class="flex-1 outline-none"
+          data-orientation="horizontal"
+          data-slot="tabs-content"
+          data-state="inactive"
+          hidden=""
+          id="radix-«r0»-content-lorem6"
+          role="tabpanel"
+          tabindex="0"
+        />
+      </div>
+    </div>
+    <div
+      class="flex justify-center mt-[50px]"
+    >
+      <button
+        class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse"
+        data-slot="button"
+        disabled=""
+      >
+        <svg
+          fill="none"
+          viewBox="0 0 25 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="fill-current"
+            clip-rule="evenodd"
+            d="M9.62588 17.8644C9.58598 17.8216 9.55432 17.7706 9.53272 17.7146C9.51112 17.6585 9.5 17.5984 9.5 17.5377C9.5 17.477 9.51112 17.4169 9.53272 17.3608C9.55432 17.3048 9.58598 17.2538 9.62588 17.211L14.4649 11.9999L9.62588 6.7888C9.58604 6.74589 9.55444 6.69495 9.53288 6.63889C9.51132 6.58283 9.50022 6.52275 9.50022 6.46207C9.50022 6.40139 9.51132 6.3413 9.53288 6.28524C9.55444 6.22918 9.58604 6.17824 9.62588 6.13534C9.66571 6.09243 9.71301 6.05839 9.76506 6.03517C9.8171 6.01195 9.87289 6 9.92923 6C9.98557 6 10.0414 6.01195 10.0934 6.03517C10.1454 6.05839 10.1927 6.09243 10.2326 6.13534L15.3741 11.6731C15.414 11.716 15.4457 11.7669 15.4673 11.823C15.4889 11.8791 15.5 11.9392 15.5 11.9999C15.5 12.0606 15.4889 12.1207 15.4673 12.1768C15.4457 12.2328 15.414 12.2837 15.3741 12.3266L10.2326 17.8644C10.1928 17.9074 10.1455 17.9415 10.0934 17.9648C10.0414 17.988 9.98559 18 9.92923 18C9.87287 18 9.81707 17.988 9.76501 17.9648C9.71296 17.9415 9.66568 17.9074 9.62588 17.8644Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        View More
+      </button>
+    </div>
+  </section>
+</div>
+`;

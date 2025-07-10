@@ -19,79 +19,81 @@ import {
 } from '@/page';
 
 // Components
-import { AuthGuard, ThemeProvider } from '@/components';
+import { AuthGuard, ThemeProvider, ErrorBoundary } from '@/components';
 
 function App() {
   return (
     <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-      <Routes>
-        <Route
-          path={ROUTES.SIGN_UP}
-          element={
-            <Suspense fallback={<LoadingPage />}>
-              {/* only block sign up page after user logs in */}
-              <AuthGuard blockIfAuthenticated>
-                <SignUpPage />
-              </AuthGuard>
-            </Suspense>
-          }
-        />
-        <Route
-          path={ROUTES.SIGN_IN}
-          element={
-            <Suspense fallback={<LoadingPage />}>
-              {/* only block sign in page after user logs in */}
-              <AuthGuard blockIfAuthenticated>
-                <LoginPage />
-              </AuthGuard>
-            </Suspense>
-          }
-        />
-        <Route
-          path={ROUTES.HOME}
-          element={
-            <Suspense fallback={<LoadingPage />}>
-              {/* no guard, freely accessible even if logged out */}
-              <HomePage />
-            </Suspense>
-          }
-        />
-        <Route
-          path={ROUTES.SHOP}
-          element={
-            <Suspense fallback={<LoadingPage />}>
-              {/* no guard, freely accessible even if logged out */}
-              <ShopPage />
-            </Suspense>
-          }
-        />
-        <Route
-          path={ROUTES.ABOUT}
-          element={
-            <Suspense fallback={<LoadingPage />}>
-              {/* no guard, freely accessible even if logged out */}
-              <AboutPage />
-            </Suspense>
-          }
-        />
-        <Route
-          path={ROUTES.CONTACT}
-          element={
-            <Suspense fallback={<LoadingPage />}>
-              {/* no guard, freely accessible even if logged out */}
-              <ContactPage />
-            </Suspense>
-          }
-        />
-        <Route
-          path="*"
-          element={
-            <Suspense fallback={<LoadingPage />}>
-              <NotFoundPage />
-            </Suspense>
-          }
-        />
-      </Routes>
+      <ErrorBoundary>
+        <Routes>
+          <Route
+            path={ROUTES.SIGN_UP}
+            element={
+              <Suspense fallback={<LoadingPage />}>
+                {/* only block sign up page after user logs in */}
+                <AuthGuard blockIfAuthenticated>
+                  <SignUpPage />
+                </AuthGuard>
+              </Suspense>
+            }
+          />
+          <Route
+            path={ROUTES.SIGN_IN}
+            element={
+              <Suspense fallback={<LoadingPage />}>
+                {/* only block sign in page after user logs in */}
+                <AuthGuard blockIfAuthenticated>
+                  <LoginPage />
+                </AuthGuard>
+              </Suspense>
+            }
+          />
+          <Route
+            path={ROUTES.HOME}
+            element={
+              <Suspense fallback={<LoadingPage />}>
+                {/* no guard, freely accessible even if logged out */}
+                <HomePage />
+              </Suspense>
+            }
+          />
+          <Route
+            path={ROUTES.SHOP}
+            element={
+              <Suspense fallback={<LoadingPage />}>
+                {/* no guard, freely accessible even if logged out */}
+                <ShopPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path={ROUTES.ABOUT}
+            element={
+              <Suspense fallback={<LoadingPage />}>
+                {/* no guard, freely accessible even if logged out */}
+                <AboutPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path={ROUTES.CONTACT}
+            element={
+              <Suspense fallback={<LoadingPage />}>
+                {/* no guard, freely accessible even if logged out */}
+                <ContactPage />
+              </Suspense>
+            }
+          />
+          <Route
+            path="*"
+            element={
+              <Suspense fallback={<LoadingPage />}>
+                <NotFoundPage />
+              </Suspense>
+            }
+          />
+        </Routes>
+      </ErrorBoundary>
     </ThemeProvider>
   );
 }
