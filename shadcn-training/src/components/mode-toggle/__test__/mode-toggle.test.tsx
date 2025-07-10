@@ -3,11 +3,11 @@ import '@testing-library/jest-dom';
 import { render, fireEvent } from '@testing-library/react';
 
 // Components
+import { useTheme } from '@/components';
 import { ModeToggle } from '..';
-import { useTheme } from '@/components/theme-context';
 
 // Mocks
-jest.mock('@/components/theme-context', () => ({
+jest.mock('@/components', () => ({
   useTheme: jest.fn(),
 }));
 

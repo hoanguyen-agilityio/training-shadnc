@@ -3,7 +3,7 @@ import { Moon, Sun } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 // Theme
-import { useTheme } from '../theme-context';
+import { useTheme } from '@/components';
 
 // Components
 import { Button } from '../ui/button';
