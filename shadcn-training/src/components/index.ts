@@ -12,6 +12,7 @@ export * from './subscribe';
 export * from './feature-bar';
 export * from './pagination';
 export * from './mode-toggle';
+export * from './error-boundary';
 
 export * from './common/menu';
 export * from './common/button';
