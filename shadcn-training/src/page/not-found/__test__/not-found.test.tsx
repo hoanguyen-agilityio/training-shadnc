@@ -1,10 +1,17 @@
 // Libs
 import '@testing-library/jest-dom';
-import { render } from '@testing-library/react';
+import { render, fireEvent, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 
 // Components
 import { NotFoundPage } from '..';
+
+const mockNavigate = jest.fn();
+
+jest.mock('react-router-dom', () => ({
+  ...jest.requireActual('react-router-dom'),
+  useNavigate: () => mockNavigate,
+}));
 
 beforeAll(() => {
   Object.defineProperty(window, 'matchMedia', {
@@ -30,5 +37,18 @@ describe('Not Found page', () => {
       </MemoryRouter>,
     );
     expect(container).toMatchSnapshot();
+  });
+
+  test('navigates to home when "BACK TO HOME" button is clicked', () => {
+    render(
+      <MemoryRouter>
+        <NotFoundPage />
+      </MemoryRouter>,
+    );
+
+    const button = screen.getByRole('button', { name: /back to home/i });
+    fireEvent.click(button);
+
+    expect(mockNavigate).toHaveBeenCalledWith('/');
   });
 });

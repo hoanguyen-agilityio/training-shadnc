@@ -7,6 +7,10 @@ import { useNavigate } from 'react-router-dom';
 export const NotFoundPage = () => {
   const navigate = useNavigate();
 
+  const handleBackToHomePage = () => {
+    return navigate(ROUTES.HOME);
+  };
+
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
@@ -29,7 +33,7 @@ export const NotFoundPage = () => {
             label="BACK TO HOME"
             size="default"
             className="text-base mt-6"
-            onClick={() => navigate(ROUTES.HOME)}
+            onClick={handleBackToHomePage}
           />
         </section>
       </main>
