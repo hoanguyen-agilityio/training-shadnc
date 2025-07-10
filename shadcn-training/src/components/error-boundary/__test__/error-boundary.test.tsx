@@ -36,4 +36,22 @@ describe('Error Boundary Component', () => {
 
     logSpy.mockRestore();
   });
+
+  test('renders fallback UI when an error is thrown', () => {
+    const ProblemChild = () => {
+      throw new Error('Test error');
+    };
+
+    const { getByText, getByRole } = render(
+      <MemoryRouter>
+        <ErrorBoundary>
+          <ProblemChild />
+        </ErrorBoundary>
+      </MemoryRouter>,
+    );
+
+    expect(getByText('Oops!')).toBeInTheDocument();
+    expect(getByText(/something went wrong/i)).toBeInTheDocument();
+    expect(getByRole('link', { name: /go to home/i })).toBeInTheDocument();
+  });
 });
