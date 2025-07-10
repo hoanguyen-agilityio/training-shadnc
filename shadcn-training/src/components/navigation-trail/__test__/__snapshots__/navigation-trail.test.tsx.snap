@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`Breadcrumb component Renders breadcrumb component 1`] = `
+exports[`NavigationTrail component Renders navigation trail component 1`] = `
 <div>
   <section
     class="flex gap-3 mt-[25px]"

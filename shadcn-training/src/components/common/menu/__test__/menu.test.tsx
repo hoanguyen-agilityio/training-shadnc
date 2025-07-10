@@ -7,7 +7,7 @@ import { MemoryRouter } from 'react-router-dom';
 import { MENU_ITEMS_HEADER } from '@/constants';
 
 // Components
-import { Menu } from '.';
+import { Menu } from '..';
 
 describe('Menu component', () => {
   test('Renders menu component', () => {

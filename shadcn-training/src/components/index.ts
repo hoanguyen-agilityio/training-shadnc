@@ -1,6 +1,6 @@
 export * from './badge';
 export * from './evaluate';
-export * from './breadcrumb';
+export * from './navigation-trail';
 export * from './spinner';
 export * from './auth-guard';
 export * from './avatar';
