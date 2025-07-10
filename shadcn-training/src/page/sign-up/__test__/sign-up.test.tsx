@@ -130,4 +130,37 @@ describe('SignUpPage', () => {
       expect(mockNavigate).toHaveBeenCalledWith('/');
     });
   });
+
+  test('shows error when user creation fails', async () => {
+    const consoleErrorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    mockCreateUser.mockRejectedValueOnce(new Error('Server error'));
+
+    render(
+      <MemoryRouter>
+        <SignUpPage />
+      </MemoryRouter>,
+    );
+
+    fireEvent.change(screen.getByPlaceholderText('Robert'), {
+      target: { value: 'Jane' },
+    });
+    fireEvent.change(screen.getByPlaceholderText('Fox'), {
+      target: { value: 'Doe' },
+    });
+    fireEvent.change(screen.getByPlaceholderText('robertfox@example.com'), {
+      target: { value: 'jane@example.com' },
+    });
+    fireEvent.change(screen.getByPlaceholderText('**************'), {
+      target: { value: 'securePass123' },
+    });
+
+    fireEvent.click(screen.getByRole('button', { name: /signup/i }));
+
+    await waitFor(() => {
+      expect(screen.getByText(/something went wrong during registration/i)).toBeInTheDocument();
+      expect(consoleErrorSpy).toHaveBeenCalledWith('Failed to create user:', expect.any(Error));
+    });
+
+    consoleErrorSpy.mockRestore();
+  });
 });
