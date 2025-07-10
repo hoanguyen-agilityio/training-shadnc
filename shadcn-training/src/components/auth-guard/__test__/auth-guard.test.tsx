@@ -1,4 +1,3 @@
-// Libs
 import { render, screen } from '@testing-library/react';
 import { Navigate } from 'react-router-dom';
 
@@ -8,6 +7,13 @@ import { AuthGuard } from '..';
 // Mock react-router-dom Navigate
 jest.mock('react-router-dom', () => ({
   Navigate: jest.fn(() => null),
+}));
+
+// Mock ROUTES constant
+jest.mock('@/constants', () => ({
+  ROUTES: {
+    HOME: '/',
+  },
 }));
 
 describe('AuthGuard', () => {
@@ -41,5 +47,14 @@ describe('AuthGuard', () => {
 
     expect(screen.getByTestId('child')).toBeInTheDocument();
     expect(mockNavigate).not.toHaveBeenCalled();
+  });
+
+  test('should redirect to home when user is authenticated and blockIfAuthenticated is true', () => {
+    localStorage.setItem('token', 'mock-token');
+
+    render(<AuthGuard blockIfAuthenticated>{mockChild}</AuthGuard>);
+
+    expect(screen.queryByTestId('child')).not.toBeInTheDocument();
+    expect(mockNavigate).toHaveBeenCalledWith({ to: '/', replace: true }, undefined);
   });
 });

@@ -61,22 +61,11 @@ exports[`Header component Renders header component 1`] = `
             data-slot="breadcrumb-item"
           >
             <a
-              class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white"
+              class="transition-colors font-poppins hover:text-green-50 text-base text-green-700 dark:text-green-50"
               data-slot="breadcrumb-link"
-              href="/shop"
+              href="/"
             >
-              Shop
-            </a>
-          </li>
-          <li
-            class="inline-flex items-center gap-1.5"
-            data-slot="breadcrumb-item"
-          >
-            <a
-              class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white cursor-not-allowed"
-              data-slot="breadcrumb-link"
-            >
-              New Arrivals
+              Home
             </a>
           </li>
           <li
@@ -88,7 +77,7 @@ exports[`Header component Renders header component 1`] = `
               data-slot="breadcrumb-link"
               href="/about"
             >
-              About Us
+              About
             </a>
           </li>
           <li
