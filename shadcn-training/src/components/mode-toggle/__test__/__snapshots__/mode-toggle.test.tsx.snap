@@ -78,3 +78,82 @@ exports[`ModeToggle component Renders modeToggle component 1`] = `
   </button>
 </div>
 `;
+
+exports[`ModeToggle component renders ModeToggle button 1`] = `
+<div>
+  <button
+    aria-label="Light mode switch"
+    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-black text-green-50 hover:text-accent-foreground dark:hover:bg-accent/50 relative h-14 w-28 rounded-full p-1 transition-all duration-300 ease-in-out hover:scale-105 focus:scale-105 bg-gray-200 hover:bg-gray-300"
+    data-slot="button"
+  >
+    <div
+      class="absolute left-1 top-1 flex h-12 w-12 items-center justify-center rounded-full transition-all duration-300 ease-in-out bg-gradient-to-br from-orange-400 to-yellow-500 text-white shadow-lg"
+    >
+      <svg
+        aria-hidden="true"
+        class="lucide lucide-sun h-6 w-6"
+        fill="none"
+        height="24"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="12"
+          cy="12"
+          r="4"
+        />
+        <path
+          d="M12 2v2"
+        />
+        <path
+          d="M12 20v2"
+        />
+        <path
+          d="m4.93 4.93 1.41 1.41"
+        />
+        <path
+          d="m17.66 17.66 1.41 1.41"
+        />
+        <path
+          d="M2 12h2"
+        />
+        <path
+          d="M20 12h2"
+        />
+        <path
+          d="m6.34 17.66-1.41 1.41"
+        />
+        <path
+          d="m19.07 4.93-1.41 1.41"
+        />
+      </svg>
+    </div>
+    <div
+      class="absolute right-1 top-1 flex h-12 w-12 items-center justify-center rounded-full transition-all duration-300 ease-in-out bg-transparent text-gray-500"
+    >
+      <svg
+        aria-hidden="true"
+        class="lucide lucide-moon h-6 w-6"
+        fill="none"
+        height="24"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"
+        />
+      </svg>
+    </div>
+  </button>
+</div>
+`;
