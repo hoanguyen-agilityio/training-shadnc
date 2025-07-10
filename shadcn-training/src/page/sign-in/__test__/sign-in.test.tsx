@@ -54,6 +54,11 @@ beforeAll(() => {
 });
 
 describe('LoginPage', () => {
+  afterEach(() => {
+    localStorage.clear();
+    jest.clearAllMocks();
+  });
+
   test('renders LoginPage correctly', () => {
     const { container } = render(
       <MemoryRouter>
@@ -86,5 +91,32 @@ describe('LoginPage', () => {
       expect(setItemSpy).toHaveBeenCalledWith('token', 'admin@gmail.com');
       expect(mockNavigate).toHaveBeenCalledWith('/');
     });
+  });
+
+  test('shows error on invalid login attempt', async () => {
+    render(
+      <MemoryRouter>
+        <LoginPage />
+      </MemoryRouter>,
+    );
+
+    // Input invalid credentials
+    fireEvent.change(screen.getByPlaceholderText('robertfox@example.com'), {
+      target: { value: 'wronguser@example.com' },
+    });
+
+    fireEvent.change(screen.getByPlaceholderText('**************'), {
+      target: { value: 'wrongPassword123' },
+    });
+
+    fireEvent.click(screen.getByRole('button', { name: /login/i }));
+
+    await waitFor(() => {
+      expect(screen.getByText(/Email or password is incorrect/i)).toBeInTheDocument();
+    });
+
+    // Ensure it did not navigate or store token
+    expect(mockNavigate).not.toHaveBeenCalled();
+    expect(localStorage.getItem('token')).toBeNull();
   });
 });
