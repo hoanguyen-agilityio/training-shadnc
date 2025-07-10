@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Contact form Component renders contact form component 1`] = `
+<div>
+  <div
+    class="bg-card text-card-foreground flex flex-col gap-6 p-5 dark:bg-zinc-800 w-full shadow-xl rounded-[10px]"
+    data-slot="card"
+  >
+    <div
+      class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+      data-slot="card-header"
+    >
+      <h2
+        class="text-2xl font-bold text-black dark:text-white"
+      >
+        Just Say Hello!
+      </h2>
+      <p
+        class="text-sm font-normal text-charcoalGray-60 dark:text-[#DEDEDE]"
+      >
+        Do you fancy saying hi to me or you want to get started with your project and you need my help? Feel free to contact me.
+      </p>
+    </div>
+    <div
+      class=""
+      data-slot="card-content"
+    >
+      <form
+        class="flex flex-col gap-3"
+      >
+        <div
+          class="flex gap-4"
+        >
+          <div
+            class="grid w-full items-center gap-3"
+          >
+            <label
+              class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
+              data-slot="label"
+            >
+              Name
+            </label>
+            <input
+              class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 rounded-[10px] border border-[#E2E2E2] py-4 px-3"
+              data-slot="input"
+              name="name"
+              placeholder="Name"
+              type="text"
+            />
+          </div>
+          <div
+            class="grid w-full items-center gap-3"
+          >
+            <label
+              class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
+              data-slot="label"
+            >
+              Phone Number
+            </label>
+            <input
+              class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 rounded-[10px] border border-[#E2E2E2] py-4 px-3"
+              data-slot="input"
+              name="phone number"
+              placeholder="Phone Number"
+              type="number"
+            />
+          </div>
+        </div>
+        <div
+          class="grid w-full items-center gap-3"
+        >
+          <label
+            class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
+            data-slot="label"
+          >
+            Email
+          </label>
+          <input
+            class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 rounded-[10px] border border-[#E2E2E2] py-4 px-3"
+            data-slot="input"
+            name="email"
+            placeholder="Email"
+            type="email"
+          />
+        </div>
+        <div
+          class="flex gap-4"
+        >
+          <div
+            class="flex flex-col gap-1.5"
+          >
+            <label
+              class="flex items-center gap-2 font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white text-sm"
+              data-slot="label"
+              for="date-picker"
+            >
+              Date
+            </label>
+            <button
+              aria-controls="radix-r4"
+              aria-expanded="false"
+              aria-haspopup="dialog"
+              aria-label="select date"
+              class="relative border border-[#E6E6E6] px-3 py-4 text-left text-sm dark:text-white rounded-[10px] w-36"
+              data-slot="popover-trigger"
+              data-state="closed"
+              id="date-picker"
+              type="button"
+            >
+              Select date
+              <span
+                class="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-chevron-down"
+                  fill="none"
+                  height="16"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m6 9 6 6 6-6"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div
+            class="flex flex-col gap-1.5"
+          >
+            <div
+              class="grid w-full items-center gap-3"
+            >
+              <label
+                class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
+                data-slot="label"
+              >
+                Time
+              </label>
+              <input
+                aria-label="time picker"
+                class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 rounded-[10px] border border-[#E2E2E2] py-4 px-3 bg-background appearance-none [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
+                data-slot="input"
+                id="time-picker"
+                name="time picker"
+                placeholder=""
+                step="60"
+                type="time"
+                value="15:02"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-1.5"
+        >
+          <label
+            class="flex items-center gap-2 font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white text-sm"
+            data-slot="label"
+            for="subject"
+          >
+            Subject
+          </label>
+          <textarea
+            class="placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 flex field-sizing-content w-full bg-transparent text-base shadow-xs transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 md:text-sm px-3 py-4 border border-[#E2E2E2] rounded-[10px] min-h-[180px] dark:text-white"
+            data-slot="textarea"
+            id="subject"
+            placeholder="Subject"
+          />
+        </div>
+        <button
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-[10px] px-[30px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-[177px] text-base cursor-not-allowed"
+          data-slot="button"
+          disabled=""
+        >
+          SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

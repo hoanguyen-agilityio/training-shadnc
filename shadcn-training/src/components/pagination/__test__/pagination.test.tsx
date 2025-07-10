@@ -56,4 +56,13 @@ describe('Pagination component', () => {
     const nextButton = screen.getByLabelText('Go to next page');
     expect(nextButton).toHaveAttribute('aria-disabled', 'true');
   });
+
+  test('calls onPageChange when clicking a specific page number', () => {
+    const { handlePageChange } = setup(1, 5);
+
+    const pageButton = screen.getByText('3');
+    fireEvent.click(pageButton);
+
+    expect(handlePageChange).toHaveBeenCalledWith(3);
+  });
 });

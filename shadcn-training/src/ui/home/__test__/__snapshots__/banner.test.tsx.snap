@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Home banner Component renders home banner component 1`] = `
+<div>
+  <section
+    aria-label="banner"
+    class="flex flex-col md:flex-row gap-[30px] items-stretch w-full"
+  >
+    <img
+      alt="left home banner"
+      class="w-full min-w-[100px] object-contain"
+      src="/assets/left-home-banner.svg"
+    />
+    <div
+      class="flex flex-col gap-9 w-full"
+    >
+      <img
+        alt=""
+        class="w-full object-contain"
+        src="/assets/psyllium-home-banner.svg"
+      />
+      <div
+        class="flex flex-col items-center justify-center text-center px-4"
+      >
+        <h1
+          class="text-[clamp(2rem,8vw,5rem)] uppercase leading-none dark:text-white"
+        >
+          Ultimate
+        </h1>
+        <h1
+          class="text-[clamp(4rem,16vw,10rem)] uppercase text-transparent stroke leading-none dark:text-white"
+        >
+          SALE
+        </h1>
+        <span
+          class="text-base md:text-xl uppercase tracking-widest text-charcoalGray-50 dark:text-white"
+        >
+          New Collection
+        </span>
+        <button
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-full mt-1.5"
+          data-slot="button"
+          disabled=""
+        >
+          SHOP NOW
+        </button>
+      </div>
+      <img
+        alt=""
+        class="w-full object-contain"
+        src="/assets/sandalwood-home-banner.svg"
+      />
+    </div>
+    <img
+      alt="right home banner"
+      class="w-full min-w-[100px] object-contain"
+      src="/assets/right-home-banner.svg"
+    />
+  </section>
+</div>
+`;
