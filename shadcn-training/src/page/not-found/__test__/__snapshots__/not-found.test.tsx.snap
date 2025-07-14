@@ -165,7 +165,7 @@ exports[`Not Found page Renders Not Found page 1`] = `
         >
           <button
             aria-label="Light mode switch"
-            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-black text-green-50 hover:text-accent-foreground dark:hover:bg-accent/50 px-space-xl relative h-14 w-28 rounded-full p-1 transition-all duration-300 ease-in-out hover:scale-105 focus:scale-105 bg-gray-200 hover:bg-gray-300"
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-black text-green-50 hover:text-accent-foreground dark:hover:bg-accent/50 px-space-xl rounded-radius-3xl relative h-14 w-28 rounded-full p-1 transition-all duration-300 ease-in-out hover:scale-105 focus:scale-105 bg-gray-200 hover:bg-gray-300"
             data-slot="button"
           >
             <div
@@ -238,7 +238,7 @@ exports[`Not Found page Renders Not Found page 1`] = `
             </div>
           </button>
           <button
-            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-space-2xl cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2"
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-radius-md px-space-2xl cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2"
             data-slot="button"
           >
             Sign Up
@@ -1021,7 +1021,7 @@ exports[`Not Found page Renders Not Found page 1`] = `
           Ut consequat ac tortor eu vehicula. Aenean accumsan purus eros. Maecenas sagittis tortor at metus mollis
         </p>
         <button
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-[10px] px-space-2xl cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 text-base mt-6"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-radius-md px-space-2xl cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 text-base mt-6"
           data-slot="button"
         >
           BACK TO HOME

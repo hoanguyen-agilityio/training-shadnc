@@ -78,6 +78,10 @@
   /* Font size */
   --text-fs-xl: 40px;
   --text-fs-2xl: 46px;
+
+  /* Border Radius */
+  --radius-radius-md: 10px;
+  --radius-radius-3xl: 43px;
 }
 
 /* [data-radix-popper-content-wrapper] {

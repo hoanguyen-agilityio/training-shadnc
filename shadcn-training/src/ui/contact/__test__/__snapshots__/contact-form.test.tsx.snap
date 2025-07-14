@@ -3,7 +3,7 @@
 exports[`Contact form Component renders contact form component 1`] = `
 <div>
   <div
-    class="bg-card text-card-foreground flex flex-col gap-6 p-5 dark:bg-zinc-800 w-full shadow-xl rounded-[10px]"
+    class="bg-card text-card-foreground flex flex-col gap-6 p-5 dark:bg-zinc-800 w-full shadow-xl rounded-radius-md"
     data-slot="card"
   >
     <div
@@ -41,7 +41,7 @@ exports[`Contact form Component renders contact form component 1`] = `
               Name
             </label>
             <input
-              class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 rounded-[10px] border border-theme-gray-400 py-4 px-3"
+              class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 rounded-md bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 rounded-radius-md border border-theme-gray-400 py-4 px-3"
               data-slot="input"
               name="name"
               placeholder="Name"
@@ -58,7 +58,7 @@ exports[`Contact form Component renders contact form component 1`] = `
               Phone Number
             </label>
             <input
-              class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 rounded-[10px] border border-theme-gray-400 py-4 px-3"
+              class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 rounded-md bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 rounded-radius-md border border-theme-gray-400 py-4 px-3"
               data-slot="input"
               name="phone number"
               placeholder="Phone Number"
@@ -76,7 +76,7 @@ exports[`Contact form Component renders contact form component 1`] = `
             Email
           </label>
           <input
-            class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 rounded-[10px] border border-theme-gray-400 py-4 px-3"
+            class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 rounded-md bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 rounded-radius-md border border-theme-gray-400 py-4 px-3"
             data-slot="input"
             name="email"
             placeholder="Email"
@@ -101,7 +101,7 @@ exports[`Contact form Component renders contact form component 1`] = `
               aria-expanded="false"
               aria-haspopup="dialog"
               aria-label="select date"
-              class="relative border border-theme-gray-350 px-3 py-4 text-left text-sm dark:text-white rounded-[10px] w-36"
+              class="relative border border-theme-gray-350 px-3 py-4 text-left text-sm dark:text-white rounded-radius-md w-36"
               data-slot="popover-trigger"
               data-state="closed"
               id="date-picker"
@@ -145,14 +145,14 @@ exports[`Contact form Component renders contact form component 1`] = `
               </label>
               <input
                 aria-label="time picker"
-                class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 rounded-[10px] border border-theme-gray-400 py-4 px-3 bg-background appearance-none [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
+                class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 rounded-md shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 rounded-radius-md border border-theme-gray-400 py-4 px-3 bg-background appearance-none [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
                 data-slot="input"
                 id="time-picker"
                 name="time picker"
                 placeholder=""
                 step="60"
                 type="time"
-                value="16:48"
+                value="17:04"
               />
             </div>
           </div>
@@ -168,14 +168,14 @@ exports[`Contact form Component renders contact form component 1`] = `
             Subject
           </label>
           <textarea
-            class="placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 flex field-sizing-content min-h-16 w-full bg-transparent text-base shadow-xs transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 md:text-sm px-3 py-4 border border-theme-gray-400 rounded-[10px] min-h-custom-h-sm dark:text-white"
+            class="placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 flex field-sizing-content min-h-16 w-full rounded-md bg-transparent text-base shadow-xs transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 md:text-sm px-3 py-4 border border-theme-gray-400 rounded-radius-md min-h-custom-h-sm dark:text-white"
             data-slot="textarea"
             id="subject"
             placeholder="Subject"
           />
         </div>
         <button
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-[10px] px-space-2xl transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-custom-sm text-base cursor-not-allowed"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-radius-md px-space-2xl transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-custom-sm text-base cursor-not-allowed"
           data-slot="button"
           disabled=""
         >
