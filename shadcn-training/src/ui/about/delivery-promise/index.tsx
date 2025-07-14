@@ -25,7 +25,7 @@ export const DeliveryPromise = () => {
           dapibus eu. Mauris sollicitudin dignissim diam, ac mattis eros accumsan rhoncus. Curabitur
           auctor bibendum nunc eget elementum.
         </p>
-        <div className="flex flex-col gap-4 mt-[30px]">
+        <div className="flex flex-col gap-4 mt-space-2xl">
           {featureChecklist.map((item, index) => (
             <div key={index} className="flex items-center gap-2">
               {item.icon}

@@ -17,7 +17,7 @@ exports[`Delivery promise Component renders delivery promise component 1`] = `
         Ut suscipit egestas suscipit. Sed posuere pellentesque nunc, ultrices consectetur velit dapibus eu. Mauris sollicitudin dignissim diam, ac mattis eros accumsan rhoncus. Curabitur auctor bibendum nunc eget elementum.
       </p>
       <div
-        class="flex flex-col gap-4 mt-[30px]"
+        class="flex flex-col gap-4 mt-space-2xl"
       >
         <div
           class="flex items-center gap-2"

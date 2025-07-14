@@ -14,7 +14,7 @@ exports[`Organic food store Component renders organic food store component 1`] =
         100% Trusted Organic Food Store
       </h2>
       <p
-        class="text-lg text-charcoalGray-60 dark:text-gray-60 mt-[30px]"
+        class="text-lg text-charcoalGray-60 dark:text-gray-60 mt-space-2xl"
       >
         Morbi porttitor ligula in nunc varius sagittis. Proin dui nisi, laoreet ut tempor ac, cursus vitae eros. Cras quis ultricies elit. Proin ac lectus arcu. Maecenas aliquet vel tellus at accumsan. Donec a eros non massa vulputate ornare. Vivamus ornare commodo ante, at commodo felis congue vitae.
       </p>
@@ -43,7 +43,7 @@ exports[`Organic food store Component renders organic food store component 1`] =
           </p>
         </div>
         <div
-          class="grid grid-cols-1 gap-6 mt-[15px] min-[670px]:grid-cols-2"
+          class="grid grid-cols-1 gap-6 mt-space-md min-[670px]:grid-cols-2"
         >
           <div
             class="flex items-center gap-4"

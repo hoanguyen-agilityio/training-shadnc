@@ -44,7 +44,7 @@ export const OrganicFoodStore = () => {
     <section className="mt-40 border-b-1 border-gray-60 dark:text-white">
       <div className="text-center max-w-container mx-auto px-10">
         <h2 className="text-[46px]">100% Trusted Organic Food Store</h2>
-        <p className="text-lg text-charcoalGray-60 dark:text-gray-60 mt-[30px]">
+        <p className="text-lg text-charcoalGray-60 dark:text-gray-60 mt-space-2xl">
           Morbi porttitor ligula in nunc varius sagittis. Proin dui nisi, laoreet ut tempor ac,
           cursus vitae eros. Cras quis ultricies elit. Proin ac lectus arcu. Maecenas aliquet vel
           tellus at accumsan. Donec a eros non massa vulputate ornare. Vivamus ornare commodo ante,
@@ -66,7 +66,7 @@ export const OrganicFoodStore = () => {
               tincidunt feugiat.
             </p>
           </div>
-          <div className="grid grid-cols-1 gap-6 mt-[15px] min-[670px]:grid-cols-2">
+          <div className="grid grid-cols-1 gap-6 mt-space-md min-[670px]:grid-cols-2">
             {featureHighlightsGrid.map((feature, index) => (
               <div key={index} className="flex items-center gap-4">
                 {feature.icon}

@@ -4,10 +4,10 @@ exports[`Social gallery Component renders social gallery component 1`] = `
 <div>
   <section
     aria-label="new in"
-    class="bg-theme-gray-200 mt-[53px] dark:bg-zinc-800"
+    class="bg-theme-gray-200 mt-space-5xl dark:bg-zinc-800"
   >
     <div
-      class="flex flex-col max-w-container mx-auto justify-between min-[1140px]:flex-row py-[50px] px-10"
+      class="flex flex-col max-w-container mx-auto justify-between min-[1140px]:flex-row py-space-4xl px-10"
     >
       <div
         class="flex flex-col justify-center w-full min-[1140px]:w-custom-6xl-plus items-center min-[1140px]:items-start text-center min-[1140px]:text-left"
@@ -23,7 +23,7 @@ exports[`Social gallery Component renders social gallery component 1`] = `
           Shop the latest fashion trends from the top luxury designers.
         </p>
         <button
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-custom-xl mt-10"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-space-2xl cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-custom-xl mt-10"
           data-slot="button"
           disabled=""
         >

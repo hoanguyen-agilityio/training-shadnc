@@ -20,7 +20,7 @@ export const HeroImg = () => (
           label="Explore"
           size="default"
           disabled
-          className="mt-[30px] w-custom-5xl cursor-not-allowed"
+          className="mt-space-2xl w-custom-5xl cursor-not-allowed"
         />
       </div>
     </div>

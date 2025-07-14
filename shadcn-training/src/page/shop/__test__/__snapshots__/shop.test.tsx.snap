@@ -162,7 +162,7 @@ exports[`Shop page Renders Shop page 1`] = `
       >
         <button
           aria-label="Light mode switch"
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-black text-green-50 hover:text-accent-foreground dark:hover:bg-accent/50 relative h-14 w-28 rounded-full p-1 transition-all duration-300 ease-in-out hover:scale-105 focus:scale-105 bg-gray-200 hover:bg-gray-300"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-black text-green-50 hover:text-accent-foreground dark:hover:bg-accent/50 px-space-xl relative h-14 w-28 rounded-full p-1 transition-all duration-300 ease-in-out hover:scale-105 focus:scale-105 bg-gray-200 hover:bg-gray-300"
           data-slot="button"
         >
           <div
@@ -235,7 +235,7 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </button>
         <button
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-space-2xl cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2"
           data-slot="button"
         >
           Sign Up
@@ -248,7 +248,7 @@ exports[`Shop page Renders Shop page 1`] = `
       class="max-w-container mx-auto flex flex-col px-10"
     >
       <section
-        class="flex gap-3 mt-[25px]"
+        class="flex gap-3 mt-space-md"
       >
         <a
           aria-label="back to home page"
@@ -303,7 +303,7 @@ exports[`Shop page Renders Shop page 1`] = `
         </a>
       </section>
       <section
-        class="flex flex-col items-center gap-4 relative mt-[42px]"
+        class="flex flex-col items-center gap-4 relative mt-space-3xl"
       >
         <img
           alt="shop banner"
@@ -415,7 +415,7 @@ exports[`Shop page Renders Shop page 1`] = `
             </div>
           </div>
           <button
-            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-[10px] px-[30px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 mt-8 cursor-not-allowed"
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-[10px] px-space-2xl transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 mt-8 cursor-not-allowed"
             data-slot="button"
             disabled=""
           >
@@ -749,13 +749,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               >
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Sale 50%
                 </span>
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Best Sale
@@ -766,7 +766,7 @@ exports[`Shop page Renders Shop page 1`] = `
               >
                 <button
                   aria-label="heart icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -783,7 +783,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="add to cart"
-                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-[26px] py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
+                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-space-xl py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -803,7 +803,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="eye icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -970,13 +970,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               >
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Sale 50%
                 </span>
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Best Sale
@@ -987,7 +987,7 @@ exports[`Shop page Renders Shop page 1`] = `
               >
                 <button
                   aria-label="heart icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -1004,7 +1004,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="add to cart"
-                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-[26px] py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
+                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-space-xl py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -1024,7 +1024,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="eye icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -1177,13 +1177,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               >
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Sale 50%
                 </span>
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Best Sale
@@ -1194,7 +1194,7 @@ exports[`Shop page Renders Shop page 1`] = `
               >
                 <button
                   aria-label="heart icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -1211,7 +1211,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="add to cart"
-                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-[26px] py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
+                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-space-xl py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -1231,7 +1231,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="eye icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -1398,13 +1398,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               >
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Sale 50%
                 </span>
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Best Sale
@@ -1415,7 +1415,7 @@ exports[`Shop page Renders Shop page 1`] = `
               >
                 <button
                   aria-label="heart icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -1432,7 +1432,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="add to cart"
-                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-[26px] py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
+                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-space-xl py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -1452,7 +1452,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="eye icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -1605,13 +1605,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               >
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Sale 50%
                 </span>
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Best Sale
@@ -1622,7 +1622,7 @@ exports[`Shop page Renders Shop page 1`] = `
               >
                 <button
                   aria-label="heart icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -1639,7 +1639,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="add to cart"
-                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-[26px] py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
+                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-space-xl py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -1659,7 +1659,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="eye icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -1826,13 +1826,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               >
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Sale 50%
                 </span>
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Best Sale
@@ -1843,7 +1843,7 @@ exports[`Shop page Renders Shop page 1`] = `
               >
                 <button
                   aria-label="heart icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -1860,7 +1860,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="add to cart"
-                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-[26px] py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
+                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-space-xl py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -1880,7 +1880,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="eye icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2033,13 +2033,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               >
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Sale 50%
                 </span>
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Best Sale
@@ -2050,7 +2050,7 @@ exports[`Shop page Renders Shop page 1`] = `
               >
                 <button
                   aria-label="heart icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2067,7 +2067,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="add to cart"
-                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-[26px] py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
+                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-space-xl py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2087,7 +2087,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="eye icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2254,13 +2254,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               >
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Sale 50%
                 </span>
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Best Sale
@@ -2271,7 +2271,7 @@ exports[`Shop page Renders Shop page 1`] = `
               >
                 <button
                   aria-label="heart icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2288,7 +2288,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="add to cart"
-                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-[26px] py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
+                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-space-xl py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2308,7 +2308,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="eye icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2461,13 +2461,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               >
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Sale 50%
                 </span>
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Best Sale
@@ -2478,7 +2478,7 @@ exports[`Shop page Renders Shop page 1`] = `
               >
                 <button
                   aria-label="heart icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2495,7 +2495,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="add to cart"
-                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-[26px] py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
+                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-space-xl py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2515,7 +2515,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="eye icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2682,13 +2682,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               >
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Sale 50%
                 </span>
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Best Sale
@@ -2699,7 +2699,7 @@ exports[`Shop page Renders Shop page 1`] = `
               >
                 <button
                   aria-label="heart icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2716,7 +2716,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="add to cart"
-                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-[26px] py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
+                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-space-xl py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2736,7 +2736,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="eye icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2903,13 +2903,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               >
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Sale 50%
                 </span>
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Best Sale
@@ -2920,7 +2920,7 @@ exports[`Shop page Renders Shop page 1`] = `
               >
                 <button
                   aria-label="heart icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2937,7 +2937,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="add to cart"
-                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-[26px] py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
+                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-space-xl py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -2957,7 +2957,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="eye icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -3110,13 +3110,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               >
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-theme-danger text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Sale 50%
                 </span>
                 <span
-                  class="inline-flex items-center justify-center border text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-[3px]"
+                  class="inline-flex items-center justify-center border py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-green-700 text-white [a&]:hover:bg-primary/90 rounded px-2 py-space-xs"
                   data-slot="badge"
                 >
                   Best Sale
@@ -3127,7 +3127,7 @@ exports[`Shop page Renders Shop page 1`] = `
               >
                 <button
                   aria-label="heart icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -3144,7 +3144,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="add to cart"
-                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-[26px] py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
+                  class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 px-space-xl py-3.5 rounded-[43px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -3164,7 +3164,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 </button>
                 <button
                   aria-label="eye icon"
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-[13px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
+                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-theme-gray-150 rounded-full p-space-sm transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex-shrink-0 cursor-not-allowed"
                   data-slot="button"
                 >
                   <svg
@@ -3314,7 +3314,7 @@ exports[`Shop page Renders Shop page 1`] = `
         </div>
       </div>
       <div
-        class="flex flex-col gap-2.5 justify-between items-center mt-[30px] min-[750px]:gap-0 min-[750px]:flex-row"
+        class="flex flex-col gap-2.5 justify-between items-center mt-space-2xl min-[750px]:gap-0 min-[750px]:flex-row"
       >
         <span
           class="text-sm dark:text-white"
@@ -3344,7 +3344,7 @@ exports[`Shop page Renders Shop page 1`] = `
               <a
                 aria-disabled="true"
                 aria-label="Go to previous page"
-                class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-auto rounded-none aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80 border border-white p-[25px] rounded-l-lg w-full font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 py-2.5 px-space-2xl px-5 py-space-md size-auto rounded-none aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80 border border-white p-space-md rounded-l-lg w-full font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer"
                 data-slot="pagination-link"
               >
                 <span
@@ -3359,7 +3359,7 @@ exports[`Shop page Renders Shop page 1`] = `
             >
               <a
                 aria-current="page"
-                class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-green-700 text-white shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-green-50 dark:border-input dark:hover:bg-input/50 px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer border-theme-gray-300 aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-green-700 text-white shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-green-50 dark:border-input dark:hover:bg-input/50 px-5 py-space-md border size-auto rounded-none font-bold cursor-pointer border-theme-gray-300 aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
                 data-active="true"
                 data-slot="pagination-link"
               >
@@ -3370,7 +3370,7 @@ exports[`Shop page Renders Shop page 1`] = `
               data-slot="pagination-item"
             >
               <a
-                class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black text-green-50 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer border-theme-gray-300 aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black text-green-50 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 px-5 py-space-md border size-auto rounded-none font-bold cursor-pointer border-theme-gray-300 aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
                 data-active="false"
                 data-slot="pagination-link"
               >
@@ -3381,7 +3381,7 @@ exports[`Shop page Renders Shop page 1`] = `
               data-slot="pagination-item"
             >
               <a
-                class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black text-green-50 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer border-theme-gray-300 aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black text-green-50 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 px-5 py-space-md border size-auto rounded-none font-bold cursor-pointer border-theme-gray-300 aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
                 data-active="false"
                 data-slot="pagination-link"
               >
@@ -3394,7 +3394,7 @@ exports[`Shop page Renders Shop page 1`] = `
               <a
                 aria-disabled="false"
                 aria-label="Go to next page"
-                class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-auto rounded-none aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80 border border-white p-[25px] rounded-r-lg rounded-l-none font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 py-2.5 px-space-2xl px-5 py-space-md size-auto rounded-none aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80 border border-white p-space-md rounded-r-lg rounded-l-none font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer"
                 data-slot="pagination-link"
               >
                 <span
@@ -3433,7 +3433,7 @@ exports[`Shop page Renders Shop page 1`] = `
             Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
           </span>
           <button
-            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-[10px] px-[30px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 mt-[30px] w-custom-5xl cursor-not-allowed"
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-[10px] px-space-2xl transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 mt-space-2xl w-custom-5xl cursor-not-allowed"
             data-slot="button"
             disabled=""
           >
@@ -3443,11 +3443,11 @@ exports[`Shop page Renders Shop page 1`] = `
       </div>
     </section>
     <div
-      class="max-w-container mx-auto px-10 mt-[60px]"
+      class="max-w-container mx-auto px-10 mt-space-6xl"
     >
       <section
         aria-label="feature bar"
-        class="grid grid-cols-1 min-[600px]:grid-cols-2 gap-5 min-[1090px]:grid-cols-4 my-[60px]"
+        class="grid grid-cols-1 min-[600px]:grid-cols-2 gap-5 min-[1090px]:grid-cols-4 my-space-6xl"
       >
         <div
           class="flex gap-[13px]"
@@ -3625,7 +3625,7 @@ exports[`Shop page Renders Shop page 1`] = `
           Subscribe To Our Newsletter
         </h2>
         <p
-          class="text-lg text-charcoalGray-50 max-w-custom-9xl mt-[15px]"
+          class="text-lg text-charcoalGray-50 max-w-custom-9xl mt-space-md"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
         </p>
@@ -3640,7 +3640,7 @@ exports[`Shop page Renders Shop page 1`] = `
               data-slot="label"
             />
             <input
-              class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex w-full min-w-0 rounded-md bg-transparent py-1 transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 border-0 shadow-md pt-7 pb-8 px-[30px] dark:text-black"
+              class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex w-full min-w-0 rounded-md bg-transparent px-3 py-1 transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 border-0 shadow-md pt-7 pb-8 px-space-2xl dark:text-black"
               data-slot="input"
               name="email"
               placeholder="michael@ymail.com"
@@ -3648,7 +3648,7 @@ exports[`Shop page Renders Shop page 1`] = `
             />
           </div>
           <button
-            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 py-4 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 dark:bg-black dark:text-white"
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 py-4 rounded-[10px] px-space-2xl cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 dark:bg-black dark:text-white"
             data-slot="button"
             disabled=""
           >
@@ -3671,10 +3671,10 @@ exports[`Shop page Renders Shop page 1`] = `
     </section>
   </main>
   <div
-    class="max-w-container mx-auto px-10 mt-[30px]"
+    class="max-w-container mx-auto px-10 mt-space-2xl"
   >
     <footer
-      class="px-4 text-center mb-[30px]"
+      class="px-4 text-center mb-space-2xl"
     >
       <div
         class="flex items-center justify-between"

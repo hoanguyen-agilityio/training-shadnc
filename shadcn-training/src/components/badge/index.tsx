@@ -6,7 +6,7 @@ interface IBadge extends ComponentProps<typeof BadgeShadcn> {
 }
 
 export const Badge = ({ name, ...props }: IBadge) => (
-  <BadgeShadcn {...props} className="rounded px-2 py-[3px]">
+  <BadgeShadcn {...props} className="rounded px-2 py-space-xs">
     {name}
   </BadgeShadcn>
 );

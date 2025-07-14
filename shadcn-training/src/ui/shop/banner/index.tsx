@@ -6,7 +6,7 @@ import { COUNTDOWN_DATA } from '@/mocks';
 
 export const ShopBanner = () => {
   return (
-    <section className="flex flex-col items-center gap-4 relative mt-[42px]">
+    <section className="flex flex-col items-center gap-4 relative mt-space-3xl">
       <img
         src="/assets/shop-banner.svg"
         alt="shop banner"

@@ -31,7 +31,7 @@ export const CarouselWithTopControls = () => {
   return (
     <div className="w-full max-w-7xl mx-auto p-6">
       {/* Header */}
-      <div className="flex items-center justify-between mb-[50px]">
+      <div className="flex items-center justify-between mb-space-4xl">
         <h3 className="text-[46px] dark:text-white">Client Testimonial</h3>
         <div className="flex gap-2">
           <Button

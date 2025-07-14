@@ -13,7 +13,7 @@ export const NewArrivals = () => (
       </p>
     </div>
     <Tabs tabs={TABS_LABEL} cards={PRODUCTS_HOME_PAGE} />
-    <div className="flex justify-center mt-[50px]">
+    <div className="flex justify-center mt-space-4xl">
       <Button
         label="View More"
         icon={<ChevronIcon fill="white" />}

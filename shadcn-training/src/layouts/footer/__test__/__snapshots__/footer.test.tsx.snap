@@ -3,7 +3,7 @@
 exports[`Footer component Renders footer component 1`] = `
 <div>
   <footer
-    class="px-4 text-center mb-[30px]"
+    class="px-4 text-center mb-space-2xl"
   >
     <div
       class="flex items-center justify-between"

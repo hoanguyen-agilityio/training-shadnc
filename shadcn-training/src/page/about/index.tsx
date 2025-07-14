@@ -39,7 +39,7 @@ export const AboutPage = () => {
         </section>
         <Subscribe />
       </main>
-      <div className="max-w-container mx-auto px-10 mt-[30px]">
+      <div className="max-w-container mx-auto px-10 mt-space-2xl">
         <Footer />
       </div>
     </>

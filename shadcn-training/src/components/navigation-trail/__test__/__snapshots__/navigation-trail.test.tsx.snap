@@ -3,7 +3,7 @@
 exports[`NavigationTrail component Renders navigation trail component 1`] = `
 <div>
   <section
-    class="flex gap-3 mt-[25px]"
+    class="flex gap-3 mt-space-md"
   >
     <a
       aria-label="back to home page"

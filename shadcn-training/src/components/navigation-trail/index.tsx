@@ -15,7 +15,7 @@ interface INavigationTrail {
 export const NavigationTrail = ({ breadcrumbName }: INavigationTrail) => {
   const location = useLocation();
   return (
-    <section className="flex gap-3 mt-[25px]">
+    <section className="flex gap-3 mt-space-md">
       <Link aria-label="back to home page" to={ROUTES.HOME}>
         <HomeIcon width="24px" height="24px" className="text-black dark:text-white" />
       </Link>

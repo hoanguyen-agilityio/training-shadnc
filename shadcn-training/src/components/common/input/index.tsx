@@ -29,7 +29,7 @@ export const Input = ({
     'font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0',
     {
       'rounded-[10px] border border-theme-gray-400 py-4 px-3': variant === 'default',
-      'border-0 shadow-md pt-7 pb-8 px-[30px]': variant === 'primary',
+      'border-0 shadow-md pt-7 pb-8 px-space-2xl': variant === 'primary',
     },
     className,
   );

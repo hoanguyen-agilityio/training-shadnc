@@ -15,14 +15,14 @@ export const HomePage = () => {
           <CollectionHero />
         </div>
         <NewIn />
-        <div className="max-w-container mx-auto px-10 mt-[60px]">
+        <div className="max-w-container mx-auto px-10 mt-space-6xl">
           <NewArrivals />
           <FeatureBar />
         </div>
         <SocialGallery />
         <Subscribe />
       </main>
-      <div className="max-w-container mx-auto px-10 mt-[30px]">
+      <div className="max-w-container mx-auto px-10 mt-space-2xl">
         <Footer />
       </div>
     </>

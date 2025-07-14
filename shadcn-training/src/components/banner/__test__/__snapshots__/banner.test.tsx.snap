@@ -3,7 +3,7 @@
 exports[`Banner component Renders banner component 1`] = `
 <div>
   <section
-    class="relative w-full overflow-visible mt-[42px]"
+    class="relative w-full overflow-visible mt-space-3xl"
   >
     <img
       alt="background banner"

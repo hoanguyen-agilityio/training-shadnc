@@ -39,7 +39,7 @@ export const NotFoundPage = () => {
       </main>
 
       {/* Footer */}
-      <div className="border-t border-theme-gray-500 pt-[30px]">
+      <div className="border-t border-theme-gray-500 pt-space-2xl">
         <div className="max-w-container mx-auto px-10 w-full">
           <Footer />
         </div>

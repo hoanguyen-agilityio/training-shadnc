@@ -22,7 +22,7 @@ export const AuthLayout = ({ title, description, icon, children }: IAuthLayout) 
     />
     <Link
       to={ROUTES.HOME}
-      className="absolute top-10 left-10 p-[15px] bg-white rounded shadow hidden min-[1200px]:block"
+      className="absolute top-10 left-10 p-space-md bg-white rounded shadow hidden min-[1200px]:block"
       aria-label="logo"
     >
       <Logo width="80px" height="80px" />

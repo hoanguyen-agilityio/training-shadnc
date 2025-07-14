@@ -62,6 +62,18 @@
   --spacing-custom-h-xl: 400px;
   --spacing-custom-h-2xl: 450px;
   --spacing-custom-h-3xl: 867px;
+
+  /* Margin & Padding */
+  --spacing-space-xs: 3px;
+  --spacing-space-sm: 13px;
+  --spacing-space-md: 15px;
+  --spacing-space-md: 25px;
+  --spacing-space-xl: 26px;
+  --spacing-space-2xl: 30px;
+  --spacing-space-3xl: 42px;
+  --spacing-space-4xl: 50px;
+  --spacing-space-5xl: 53px;
+  --spacing-space-6xl: 60px;
 }
 
 /* [data-radix-popper-content-wrapper] {

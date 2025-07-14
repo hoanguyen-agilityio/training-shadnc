@@ -12,7 +12,7 @@ exports[`SignUpPage renders SignUpPage correctly 1`] = `
     />
     <a
       aria-label="logo"
-      class="absolute top-10 left-10 p-[15px] bg-white rounded shadow hidden min-[1200px]:block"
+      class="absolute top-10 left-10 p-space-md bg-white rounded shadow hidden min-[1200px]:block"
       data-discover="true"
       href="/"
     >
@@ -213,7 +213,7 @@ exports[`SignUpPage renders SignUpPage correctly 1`] = `
             </span>
           </div>
           <button
-            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-full"
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-[10px] px-space-2xl cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-full"
             data-slot="button"
             type="submit"
           >

@@ -76,7 +76,7 @@ export const ShopPage = () => {
               ),
             )}
           </div>
-          <div className="flex flex-col gap-2.5 justify-between items-center mt-[30px] min-[750px]:gap-0 min-[750px]:flex-row">
+          <div className="flex flex-col gap-2.5 justify-between items-center mt-space-2xl min-[750px]:gap-0 min-[750px]:flex-row">
             <span className="text-sm dark:text-white">
               Showing {indexOfFirstProduct + 1}–
               {Math.min(indexOfLastProduct, PRODUCTS_SHOP_PAGE.length)} of{' '}
@@ -90,12 +90,12 @@ export const ShopPage = () => {
           </div>
         </section>
         <HeroImg />
-        <div className="max-w-container mx-auto px-10 mt-[60px]">
+        <div className="max-w-container mx-auto px-10 mt-space-6xl">
           <FeatureBar />
         </div>
         <Subscribe />
       </main>
-      <div className="max-w-container mx-auto px-10 mt-[30px]">
+      <div className="max-w-container mx-auto px-10 mt-space-2xl">
         <Footer />
       </div>
     </>
