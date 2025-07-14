@@ -86,9 +86,11 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                 class="mb-4"
               >
                 <svg
-                  class="h-[26px] w-9 text-green-700"
+                  class="text-green-700"
                   fill="none"
+                  height="26px"
                   viewBox="0 0 33 26"
+                  width="32px"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -226,9 +228,11 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                 class="mb-4"
               >
                 <svg
-                  class="h-[26px] w-9 text-green-700"
+                  class="text-green-700"
                   fill="none"
+                  height="26px"
                   viewBox="0 0 33 26"
+                  width="32px"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -366,9 +370,11 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                 class="mb-4"
               >
                 <svg
-                  class="h-[26px] w-9 text-green-700"
+                  class="text-green-700"
                   fill="none"
+                  height="26px"
                   viewBox="0 0 33 26"
+                  width="32px"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -506,9 +512,11 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                 class="mb-4"
               >
                 <svg
-                  class="h-[26px] w-9 text-green-700"
+                  class="text-green-700"
                   fill="none"
+                  height="26px"
                   viewBox="0 0 33 26"
+                  width="32px"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path

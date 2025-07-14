@@ -5,7 +5,7 @@ exports[`Dropdown component Renders dropdown component 1`] = `
   <button
     aria-expanded="false"
     aria-haspopup="menu"
-    class="relative w-[178px]"
+    class="relative w-custom-md"
     data-slot="dropdown-menu-trigger"
     data-state="closed"
     id="radix-«r0»"

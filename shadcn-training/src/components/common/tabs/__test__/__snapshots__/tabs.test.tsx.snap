@@ -112,7 +112,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -261,7 +261,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -396,7 +396,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -517,7 +517,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -652,7 +652,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -801,7 +801,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div

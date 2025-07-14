@@ -3,7 +3,7 @@
 exports[`Shop page Renders Shop page 1`] = `
 <div>
   <div
-    class="max-w-[1320px] mx-auto px-10"
+    class="max-w-container mx-auto px-10"
   >
     <header
       class="flex items-center justify-between mt-5 border-b-1 border-theme-gray-250 pb-5"
@@ -245,7 +245,7 @@ exports[`Shop page Renders Shop page 1`] = `
   </div>
   <main>
     <div
-      class="max-w-[1320px] mx-auto flex flex-col px-10"
+      class="max-w-container mx-auto flex flex-col px-10"
     >
       <section
         class="flex gap-3 mt-[25px]"
@@ -307,7 +307,7 @@ exports[`Shop page Renders Shop page 1`] = `
       >
         <img
           alt="shop banner"
-          class="w-auto h-[350px] min-[950px]:w-full min-[950px]:h-auto object-cover"
+          class="w-auto h-custom-h-lg min-[950px]:w-full min-[950px]:h-auto object-cover"
           src="/assets/shop-banner.svg"
         />
         <div
@@ -446,7 +446,7 @@ exports[`Shop page Renders Shop page 1`] = `
           <button
             aria-expanded="false"
             aria-haspopup="menu"
-            class="relative w-[178px]"
+            class="relative w-custom-md"
             data-slot="dropdown-menu-trigger"
             data-state="closed"
             id="radix-«r2»"
@@ -483,7 +483,7 @@ exports[`Shop page Renders Shop page 1`] = `
           <button
             aria-expanded="false"
             aria-haspopup="menu"
-            class="relative w-[178px]"
+            class="relative w-custom-md"
             data-slot="dropdown-menu-trigger"
             data-state="closed"
             id="radix-«r4»"
@@ -520,7 +520,7 @@ exports[`Shop page Renders Shop page 1`] = `
           <button
             aria-expanded="false"
             aria-haspopup="menu"
-            class="relative w-[178px]"
+            class="relative w-custom-md"
             data-slot="dropdown-menu-trigger"
             data-state="closed"
             id="radix-«r6»"
@@ -561,7 +561,7 @@ exports[`Shop page Renders Shop page 1`] = `
           <button
             aria-expanded="false"
             aria-haspopup="menu"
-            class="relative w-[178px]"
+            class="relative w-custom-md"
             data-slot="dropdown-menu-trigger"
             data-state="closed"
             id="radix-«r8»"
@@ -598,7 +598,7 @@ exports[`Shop page Renders Shop page 1`] = `
           <button
             aria-expanded="false"
             aria-haspopup="menu"
-            class="relative w-[178px]"
+            class="relative w-custom-md"
             data-slot="dropdown-menu-trigger"
             data-state="closed"
             id="radix-«ra»"
@@ -639,7 +639,7 @@ exports[`Shop page Renders Shop page 1`] = `
       class="border-b-1 border-t-1 border-theme-gray-250 p-5 mt-5"
     >
       <div
-        class="max-w-[1320px] mx-auto px-10 flex flex-col gap-2.5 justify-between min-[700px]:gap-0 min-[700px]:flex-row"
+        class="max-w-container mx-auto px-10 flex flex-col gap-2.5 justify-between min-[700px]:gap-0 min-[700px]:flex-row"
       >
         <div
           class="flex flex-col gap-2.5 min-[520px]:flex-row min-[520px]:gap-6"
@@ -725,13 +725,13 @@ exports[`Shop page Renders Shop page 1`] = `
       </div>
     </section>
     <section
-      class="max-w-[1320px] mx-auto mt-20 px-10"
+      class="max-w-container mx-auto mt-20 px-10"
     >
       <div
         class="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -952,7 +952,7 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -1159,7 +1159,7 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -1380,7 +1380,7 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -1587,7 +1587,7 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -1808,7 +1808,7 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -2015,7 +2015,7 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -2236,7 +2236,7 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -2443,7 +2443,7 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -2664,7 +2664,7 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -2885,7 +2885,7 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -3092,7 +3092,7 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -3413,7 +3413,7 @@ exports[`Shop page Renders Shop page 1`] = `
     >
       <img
         alt="shop hero image"
-        class="w-auto h-[450px] min-[750px]:w-full min-[750px]:h-full object-cover"
+        class="w-auto h-custom-h-2xl min-[750px]:w-full min-[750px]:h-full object-cover"
         src="/assets/shop-hero-img.svg"
       />
       <div
@@ -3428,12 +3428,12 @@ exports[`Shop page Renders Shop page 1`] = `
             -50 PROMOTION HOT SUMMER
           </h2>
           <span
-            class="block text-sm mt-2.5 text-white max-w-[467px] mx-auto"
+            class="block text-sm mt-2.5 text-white max-w-custom-7xl mx-auto"
           >
             Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
           </span>
           <button
-            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-[10px] px-[30px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 mt-[30px] w-[294px] cursor-not-allowed"
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-[10px] px-[30px] transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 mt-[30px] w-custom-5xl cursor-not-allowed"
             data-slot="button"
             disabled=""
           >
@@ -3443,7 +3443,7 @@ exports[`Shop page Renders Shop page 1`] = `
       </div>
     </section>
     <div
-      class="max-w-[1320px] mx-auto px-10 mt-[60px]"
+      class="max-w-container mx-auto px-10 mt-[60px]"
     >
       <section
         aria-label="feature bar"
@@ -3609,7 +3609,7 @@ exports[`Shop page Renders Shop page 1`] = `
     </div>
     <section
       aria-label="subscribe"
-      class="max-h-[867px] w-full h-[867px] relative"
+      class="max-h-custom-h-3xl w-full h-full relative"
     >
       <img
         alt=""
@@ -3625,7 +3625,7 @@ exports[`Shop page Renders Shop page 1`] = `
           Subscribe To Our Newsletter
         </h2>
         <p
-          class="text-lg text-charcoalGray-50 max-w-[688px] mt-[15px]"
+          class="text-lg text-charcoalGray-50 max-w-custom-9xl mt-[15px]"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
         </p>
@@ -3671,7 +3671,7 @@ exports[`Shop page Renders Shop page 1`] = `
     </section>
   </main>
   <div
-    class="max-w-[1320px] mx-auto px-10 mt-[30px]"
+    class="max-w-container mx-auto px-10 mt-[30px]"
   >
     <footer
       class="px-4 text-center mb-[30px]"

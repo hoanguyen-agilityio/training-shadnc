@@ -71,7 +71,7 @@ export const CarouselWithTopControls = () => {
                 <CardContent className="p-6 h-full flex flex-col">
                   {/* Quote Icon */}
                   <div className="mb-4">
-                    <QuoteIcon className="h-[26px] w-9 text-green-700" />
+                    <QuoteIcon height="26px" width="32px" className="text-green-700" />
                   </div>
 
                   {/* Testimonial Text */}

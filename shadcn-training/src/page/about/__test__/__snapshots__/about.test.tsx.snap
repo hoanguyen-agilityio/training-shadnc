@@ -3,7 +3,7 @@
 exports[`About page Renders About page 1`] = `
 <div>
   <div
-    class="max-w-[1320px] mx-auto px-10"
+    class="max-w-container mx-auto px-10"
   >
     <header
       class="flex items-center justify-between mt-5 border-b-1 border-theme-gray-250 pb-5"
@@ -245,7 +245,7 @@ exports[`About page Renders About page 1`] = `
   </div>
   <main>
     <div
-      class="max-w-[1320px] mx-auto flex flex-col px-10"
+      class="max-w-container mx-auto flex flex-col px-10"
     >
       <section
         class="flex gap-3 mt-[25px]"
@@ -320,7 +320,7 @@ exports[`About page Renders About page 1`] = `
         >
           <img
             alt="common banner"
-            class="w-[100px] h-[400px] min-[650px]:w-[200px] min-[800px]:w-[264px] min-[800px]:h-[400px] min-[1150px]:w-full min-[1150px]:h-auto"
+            class="w-custom-xs h-custom-h-xl min-[650px]:w-custom-lg min-[800px]:w-custom-4xl min-[800px]:h-[400px] min-[1150px]:w-full min-[1150px]:h-auto"
             src="/assets/common-banner.svg"
           />
         </div>
@@ -330,7 +330,7 @@ exports[`About page Renders About page 1`] = `
       class="mt-40 border-b-1 border-gray-60 dark:text-white"
     >
       <div
-        class="text-center max-w-[1320px] mx-auto px-10"
+        class="text-center max-w-container mx-auto px-10"
       >
         <h2
           class="text-[46px]"
@@ -687,7 +687,7 @@ exports[`About page Renders About page 1`] = `
       </div>
     </section>
     <div
-      class="max-w-[1320px] mx-auto flex flex-col px-10 my-20"
+      class="max-w-container mx-auto flex flex-col px-10 my-20"
     >
       <section
         class="flex flex-col items-center gap-[30px] min-[1300px]:flex-row"
@@ -855,7 +855,7 @@ exports[`About page Renders About page 1`] = `
         class="mt-20"
       >
         <div
-          class="max-w-[640px] text-center mx-auto mb-10"
+          class="max-w-custom-8xl-plus text-center mx-auto mb-10"
         >
           <h3
             class="text-[46px] dark:text-white"
@@ -2155,9 +2155,11 @@ exports[`About page Renders About page 1`] = `
                     class="mb-4"
                   >
                     <svg
-                      class="h-[26px] w-9 text-green-700"
+                      class="text-green-700"
                       fill="none"
+                      height="26px"
                       viewBox="0 0 33 26"
+                      width="32px"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
@@ -2295,9 +2297,11 @@ exports[`About page Renders About page 1`] = `
                     class="mb-4"
                   >
                     <svg
-                      class="h-[26px] w-9 text-green-700"
+                      class="text-green-700"
                       fill="none"
+                      height="26px"
                       viewBox="0 0 33 26"
+                      width="32px"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
@@ -2435,9 +2439,11 @@ exports[`About page Renders About page 1`] = `
                     class="mb-4"
                   >
                     <svg
-                      class="h-[26px] w-9 text-green-700"
+                      class="text-green-700"
                       fill="none"
+                      height="26px"
                       viewBox="0 0 33 26"
+                      width="32px"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
@@ -2575,9 +2581,11 @@ exports[`About page Renders About page 1`] = `
                     class="mb-4"
                   >
                     <svg
-                      class="h-[26px] w-9 text-green-700"
+                      class="text-green-700"
                       fill="none"
+                      height="26px"
                       viewBox="0 0 33 26"
+                      width="32px"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
@@ -2714,7 +2722,7 @@ exports[`About page Renders About page 1`] = `
     </section>
     <section
       aria-label="subscribe"
-      class="max-h-[867px] w-full h-[867px] relative"
+      class="max-h-custom-h-3xl w-full h-full relative"
     >
       <img
         alt=""
@@ -2730,7 +2738,7 @@ exports[`About page Renders About page 1`] = `
           Subscribe To Our Newsletter
         </h2>
         <p
-          class="text-lg text-charcoalGray-50 max-w-[688px] mt-[15px]"
+          class="text-lg text-charcoalGray-50 max-w-custom-9xl mt-[15px]"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
         </p>
@@ -2776,7 +2784,7 @@ exports[`About page Renders About page 1`] = `
     </section>
   </main>
   <div
-    class="max-w-[1320px] mx-auto px-10 mt-[30px]"
+    class="max-w-container mx-auto px-10 mt-[30px]"
   >
     <footer
       class="px-4 text-center mb-[30px]"

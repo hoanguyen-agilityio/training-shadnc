@@ -5,7 +5,7 @@ export const HeroImg = () => (
     <img
       src="/assets/shop-hero-img.svg"
       alt="shop hero image"
-      className="w-auto h-[450px] min-[750px]:w-full min-[750px]:h-full object-cover"
+      className="w-auto h-custom-h-2xl min-[750px]:w-full min-[750px]:h-full object-cover"
     />
     <div className="absolute inset-0 flex justify-center items-center px-10">
       <div className="border-4 border-white p-10 text-center min-[1080px]:p-20">

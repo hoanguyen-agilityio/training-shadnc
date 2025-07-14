@@ -6,7 +6,7 @@ exports[`Not Found page Renders Not Found page 1`] = `
     class="flex flex-col min-h-screen"
   >
     <div
-      class="max-w-[1320px] mx-auto px-10 w-full"
+      class="max-w-container mx-auto px-10 w-full"
     >
       <header
         class="flex items-center justify-between mt-5 border-b-1 border-theme-gray-250 pb-5"
@@ -250,7 +250,7 @@ exports[`Not Found page Renders Not Found page 1`] = `
       class="flex-grow flex items-center justify-center p-10"
     >
       <section
-        class="max-w-[600px] text-center"
+        class="max-w-custom-8xl text-center"
       >
         <div
           class="flex justify-center"
@@ -1032,7 +1032,7 @@ exports[`Not Found page Renders Not Found page 1`] = `
       class="border-t border-theme-gray-500 pt-[30px]"
     >
       <div
-        class="max-w-[1320px] mx-auto px-10 w-full"
+        class="max-w-container mx-auto px-10 w-full"
       >
         <footer
           class="px-4 text-center mb-[30px]"

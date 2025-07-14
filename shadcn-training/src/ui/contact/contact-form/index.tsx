@@ -101,7 +101,7 @@ export const ContactForm = () => {
             <Textarea
               id="subject"
               placeholder="Subject"
-              className="px-3 py-4 border border-theme-gray-400 rounded-[10px] min-h-[180px] dark:text-white"
+              className="px-3 py-4 border border-theme-gray-400 rounded-[10px] min-h-custom-h-sm dark:text-white"
             />
           </div>
 

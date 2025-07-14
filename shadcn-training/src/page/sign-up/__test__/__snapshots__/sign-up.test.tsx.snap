@@ -54,7 +54,7 @@ exports[`SignUpPage renders SignUpPage correctly 1`] = `
       class="absolute top-0 right-0 h-full w-full min-[1200px]:w-[40%] flex justify-center items-center px-6 bg-white z-10 dark:bg-black"
     >
       <div
-        class="flex flex-col gap-[30px] max-w-[480px] w-full"
+        class="flex flex-col gap-[30px] max-w-custom-7xl-plus w-full"
       >
         <div
           class="flex flex-col gap-[5px]"

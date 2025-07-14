@@ -4,7 +4,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
 <div>
   <section
     aria-label="new arrivals"
-    class="max-w-[1320px] mx-auto"
+    class="max-w-container mx-auto"
   >
     <div
       class="flex flex-col text-center gap-3.5 mb-4 items-center"
@@ -15,7 +15,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
         New Arrivals
       </h2>
       <p
-        class="text-lg text-charcoalGray-60 dark:text-gray-60 w-full max-w-[746px]"
+        class="text-lg text-charcoalGray-60 dark:text-gray-60 w-full max-w-custom-9xl-plus"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
       </p>
@@ -130,7 +130,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           tabindex="0"
         >
           <div
-            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
             data-slot="card"
           >
             <div
@@ -279,7 +279,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           tabindex="0"
         >
           <div
-            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
             data-slot="card"
           >
             <div
@@ -414,7 +414,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           tabindex="0"
         >
           <div
-            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
             data-slot="card"
           >
             <div
@@ -535,7 +535,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           tabindex="0"
         >
           <div
-            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
             data-slot="card"
           >
             <div
@@ -670,7 +670,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           tabindex="0"
         >
           <div
-            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
             data-slot="card"
           >
             <div
@@ -819,7 +819,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           tabindex="0"
         >
           <div
-            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
             data-slot="card"
           >
             <div

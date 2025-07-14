@@ -54,6 +54,14 @@
   --spacing-container: 1320px;
 
   --spacing-8rem: 8rem;
+
+  /* Height */
+  --spacing-custom-h-sm: 180px;
+  --spacing-custom-h-md: 260px;
+  --spacing-custom-h-lg: 350px;
+  --spacing-custom-h-xl: 400px;
+  --spacing-custom-h-2xl: 450px;
+  --spacing-custom-h-3xl: 867px;
 }
 
 /* [data-radix-popper-content-wrapper] {

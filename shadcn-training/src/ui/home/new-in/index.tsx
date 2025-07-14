@@ -26,7 +26,7 @@ export const NewIn = () => (
               <img
                 src={img}
                 alt={imgAlt}
-                className="w-full h-full max-w-custom-md-plus max-h-[260px]"
+                className="w-full h-full max-w-custom-md-plus max-h-custom-h-md"
               />
             </CardHeader>
             <CardContent>

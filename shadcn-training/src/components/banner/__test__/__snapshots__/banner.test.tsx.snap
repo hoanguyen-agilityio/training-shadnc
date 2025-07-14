@@ -20,7 +20,7 @@ exports[`Banner component Renders banner component 1`] = `
     >
       <img
         alt="common banner"
-        class="w-[100px] h-[400px] min-[650px]:w-[200px] min-[800px]:w-[264px] min-[800px]:h-[400px] min-[1150px]:w-full min-[1150px]:h-auto"
+        class="w-custom-xs h-custom-h-xl min-[650px]:w-custom-lg min-[800px]:w-custom-4xl min-[800px]:h-[400px] min-[1150px]:w-full min-[1150px]:h-auto"
         src="/assets/common-banner.svg"
       />
     </div>

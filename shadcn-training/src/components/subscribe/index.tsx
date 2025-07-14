@@ -4,7 +4,7 @@ import { ChevronIcon } from '@/components/icons';
 
 export const Subscribe = () => {
   return (
-    <section aria-label="subscribe" className="max-h-[867px] w-full h-[867px] relative">
+    <section aria-label="subscribe" className="max-h-custom-h-3xl w-full h-full relative">
       <img src="/assets/subscribe.webp" alt="" className="w-full h-full object-cover" />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
         <h2 className="text-[46px] text-charcoalGray-60 dark:text-gray-60">

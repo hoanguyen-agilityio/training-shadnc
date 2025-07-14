@@ -3,7 +3,7 @@
 exports[`Home page Renders Home page 1`] = `
 <div>
   <div
-    class="max-w-[1320px] mx-auto px-10 bg-white dark:bg-black"
+    class="max-w-container mx-auto px-10 bg-white dark:bg-black"
   >
     <header
       class="flex items-center justify-between mt-5 border-b-1 border-theme-gray-250 pb-5"
@@ -245,7 +245,7 @@ exports[`Home page Renders Home page 1`] = `
   </div>
   <main>
     <div
-      class="max-w-[1320px] mx-auto flex flex-col gap-[60px] px-10 bg-white dark:bg-black"
+      class="max-w-container mx-auto flex flex-col gap-[60px] px-10 bg-white dark:bg-black"
     >
       <section
         aria-label="banner"
@@ -253,7 +253,7 @@ exports[`Home page Renders Home page 1`] = `
       >
         <img
           alt="left home banner"
-          class="w-full min-w-[100px] object-contain"
+          class="w-full min-w-custom-xs object-contain"
           src="/assets/left-home-banner.svg"
         />
         <div
@@ -273,7 +273,16 @@ exports[`Home page Renders Home page 1`] = `
               Ultimate
             </h1>
             <h1
-              class="text-[clamp(4rem,16vw,10rem)] uppercase text-transparent stroke leading-none dark:text-white"
+              class="
+            text-[clamp(4rem,16vw,10rem)]
+            uppercase
+            text-transparent
+            leading-none
+            bg-white
+            [-webkit-text-stroke:1px_black]
+            dark:bg-black
+            dark:[-webkit-text-stroke:1px_white]
+          "
             >
               SALE
             </h1>
@@ -298,7 +307,7 @@ exports[`Home page Renders Home page 1`] = `
         </div>
         <img
           alt="right home banner"
-          class="w-full min-w-[100px] object-contain"
+          class="w-full min-w-custom-xs object-contain"
           src="/assets/right-home-banner.svg"
         />
       </section>
@@ -331,10 +340,10 @@ exports[`Home page Renders Home page 1`] = `
       class="bg-theme-gray-200 mt-[53px] dark:bg-zinc-800"
     >
       <div
-        class="flex flex-col max-w-[1320px] mx-auto justify-between min-[1140px]:flex-row py-[50px] px-10"
+        class="flex flex-col max-w-container mx-auto justify-between min-[1140px]:flex-row py-[50px] px-10"
       >
         <div
-          class="flex flex-col justify-center w-full min-[1140px]:w-[414px] items-center min-[1140px]:items-start text-center min-[1140px]:text-left"
+          class="flex flex-col justify-center w-full min-[1140px]:w-custom-6xl-plus items-center min-[1140px]:items-start text-center min-[1140px]:text-left"
         >
           <h2
             class="text-[46px] dark:text-white"
@@ -347,7 +356,7 @@ exports[`Home page Renders Home page 1`] = `
             Shop the latest fashion trends from the top luxury designers.
           </p>
           <button
-            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-[210px] mt-10"
+            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-custom-xl mt-10"
             data-slot="button"
             disabled=""
           >
@@ -370,7 +379,7 @@ exports[`Home page Renders Home page 1`] = `
           class="flex flex-col items-center justify-center gap-[30px] min-[1140px]:justify-start mt-5 min-[1140px]:mt-0 min-[730px]:flex-row min-[730px]:items-start"
         >
           <div
-            class="text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 bg-white w-[230px]"
+            class="text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 bg-white w-custom-2xl"
             data-slot="card"
           >
             <div
@@ -379,7 +388,7 @@ exports[`Home page Renders Home page 1`] = `
             >
               <img
                 alt="img product"
-                class="w-full h-full max-w-[190px] max-h-[260px]"
+                class="w-full h-full max-w-custom-md-plus max-h-custom-h-md"
                 src="/assets/product.svg"
               />
             </div>
@@ -396,7 +405,7 @@ exports[`Home page Renders Home page 1`] = `
             </div>
           </div>
           <div
-            class="text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 bg-white w-[230px]"
+            class="text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 bg-white w-custom-2xl"
             data-slot="card"
           >
             <div
@@ -405,7 +414,7 @@ exports[`Home page Renders Home page 1`] = `
             >
               <img
                 alt="img product"
-                class="w-full h-full max-w-[190px] max-h-[260px]"
+                class="w-full h-full max-w-custom-md-plus max-h-custom-h-md"
                 src="/assets/product.svg"
               />
             </div>
@@ -422,7 +431,7 @@ exports[`Home page Renders Home page 1`] = `
             </div>
           </div>
           <div
-            class="text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 bg-white w-[230px]"
+            class="text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 bg-white w-custom-2xl"
             data-slot="card"
           >
             <div
@@ -431,7 +440,7 @@ exports[`Home page Renders Home page 1`] = `
             >
               <img
                 alt="img product"
-                class="w-full h-full max-w-[190px] max-h-[260px]"
+                class="w-full h-full max-w-custom-md-plus max-h-custom-h-md"
                 src="/assets/product.svg"
               />
             </div>
@@ -451,11 +460,11 @@ exports[`Home page Renders Home page 1`] = `
       </div>
     </section>
     <div
-      class="max-w-[1320px] mx-auto px-10 mt-[60px]"
+      class="max-w-container mx-auto px-10 mt-[60px]"
     >
       <section
         aria-label="new arrivals"
-        class="max-w-[1320px] mx-auto"
+        class="max-w-container mx-auto"
       >
         <div
           class="flex flex-col text-center gap-3.5 mb-4 items-center"
@@ -466,7 +475,7 @@ exports[`Home page Renders Home page 1`] = `
             New Arrivals
           </h2>
           <p
-            class="text-lg text-charcoalGray-60 dark:text-gray-60 w-full max-w-[746px]"
+            class="text-lg text-charcoalGray-60 dark:text-gray-60 w-full max-w-custom-9xl-plus"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
           </p>
@@ -581,7 +590,7 @@ exports[`Home page Renders Home page 1`] = `
               tabindex="0"
             >
               <div
-                class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+                class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
                 data-slot="card"
               >
                 <div
@@ -730,7 +739,7 @@ exports[`Home page Renders Home page 1`] = `
               tabindex="0"
             >
               <div
-                class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+                class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
                 data-slot="card"
               >
                 <div
@@ -865,7 +874,7 @@ exports[`Home page Renders Home page 1`] = `
               tabindex="0"
             >
               <div
-                class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+                class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
                 data-slot="card"
               >
                 <div
@@ -986,7 +995,7 @@ exports[`Home page Renders Home page 1`] = `
               tabindex="0"
             >
               <div
-                class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+                class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
                 data-slot="card"
               >
                 <div
@@ -1121,7 +1130,7 @@ exports[`Home page Renders Home page 1`] = `
               tabindex="0"
             >
               <div
-                class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+                class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
                 data-slot="card"
               >
                 <div
@@ -1270,7 +1279,7 @@ exports[`Home page Renders Home page 1`] = `
               tabindex="0"
             >
               <div
-                class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+                class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
                 data-slot="card"
               >
                 <div
@@ -1938,7 +1947,7 @@ exports[`Home page Renders Home page 1`] = `
           Follow Us On Instagram
         </h2>
         <p
-          class="text-lg w-full max-w-[758px] text-charcoalGray-60 dark:text-gray-60"
+          class="text-lg w-full max-w-custom-10xl text-charcoalGray-60 dark:text-gray-60"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
         </p>
@@ -1951,7 +1960,7 @@ exports[`Home page Renders Home page 1`] = `
     </section>
     <section
       aria-label="subscribe"
-      class="max-h-[867px] w-full h-[867px] relative"
+      class="max-h-custom-h-3xl w-full h-full relative"
     >
       <img
         alt=""
@@ -1967,7 +1976,7 @@ exports[`Home page Renders Home page 1`] = `
           Subscribe To Our Newsletter
         </h2>
         <p
-          class="text-lg text-charcoalGray-50 max-w-[688px] mt-[15px]"
+          class="text-lg text-charcoalGray-50 max-w-custom-9xl mt-[15px]"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
         </p>
@@ -2013,7 +2022,7 @@ exports[`Home page Renders Home page 1`] = `
     </section>
   </main>
   <div
-    class="max-w-[1320px] mx-auto px-10 mt-[30px]"
+    class="max-w-container mx-auto px-10 mt-[30px]"
   >
     <footer
       class="px-4 text-center mb-[30px]"

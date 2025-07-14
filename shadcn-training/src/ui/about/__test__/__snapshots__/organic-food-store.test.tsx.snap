@@ -6,7 +6,7 @@ exports[`Organic food store Component renders organic food store component 1`] =
     class="mt-40 border-b-1 border-gray-60 dark:text-white"
   >
     <div
-      class="text-center max-w-[1320px] mx-auto px-10"
+      class="text-center max-w-container mx-auto px-10"
     >
       <h2
         class="text-[46px]"

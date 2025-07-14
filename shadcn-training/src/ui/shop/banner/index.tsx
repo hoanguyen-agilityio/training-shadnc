@@ -10,7 +10,7 @@ export const ShopBanner = () => {
       <img
         src="/assets/shop-banner.svg"
         alt="shop banner"
-        className="w-auto h-[350px] min-[950px]:w-full min-[950px]:h-auto object-cover"
+        className="w-auto h-custom-h-lg min-[950px]:w-full min-[950px]:h-auto object-cover"
       />
       <div className="text-center absolute inset-0 flex flex-col justify-center items-center w-full">
         <span className="text-sm uppercase text-white">Best Deals</span>

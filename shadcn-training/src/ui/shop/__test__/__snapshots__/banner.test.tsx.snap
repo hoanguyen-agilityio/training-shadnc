@@ -7,7 +7,7 @@ exports[`Shop banner Component renders shop banner component 1`] = `
   >
     <img
       alt="shop banner"
-      class="w-auto h-[350px] min-[950px]:w-full min-[950px]:h-auto object-cover"
+      class="w-auto h-custom-h-lg min-[950px]:w-full min-[950px]:h-auto object-cover"
       src="/assets/shop-banner.svg"
     />
     <div

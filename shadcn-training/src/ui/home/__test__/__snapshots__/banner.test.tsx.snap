@@ -8,7 +8,7 @@ exports[`Home banner Component renders home banner component 1`] = `
   >
     <img
       alt="left home banner"
-      class="w-full min-w-[100px] object-contain"
+      class="w-full min-w-custom-xs object-contain"
       src="/assets/left-home-banner.svg"
     />
     <div
@@ -28,7 +28,16 @@ exports[`Home banner Component renders home banner component 1`] = `
           Ultimate
         </h1>
         <h1
-          class="text-[clamp(4rem,16vw,10rem)] uppercase text-transparent stroke leading-none dark:text-white"
+          class="
+            text-[clamp(4rem,16vw,10rem)]
+            uppercase
+            text-transparent
+            leading-none
+            bg-white
+            [-webkit-text-stroke:1px_black]
+            dark:bg-black
+            dark:[-webkit-text-stroke:1px_white]
+          "
         >
           SALE
         </h1>
@@ -53,7 +62,7 @@ exports[`Home banner Component renders home banner component 1`] = `
     </div>
     <img
       alt="right home banner"
-      class="w-full min-w-[100px] object-contain"
+      class="w-full min-w-custom-xs object-contain"
       src="/assets/right-home-banner.svg"
     />
   </section>
