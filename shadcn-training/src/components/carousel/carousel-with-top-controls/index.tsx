@@ -1,5 +1,4 @@
 // Libs
-import { Quote } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
 
@@ -13,7 +12,7 @@ import {
   CarouselPrevious,
   Carousel as CarouselShadcn,
 } from '@/components/ui/carousel';
-import { ArrowIcon } from '@/components/icons';
+import { ArrowIcon, QuoteIcon } from '@/components/icons';
 import { Avatar, Evaluate } from '@/components';
 
 // Mocks
@@ -39,7 +38,7 @@ export const CarouselWithTopControls = () => {
             aria-label="previous"
             variant="outline"
             size="icon"
-            className="rounded-full border-gray-300 bg-white text-black hover:bg-[#6C9D30] hover:text-white cursor-pointer"
+            className="rounded-full border-gray-300 bg-white text-black hover:bg-green-700 hover:text-white cursor-pointer"
             onClick={scrollPrev}
           >
             <ArrowIcon />
@@ -48,7 +47,7 @@ export const CarouselWithTopControls = () => {
             aria-label="next"
             variant="outline"
             size="icon"
-            className="rounded-full border-gray-300 bg-white text-black hover:bg-[#6C9D30] hover:text-white cursor-pointer"
+            className="rounded-full border-gray-300 bg-white text-black hover:bg-green-700 hover:text-white cursor-pointer"
             onClick={scrollNext}
           >
             <ArrowIcon className="rotate-180" />
@@ -72,7 +71,7 @@ export const CarouselWithTopControls = () => {
                 <CardContent className="p-6 h-full flex flex-col">
                   {/* Quote Icon */}
                   <div className="mb-4">
-                    <Quote className="h-[26px] w-9 text-green-300 fill-current" />
+                    <QuoteIcon className="h-[26px] w-9 text-green-700" />
                   </div>
 
                   {/* Testimonial Text */}
