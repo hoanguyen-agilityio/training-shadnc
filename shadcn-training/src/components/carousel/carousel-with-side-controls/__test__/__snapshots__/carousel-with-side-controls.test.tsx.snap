@@ -147,7 +147,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                   Jenny Wilson
                 </span>
                 <p
-                  class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                  class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                 >
                   Ceo & Founder
                 </p>
@@ -295,7 +295,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                   Jane Cooper
                 </span>
                 <p
-                  class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                  class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                 >
                   Worker
                 </p>
@@ -443,7 +443,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                   Cody Fisher
                 </span>
                 <p
-                  class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                  class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                 >
                   Security Guard
                 </p>
@@ -591,7 +591,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                   Robert Fox
                 </span>
                 <p
-                  class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                  class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                 >
                   Senior Farmer Manager
                 </p>
@@ -739,7 +739,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                   Kristin Watson
                 </span>
                 <p
-                  class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                  class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                 >
                   Marketing Specialist
                 </p>
@@ -887,7 +887,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                   Leslie Alexander
                 </span>
                 <p
-                  class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                  class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                 >
                   Lead Agronomist
                 </p>
@@ -1035,7 +1035,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                   Guy Hawkins
                 </span>
                 <p
-                  class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                  class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                 >
                   Logistics Coordinator
                 </p>
@@ -1183,7 +1183,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                   Arlene McCoy
                 </span>
                 <p
-                  class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                  class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                 >
                   Finance Manager
                 </p>

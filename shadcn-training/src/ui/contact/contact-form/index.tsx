@@ -20,7 +20,7 @@ export const ContactForm = () => {
     <Card className="w-full shadow-xl rounded-[10px]">
       <CardHeader>
         <h2 className="text-2xl font-bold text-black dark:text-white">Just Say Hello!</h2>
-        <p className="text-sm font-normal text-charcoalGray-60 dark:text-[#DEDEDE]">
+        <p className="text-sm font-normal text-charcoalGray-60 dark:text-theme-gray-450">
           Do you fancy saying hi to me or you want to get started with your project and you need my
           help? Feel free to contact me.
         </p>
@@ -53,7 +53,7 @@ export const ContactForm = () => {
                     aria-expanded={open}
                     aria-controls="radix-r4"
                     aria-label="select date"
-                    className="relative border border-[#E6E6E6] px-3 py-4 text-left text-sm dark:text-white rounded-[10px] w-36"
+                    className="relative border border-theme-gray-350 px-3 py-4 text-left text-sm dark:text-white rounded-[10px] w-36"
                   >
                     {date ? date.toLocaleDateString() : 'Select date'}
                     <span className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none">
@@ -101,7 +101,7 @@ export const ContactForm = () => {
             <Textarea
               id="subject"
               placeholder="Subject"
-              className="px-3 py-4 border border-[#E2E2E2] rounded-[10px] min-h-[180px] dark:text-white"
+              className="px-3 py-4 border border-theme-gray-400 rounded-[10px] min-h-[180px] dark:text-white"
             />
           </div>
 

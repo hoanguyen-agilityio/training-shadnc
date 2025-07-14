@@ -34,7 +34,7 @@ export const AboutPage = () => {
             <CarouselWithSideControls />
           </section>
         </div>
-        <section className="bg-[#F2F2F2] dark:bg-neutral-700 py-20">
+        <section className="bg-theme-gray-150 dark:bg-neutral-700 py-20">
           <CarouselWithTopControls />
         </section>
         <Subscribe />

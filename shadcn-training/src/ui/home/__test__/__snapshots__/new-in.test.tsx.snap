@@ -4,7 +4,7 @@ exports[`New in Component renders new in component 1`] = `
 <div>
   <section
     aria-label="new in"
-    class="bg-[#F0F0F0] mt-[53px] dark:bg-zinc-800"
+    class="bg-theme-gray-200 mt-[53px] dark:bg-zinc-800"
   >
     <div
       class="flex flex-col max-w-[1320px] mx-auto justify-between min-[1140px]:flex-row py-[50px] px-10"

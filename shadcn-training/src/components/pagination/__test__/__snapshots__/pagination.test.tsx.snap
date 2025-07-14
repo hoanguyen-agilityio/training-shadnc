@@ -9,7 +9,7 @@ exports[`Pagination component Renders pagination component 1`] = `
     role="navigation"
   >
     <ul
-      class="flex flex-row items-center shadow-lg"
+      class="flex flex-row items-center shadow-lg rounded-l-lg rounded-r-lg"
       data-slot="pagination-content"
     >
       <li
@@ -18,7 +18,7 @@ exports[`Pagination component Renders pagination component 1`] = `
         <a
           aria-disabled="true"
           aria-label="Go to previous page"
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-auto rounded-none aria-disabled:bg-[#F3F3F3] aria-disabled:text-[#BDBDBD] aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80 border p-[25px] rounded-l-lg rounded-r-none font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-auto rounded-none aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80 border border-white p-[25px] rounded-l-lg w-full font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer"
           data-slot="pagination-link"
         >
           <span
@@ -33,7 +33,7 @@ exports[`Pagination component Renders pagination component 1`] = `
       >
         <a
           aria-current="page"
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-green-50 text-white shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer aria-disabled:bg-[#F3F3F3] aria-disabled:text-[#BDBDBD] aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-green-700 text-white shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-green-50 dark:border-input dark:hover:bg-input/50 px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer border-theme-gray-300 aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
           data-active="true"
           data-slot="pagination-link"
         >
@@ -44,7 +44,7 @@ exports[`Pagination component Renders pagination component 1`] = `
         data-slot="pagination-item"
       >
         <a
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black text-green-50 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer aria-disabled:bg-[#F3F3F3] aria-disabled:text-[#BDBDBD] aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black text-green-50 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer border-theme-gray-300 aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
           data-active="false"
           data-slot="pagination-link"
         >
@@ -55,7 +55,7 @@ exports[`Pagination component Renders pagination component 1`] = `
         data-slot="pagination-item"
       >
         <a
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black text-green-50 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer aria-disabled:bg-[#F3F3F3] aria-disabled:text-[#BDBDBD] aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black text-green-50 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer border-theme-gray-300 aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
           data-active="false"
           data-slot="pagination-link"
         >
@@ -66,7 +66,7 @@ exports[`Pagination component Renders pagination component 1`] = `
         data-slot="pagination-item"
       >
         <a
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black text-green-50 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer aria-disabled:bg-[#F3F3F3] aria-disabled:text-[#BDBDBD] aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black text-green-50 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer border-theme-gray-300 aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
           data-active="false"
           data-slot="pagination-link"
         >
@@ -77,7 +77,7 @@ exports[`Pagination component Renders pagination component 1`] = `
         data-slot="pagination-item"
       >
         <a
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black text-green-50 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer aria-disabled:bg-[#F3F3F3] aria-disabled:text-[#BDBDBD] aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black text-green-50 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer border-theme-gray-300 aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
           data-active="false"
           data-slot="pagination-link"
         >
@@ -90,7 +90,7 @@ exports[`Pagination component Renders pagination component 1`] = `
         <a
           aria-disabled="false"
           aria-label="Go to next page"
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-auto rounded-none aria-disabled:bg-[#F3F3F3] aria-disabled:text-[#BDBDBD] aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80 border p-[25px] rounded-r-lg rounded-l-none font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-auto rounded-none aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80 border border-white p-[25px] rounded-r-lg rounded-l-none font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer"
           data-slot="pagination-link"
         >
           <span

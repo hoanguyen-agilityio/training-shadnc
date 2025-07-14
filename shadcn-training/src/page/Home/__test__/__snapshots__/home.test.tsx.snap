@@ -6,7 +6,7 @@ exports[`Home page Renders Home page 1`] = `
     class="max-w-[1320px] mx-auto px-10 bg-white dark:bg-black"
   >
     <header
-      class="flex items-center justify-between mt-5 border-b-1 border-[#EAEAEA] pb-5"
+      class="flex items-center justify-between mt-5 border-b-1 border-theme-gray-250 pb-5"
     >
       <div
         class="flex items-center min-[680px]:gap-8 gap-0"
@@ -328,7 +328,7 @@ exports[`Home page Renders Home page 1`] = `
     </div>
     <section
       aria-label="new in"
-      class="bg-[#F0F0F0] mt-[53px] dark:bg-zinc-800"
+      class="bg-theme-gray-200 mt-[53px] dark:bg-zinc-800"
     >
       <div
         class="flex flex-col max-w-[1320px] mx-auto justify-between min-[1140px]:flex-row py-[50px] px-10"
@@ -461,7 +461,7 @@ exports[`Home page Renders Home page 1`] = `
           class="flex flex-col text-center gap-3.5 mb-4 items-center"
         >
           <h2
-            class="text-[46px] text-[#484848] dark:text-white"
+            class="text-[46px] text-theme-gray-900 dark:text-white"
           >
             New Arrivals
           </h2>
@@ -492,7 +492,7 @@ exports[`Home page Renders Home page 1`] = `
               <button
                 aria-controls="radix-«r2»-content-lorem1"
                 aria-selected="true"
-                class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+                class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
                 data-orientation="horizontal"
                 data-radix-collection-item=""
                 data-slot="tabs-trigger"
@@ -507,7 +507,7 @@ exports[`Home page Renders Home page 1`] = `
               <button
                 aria-controls="radix-«r2»-content-lorem2"
                 aria-selected="false"
-                class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+                class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
                 data-orientation="horizontal"
                 data-radix-collection-item=""
                 data-slot="tabs-trigger"
@@ -522,7 +522,7 @@ exports[`Home page Renders Home page 1`] = `
               <button
                 aria-controls="radix-«r2»-content-lorem3"
                 aria-selected="false"
-                class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+                class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
                 data-orientation="horizontal"
                 data-radix-collection-item=""
                 data-slot="tabs-trigger"
@@ -537,7 +537,7 @@ exports[`Home page Renders Home page 1`] = `
               <button
                 aria-controls="radix-«r2»-content-lorem4"
                 aria-selected="false"
-                class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+                class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
                 data-orientation="horizontal"
                 data-radix-collection-item=""
                 data-slot="tabs-trigger"
@@ -552,7 +552,7 @@ exports[`Home page Renders Home page 1`] = `
               <button
                 aria-controls="radix-«r2»-content-lorem5"
                 aria-selected="false"
-                class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+                class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
                 data-orientation="horizontal"
                 data-radix-collection-item=""
                 data-slot="tabs-trigger"
@@ -1982,7 +1982,7 @@ exports[`Home page Renders Home page 1`] = `
               data-slot="label"
             />
             <input
-              class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex w-full min-w-0 rounded-md bg-transparent py-1 transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 border-0 shadow-md pt-7 pb-8 px-[30px] dark:text-black"
+              class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex w-full min-w-0 rounded-md bg-transparent py-1 transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 border-0 shadow-md pt-7 pb-8 px-[30px] dark:text-black"
               data-slot="input"
               name="email"
               placeholder="michael@ymail.com"

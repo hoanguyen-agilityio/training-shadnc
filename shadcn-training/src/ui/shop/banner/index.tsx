@@ -32,7 +32,7 @@ export const ShopBanner = () => {
         </div>
         <Button label="Shop Now" size="default" disabled className="mt-8 cursor-not-allowed" />
       </div>
-      <div className="bg-[#824B0C] rounded-full flex flex-col p-3 text-center absolute right-2 top-2 min-[400px]:right-1/12 min-[400px]:top-1/12 min-[720px]:p-6 min-[1180px]:right-3/12">
+      <div className="bg-theme-brand rounded-full flex flex-col p-3 text-center absolute right-2 top-2 min-[400px]:right-1/12 min-[400px]:top-1/12 min-[720px]:p-6 min-[1180px]:right-3/12">
         <span className="text-xl min-[720px]:text-2xl font-semibold text-white">56%</span>
         <span className="text-xs text-white opacity-80">OFF</span>
       </div>

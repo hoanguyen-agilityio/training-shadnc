@@ -16,7 +16,18 @@ export const HomeBanner = () => (
         <h1 className="text-[clamp(2rem,8vw,5rem)] uppercase leading-none dark:text-white">
           Ultimate
         </h1>
-        <h1 className="text-[clamp(4rem,16vw,10rem)] uppercase text-transparent stroke leading-none dark:text-white">
+        <h1
+          className="
+            text-[clamp(4rem,16vw,10rem)]
+            uppercase
+            text-transparent
+            leading-none
+            bg-white
+            [-webkit-text-stroke:1px_black]
+            dark:bg-black
+            dark:[-webkit-text-stroke:1px_white]
+          "
+        >
           SALE
         </h1>
         <span className="text-base md:text-xl uppercase tracking-widest text-charcoalGray-50 dark:text-white">

@@ -27,7 +27,7 @@ export const Dropdown = ({ label, defaultValue, options }: IDropdown) => {
         <button type="button" className="relative w-[178px]">
           <span
             aria-label="dropdown"
-            className="w-full border border-[#E6E6E6] rounded px-4 py-2.5 cursor-pointer text-sm dark:text-white inline-block text-left"
+            className="w-full border border-theme-gray-350 rounded px-4 py-2.5 cursor-pointer text-sm dark:text-white inline-block text-left"
           >
             {label ? `${label}: ${position}` : position}
           </span>

@@ -46,8 +46,8 @@ function PaginationLink({ className, isActive, size = 'icon', ...props }: Pagina
           variant: isActive ? 'outline' : 'ghost',
           size,
         }),
-        'px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer border-[#E9E9E9]',
-        'aria-disabled:bg-[#F3F3F3] aria-disabled:text-[#BDBDBD] aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80',
+        'px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer border-theme-gray-300',
+        'aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80',
         className,
       )}
       {...props}

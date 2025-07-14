@@ -9,7 +9,7 @@ exports[`Not Found page Renders Not Found page 1`] = `
       class="max-w-[1320px] mx-auto px-10 w-full"
     >
       <header
-        class="flex items-center justify-between mt-5 border-b-1 border-[#EAEAEA] pb-5"
+        class="flex items-center justify-between mt-5 border-b-1 border-theme-gray-250 pb-5"
       >
         <div
           class="flex items-center min-[680px]:gap-8 gap-0"
@@ -1029,7 +1029,7 @@ exports[`Not Found page Renders Not Found page 1`] = `
       </section>
     </main>
     <div
-      class="border-t border-[#DADADA] pt-[30px]"
+      class="border-t border-theme-gray-500 pt-[30px]"
     >
       <div
         class="max-w-[1320px] mx-auto px-10 w-full"

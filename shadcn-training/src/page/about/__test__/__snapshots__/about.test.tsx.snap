@@ -6,7 +6,7 @@ exports[`About page Renders About page 1`] = `
     class="max-w-[1320px] mx-auto px-10"
   >
     <header
-      class="flex items-center justify-between mt-5 border-b-1 border-[#EAEAEA] pb-5"
+      class="flex items-center justify-between mt-5 border-b-1 border-theme-gray-250 pb-5"
     >
       <div
         class="flex items-center min-[680px]:gap-8 gap-0"
@@ -277,7 +277,7 @@ exports[`About page Renders About page 1`] = `
           </svg>
         </a>
         <svg
-          class="text-[#666666] dark:text-white"
+          class="text-theme-gray-750 dark:text-white"
           fill="none"
           height="24px"
           viewBox="0 0 25 24"
@@ -1013,7 +1013,7 @@ exports[`About page Renders About page 1`] = `
                         Jenny Wilson
                       </span>
                       <p
-                        class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                        class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                       >
                         Ceo & Founder
                       </p>
@@ -1161,7 +1161,7 @@ exports[`About page Renders About page 1`] = `
                         Jane Cooper
                       </span>
                       <p
-                        class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                        class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                       >
                         Worker
                       </p>
@@ -1309,7 +1309,7 @@ exports[`About page Renders About page 1`] = `
                         Cody Fisher
                       </span>
                       <p
-                        class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                        class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                       >
                         Security Guard
                       </p>
@@ -1457,7 +1457,7 @@ exports[`About page Renders About page 1`] = `
                         Robert Fox
                       </span>
                       <p
-                        class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                        class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                       >
                         Senior Farmer Manager
                       </p>
@@ -1605,7 +1605,7 @@ exports[`About page Renders About page 1`] = `
                         Kristin Watson
                       </span>
                       <p
-                        class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                        class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                       >
                         Marketing Specialist
                       </p>
@@ -1753,7 +1753,7 @@ exports[`About page Renders About page 1`] = `
                         Leslie Alexander
                       </span>
                       <p
-                        class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                        class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                       >
                         Lead Agronomist
                       </p>
@@ -1901,7 +1901,7 @@ exports[`About page Renders About page 1`] = `
                         Guy Hawkins
                       </span>
                       <p
-                        class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                        class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                       >
                         Logistics Coordinator
                       </p>
@@ -2049,7 +2049,7 @@ exports[`About page Renders About page 1`] = `
                         Arlene McCoy
                       </span>
                       <p
-                        class="text-charcoalGray-60 text-sm font-normal dark:text-[#DEDEDE]"
+                        class="text-charcoalGray-60 text-sm font-normal dark:text-theme-gray-450"
                       >
                         Finance Manager
                       </p>
@@ -2069,7 +2069,7 @@ exports[`About page Renders About page 1`] = `
       </section>
     </div>
     <section
-      class="bg-[#F2F2F2] dark:bg-neutral-700 py-20"
+      class="bg-theme-gray-150 dark:bg-neutral-700 py-20"
     >
       <div
         class="w-full max-w-7xl mx-auto p-6"
@@ -2087,7 +2087,7 @@ exports[`About page Renders About page 1`] = `
           >
             <button
               aria-label="previous"
-              class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border shadow-xs dark:bg-input/30 dark:border-input dark:hover:bg-input/50 size-9 rounded-full border-gray-300 bg-white text-black hover:bg-[#6C9D30] hover:text-white cursor-pointer"
+              class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border shadow-xs dark:bg-green-50 dark:border-input dark:hover:bg-input/50 size-9 rounded-full border-gray-300 bg-white text-black hover:bg-green-700 hover:text-white cursor-pointer"
               data-slot="button"
             >
               <svg
@@ -2113,7 +2113,7 @@ exports[`About page Renders About page 1`] = `
             </button>
             <button
               aria-label="next"
-              class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border shadow-xs dark:bg-input/30 dark:border-input dark:hover:bg-input/50 size-9 rounded-full border-gray-300 bg-white text-black hover:bg-[#6C9D30] hover:text-white cursor-pointer"
+              class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border shadow-xs dark:bg-green-50 dark:border-input dark:hover:bg-input/50 size-9 rounded-full border-gray-300 bg-white text-black hover:bg-green-700 hover:text-white cursor-pointer"
               data-slot="button"
             >
               <svg
@@ -2155,28 +2155,22 @@ exports[`About page Renders About page 1`] = `
                     class="mb-4"
                   >
                     <svg
-                      aria-hidden="true"
-                      class="lucide lucide-quote h-[26px] w-9 text-green-300 fill-current"
+                      class="h-[26px] w-9 text-green-700"
                       fill="none"
-                      height="24"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                      width="24"
+                      viewBox="0 0 33 26"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
-                      />
-                      <path
-                        d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                        class="fill-current"
+                        clip-rule="evenodd"
+                        d="M24.4889 0C21.1023 0 18.3517 2.65696 18.3517 5.9336C18.3517 9.20821 21.1023 11.8672 24.4889 11.8672C30.307 11.8672 26.9355 22.171 19.5977 23.2443C19.2514 23.2936 18.9355 23.4578 18.7069 23.7071C18.4784 23.9563 18.3524 24.2742 18.3517 24.6032C18.3517 25.4456 19.1536 26.1119 20.0417 25.9843C33.3788 24.0847 38.1213 0.00202497 24.4889 0.00202497V0ZM6.80595 0C3.4151 0 0.666626 2.65493 0.666626 5.9336C0.666626 9.20619 3.4151 11.8631 6.80595 11.8631C12.6219 11.8631 9.25047 22.171 1.9126 23.2443C1.56675 23.2936 1.25106 23.4575 1.02256 23.7063C0.794057 23.9551 0.667813 24.2725 0.666626 24.6011C0.666626 25.4436 1.46853 26.1098 2.35451 25.9823C15.6959 24.0827 20.4384 0 6.80595 0Z"
+                        fill-rule="evenodd"
+                        opacity="0.3"
                       />
                     </svg>
                   </div>
                   <p
-                    class="text-[#4D4D4D] dark:text-slate-400 font-normal text-sm	mb-6 flex-grow"
+                    class="text-theme-gray-850 dark:text-slate-400 font-normal text-sm	mb-6 flex-grow"
                   >
                     Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget
                   </p>
@@ -2204,7 +2198,7 @@ exports[`About page Renders About page 1`] = `
                           Robert Fox
                         </h4>
                         <p
-                          class="text-charcoalGray-60 dark:text-[#DEDEDE] text-xs font-normal"
+                          class="text-charcoalGray-60 dark:text-theme-gray-450 text-xs font-normal"
                         >
                           Customer
                         </p>
@@ -2301,28 +2295,22 @@ exports[`About page Renders About page 1`] = `
                     class="mb-4"
                   >
                     <svg
-                      aria-hidden="true"
-                      class="lucide lucide-quote h-[26px] w-9 text-green-300 fill-current"
+                      class="h-[26px] w-9 text-green-700"
                       fill="none"
-                      height="24"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                      width="24"
+                      viewBox="0 0 33 26"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
-                      />
-                      <path
-                        d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                        class="fill-current"
+                        clip-rule="evenodd"
+                        d="M24.4889 0C21.1023 0 18.3517 2.65696 18.3517 5.9336C18.3517 9.20821 21.1023 11.8672 24.4889 11.8672C30.307 11.8672 26.9355 22.171 19.5977 23.2443C19.2514 23.2936 18.9355 23.4578 18.7069 23.7071C18.4784 23.9563 18.3524 24.2742 18.3517 24.6032C18.3517 25.4456 19.1536 26.1119 20.0417 25.9843C33.3788 24.0847 38.1213 0.00202497 24.4889 0.00202497V0ZM6.80595 0C3.4151 0 0.666626 2.65493 0.666626 5.9336C0.666626 9.20619 3.4151 11.8631 6.80595 11.8631C12.6219 11.8631 9.25047 22.171 1.9126 23.2443C1.56675 23.2936 1.25106 23.4575 1.02256 23.7063C0.794057 23.9551 0.667813 24.2725 0.666626 24.6011C0.666626 25.4436 1.46853 26.1098 2.35451 25.9823C15.6959 24.0827 20.4384 0 6.80595 0Z"
+                        fill-rule="evenodd"
+                        opacity="0.3"
                       />
                     </svg>
                   </div>
                   <p
-                    class="text-[#4D4D4D] dark:text-slate-400 font-normal text-sm	mb-6 flex-grow"
+                    class="text-theme-gray-850 dark:text-slate-400 font-normal text-sm	mb-6 flex-grow"
                   >
                     Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget
                   </p>
@@ -2350,7 +2338,7 @@ exports[`About page Renders About page 1`] = `
                           Dianne Russell
                         </h4>
                         <p
-                          class="text-charcoalGray-60 dark:text-[#DEDEDE] text-xs font-normal"
+                          class="text-charcoalGray-60 dark:text-theme-gray-450 text-xs font-normal"
                         >
                           Customer
                         </p>
@@ -2447,28 +2435,22 @@ exports[`About page Renders About page 1`] = `
                     class="mb-4"
                   >
                     <svg
-                      aria-hidden="true"
-                      class="lucide lucide-quote h-[26px] w-9 text-green-300 fill-current"
+                      class="h-[26px] w-9 text-green-700"
                       fill="none"
-                      height="24"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                      width="24"
+                      viewBox="0 0 33 26"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
-                      />
-                      <path
-                        d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                        class="fill-current"
+                        clip-rule="evenodd"
+                        d="M24.4889 0C21.1023 0 18.3517 2.65696 18.3517 5.9336C18.3517 9.20821 21.1023 11.8672 24.4889 11.8672C30.307 11.8672 26.9355 22.171 19.5977 23.2443C19.2514 23.2936 18.9355 23.4578 18.7069 23.7071C18.4784 23.9563 18.3524 24.2742 18.3517 24.6032C18.3517 25.4456 19.1536 26.1119 20.0417 25.9843C33.3788 24.0847 38.1213 0.00202497 24.4889 0.00202497V0ZM6.80595 0C3.4151 0 0.666626 2.65493 0.666626 5.9336C0.666626 9.20619 3.4151 11.8631 6.80595 11.8631C12.6219 11.8631 9.25047 22.171 1.9126 23.2443C1.56675 23.2936 1.25106 23.4575 1.02256 23.7063C0.794057 23.9551 0.667813 24.2725 0.666626 24.6011C0.666626 25.4436 1.46853 26.1098 2.35451 25.9823C15.6959 24.0827 20.4384 0 6.80595 0Z"
+                        fill-rule="evenodd"
+                        opacity="0.3"
                       />
                     </svg>
                   </div>
                   <p
-                    class="text-[#4D4D4D] dark:text-slate-400 font-normal text-sm	mb-6 flex-grow"
+                    class="text-theme-gray-850 dark:text-slate-400 font-normal text-sm	mb-6 flex-grow"
                   >
                     Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget
                   </p>
@@ -2496,7 +2478,7 @@ exports[`About page Renders About page 1`] = `
                           Eleanor Pena
                         </h4>
                         <p
-                          class="text-charcoalGray-60 dark:text-[#DEDEDE] text-xs font-normal"
+                          class="text-charcoalGray-60 dark:text-theme-gray-450 text-xs font-normal"
                         >
                           Customer
                         </p>
@@ -2593,28 +2575,22 @@ exports[`About page Renders About page 1`] = `
                     class="mb-4"
                   >
                     <svg
-                      aria-hidden="true"
-                      class="lucide lucide-quote h-[26px] w-9 text-green-300 fill-current"
+                      class="h-[26px] w-9 text-green-700"
                       fill="none"
-                      height="24"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                      width="24"
+                      viewBox="0 0 33 26"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
-                      />
-                      <path
-                        d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                        class="fill-current"
+                        clip-rule="evenodd"
+                        d="M24.4889 0C21.1023 0 18.3517 2.65696 18.3517 5.9336C18.3517 9.20821 21.1023 11.8672 24.4889 11.8672C30.307 11.8672 26.9355 22.171 19.5977 23.2443C19.2514 23.2936 18.9355 23.4578 18.7069 23.7071C18.4784 23.9563 18.3524 24.2742 18.3517 24.6032C18.3517 25.4456 19.1536 26.1119 20.0417 25.9843C33.3788 24.0847 38.1213 0.00202497 24.4889 0.00202497V0ZM6.80595 0C3.4151 0 0.666626 2.65493 0.666626 5.9336C0.666626 9.20619 3.4151 11.8631 6.80595 11.8631C12.6219 11.8631 9.25047 22.171 1.9126 23.2443C1.56675 23.2936 1.25106 23.4575 1.02256 23.7063C0.794057 23.9551 0.667813 24.2725 0.666626 24.6011C0.666626 25.4436 1.46853 26.1098 2.35451 25.9823C15.6959 24.0827 20.4384 0 6.80595 0Z"
+                        fill-rule="evenodd"
+                        opacity="0.3"
                       />
                     </svg>
                   </div>
                   <p
-                    class="text-[#4D4D4D] dark:text-slate-400 font-normal text-sm	mb-6 flex-grow"
+                    class="text-theme-gray-850 dark:text-slate-400 font-normal text-sm	mb-6 flex-grow"
                   >
                     Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget
                   </p>
@@ -2642,7 +2618,7 @@ exports[`About page Renders About page 1`] = `
                           Eleanor Pena
                         </h4>
                         <p
-                          class="text-charcoalGray-60 dark:text-[#DEDEDE] text-xs font-normal"
+                          class="text-charcoalGray-60 dark:text-theme-gray-450 text-xs font-normal"
                         >
                           Customer
                         </p>
@@ -2769,7 +2745,7 @@ exports[`About page Renders About page 1`] = `
               data-slot="label"
             />
             <input
-              class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex w-full min-w-0 rounded-md bg-transparent py-1 transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-[#b0b0b0] focus:ring-0 ring-0 border-0 shadow-md pt-7 pb-8 px-[30px] dark:text-black"
+              class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex w-full min-w-0 rounded-md bg-transparent py-1 transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 border-0 shadow-md pt-7 pb-8 px-[30px] dark:text-black"
               data-slot="input"
               name="email"
               placeholder="michael@ymail.com"

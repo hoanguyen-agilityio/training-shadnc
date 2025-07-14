@@ -75,7 +75,7 @@ export const CarouselWithTopControls = () => {
                   </div>
 
                   {/* Testimonial Text */}
-                  <p className="text-[#4D4D4D] dark:text-slate-400 font-normal text-sm	mb-6 flex-grow">
+                  <p className="text-theme-gray-850 dark:text-slate-400 font-normal text-sm	mb-6 flex-grow">
                     {clientReview.text}
                   </p>
 
@@ -92,7 +92,7 @@ export const CarouselWithTopControls = () => {
                         <h4 className="font-semibold text-black dark:text-white text-sm">
                           {clientReview.name}
                         </h4>
-                        <p className="text-charcoalGray-60 dark:text-[#DEDEDE] text-xs font-normal">
+                        <p className="text-charcoalGray-60 dark:text-theme-gray-450 text-xs font-normal">
                           {clientReview.role}
                         </p>
                       </div>

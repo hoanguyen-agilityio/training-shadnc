@@ -19,7 +19,7 @@ export const NavigationTrail = ({ breadcrumbName }: INavigationTrail) => {
       <Link aria-label="back to home page" to={ROUTES.HOME}>
         <HomeIcon width="24px" height="24px" className="text-black dark:text-white" />
       </Link>
-      <ChevronIcon width="24px" height="24px" className="text-[#666666] dark:text-white" />
+      <ChevronIcon width="24px" height="24px" className="text-theme-gray-750 dark:text-white" />
       <Link to={location.pathname}>
         <span className="text-base text-green-700 dark:text-green-50">{breadcrumbName}</span>
       </Link>
