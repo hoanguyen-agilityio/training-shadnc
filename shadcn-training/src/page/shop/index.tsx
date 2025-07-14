@@ -38,11 +38,11 @@ export const ShopPage = () => {
   const totalPages = Math.ceil(PRODUCTS_SHOP_PAGE.length / productsPerPage);
   return (
     <>
-      <div className="max-w-[1320px] mx-auto px-10">
+      <div className="max-w-container mx-auto px-10">
         <Header />
       </div>
       <main>
-        <div className="max-w-[1320px] mx-auto flex flex-col px-10">
+        <div className="max-w-container mx-auto flex flex-col px-10">
           <NavigationTrail breadcrumbName="Shop" />
           <ShopBanner />
           <section className="flex flex-col gap-2.5 justify-between mt-5 min-[1200px]:gap-0 min-[1200px]:flex-row">
@@ -58,7 +58,7 @@ export const ShopPage = () => {
           </section>
         </div>
         <ActiveFilter />
-        <section className="max-w-[1320px] mx-auto mt-20 px-10">
+        <section className="max-w-container mx-auto mt-20 px-10">
           <div className="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start">
             {currentProducts.map(
               ({ img, imgAlt, variant, title, brand, rating, price, reviewLabel }, index) => (
@@ -90,12 +90,12 @@ export const ShopPage = () => {
           </div>
         </section>
         <HeroImg />
-        <div className="max-w-[1320px] mx-auto px-10 mt-[60px]">
+        <div className="max-w-container mx-auto px-10 mt-[60px]">
           <FeatureBar />
         </div>
         <Subscribe />
       </main>
-      <div className="max-w-[1320px] mx-auto px-10 mt-[30px]">
+      <div className="max-w-container mx-auto px-10 mt-[30px]">
         <Footer />
       </div>
     </>

@@ -15,7 +15,7 @@ export const Banner = ({ title }: IBanner) => {
         <img
           src="/assets/common-banner.svg"
           alt="common banner"
-          className="w-[100px] h-[400px] min-[650px]:w-[200px] min-[800px]:w-[264px] min-[800px]:h-[400px] min-[1150px]:w-full min-[1150px]:h-auto"
+          className="w-custom-xs h-[400px] min-[650px]:w-custom-lg min-[800px]:w-custom-4xl min-[800px]:h-[400px] min-[1150px]:w-full min-[1150px]:h-auto"
         />
       </div>
     </section>

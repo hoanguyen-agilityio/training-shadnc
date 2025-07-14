@@ -18,7 +18,7 @@ export const ContactForm = () => {
 
   return (
     <Card className="w-full shadow-xl rounded-[10px]">
-      <CardHeader>
+      <CardHeader className="gap-2">
         <h2 className="text-2xl font-bold text-black dark:text-white">Just Say Hello!</h2>
         <p className="text-sm font-normal text-charcoalGray-60 dark:text-theme-gray-450">
           Do you fancy saying hi to me or you want to get started with your project and you need my
@@ -107,7 +107,7 @@ export const ContactForm = () => {
 
           <Button
             label="SEND MESSAGE"
-            className="w-[177px] text-base cursor-not-allowed"
+            className="w-custom-sm text-base cursor-not-allowed"
             disabled
           />
         </form>

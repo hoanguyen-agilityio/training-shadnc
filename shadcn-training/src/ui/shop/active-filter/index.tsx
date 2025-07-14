@@ -2,7 +2,7 @@ import { XIcon } from 'lucide-react';
 
 export const ActiveFilter = () => (
   <section className="border-b-1 border-t-1 border-theme-gray-250 p-5 mt-5">
-    <div className="max-w-[1320px] mx-auto px-10 flex flex-col gap-2.5 justify-between min-[700px]:gap-0 min-[700px]:flex-row">
+    <div className="max-w-container mx-auto px-10 flex flex-col gap-2.5 justify-between min-[700px]:gap-0 min-[700px]:flex-row">
       <div className="flex flex-col gap-2.5 min-[520px]:flex-row min-[520px]:gap-6">
         <span className="text-charcoalGray-60 dark:text-gray-60 text-sm">Active Filters:</span>
         <div className="flex items-center gap-2">

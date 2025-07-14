@@ -14,13 +14,13 @@ export const NotFoundPage = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <div className="max-w-[1320px] mx-auto px-10 w-full">
+      <div className="max-w-container mx-auto px-10 w-full">
         <Header />
       </div>
 
       {/* Main (flex-grow to fill remaining space) */}
       <main className="flex-grow flex items-center justify-center p-10">
-        <section className="max-w-[600px] text-center">
+        <section className="max-w-custom-8xl text-center">
           <div className="flex justify-center">
             <NotFound width="446px" height="271px" />
           </div>
@@ -40,7 +40,7 @@ export const NotFoundPage = () => {
 
       {/* Footer */}
       <div className="border-t border-theme-gray-500 pt-[30px]">
-        <div className="max-w-[1320px] mx-auto px-10 w-full">
+        <div className="max-w-container mx-auto px-10 w-full">
           <Footer />
         </div>
       </div>

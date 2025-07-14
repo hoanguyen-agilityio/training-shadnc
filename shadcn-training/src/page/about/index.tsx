@@ -12,19 +12,19 @@ import { DeliveryPromise, OrganicFoodStore } from '@/ui';
 export const AboutPage = () => {
   return (
     <>
-      <div className="max-w-[1320px] mx-auto px-10">
+      <div className="max-w-container mx-auto px-10">
         <Header />
       </div>
       <main>
-        <div className="max-w-[1320px] mx-auto flex flex-col px-10">
+        <div className="max-w-container mx-auto flex flex-col px-10">
           <NavigationTrail breadcrumbName="FAQ’s" />
           <Banner title="About US" />
         </div>
         <OrganicFoodStore />
-        <div className="max-w-[1320px] mx-auto flex flex-col px-10 my-20">
+        <div className="max-w-container mx-auto flex flex-col px-10 my-20">
           <DeliveryPromise />
           <section className="mt-20">
-            <div className="max-w-[640px] text-center mx-auto mb-10">
+            <div className="max-w-custom-8xl-plus text-center mx-auto mb-10">
               <h3 className="text-[46px] dark:text-white">Our Awesome Team</h3>
               <p className="text-lg text-charcoalGray-60 dark:text-gray-60 mt-3">
                 Pellentesque a ante vulputate leo porttitor luctus sed eget eros. Nulla et rhoncus
@@ -39,7 +39,7 @@ export const AboutPage = () => {
         </section>
         <Subscribe />
       </main>
-      <div className="max-w-[1320px] mx-auto px-10 mt-[30px]">
+      <div className="max-w-container mx-auto px-10 mt-[30px]">
         <Footer />
       </div>
     </>

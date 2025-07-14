@@ -12,7 +12,7 @@ export const HeroImg = () => (
         <h2 className="block text-white text-4xl min-[850px]:text-[46px]">
           -50 PROMOTION HOT SUMMER
         </h2>
-        <span className="block text-sm mt-2.5 text-white max-w-[467px] mx-auto">
+        <span className="block text-sm mt-2.5 text-white max-w-custom-7xl mx-auto">
           Problems trying to resolve the conflict between the two major realms of Classical physics:
           Newtonian mechanics
         </span>
@@ -20,7 +20,7 @@ export const HeroImg = () => (
           label="Explore"
           size="default"
           disabled
-          className="mt-[30px] w-[294px] cursor-not-allowed"
+          className="mt-[30px] w-custom-5xl cursor-not-allowed"
         />
       </div>
     </div>

@@ -8,7 +8,7 @@ export const HomeBanner = () => (
     <img
       src={'/assets/left-home-banner.svg'}
       alt="left home banner"
-      className="w-full min-w-[100px] object-contain"
+      className="w-full min-w-custom-xs object-contain"
     />
     <div className="flex flex-col gap-9 w-full">
       <img src={'/assets/psyllium-home-banner.svg'} alt="" className="w-full object-contain" />
@@ -40,7 +40,7 @@ export const HomeBanner = () => (
     <img
       src={'/assets/right-home-banner.svg'}
       alt="right home banner"
-      className="w-full min-w-[100px] object-contain"
+      className="w-full min-w-custom-xs object-contain"
     />
   </section>
 );

@@ -28,7 +28,7 @@ export const AuthLayout = ({ title, description, icon, children }: IAuthLayout) 
       <Logo width="80px" height="80px" />
     </Link>
     <div className="absolute top-0 right-0 h-full w-full min-[1200px]:w-[40%] flex justify-center items-center px-6 bg-white z-10 dark:bg-black">
-      <div className="flex flex-col gap-[30px] max-w-[480px] w-full">
+      <div className="flex flex-col gap-[30px] max-w-custom-7xl-plus w-full">
         <div className="flex flex-col gap-[5px]">
           <div className="flex gap-2.5">
             <span className="text-[46px] dark:text-white">{title}</span>

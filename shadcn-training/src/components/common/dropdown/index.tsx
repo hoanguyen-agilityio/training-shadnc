@@ -24,7 +24,7 @@ export const Dropdown = ({ label, defaultValue, options }: IDropdown) => {
   return (
     <DropdownMenu onOpenChange={setOpen}>
       <DropdownMenuTrigger asChild>
-        <button type="button" className="relative w-[178px]">
+        <button type="button" className="relative w-custom-md">
           <span
             aria-label="dropdown"
             className="w-full border border-theme-gray-350 rounded px-4 py-2.5 cursor-pointer text-sm dark:text-white inline-block text-left"
@@ -40,7 +40,7 @@ export const Dropdown = ({ label, defaultValue, options }: IDropdown) => {
           </span>
         </button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-[178px] bg-white dark:bg-black">
+      <DropdownMenuContent className="w-custom-md bg-white dark:bg-black">
         <DropdownMenuSeparator />
         <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>
           {options.map((opt) => (

@@ -29,6 +29,31 @@
   --color-theme-gray-900: #484848;
   --color-theme-danger: #ea4b48;
   --color-theme-brand: #824b0c;
+
+  /* Width */
+  --spacing-custom-xs: 100px;
+  --spacing-custom-sm: 177px;
+  --spacing-custom-md: 178px;
+  --spacing-custom-md-plus: 190px;
+  --spacing-custom-lg: 200px;
+  --spacing-custom-xl: 210px;
+  --spacing-custom-2xl: 230px;
+  --spacing-custom-3xl: 250px;
+  --spacing-custom-4xl: 264px;
+  --spacing-custom-5xl: 294px;
+  --spacing-custom-5xl-plus: 312px;
+  --spacing-custom-6xl: 393px;
+  --spacing-custom-6xl-plus: 414px;
+  --spacing-custom-7xl: 467px;
+  --spacing-custom-7xl-plus: 480px;
+  --spacing-custom-8xl: 600px;
+  --spacing-custom-8xl-plus: 640px;
+  --spacing-custom-9xl: 688px;
+  --spacing-custom-9xl-plus: 746px;
+  --spacing-custom-10xl: 758px;
+  --spacing-container: 1320px;
+
+  --spacing-8rem: 8rem;
 }
 
 /* [data-radix-popper-content-wrapper] {

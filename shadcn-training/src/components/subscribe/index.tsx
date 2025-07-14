@@ -10,7 +10,7 @@ export const Subscribe = () => {
         <h2 className="text-[46px] text-charcoalGray-60 dark:text-gray-60">
           Subscribe To Our Newsletter
         </h2>
-        <p className="text-lg text-charcoalGray-50 max-w-[688px] mt-[15px]">
+        <p className="text-lg text-charcoalGray-50 max-w-custom-9xl mt-[15px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices
           sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
         </p>

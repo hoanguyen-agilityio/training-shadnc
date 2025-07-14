@@ -4,10 +4,10 @@ import { ChevronIcon } from '@/components/icons';
 import { PRODUCTS_HOME_PAGE, TABS_LABEL } from '@/mocks';
 
 export const NewArrivals = () => (
-  <section aria-label="new arrivals" className="max-w-[1320px] mx-auto">
+  <section aria-label="new arrivals" className="max-w-container mx-auto">
     <div className="flex flex-col text-center gap-3.5 mb-4 items-center">
       <h2 className="text-[46px] text-theme-gray-900 dark:text-white">New Arrivals</h2>
-      <p className="text-lg text-charcoalGray-60 dark:text-gray-60 w-full max-w-[746px]">
+      <p className="text-lg text-charcoalGray-60 dark:text-gray-60 w-full max-w-custom-9xl-plus">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices
         sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
       </p>
