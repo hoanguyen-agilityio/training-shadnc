@@ -20,7 +20,7 @@ function PaginationContent({ className, ...props }: React.ComponentProps<'ul'>) 
   return (
     <ul
       data-slot="pagination-content"
-      className={cn('flex flex-row items-center shadow-lg', className)}
+      className={cn('flex flex-row items-center shadow-lg rounded-l-lg rounded-r-lg', className)}
       {...props}
     />
   );
@@ -46,7 +46,7 @@ function PaginationLink({ className, isActive, size = 'icon', ...props }: Pagina
           variant: isActive ? 'outline' : 'ghost',
           size,
         }),
-        'px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer',
+        'px-5 py-[25px] border size-auto rounded-none font-bold cursor-pointer border-[#E9E9E9]',
         'aria-disabled:bg-[#F3F3F3] aria-disabled:text-[#BDBDBD] aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80',
         className,
       )}
@@ -61,7 +61,7 @@ function PaginationPrevious({ className, ...props }: React.ComponentProps<typeof
       aria-label="Go to previous page"
       size="default"
       className={cn(
-        'border p-[25px] rounded-l-lg rounded-r-none font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer',
+        'border border-white p-[25px] rounded-l-lg w-full font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer',
         className,
       )}
       {...props}
@@ -77,7 +77,7 @@ function PaginationNext({ className, ...props }: React.ComponentProps<typeof Pag
       aria-label="Go to next page"
       size="default"
       className={cn(
-        'border p-[25px] rounded-r-lg rounded-l-none font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer',
+        'border border-white p-[25px] rounded-r-lg rounded-l-none font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer',
         className,
       )}
       {...props}
