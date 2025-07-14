@@ -7,7 +7,7 @@ exports[`Collection hero Component renders collection hero component 1`] = `
     class="text-center"
   >
     <h2
-      class="text-[46px] dark:text-white"
+      class="text-fs-2xl dark:text-white"
     >
       A style that fits everyone
     </h2>

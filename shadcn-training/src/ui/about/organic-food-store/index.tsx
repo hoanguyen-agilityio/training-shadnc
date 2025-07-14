@@ -43,7 +43,7 @@ export const OrganicFoodStore = () => {
   return (
     <section className="mt-40 border-b-1 border-gray-60 dark:text-white">
       <div className="text-center max-w-container mx-auto px-10">
-        <h2 className="text-[46px]">100% Trusted Organic Food Store</h2>
+        <h2 className="text-fs-2xl">100% Trusted Organic Food Store</h2>
         <p className="text-lg text-charcoalGray-60 dark:text-gray-60 mt-space-2xl">
           Morbi porttitor ligula in nunc varius sagittis. Proin dui nisi, laoreet ut tempor ac,
           cursus vitae eros. Cras quis ultricies elit. Proin ac lectus arcu. Maecenas aliquet vel
@@ -59,7 +59,7 @@ export const OrganicFoodStore = () => {
         />
         <div className="px-10 min-[1310px]:pl-0">
           <div>
-            <h3 className="text-[46px]">100% Trusted Organic Food Store</h3>
+            <h3 className="text-fs-2xl">100% Trusted Organic Food Store</h3>
             <p className="text-lg text-charcoalGray-60 dark:text-gray-60 mt-5">
               Pellentesque a ante vulputate leo porttitor luctus sed eget eros. Nulla et rhoncus
               neque. Duis non diam eget est luctus tincidunt a a mi. Nulla eu eros consequat tortor

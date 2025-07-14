@@ -19,7 +19,7 @@ exports[`Shop banner Component renders shop banner component 1`] = `
         Best Deals
       </span>
       <h1
-        class="text-4xl min-[720px]:text-[40px] font-semibold mt-3 text-white"
+        class="text-4xl min-[720px]:text-fs-xl font-semibold mt-3 text-white"
       >
         Sale of the Month
       </h1>

@@ -24,7 +24,7 @@ export const NotFoundPage = () => {
           <div className="flex justify-center">
             <NotFound width="446px" height="271px" />
           </div>
-          <h1 className="text-[46px] font-normal mt-6 dark:text-white">Oops! page not found</h1>
+          <h1 className="text-fs-2xl font-normal mt-6 dark:text-white">Oops! page not found</h1>
           <p className="text-base font-normal mt-2 dark:text-white">
             Ut consequat ac tortor eu vehicula. Aenean accumsan purus eros. Maecenas sagittis tortor
             at metus mollis

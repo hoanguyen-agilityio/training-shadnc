@@ -311,7 +311,7 @@ exports[`Contact page Renders Contact page 1`] = `
           src="/assets/common-bg-banner.svg"
         />
         <h1
-          class="text-white text-4xl min-[500px]:text-[40px] font-semibold absolute top-1/2 left-10 transform -translate-y-1/2"
+          class="text-white text-4xl min-[500px]:text-fs-xl font-semibold absolute top-1/2 left-10 transform -translate-y-1/2"
         >
           Contact US
         </h1>
@@ -638,7 +638,7 @@ exports[`Contact page Renders Contact page 1`] = `
                       placeholder=""
                       step="60"
                       type="time"
-                      value="16:33"
+                      value="16:48"
                     />
                   </div>
                 </div>

@@ -15,7 +15,7 @@ exports[`Subscribe component Renders subscribe component 1`] = `
       class="absolute inset-0 flex flex-col justify-center items-center text-center px-4"
     >
       <h2
-        class="text-[46px] text-charcoalGray-60 dark:text-gray-60"
+        class="text-fs-2xl text-charcoalGray-60 dark:text-gray-60"
       >
         Subscribe To Our Newsletter
       </h2>

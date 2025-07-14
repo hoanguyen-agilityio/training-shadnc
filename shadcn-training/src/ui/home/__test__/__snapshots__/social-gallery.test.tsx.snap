@@ -13,7 +13,7 @@ exports[`Social gallery Component renders social gallery component 1`] = `
         class="flex flex-col justify-center w-full min-[1140px]:w-custom-6xl-plus items-center min-[1140px]:items-start text-center min-[1140px]:text-left"
       >
         <h2
-          class="text-[46px] dark:text-white"
+          class="text-fs-2xl dark:text-white"
         >
           New In
         </h2>

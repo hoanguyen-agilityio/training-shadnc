@@ -14,7 +14,7 @@ export const ShopBanner = () => {
       />
       <div className="text-center absolute inset-0 flex flex-col justify-center items-center w-full">
         <span className="text-sm uppercase text-white">Best Deals</span>
-        <h1 className="text-4xl min-[720px]:text-[40px] font-semibold mt-3 text-white">
+        <h1 className="text-4xl min-[720px]:text-fs-xl font-semibold mt-3 text-white">
           Sale of the Month
         </h1>
         <div className="flex items-center gap-2 justify-center mt-5">

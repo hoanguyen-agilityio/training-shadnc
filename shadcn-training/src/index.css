@@ -74,6 +74,10 @@
   --spacing-space-4xl: 50px;
   --spacing-space-5xl: 53px;
   --spacing-space-6xl: 60px;
+
+  /* Font size */
+  --text-fs-xl: 40px;
+  --text-fs-2xl: 46px;
 }
 
 /* [data-radix-popper-content-wrapper] {

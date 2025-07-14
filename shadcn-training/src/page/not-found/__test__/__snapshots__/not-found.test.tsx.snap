@@ -1011,7 +1011,7 @@ exports[`Not Found page Renders Not Found page 1`] = `
           </svg>
         </div>
         <h1
-          class="text-[46px] font-normal mt-6 dark:text-white"
+          class="text-fs-2xl font-normal mt-6 dark:text-white"
         >
           Oops! page not found
         </h1>

@@ -9,7 +9,7 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
       class="flex items-center justify-between mb-space-4xl"
     >
       <h3
-        class="text-[46px] dark:text-white"
+        class="text-fs-2xl dark:text-white"
       >
         Client Testimonial
       </h3>

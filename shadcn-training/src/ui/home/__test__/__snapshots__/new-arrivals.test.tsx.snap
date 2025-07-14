@@ -10,7 +10,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
       class="flex flex-col text-center gap-3.5 mb-4 items-center"
     >
       <h2
-        class="text-[46px] text-theme-gray-900 dark:text-white"
+        class="text-fs-2xl text-theme-gray-900 dark:text-white"
       >
         New Arrivals
       </h2>

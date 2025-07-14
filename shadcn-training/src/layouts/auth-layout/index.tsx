@@ -31,7 +31,7 @@ export const AuthLayout = ({ title, description, icon, children }: IAuthLayout) 
       <div className="flex flex-col gap-[30px] max-w-custom-7xl-plus w-full">
         <div className="flex flex-col gap-[5px]">
           <div className="flex gap-2.5">
-            <span className="text-[46px] dark:text-white">{title}</span>
+            <span className="text-fs-2xl dark:text-white">{title}</span>
             {icon && <WavingHandIcon width="64px" height="64px" />}
           </div>
           <span className="text-lg text-charcoalGray-60 dark:text-gray-60">{description}</span>

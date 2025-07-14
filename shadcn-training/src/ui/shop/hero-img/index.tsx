@@ -9,7 +9,7 @@ export const HeroImg = () => (
     />
     <div className="absolute inset-0 flex justify-center items-center px-10">
       <div className="border-4 border-white p-10 text-center min-[1080px]:p-20">
-        <h2 className="block text-white text-4xl min-[850px]:text-[46px]">
+        <h2 className="block text-white text-4xl min-[850px]:text-fs-2xl">
           -50 PROMOTION HOT SUMMER
         </h2>
         <span className="block text-sm mt-2.5 text-white max-w-custom-7xl mx-auto">

@@ -25,7 +25,7 @@ export const AboutPage = () => {
           <DeliveryPromise />
           <section className="mt-20">
             <div className="max-w-custom-8xl-plus text-center mx-auto mb-10">
-              <h3 className="text-[46px] dark:text-white">Our Awesome Team</h3>
+              <h3 className="text-fs-2xl dark:text-white">Our Awesome Team</h3>
               <p className="text-lg text-charcoalGray-60 dark:text-gray-60 mt-3">
                 Pellentesque a ante vulputate leo porttitor luctus sed eget eros. Nulla et rhoncus
                 neque. Duis non diam eget est luctus tincidunt a a mi.

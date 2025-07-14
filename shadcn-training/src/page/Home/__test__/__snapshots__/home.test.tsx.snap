@@ -316,7 +316,7 @@ exports[`Home page Renders Home page 1`] = `
         class="text-center"
       >
         <h2
-          class="text-[46px] dark:text-white"
+          class="text-fs-2xl dark:text-white"
         >
           A style that fits everyone
         </h2>
@@ -346,7 +346,7 @@ exports[`Home page Renders Home page 1`] = `
           class="flex flex-col justify-center w-full min-[1140px]:w-custom-6xl-plus items-center min-[1140px]:items-start text-center min-[1140px]:text-left"
         >
           <h2
-            class="text-[46px] dark:text-white"
+            class="text-fs-2xl dark:text-white"
           >
             New In
           </h2>
@@ -470,7 +470,7 @@ exports[`Home page Renders Home page 1`] = `
           class="flex flex-col text-center gap-3.5 mb-4 items-center"
         >
           <h2
-            class="text-[46px] text-theme-gray-900 dark:text-white"
+            class="text-fs-2xl text-theme-gray-900 dark:text-white"
           >
             New Arrivals
           </h2>
@@ -1942,7 +1942,7 @@ exports[`Home page Renders Home page 1`] = `
         class="flex flex-col items-center text-center gap-5 px-10"
       >
         <h2
-          class="text-[46px] dark:text-white"
+          class="text-fs-2xl dark:text-white"
         >
           Follow Us On Instagram
         </h2>
@@ -1971,7 +1971,7 @@ exports[`Home page Renders Home page 1`] = `
         class="absolute inset-0 flex flex-col justify-center items-center text-center px-4"
       >
         <h2
-          class="text-[46px] text-charcoalGray-60 dark:text-gray-60"
+          class="text-fs-2xl text-charcoalGray-60 dark:text-gray-60"
         >
           Subscribe To Our Newsletter
         </h2>
