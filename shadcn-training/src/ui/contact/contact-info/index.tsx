@@ -42,8 +42,8 @@ export const ContactInfo = () => (
         >
           {item.icon}
           <div className="flex flex-col gap-1 text-center dark:text-white">
-            <span className="text-base">{item.information}</span>
-            <span className="text-base">{item.moreInformation}</span>
+            <span className="text-base leading-7">{item.information}</span>
+            <span className="text-base leading-7">{item.moreInformation}</span>
           </div>
         </CardContent>
       );

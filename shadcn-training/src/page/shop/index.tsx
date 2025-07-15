@@ -77,7 +77,7 @@ export const ShopPage = () => {
             )}
           </div>
           <div className="flex flex-col gap-2.5 justify-between items-center mt-space-2xl @bp-750/main:gap-0 @bp-750/main:flex-row">
-            <span className="text-sm dark:text-white">
+            <span className="text-sm font-medium dark:text-white">
               Showing {indexOfFirstProduct + 1}–
               {Math.min(indexOfLastProduct, PRODUCTS_SHOP_PAGE.length)} of{' '}
               {PRODUCTS_SHOP_PAGE.length} items

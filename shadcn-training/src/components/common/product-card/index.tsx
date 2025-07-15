@@ -67,7 +67,7 @@ export const ProductCard = ({
           <div className="flex gap-2 justify-between items-center">
             <div>
               <CardTitle className="text-xl dark:text-white">{title}</CardTitle>
-              <CardDescription className="text-xs text-charcoalGray-60 dark:text-slate-400">
+              <CardDescription className="leading-3 text-xs text-charcoalGray-60 dark:text-slate-400">
                 {brand}
               </CardDescription>
             </div>
@@ -89,7 +89,7 @@ export const ProductCard = ({
         <CardContent className="flex flex-col gap-3">
           <div className="flex justify-between items-center">
             <CardTitle className="text-xl dark:text-white">{title}</CardTitle>
-            <CardDescription className="text-xs text-charcoalGray-60 dark:text-slate-400">
+            <CardDescription className="leading-3 text-xs text-charcoalGray-60 dark:text-slate-400">
               {brand}
             </CardDescription>
           </div>

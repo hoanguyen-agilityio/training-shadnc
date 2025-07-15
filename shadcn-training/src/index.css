@@ -3,6 +3,7 @@
 
 @theme {
   --font-poppins: Poppins, sans-serif;
+  --font-scope: Scope One, serif;
 
   /* Color */
   --color-green-50: #6c9d30;
@@ -75,6 +76,9 @@
   --spacing-space-5xl: 53px;
   --spacing-space-6xl: 60px;
 
+  --spacing-lh-sm: 14px;
+  --spacing-lh-3xl: 48px;
+
   /* Font size */
   --text-fs-xl: 40px;
   --text-fs-2xl: 46px;
@@ -119,6 +123,7 @@
 
 :root {
   --font-poppins: 'Poppins', sans-serif;
+  --font-scope: 'Scope One', serif;
   --charcoal-gray: #484848;
 }
 

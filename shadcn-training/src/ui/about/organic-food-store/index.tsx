@@ -43,8 +43,8 @@ export const OrganicFoodStore = () => {
   return (
     <section className="mt-40 @bp-1310/main:border-b-1 @bp-1310/main:border-gray-60 dark:text-white">
       <div className="text-center max-w-container mx-auto px-10">
-        <h2 className="text-fs-2xl">100% Trusted Organic Food Store</h2>
-        <p className="text-lg text-charcoalGray-60 dark:text-gray-60 mt-space-2xl">
+        <h2 className="font-scope text-fs-2xl">100% Trusted Organic Food Store</h2>
+        <p className="text-lg leading-7 text-charcoalGray-60 dark:text-gray-60 mt-space-2xl">
           Morbi porttitor ligula in nunc varius sagittis. Proin dui nisi, laoreet ut tempor ac,
           cursus vitae eros. Cras quis ultricies elit. Proin ac lectus arcu. Maecenas aliquet vel
           tellus at accumsan. Donec a eros non massa vulputate ornare. Vivamus ornare commodo ante,
@@ -59,8 +59,8 @@ export const OrganicFoodStore = () => {
         />
         <div className="px-10 @bp-1310/main:pl-0">
           <div>
-            <h3 className="text-fs-2xl">100% Trusted Organic Food Store</h3>
-            <p className="text-lg text-charcoalGray-60 dark:text-gray-60 mt-5">
+            <h3 className="font-scope text-fs-2xl">100% Trusted Organic Food Store</h3>
+            <p className="text-lg leading-7 text-charcoalGray-60 dark:text-gray-60 mt-5">
               Pellentesque a ante vulputate leo porttitor luctus sed eget eros. Nulla et rhoncus
               neque. Duis non diam eget est luctus tincidunt a a mi. Nulla eu eros consequat tortor
               tincidunt feugiat.
@@ -71,8 +71,8 @@ export const OrganicFoodStore = () => {
               <div key={index} className="flex items-center gap-4">
                 {feature.icon}
                 <div>
-                  <h3 className="text-lg">{feature.title}</h3>
-                  <p className="text-sm text-charcoalGray-60 dark:text-gray-60">
+                  <h3 className="text-lg leading-7">{feature.title}</h3>
+                  <p className="text-sm leading-6 text-charcoalGray-60 dark:text-gray-60">
                     {feature.description}
                   </p>
                 </div>

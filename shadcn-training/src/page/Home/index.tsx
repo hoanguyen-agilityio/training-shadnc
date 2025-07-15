@@ -1,5 +1,10 @@
-import { CollectionHero, HomeBanner, NewArrivals, NewIn, SocialGallery } from '@/ui';
+// Layouts
 import { Footer, Header } from '@/layouts';
+
+// Uis
+import { CollectionHero, HomeBanner, NewArrivals, NewIn, SocialGallery } from '@/ui';
+
+// Components
 import { FeatureBar } from '@/components/feature-bar';
 import { Subscribe } from '@/components/subscribe';
 
