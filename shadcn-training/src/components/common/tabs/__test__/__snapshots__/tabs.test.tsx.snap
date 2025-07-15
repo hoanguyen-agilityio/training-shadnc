@@ -23,7 +23,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem1"
           aria-selected="true"
-          class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -38,7 +38,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem2"
           aria-selected="false"
-          class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -53,7 +53,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem3"
           aria-selected="false"
-          class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -68,7 +68,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem4"
           aria-selected="false"
-          class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -83,7 +83,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem5"
           aria-selected="false"
-          class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -98,7 +98,7 @@ exports[`Tabs component Renders tabs component 1`] = `
       </div>
     </div>
     <div
-      class="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start"
+      class="w-full grid grid-cols-1 justify-items-center gap-4 @bp-890:grid-cols-2 @bp-1200:grid-cols-3 @bp-1280:justify-items-start"
     >
       <div
         aria-labelledby="radix-«r0»-trigger-lorem1"
@@ -112,7 +112,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -261,7 +261,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -396,7 +396,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -517,7 +517,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -652,7 +652,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -801,7 +801,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         tabindex="0"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
           data-slot="card"
         >
           <div

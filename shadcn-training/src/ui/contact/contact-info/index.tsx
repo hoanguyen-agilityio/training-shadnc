@@ -24,7 +24,7 @@ const ContactInfoData = [
 ];
 
 export const ContactInfo = () => (
-  <Card className="w-full max-w-[312px] py-4 shadow-xl rounded-[10px] mx-auto min-[800px]:mx-0">
+  <Card className="w-full max-w-custom-5xl-plus py-4 shadow-xl rounded-radius-md mx-auto @bp-800/main:mx-0">
     {ContactInfoData.map((item, index) => {
       const isFirst = index === 0;
       const isLast = index === ContactInfoData.length - 1;
@@ -42,8 +42,8 @@ export const ContactInfo = () => (
         >
           {item.icon}
           <div className="flex flex-col gap-1 text-center dark:text-white">
-            <span className="text-base">{item.information}</span>
-            <span className="text-base">{item.moreInformation}</span>
+            <span className="text-base leading-7">{item.information}</span>
+            <span className="text-base leading-7">{item.moreInformation}</span>
           </div>
         </CardContent>
       );

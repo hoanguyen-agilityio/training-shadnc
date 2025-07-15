@@ -5,7 +5,7 @@ exports[`Dropdown component Renders dropdown component 1`] = `
   <button
     aria-expanded="false"
     aria-haspopup="menu"
-    class="relative w-[178px]"
+    class="relative w-custom-md"
     data-slot="dropdown-menu-trigger"
     data-state="closed"
     id="radix-«r0»"
@@ -13,7 +13,7 @@ exports[`Dropdown component Renders dropdown component 1`] = `
   >
     <span
       aria-label="dropdown"
-      class="w-full border border-[#E6E6E6] rounded px-4 py-2.5 cursor-pointer text-sm dark:text-white inline-block text-left"
+      class="w-full border border-theme-gray-350 rounded px-4 py-2.5 cursor-pointer text-sm dark:text-white inline-block text-left"
     >
       Sort by: defaultValue
     </span>

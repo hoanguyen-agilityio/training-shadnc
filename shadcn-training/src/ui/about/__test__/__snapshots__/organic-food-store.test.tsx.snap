@@ -3,24 +3,24 @@
 exports[`Organic food store Component renders organic food store component 1`] = `
 <div>
   <section
-    class="mt-40 border-b-1 border-gray-60 dark:text-white"
+    class="mt-40 @bp-1310/main:border-b-1 @bp-1310/main:border-gray-60 dark:text-white"
   >
     <div
-      class="text-center max-w-[1320px] mx-auto px-10"
+      class="text-center max-w-container mx-auto px-10"
     >
       <h2
-        class="text-[46px]"
+        class="text-fs-2xl"
       >
         100% Trusted Organic Food Store
       </h2>
       <p
-        class="text-lg text-charcoalGray-60 dark:text-gray-60 mt-[30px]"
+        class="text-lg text-charcoalGray-60 dark:text-gray-60 mt-space-2xl"
       >
         Morbi porttitor ligula in nunc varius sagittis. Proin dui nisi, laoreet ut tempor ac, cursus vitae eros. Cras quis ultricies elit. Proin ac lectus arcu. Maecenas aliquet vel tellus at accumsan. Donec a eros non massa vulputate ornare. Vivamus ornare commodo ante, at commodo felis congue vitae.
       </p>
     </div>
     <div
-      class="flex flex-col items-center mt-20 gap-[30px] min-[1310px]:flex-row"
+      class="flex flex-col items-center mt-20 gap-[30px] @bp-1310/main:flex-row"
     >
       <img
         alt="100% Trusted Organic Food Store"
@@ -28,11 +28,11 @@ exports[`Organic food store Component renders organic food store component 1`] =
         src="/assets/trusted-organic-food-store.svg"
       />
       <div
-        class="px-10 min-[1310px]:pl-0"
+        class="px-10 @bp-1310/main:pl-0"
       >
         <div>
           <h3
-            class="text-[46px]"
+            class="text-fs-2xl"
           >
             100% Trusted Organic Food Store
           </h3>
@@ -43,7 +43,7 @@ exports[`Organic food store Component renders organic food store component 1`] =
           </p>
         </div>
         <div
-          class="grid grid-cols-1 gap-6 mt-[15px] min-[670px]:grid-cols-2"
+          class="grid grid-cols-1 gap-6 mt-space-md @bp-670/main:grid-cols-2"
         >
           <div
             class="flex items-center gap-4"

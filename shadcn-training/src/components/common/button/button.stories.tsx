@@ -30,6 +30,6 @@ export const ButtonWithIcon: Story = {
   args: {
     label: 'Button',
     icon: <ChevronIcon width="24px" height="24px" fill="white" />,
-    className: 'flex gap-2 w-[250px]',
+    className: 'flex gap-2 w-custom-3xl',
   },
 };

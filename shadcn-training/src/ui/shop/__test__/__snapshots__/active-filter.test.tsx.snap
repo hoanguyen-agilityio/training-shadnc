@@ -3,13 +3,13 @@
 exports[`Active filter Component renders active filter component 1`] = `
 <div>
   <section
-    class="border-b-1 border-t-1 border-[#EAEAEA] p-5 mt-5"
+    class="border-b-1 border-t-1 border-theme-gray-250 p-5 mt-5"
   >
     <div
-      class="max-w-[1320px] mx-auto px-10 flex flex-col gap-2.5 justify-between min-[700px]:gap-0 min-[700px]:flex-row"
+      class="max-w-container mx-auto px-10 flex flex-col gap-2.5 justify-between @bp-700/main:gap-0 @bp-700/main:flex-row"
     >
       <div
-        class="flex flex-col gap-2.5 min-[520px]:flex-row min-[520px]:gap-6"
+        class="flex flex-col gap-2.5 @bp-520/main:flex-row @bp-520/main:gap-6"
       >
         <span
           class="text-charcoalGray-60 dark:text-gray-60 text-sm"
@@ -26,7 +26,7 @@ exports[`Active filter Component renders active filter component 1`] = `
           </span>
           <svg
             aria-hidden="true"
-            class="lucide lucide-x text-[#9A9CAA] hover:text-black dark:hover:text-white cursor-pointer"
+            class="lucide lucide-x text-theme-gray-700 hover:text-black dark:hover:text-white cursor-pointer"
             fill="none"
             height="12px"
             stroke="currentColor"
@@ -55,7 +55,7 @@ exports[`Active filter Component renders active filter component 1`] = `
           </span>
           <svg
             aria-hidden="true"
-            class="lucide lucide-x text-[#9A9CAA] hover:text-black dark:hover:text-white cursor-pointer"
+            class="lucide lucide-x text-theme-gray-700 hover:text-black dark:hover:text-white cursor-pointer"
             fill="none"
             height="12px"
             stroke="currentColor"

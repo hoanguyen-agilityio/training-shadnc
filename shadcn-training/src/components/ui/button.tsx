@@ -13,19 +13,19 @@ const buttonVariants = cva(
         destructive:
           'bg-destructive text-white shadow-xs hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60',
         outline:
-          'border bg-green-50 text-white shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50',
+          'border bg-green-700 text-white shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-green-50 dark:border-input dark:hover:bg-input/50',
         secondary: 'bg-secondary text-secondary-foreground shadow-xs hover:bg-secondary/80',
         ghost:
           'bg-white dark:bg-black text-green-50 hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50',
         link: 'text-primary underline-offset-4 hover:underline',
-        primary: 'bg-[#F2F2F2]',
+        primary: 'bg-theme-gray-150',
         text: 'border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50',
       },
       size: {
-        default: 'py-2.5 rounded-[10px] px-[30px]',
-        sm: 'py-4 rounded-[10px] px-[30px]',
-        circle: 'rounded-full p-[13px]',
-        lg: 'px-[26px] py-3.5 rounded-[43px]',
+        default: 'py-2.5 rounded-radius-md px-space-2xl',
+        sm: 'py-4 rounded-radius-md px-space-2xl',
+        circle: 'rounded-full p-space-sm',
+        lg: 'px-space-xl py-3.5 rounded-radius-3xl',
         icon: 'size-9',
       },
     },

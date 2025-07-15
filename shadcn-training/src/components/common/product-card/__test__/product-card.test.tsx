@@ -9,7 +9,7 @@ describe('Menu component', () => {
   test('Renders menu component', () => {
     const { container } = render(
       <ProductCard
-        variant="simple"
+        variant="compact"
         img="/assets/product.svg"
         imgAlt="simple"
         title="Chinese cabbage"

@@ -3,16 +3,16 @@
 exports[`AuthLayout component Renders AuthLayout component 1`] = `
 <div>
   <main
-    class="relative w-full h-screen overflow-hidden"
+    class="@container/main relative w-full h-screen overflow-hidden"
   >
     <img
       alt="side image"
-      class="absolute inset-0 w-full h-full object-cover hidden min-[1200px]:block"
+      class="absolute inset-0 w-full h-full object-cover hidden @bp-1200/main:block"
       src="/assets/side-img.svg"
     />
     <a
       aria-label="logo"
-      class="absolute top-10 left-10 p-[15px] bg-white rounded shadow hidden min-[1200px]:block"
+      class="absolute top-10 left-10 p-space-md bg-white rounded shadow hidden @bp-1200/main:block"
       data-discover="true"
       href="/"
     >
@@ -51,10 +51,10 @@ exports[`AuthLayout component Renders AuthLayout component 1`] = `
       </svg>
     </a>
     <div
-      class="absolute top-0 right-0 h-full w-full min-[1200px]:w-[40%] flex justify-center items-center px-6 bg-white z-10 dark:bg-black"
+      class="absolute top-0 right-0 h-full w-full @bp-1200/main:w-[40%] flex justify-center items-center px-6 bg-white z-10 dark:bg-black"
     >
       <div
-        class="flex flex-col gap-[30px] max-w-[480px] w-full"
+        class="flex flex-col gap-[30px] max-w-custom-7xl-plus w-full"
       >
         <div
           class="flex flex-col gap-[5px]"
@@ -63,7 +63,7 @@ exports[`AuthLayout component Renders AuthLayout component 1`] = `
             class="flex gap-2.5"
           >
             <span
-              class="text-[46px] dark:text-white"
+              class="text-fs-2xl dark:text-white"
             >
               Welcome
             </span>

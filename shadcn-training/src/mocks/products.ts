@@ -5,7 +5,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/1/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 1',
     brand: 'Al Karam',
     rating: 5,
@@ -16,7 +16,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/2/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 2',
     brand: 'Al Karam',
     rating: 4,
@@ -27,7 +27,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/3/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 3',
     brand: 'Al Karam',
     rating: 3,
@@ -38,7 +38,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/4/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 4',
     brand: 'Al Karam',
     rating: 4,
@@ -49,7 +49,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/5/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 5',
     brand: 'Al Karam',
     rating: 5,
@@ -60,7 +60,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/6/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 6',
     brand: 'Al Karam',
     rating: 5,
@@ -73,7 +73,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/7/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 1',
     brand: 'Al Karam',
     rating: 5,
@@ -84,7 +84,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/8/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 2',
     brand: 'Al Karam',
     rating: 4,
@@ -95,7 +95,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/9/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 3',
     brand: 'Al Karam',
     rating: 3,
@@ -106,7 +106,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/10/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 4',
     brand: 'Al Karam',
     rating: 4,
@@ -117,7 +117,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/11/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 5',
     brand: 'Al Karam',
     rating: 5,
@@ -128,7 +128,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/12/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 6',
     brand: 'Al Karam',
     rating: 5,
@@ -141,7 +141,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/13/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 1',
     brand: 'Al Karam',
     rating: 5,
@@ -152,7 +152,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/14/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 2',
     brand: 'Al Karam',
     rating: 4,
@@ -163,7 +163,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/15/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 3',
     brand: 'Al Karam',
     rating: 3,
@@ -174,7 +174,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/16/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 4',
     brand: 'Al Karam',
     rating: 4,
@@ -185,7 +185,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/17/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 5',
     brand: 'Al Karam',
     rating: 5,
@@ -196,7 +196,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/18/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 6',
     brand: 'Al Karam',
     rating: 5,
@@ -209,7 +209,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/19/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 1',
     brand: 'Al Karam',
     rating: 5,
@@ -220,7 +220,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/20/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 2',
     brand: 'Al Karam',
     rating: 4,
@@ -231,7 +231,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/21/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 3',
     brand: 'Al Karam',
     rating: 3,
@@ -242,7 +242,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/22/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 4',
     brand: 'Al Karam',
     rating: 4,
@@ -253,7 +253,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/23/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 5',
     brand: 'Al Karam',
     rating: 5,
@@ -264,7 +264,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/24/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 6',
     brand: 'Al Karam',
     rating: 5,
@@ -277,7 +277,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/25/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 1',
     brand: 'Al Karam',
     rating: 5,
@@ -288,7 +288,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/26/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 2',
     brand: 'Al Karam',
     rating: 4,
@@ -299,7 +299,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/27/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 3',
     brand: 'Al Karam',
     rating: 3,
@@ -310,7 +310,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/28/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 4',
     brand: 'Al Karam',
     rating: 4,
@@ -321,7 +321,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/29/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 5',
     brand: 'Al Karam',
     rating: 5,
@@ -332,7 +332,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/30/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 6',
     brand: 'Al Karam',
     rating: 5,
@@ -345,7 +345,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/31/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 1',
     brand: 'Al Karam',
     rating: 5,
@@ -356,7 +356,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/32/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 2',
     brand: 'Al Karam',
     rating: 4,
@@ -367,7 +367,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/33/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 3',
     brand: 'Al Karam',
     rating: 3,
@@ -378,7 +378,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/34/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 4',
     brand: 'Al Karam',
     rating: 4,
@@ -389,7 +389,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/35/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 5',
     brand: 'Al Karam',
     rating: 5,
@@ -400,7 +400,7 @@ const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
   {
     img: 'https://picsum.photos/seed/36/354/244',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Lorem ipsum 6',
     brand: 'Al Karam',
     rating: 5,
@@ -432,7 +432,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/1/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Chinese cabbage',
     brand: 'Al Karam',
     rating: 5,
@@ -442,7 +442,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/2/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Organic carrots',
     brand: 'Fresh Farm',
     rating: 4,
@@ -452,7 +452,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/3/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Tomatoes',
     brand: 'Green Valley',
     rating: 5,
@@ -462,7 +462,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/4/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Bell Peppers',
     brand: 'Veggie House',
     rating: 4,
@@ -472,7 +472,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/5/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Broccoli',
     brand: 'Nature Fresh',
     rating: 5,
@@ -482,7 +482,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/6/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Spinach',
     brand: 'Healthy Choice',
     rating: 4,
@@ -492,7 +492,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/7/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Lettuce',
     brand: 'Al Karam',
     rating: 5,
@@ -502,7 +502,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/8/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Cucumbers',
     brand: 'Green Valley',
     rating: 4,
@@ -512,7 +512,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/9/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Red Onions',
     brand: 'Fresh Farm',
     rating: 5,
@@ -522,7 +522,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/10/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Garlic',
     brand: 'Nature Fresh',
     rating: 5,
@@ -532,7 +532,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/11/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Zucchini',
     brand: 'Veggie House',
     rating: 4,
@@ -542,7 +542,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/12/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Eggplant',
     brand: 'Al Karam',
     rating: 5,
@@ -552,7 +552,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/13/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Kale',
     brand: 'Healthy Choice',
     rating: 4,
@@ -562,7 +562,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/14/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Radish',
     brand: 'Fresh Farm',
     rating: 5,
@@ -572,7 +572,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/15/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Green Beans',
     brand: 'Green Valley',
     rating: 4,
@@ -582,7 +582,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/16/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Okra',
     brand: 'Nature Fresh',
     rating: 5,
@@ -592,7 +592,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/17/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Cabbage',
     brand: 'Veggie House',
     rating: 4,
@@ -602,7 +602,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/18/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Peas',
     brand: 'Healthy Choice',
     rating: 5,
@@ -612,7 +612,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/19/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Sweet Corn',
     brand: 'Fresh Farm',
     rating: 4,
@@ -622,7 +622,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/20/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Pumpkin',
     brand: 'Al Karam',
     rating: 5,
@@ -632,7 +632,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/21/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Potatoes',
     brand: 'Nature Fresh',
     rating: 5,
@@ -642,7 +642,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/22/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Yams',
     brand: 'Veggie House',
     rating: 4,
@@ -652,7 +652,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/23/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Ginger',
     brand: 'Healthy Choice',
     rating: 5,
@@ -662,7 +662,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/24/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Turmeric',
     brand: 'Fresh Farm',
     rating: 4,
@@ -672,7 +672,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/25/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Beets',
     brand: 'Green Valley',
     rating: 5,
@@ -682,7 +682,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/26/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Asparagus',
     brand: 'Nature Fresh',
     rating: 4,
@@ -692,7 +692,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/27/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Celery',
     brand: 'Veggie House',
     rating: 5,
@@ -702,7 +702,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/28/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Parsley',
     brand: 'Healthy Choice',
     rating: 4,
@@ -712,7 +712,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/29/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Coriander',
     brand: 'Fresh Farm',
     rating: 5,
@@ -722,7 +722,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/30/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Mint Leaves',
     brand: 'Green Valley',
     rating: 4,
@@ -732,7 +732,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/31/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Basil',
     brand: 'Nature Fresh',
     rating: 5,
@@ -742,7 +742,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/32/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Dill',
     brand: 'Veggie House',
     rating: 4,
@@ -752,7 +752,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/33/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Leeks',
     brand: 'Healthy Choice',
     rating: 5,
@@ -762,7 +762,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/34/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Spring Onion',
     brand: 'Fresh Farm',
     rating: 4,
@@ -772,7 +772,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/35/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Chives',
     brand: 'Green Valley',
     rating: 5,
@@ -782,7 +782,7 @@ const PRODUCTS_SHOP_PAGE: IProductCard[] = [
   {
     img: 'https://picsum.photos/seed/36/350/446',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Fennel',
     brand: 'Nature Fresh',
     rating: 4,

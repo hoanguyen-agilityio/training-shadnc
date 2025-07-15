@@ -1,4 +1,4 @@
-type ProductCardVariant = 'simple' | 'withActions';
+type ProductCardVariant = 'compact' | 'expanded';
 
 export interface IProductCard {
   img: string;

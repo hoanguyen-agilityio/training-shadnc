@@ -4,13 +4,13 @@ import { ChevronIcon } from '@/components/icons';
 
 export const Subscribe = () => {
   return (
-    <section aria-label="subscribe" className="max-h-[867px] w-full h-[867px] relative">
+    <section aria-label="subscribe" className="max-h-custom-h-3xl w-full h-custom-h-3xl relative">
       <img src="/assets/subscribe.webp" alt="" className="w-full h-full object-cover" />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
-        <h2 className="text-[46px] text-charcoalGray-60 dark:text-gray-60">
+        <h2 className="font-scope text-fs-2xl text-charcoalGray-60 dark:text-gray-60">
           Subscribe To Our Newsletter
         </h2>
-        <p className="text-lg text-charcoalGray-50 max-w-[688px] mt-[15px]">
+        <p className="text-lg text-charcoalGray-50 max-w-custom-9xl mt-space-md">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices
           sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
         </p>

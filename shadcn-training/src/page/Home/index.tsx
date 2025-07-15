@@ -1,28 +1,33 @@
-import { CollectionHero, HomeBanner, NewArrivals, NewIn, SocialGallery } from '@/ui';
+// Layouts
 import { Footer, Header } from '@/layouts';
+
+// Uis
+import { CollectionHero, HomeBanner, NewArrivals, NewIn, SocialGallery } from '@/ui';
+
+// Components
 import { FeatureBar } from '@/components/feature-bar';
 import { Subscribe } from '@/components/subscribe';
 
 export const HomePage = () => {
   return (
     <>
-      <div className="max-w-[1320px] mx-auto px-10 bg-white dark:bg-black">
+      <div className="@container/structure max-w-container mx-auto px-10 bg-white dark:bg-black">
         <Header />
       </div>
-      <main>
-        <div className="max-w-[1320px] mx-auto flex flex-col gap-[60px] px-10 bg-white dark:bg-black">
+      <main className="@container/main">
+        <div className="max-w-container mx-auto flex flex-col gap-[60px] px-10 bg-white dark:bg-black">
           <HomeBanner />
           <CollectionHero />
         </div>
         <NewIn />
-        <div className="max-w-[1320px] mx-auto px-10 mt-[60px]">
+        <div className="max-w-container mx-auto px-10 mt-space-6xl">
           <NewArrivals />
           <FeatureBar />
         </div>
         <SocialGallery />
         <Subscribe />
       </main>
-      <div className="max-w-[1320px] mx-auto px-10 mt-[30px]">
+      <div className="@container/structure max-w-container mx-auto px-10 mt-space-2xl">
         <Footer />
       </div>
     </>

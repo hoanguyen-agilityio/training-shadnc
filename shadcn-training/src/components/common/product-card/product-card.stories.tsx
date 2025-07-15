@@ -16,7 +16,7 @@ export const ProductCardSimple: Story = {
   args: {
     img: '/assets/product.svg',
     imgAlt: 'img product',
-    variant: 'simple',
+    variant: 'compact',
     title: 'Chinese cabbage',
     brand: 'Al Karam',
     rating: 5,
@@ -29,7 +29,7 @@ export const ProductCardWithActions: Story = {
   args: {
     img: '/assets/product.svg',
     imgAlt: 'img product',
-    variant: 'withActions',
+    variant: 'expanded',
     title: 'Chinese cabbage',
     brand: 'Al Karam',
     rating: 5,

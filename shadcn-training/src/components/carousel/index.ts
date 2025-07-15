@@ -1,2 +1,2 @@
-export * from './carousel-with-top-controls';
-export * from './carousel-with-side-controls';
+export * from './top-controls';
+export * from './side-controls';

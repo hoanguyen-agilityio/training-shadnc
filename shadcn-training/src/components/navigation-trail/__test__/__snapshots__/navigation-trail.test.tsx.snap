@@ -3,7 +3,7 @@
 exports[`NavigationTrail component Renders navigation trail component 1`] = `
 <div>
   <section
-    class="flex gap-3 mt-[25px]"
+    class="flex gap-3 mt-space-md"
   >
     <a
       aria-label="back to home page"
@@ -32,7 +32,7 @@ exports[`NavigationTrail component Renders navigation trail component 1`] = `
       </svg>
     </a>
     <svg
-      class="text-[#666666] dark:text-white"
+      class="text-theme-gray-750 dark:text-white"
       fill="none"
       height="24px"
       viewBox="0 0 25 24"

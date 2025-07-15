@@ -3,7 +3,7 @@
 exports[`Contact info Component renders contact info component 1`] = `
 <div>
   <div
-    class="bg-card text-card-foreground flex flex-col gap-6 p-5 dark:bg-zinc-800 w-full max-w-[312px] py-4 shadow-xl rounded-[10px] mx-auto min-[800px]:mx-0"
+    class="bg-card text-card-foreground flex flex-col gap-6 p-5 dark:bg-zinc-800 w-full max-w-custom-5xl-plus py-4 shadow-xl rounded-radius-md mx-auto @bp-800/main:mx-0"
     data-slot="card"
   >
     <div

@@ -3,7 +3,7 @@
 exports[`Banner component Renders banner component 1`] = `
 <div>
   <section
-    class="relative w-full overflow-visible mt-[42px]"
+    class="relative w-full overflow-visible mt-space-3xl"
   >
     <img
       alt="background banner"
@@ -11,16 +11,16 @@ exports[`Banner component Renders banner component 1`] = `
       src="/assets/common-bg-banner.svg"
     />
     <h1
-      class="text-white text-4xl min-[500px]:text-[40px] font-semibold absolute top-1/2 left-10 transform -translate-y-1/2"
+      class="text-white text-4xl @bp-500/main:text-fs-xl font-semibold absolute top-1/2 left-10 transform -translate-y-1/2"
     >
       About US
     </h1>
     <div
-      class="absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-1/5  min-[1000px]:-translate-x-1/2 overflow-visible"
+      class="absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-1/5 @bp-1000/main:-translate-x-1/2 overflow-visible"
     >
       <img
         alt="common banner"
-        class="w-[100px] h-[400px] min-[650px]:w-[200px] min-[800px]:w-[264px] min-[800px]:h-[400px] min-[1150px]:w-full min-[1150px]:h-auto"
+        class="w-custom-xs h-custom-h-xl @bp-650/main:w-custom-lg @bp-800/main:w-custom-4xl @bp-800/main:h-[400px] @bp-1150/main:w-full @bp-1150/main:h-auto"
         src="/assets/common-banner.svg"
       />
     </div>

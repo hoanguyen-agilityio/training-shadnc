@@ -4,18 +4,18 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
 <div>
   <section
     aria-label="new arrivals"
-    class="max-w-[1320px] mx-auto"
+    class="max-w-container mx-auto"
   >
     <div
       class="flex flex-col text-center gap-3.5 mb-4 items-center"
     >
       <h2
-        class="text-[46px] text-[#484848] dark:text-white"
+        class="text-fs-2xl text-theme-gray-900 dark:text-white"
       >
         New Arrivals
       </h2>
       <p
-        class="text-lg text-charcoalGray-60 dark:text-gray-60 w-full max-w-[746px]"
+        class="text-lg text-charcoalGray-60 dark:text-gray-60 w-full max-w-custom-9xl-plus"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
       </p>
@@ -41,7 +41,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           <button
             aria-controls="radix-«r0»-content-lorem1"
             aria-selected="true"
-            class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+            class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
             data-orientation="horizontal"
             data-radix-collection-item=""
             data-slot="tabs-trigger"
@@ -56,7 +56,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           <button
             aria-controls="radix-«r0»-content-lorem2"
             aria-selected="false"
-            class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+            class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
             data-orientation="horizontal"
             data-radix-collection-item=""
             data-slot="tabs-trigger"
@@ -71,7 +71,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           <button
             aria-controls="radix-«r0»-content-lorem3"
             aria-selected="false"
-            class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+            class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
             data-orientation="horizontal"
             data-radix-collection-item=""
             data-slot="tabs-trigger"
@@ -86,7 +86,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           <button
             aria-controls="radix-«r0»-content-lorem4"
             aria-selected="false"
-            class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+            class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
             data-orientation="horizontal"
             data-radix-collection-item=""
             data-slot="tabs-trigger"
@@ -101,7 +101,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           <button
             aria-controls="radix-«r0»-content-lorem5"
             aria-selected="false"
-            class="cursor-pointer text-base data-[state=active]:bg-black dark:data-[state=active]:bg-[#5f5f5f] data-[state=active]:text-white dark:data-[state=active]:text-white bg-[#FAFAFA] rounded-[10px] focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+            class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
             data-orientation="horizontal"
             data-radix-collection-item=""
             data-slot="tabs-trigger"
@@ -116,7 +116,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
         </div>
       </div>
       <div
-        class="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start"
+        class="w-full grid grid-cols-1 justify-items-center gap-4 @bp-890:grid-cols-2 @bp-1200:grid-cols-3 @bp-1280:justify-items-start"
       >
         <div
           aria-labelledby="radix-«r0»-trigger-lorem1"
@@ -130,7 +130,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           tabindex="0"
         >
           <div
-            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
             data-slot="card"
           >
             <div
@@ -279,7 +279,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           tabindex="0"
         >
           <div
-            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
             data-slot="card"
           >
             <div
@@ -414,7 +414,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           tabindex="0"
         >
           <div
-            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
             data-slot="card"
           >
             <div
@@ -535,7 +535,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           tabindex="0"
         >
           <div
-            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
             data-slot="card"
           >
             <div
@@ -670,7 +670,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           tabindex="0"
         >
           <div
-            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
             data-slot="card"
           >
             <div
@@ -819,7 +819,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
           tabindex="0"
         >
           <div
-            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-[393px] group"
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
             data-slot="card"
           >
             <div
@@ -1289,10 +1289,10 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
       </div>
     </div>
     <div
-      class="flex justify-center mt-[50px]"
+      class="flex justify-center mt-space-4xl"
     >
       <button
-        class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-[10px] px-[30px] cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse"
+        class="items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-radius-md px-space-2xl cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 flex flex-row-reverse"
         data-slot="button"
         disabled=""
       >

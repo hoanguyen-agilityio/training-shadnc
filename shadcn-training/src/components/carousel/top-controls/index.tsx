@@ -1,5 +1,4 @@
 // Libs
-import { Quote } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
 
@@ -13,7 +12,7 @@ import {
   CarouselPrevious,
   Carousel as CarouselShadcn,
 } from '@/components/ui/carousel';
-import { ArrowIcon } from '@/components/icons';
+import { ArrowIcon, QuoteIcon } from '@/components/icons';
 import { Avatar, Evaluate } from '@/components';
 
 // Mocks
@@ -32,14 +31,14 @@ export const CarouselWithTopControls = () => {
   return (
     <div className="w-full max-w-7xl mx-auto p-6">
       {/* Header */}
-      <div className="flex items-center justify-between mb-[50px]">
-        <h3 className="text-[46px] dark:text-white">Client Testimonial</h3>
+      <div className="flex items-center justify-between mb-space-4xl">
+        <h3 className="font-scope text-fs-2xl dark:text-white">Client Testimonial</h3>
         <div className="flex gap-2">
           <Button
             aria-label="previous"
             variant="outline"
             size="icon"
-            className="rounded-full border-gray-300 bg-white text-black hover:bg-[#6C9D30] hover:text-white cursor-pointer"
+            className="rounded-full border-gray-300 bg-white text-black hover:bg-green-700 hover:text-white cursor-pointer"
             onClick={scrollPrev}
           >
             <ArrowIcon />
@@ -48,7 +47,7 @@ export const CarouselWithTopControls = () => {
             aria-label="next"
             variant="outline"
             size="icon"
-            className="rounded-full border-gray-300 bg-white text-black hover:bg-[#6C9D30] hover:text-white cursor-pointer"
+            className="rounded-full border-gray-300 bg-white text-black hover:bg-green-700 hover:text-white cursor-pointer"
             onClick={scrollNext}
           >
             <ArrowIcon className="rotate-180" />
@@ -72,11 +71,11 @@ export const CarouselWithTopControls = () => {
                 <CardContent className="p-6 h-full flex flex-col">
                   {/* Quote Icon */}
                   <div className="mb-4">
-                    <Quote className="h-[26px] w-9 text-green-300 fill-current" />
+                    <QuoteIcon height="26px" width="32px" className="text-green-700" />
                   </div>
 
                   {/* Testimonial Text */}
-                  <p className="text-[#4D4D4D] dark:text-slate-400 font-normal text-sm	mb-6 flex-grow">
+                  <p className="text-theme-gray-850 dark:text-slate-400 font-normal text-sm	mb-6 flex-grow">
                     {clientReview.text}
                   </p>
 
@@ -90,10 +89,10 @@ export const CarouselWithTopControls = () => {
                         avatarFallback={clientReview.avatarFallback}
                       ></Avatar>
                       <div>
-                        <h4 className="font-semibold text-black dark:text-white text-sm">
+                        <h4 className="font-semibold leading-6 text-black dark:text-white text-sm">
                           {clientReview.name}
                         </h4>
-                        <p className="text-charcoalGray-60 dark:text-[#DEDEDE] text-xs font-normal">
+                        <p className="text-charcoalGray-60 leading-5 dark:text-theme-gray-450 text-xs font-normal">
                           {clientReview.role}
                         </p>
                       </div>

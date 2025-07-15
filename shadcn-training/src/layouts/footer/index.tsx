@@ -4,7 +4,7 @@ import { Logo } from '@/components/icons';
 import { MENU_ITEMS_FOOTER, ROUTES } from '@/constants';
 
 export const Footer = () => (
-  <footer className="px-4 text-center mb-[30px]">
+  <footer className="px-4 text-center mb-space-2xl">
     <div className="flex items-center justify-between">
       <Link to={ROUTES.HOME} aria-label="logo">
         <Logo width="100px" height="100px" />
