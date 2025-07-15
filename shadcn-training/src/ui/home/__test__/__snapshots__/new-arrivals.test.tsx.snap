@@ -116,7 +116,7 @@ exports[`New arrivals Component renders new arrivals component 1`] = `
         </div>
       </div>
       <div
-        class="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start"
+        class="w-full grid grid-cols-1 justify-items-center gap-4 @bp-890:grid-cols-2 @bp-1200:grid-cols-3 @bp-1280:justify-items-start"
       >
         <div
           aria-labelledby="radix-«r0»-trigger-lorem1"

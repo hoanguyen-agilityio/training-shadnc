@@ -3,13 +3,13 @@
 exports[`Home page Renders Home page 1`] = `
 <div>
   <div
-    class="max-w-container mx-auto px-10 bg-white dark:bg-black"
+    class="@container/structure max-w-container mx-auto px-10 bg-white dark:bg-black"
   >
     <header
       class="flex items-center justify-between mt-5 border-b-1 border-theme-gray-250 pb-5"
     >
       <div
-        class="flex items-center min-[680px]:gap-8 gap-0"
+        class="flex items-center @bp-680/structure:gap-8 gap-0"
       >
         <a
           aria-label="logo"
@@ -52,7 +52,7 @@ exports[`Home page Renders Home page 1`] = `
         </a>
         <nav
           aria-label="breadcrumb"
-          class="hidden min-[850px]:flex"
+          class="hidden @bp-850/structure:flex"
           data-slot="breadcrumb"
         >
           <ol
@@ -111,7 +111,7 @@ exports[`Home page Renders Home page 1`] = `
         <button
           aria-expanded="false"
           aria-haspopup="menu"
-          class="flex min-[850px]:hidden cursor-pointer"
+          class="flex @bp-850/structure:hidden cursor-pointer"
           data-state="closed"
           id="radix-«r0»"
           type="button"
@@ -243,7 +243,9 @@ exports[`Home page Renders Home page 1`] = `
       </div>
     </header>
   </div>
-  <main>
+  <main
+    class="@container/main"
+  >
     <div
       class="max-w-container mx-auto flex flex-col gap-[60px] px-10 bg-white dark:bg-black"
     >
@@ -340,10 +342,10 @@ exports[`Home page Renders Home page 1`] = `
       class="bg-theme-gray-200 mt-space-5xl dark:bg-zinc-800"
     >
       <div
-        class="flex flex-col max-w-container mx-auto justify-between min-[1140px]:flex-row py-space-4xl px-10"
+        class="flex flex-col max-w-container mx-auto justify-between @bp-1140/main:flex-row py-space-4xl px-10"
       >
         <div
-          class="flex flex-col justify-center w-full min-[1140px]:w-custom-6xl-plus items-center min-[1140px]:items-start text-center min-[1140px]:text-left"
+          class="flex flex-col justify-center w-full @bp-1140/main:w-custom-6xl-plus items-center @bp-1140/main:items-start text-center @bp-1140/main:text-left"
         >
           <h2
             class="text-fs-2xl dark:text-white"
@@ -376,7 +378,7 @@ exports[`Home page Renders Home page 1`] = `
           </button>
         </div>
         <div
-          class="flex flex-col items-center justify-center gap-[30px] min-[1140px]:justify-start mt-5 min-[1140px]:mt-0 min-[730px]:flex-row min-[730px]:items-start"
+          class="flex flex-col items-center justify-center gap-[30px] @bp-1140/main:justify-start mt-5 @bp-1140/main:mt-0 @bp-730/main:flex-row @bp-730/main:items-start"
         >
           <div
             class="text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 bg-white w-custom-2xl"
@@ -576,7 +578,7 @@ exports[`Home page Renders Home page 1`] = `
             </div>
           </div>
           <div
-            class="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start"
+            class="w-full grid grid-cols-1 justify-items-center gap-4 @bp-890:grid-cols-2 @bp-1200:grid-cols-3 @bp-1280:justify-items-start"
           >
             <div
               aria-labelledby="radix-«r2»-trigger-lorem1"
@@ -1774,7 +1776,7 @@ exports[`Home page Renders Home page 1`] = `
       </section>
       <section
         aria-label="feature bar"
-        class="grid grid-cols-1 min-[600px]:grid-cols-2 gap-5 min-[1090px]:grid-cols-4 my-space-6xl"
+        class="grid grid-cols-1 @bp-600/main:grid-cols-2 gap-5 @bp-1090/main:grid-cols-4 my-space-6xl"
       >
         <div
           class="flex gap-[13px]"
@@ -1960,7 +1962,7 @@ exports[`Home page Renders Home page 1`] = `
     </section>
     <section
       aria-label="subscribe"
-      class="max-h-custom-h-3xl w-full h-full relative"
+      class="max-h-custom-h-3xl w-full h-custom-h-3xl relative"
     >
       <img
         alt=""
@@ -2022,7 +2024,7 @@ exports[`Home page Renders Home page 1`] = `
     </section>
   </main>
   <div
-    class="max-w-container mx-auto px-10 mt-space-2xl"
+    class="@container/structure max-w-container mx-auto px-10 mt-space-2xl"
   >
     <footer
       class="px-4 text-center mb-space-2xl"
@@ -2071,7 +2073,7 @@ exports[`Home page Renders Home page 1`] = `
         </a>
         <nav
           aria-label="breadcrumb"
-          class="hidden min-[850px]:flex"
+          class="hidden @bp-850/structure:flex"
           data-slot="breadcrumb"
         >
           <ol
@@ -2129,7 +2131,7 @@ exports[`Home page Renders Home page 1`] = `
         <button
           aria-expanded="false"
           aria-haspopup="menu"
-          class="flex min-[850px]:hidden cursor-pointer"
+          class="flex @bp-850/structure:hidden cursor-pointer"
           data-state="closed"
           id="radix-«r8»"
           type="button"

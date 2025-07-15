@@ -38,20 +38,20 @@ export const ShopPage = () => {
   const totalPages = Math.ceil(PRODUCTS_SHOP_PAGE.length / productsPerPage);
   return (
     <>
-      <div className="max-w-container mx-auto px-10">
+      <div className="@container/structure max-w-container mx-auto px-10">
         <Header />
       </div>
-      <main>
+      <main className="@container/main">
         <div className="max-w-container mx-auto flex flex-col px-10">
           <NavigationTrail breadcrumbName="Shop" />
           <ShopBanner />
-          <section className="flex flex-col gap-2.5 justify-between mt-5 min-[1200px]:gap-0 min-[1200px]:flex-row">
-            <div className="flex flex-col gap-4 min-[600px]:flex-row">
+          <section className="flex flex-col gap-2.5 justify-between mt-5 @bp-1200/main:gap-0 @bp-1200/main:flex-row">
+            <div className="flex flex-col gap-4 @bp-600/main:flex-row">
               <Dropdown options={CATEGORY_OPTIONS} defaultValue="All Categories" />
               <Dropdown options={PRICE_OPTIONS} defaultValue="Any Price" />
               <Dropdown options={RATING_OPTIONS} defaultValue="Any Rating" />
             </div>
-            <div className="flex flex-col gap-4 min-[600px]:flex-row">
+            <div className="flex flex-col gap-4 @bp-600/main:flex-row">
               <Dropdown options={SORT_OPTIONS} label="Sort by" defaultValue="Latest" />
               <Dropdown options={SHOW_OPTIONS} label="Show" defaultValue="16" />
             </div>
@@ -59,7 +59,7 @@ export const ShopPage = () => {
         </div>
         <ActiveFilter />
         <section className="max-w-container mx-auto mt-20 px-10">
-          <div className="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start">
+          <div className="w-full grid grid-cols-1 justify-items-center gap-4 @bp-890/main:grid-cols-2 @bp-1280/main:grid-cols-3 @bp-1280/main:justify-items-start">
             {currentProducts.map(
               ({ img, imgAlt, variant, title, brand, rating, price, reviewLabel }, index) => (
                 <ProductCard
@@ -76,7 +76,7 @@ export const ShopPage = () => {
               ),
             )}
           </div>
-          <div className="flex flex-col gap-2.5 justify-between items-center mt-space-2xl min-[750px]:gap-0 min-[750px]:flex-row">
+          <div className="flex flex-col gap-2.5 justify-between items-center mt-space-2xl @bp-750/main:gap-0 @bp-750/main:flex-row">
             <span className="text-sm dark:text-white">
               Showing {indexOfFirstProduct + 1}–
               {Math.min(indexOfLastProduct, PRODUCTS_SHOP_PAGE.length)} of{' '}
@@ -95,7 +95,7 @@ export const ShopPage = () => {
         </div>
         <Subscribe />
       </main>
-      <div className="max-w-container mx-auto px-10 mt-space-2xl">
+      <div className="@container/structure max-w-container mx-auto px-10 mt-space-2xl">
         <Footer />
       </div>
     </>

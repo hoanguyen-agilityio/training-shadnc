@@ -24,7 +24,7 @@ export const Menu = ({ menuItems }: MenuProps) => {
 
   return (
     <>
-      <Breadcrumb className="hidden min-[850px]:flex">
+      <Breadcrumb className="hidden @bp-850/structure:flex">
         <BreadcrumbList className="flex sm:gap-8">
           {menuItems.map((item) => (
             <BreadcrumbItem key={item.label}>
@@ -43,7 +43,7 @@ export const Menu = ({ menuItems }: MenuProps) => {
       </Breadcrumb>
 
       <DropdownMenu>
-        <DropdownMenuTrigger className="flex min-[850px]:hidden cursor-pointer">
+        <DropdownMenuTrigger className="flex @bp-850/structure:hidden cursor-pointer">
           <HamburgerIcon width="24px" height="24px" className="text-black dark:text-white" />
         </DropdownMenuTrigger>
         <DropdownMenuContent

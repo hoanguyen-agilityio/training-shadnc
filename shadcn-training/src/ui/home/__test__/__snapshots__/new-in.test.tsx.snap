@@ -7,10 +7,10 @@ exports[`New in Component renders new in component 1`] = `
     class="bg-theme-gray-200 mt-space-5xl dark:bg-zinc-800"
   >
     <div
-      class="flex flex-col max-w-container mx-auto justify-between min-[1140px]:flex-row py-space-4xl px-10"
+      class="flex flex-col max-w-container mx-auto justify-between @bp-1140/main:flex-row py-space-4xl px-10"
     >
       <div
-        class="flex flex-col justify-center w-full min-[1140px]:w-custom-6xl-plus items-center min-[1140px]:items-start text-center min-[1140px]:text-left"
+        class="flex flex-col justify-center w-full @bp-1140/main:w-custom-6xl-plus items-center @bp-1140/main:items-start text-center @bp-1140/main:text-left"
       >
         <h2
           class="text-fs-2xl dark:text-white"
@@ -43,7 +43,7 @@ exports[`New in Component renders new in component 1`] = `
         </button>
       </div>
       <div
-        class="flex flex-col items-center justify-center gap-[30px] min-[1140px]:justify-start mt-5 min-[1140px]:mt-0 min-[730px]:flex-row min-[730px]:items-start"
+        class="flex flex-col items-center justify-center gap-[30px] @bp-1140/main:justify-start mt-5 @bp-1140/main:mt-0 @bp-730/main:flex-row @bp-730/main:items-start"
       >
         <div
           class="text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 bg-white w-custom-2xl"

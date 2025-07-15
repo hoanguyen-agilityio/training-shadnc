@@ -3,13 +3,13 @@
 exports[`About page Renders About page 1`] = `
 <div>
   <div
-    class="max-w-container mx-auto px-10"
+    class="@container/structure max-w-container mx-auto px-10"
   >
     <header
       class="flex items-center justify-between mt-5 border-b-1 border-theme-gray-250 pb-5"
     >
       <div
-        class="flex items-center min-[680px]:gap-8 gap-0"
+        class="flex items-center @bp-680/structure:gap-8 gap-0"
       >
         <a
           aria-label="logo"
@@ -52,7 +52,7 @@ exports[`About page Renders About page 1`] = `
         </a>
         <nav
           aria-label="breadcrumb"
-          class="hidden min-[850px]:flex"
+          class="hidden @bp-850/structure:flex"
           data-slot="breadcrumb"
         >
           <ol
@@ -111,7 +111,7 @@ exports[`About page Renders About page 1`] = `
         <button
           aria-expanded="false"
           aria-haspopup="menu"
-          class="flex min-[850px]:hidden cursor-pointer"
+          class="flex @bp-850/structure:hidden cursor-pointer"
           data-state="closed"
           id="radix-«r0»"
           type="button"
@@ -243,7 +243,9 @@ exports[`About page Renders About page 1`] = `
       </div>
     </header>
   </div>
-  <main>
+  <main
+    class="@container/main"
+  >
     <div
       class="max-w-container mx-auto flex flex-col px-10"
     >
@@ -311,23 +313,23 @@ exports[`About page Renders About page 1`] = `
           src="/assets/common-bg-banner.svg"
         />
         <h1
-          class="text-white text-4xl min-[500px]:text-fs-xl font-semibold absolute top-1/2 left-10 transform -translate-y-1/2"
+          class="text-white text-4xl @bp-500/main:text-fs-xl font-semibold absolute top-1/2 left-10 transform -translate-y-1/2"
         >
           About US
         </h1>
         <div
-          class="absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-1/5  min-[1000px]:-translate-x-1/2 overflow-visible"
+          class="absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-1/5 @bp-1000/main:-translate-x-1/2 overflow-visible"
         >
           <img
             alt="common banner"
-            class="w-custom-xs h-custom-h-xl min-[650px]:w-custom-lg min-[800px]:w-custom-4xl min-[800px]:h-[400px] min-[1150px]:w-full min-[1150px]:h-auto"
+            class="w-custom-xs h-custom-h-xl @bp-650/main:w-custom-lg @bp-800/main:w-custom-4xl @bp-800/main:h-[400px] @bp-1150/main:w-full @bp-1150/main:h-auto"
             src="/assets/common-banner.svg"
           />
         </div>
       </section>
     </div>
     <section
-      class="mt-40 border-b-1 border-gray-60 dark:text-white"
+      class="mt-40 @bp-1310/main:border-b-1 @bp-1310/main:border-gray-60 dark:text-white"
     >
       <div
         class="text-center max-w-container mx-auto px-10"
@@ -344,7 +346,7 @@ exports[`About page Renders About page 1`] = `
         </p>
       </div>
       <div
-        class="flex flex-col items-center mt-20 gap-[30px] min-[1310px]:flex-row"
+        class="flex flex-col items-center mt-20 gap-[30px] @bp-1310/main:flex-row"
       >
         <img
           alt="100% Trusted Organic Food Store"
@@ -352,7 +354,7 @@ exports[`About page Renders About page 1`] = `
           src="/assets/trusted-organic-food-store.svg"
         />
         <div
-          class="px-10 min-[1310px]:pl-0"
+          class="px-10 @bp-1310/main:pl-0"
         >
           <div>
             <h3
@@ -367,7 +369,7 @@ exports[`About page Renders About page 1`] = `
             </p>
           </div>
           <div
-            class="grid grid-cols-1 gap-6 mt-space-md min-[670px]:grid-cols-2"
+            class="grid grid-cols-1 gap-6 mt-space-md @bp-670/main:grid-cols-2"
           >
             <div
               class="flex items-center gap-4"
@@ -690,7 +692,7 @@ exports[`About page Renders About page 1`] = `
       class="max-w-container mx-auto flex flex-col px-10 my-20"
     >
       <section
-        class="flex flex-col items-center gap-[30px] min-[1300px]:flex-row"
+        class="flex flex-col items-center gap-[30px] @bp-1300/main:flex-row"
       >
         <div>
           <h3
@@ -2722,7 +2724,7 @@ exports[`About page Renders About page 1`] = `
     </section>
     <section
       aria-label="subscribe"
-      class="max-h-custom-h-3xl w-full h-full relative"
+      class="max-h-custom-h-3xl w-full h-custom-h-3xl relative"
     >
       <img
         alt=""
@@ -2784,7 +2786,7 @@ exports[`About page Renders About page 1`] = `
     </section>
   </main>
   <div
-    class="max-w-container mx-auto px-10 mt-space-2xl"
+    class="@container/structure max-w-container mx-auto px-10 mt-space-2xl"
   >
     <footer
       class="px-4 text-center mb-space-2xl"
@@ -2833,7 +2835,7 @@ exports[`About page Renders About page 1`] = `
         </a>
         <nav
           aria-label="breadcrumb"
-          class="hidden min-[850px]:flex"
+          class="hidden @bp-850/structure:flex"
           data-slot="breadcrumb"
         >
           <ol
@@ -2891,7 +2893,7 @@ exports[`About page Renders About page 1`] = `
         <button
           aria-expanded="false"
           aria-haspopup="menu"
-          class="flex min-[850px]:hidden cursor-pointer"
+          class="flex @bp-850/structure:hidden cursor-pointer"
           data-state="closed"
           id="radix-«r2»"
           type="button"

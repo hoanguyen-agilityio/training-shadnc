@@ -6,10 +6,10 @@ import { Subscribe } from '@/components/subscribe';
 export const HomePage = () => {
   return (
     <>
-      <div className="max-w-container mx-auto px-10 bg-white dark:bg-black">
+      <div className="@container/structure max-w-container mx-auto px-10 bg-white dark:bg-black">
         <Header />
       </div>
-      <main>
+      <main className="@container/main">
         <div className="max-w-container mx-auto flex flex-col gap-[60px] px-10 bg-white dark:bg-black">
           <HomeBanner />
           <CollectionHero />
@@ -22,7 +22,7 @@ export const HomePage = () => {
         <SocialGallery />
         <Subscribe />
       </main>
-      <div className="max-w-container mx-auto px-10 mt-space-2xl">
+      <div className="@container/structure max-w-container mx-auto px-10 mt-space-2xl">
         <Footer />
       </div>
     </>

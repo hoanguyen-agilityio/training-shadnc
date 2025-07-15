@@ -6,7 +6,7 @@ exports[`Header component Renders header component 1`] = `
     class="flex items-center justify-between mt-5 border-b-1 border-theme-gray-250 pb-5"
   >
     <div
-      class="flex items-center min-[680px]:gap-8 gap-0"
+      class="flex items-center @bp-680/structure:gap-8 gap-0"
     >
       <a
         aria-label="logo"
@@ -49,7 +49,7 @@ exports[`Header component Renders header component 1`] = `
       </a>
       <nav
         aria-label="breadcrumb"
-        class="hidden min-[850px]:flex"
+        class="hidden @bp-850/structure:flex"
         data-slot="breadcrumb"
       >
         <ol
@@ -97,7 +97,7 @@ exports[`Header component Renders header component 1`] = `
       <button
         aria-expanded="false"
         aria-haspopup="menu"
-        class="flex min-[850px]:hidden cursor-pointer"
+        class="flex @bp-850/structure:hidden cursor-pointer"
         data-state="closed"
         id="radix-«r0»"
         type="button"

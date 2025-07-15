@@ -41,7 +41,7 @@ export const OrganicFoodStore = () => {
     },
   ];
   return (
-    <section className="mt-40 border-b-1 border-gray-60 dark:text-white">
+    <section className="mt-40 @bp-1310/main:border-b-1 @bp-1310/main:border-gray-60 dark:text-white">
       <div className="text-center max-w-container mx-auto px-10">
         <h2 className="text-fs-2xl">100% Trusted Organic Food Store</h2>
         <p className="text-lg text-charcoalGray-60 dark:text-gray-60 mt-space-2xl">
@@ -51,13 +51,13 @@ export const OrganicFoodStore = () => {
           at commodo felis congue vitae.
         </p>
       </div>
-      <div className="flex flex-col items-center mt-20 gap-[30px] min-[1310px]:flex-row">
+      <div className="flex flex-col items-center mt-20 gap-[30px] @bp-1310/main:flex-row">
         <img
           src="/assets/trusted-organic-food-store.svg"
           alt="100% Trusted Organic Food Store"
           className="w-full"
         />
-        <div className="px-10 min-[1310px]:pl-0">
+        <div className="px-10 @bp-1310/main:pl-0">
           <div>
             <h3 className="text-fs-2xl">100% Trusted Organic Food Store</h3>
             <p className="text-lg text-charcoalGray-60 dark:text-gray-60 mt-5">
@@ -66,7 +66,7 @@ export const OrganicFoodStore = () => {
               tincidunt feugiat.
             </p>
           </div>
-          <div className="grid grid-cols-1 gap-6 mt-space-md min-[670px]:grid-cols-2">
+          <div className="grid grid-cols-1 gap-6 mt-space-md @bp-670/main:grid-cols-2">
             {featureHighlightsGrid.map((feature, index) => (
               <div key={index} className="flex items-center gap-4">
                 {feature.icon}

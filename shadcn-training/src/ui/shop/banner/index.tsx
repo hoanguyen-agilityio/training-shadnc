@@ -10,11 +10,11 @@ export const ShopBanner = () => {
       <img
         src="/assets/shop-banner.svg"
         alt="shop banner"
-        className="w-auto h-custom-h-lg min-[950px]:w-full min-[950px]:h-auto object-cover"
+        className="w-auto h-custom-h-lg @bp-950/main:w-full @bp-950/main:h-auto object-cover"
       />
       <div className="text-center absolute inset-0 flex flex-col justify-center items-center w-full">
         <span className="text-sm uppercase text-white">Best Deals</span>
-        <h1 className="text-4xl min-[720px]:text-fs-xl font-semibold mt-3 text-white">
+        <h1 className="text-4xl @bp-720/main:text-fs-xl font-semibold mt-3 text-white">
           Sale of the Month
         </h1>
         <div className="flex items-center gap-2 justify-center mt-5">
@@ -32,8 +32,8 @@ export const ShopBanner = () => {
         </div>
         <Button label="Shop Now" size="default" disabled className="mt-8 cursor-not-allowed" />
       </div>
-      <div className="bg-theme-brand rounded-full flex flex-col p-3 text-center absolute right-2 top-2 min-[400px]:right-1/12 min-[400px]:top-1/12 min-[720px]:p-6 min-[1180px]:right-3/12">
-        <span className="text-xl min-[720px]:text-2xl font-semibold text-white">56%</span>
+      <div className="bg-theme-brand rounded-full flex flex-col p-3 text-center absolute right-2 top-2 @bp-400/main:right-1/12 @bp-400/main:top-1/12 @bp-720/main:p-6 @bp-1180/main:right-3/12">
+        <span className="text-xl @bp-720/main:text-2xl font-semibold text-white">56%</span>
         <span className="text-xs text-white opacity-80">OFF</span>
       </div>
     </section>

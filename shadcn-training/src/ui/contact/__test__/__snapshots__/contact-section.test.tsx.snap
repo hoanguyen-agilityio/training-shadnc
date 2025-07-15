@@ -3,10 +3,10 @@
 exports[`Contact section Component renders contact section component 1`] = `
 <div>
   <section
-    class="flex flex-col gap-5 min-[1000px]:gap-[74px] mt-20 mb-space-2xl min-[800px]:flex-row"
+    class="flex flex-col gap-5 @bp-1000/main:gap-[74px] mt-20 mb-space-2xl @bp-800/main:flex-row"
   >
     <div
-      class="bg-card text-card-foreground flex flex-col gap-6 p-5 dark:bg-zinc-800 w-full max-w-custom-5xl-plus py-4 shadow-xl rounded-radius-md mx-auto min-[800px]:mx-0"
+      class="bg-card text-card-foreground flex flex-col gap-6 p-5 dark:bg-zinc-800 w-full max-w-custom-5xl-plus py-4 shadow-xl rounded-radius-md mx-auto @bp-800/main:mx-0"
       data-slot="card"
     >
       <div
@@ -315,7 +315,7 @@ exports[`Contact section Component renders contact section component 1`] = `
                   placeholder=""
                   step="60"
                   type="time"
-                  value="17:04"
+                  value="09:34"
                 />
               </div>
             </div>

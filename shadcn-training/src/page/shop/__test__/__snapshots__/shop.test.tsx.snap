@@ -3,13 +3,13 @@
 exports[`Shop page Renders Shop page 1`] = `
 <div>
   <div
-    class="max-w-container mx-auto px-10"
+    class="@container/structure max-w-container mx-auto px-10"
   >
     <header
       class="flex items-center justify-between mt-5 border-b-1 border-theme-gray-250 pb-5"
     >
       <div
-        class="flex items-center min-[680px]:gap-8 gap-0"
+        class="flex items-center @bp-680/structure:gap-8 gap-0"
       >
         <a
           aria-label="logo"
@@ -52,7 +52,7 @@ exports[`Shop page Renders Shop page 1`] = `
         </a>
         <nav
           aria-label="breadcrumb"
-          class="hidden min-[850px]:flex"
+          class="hidden @bp-850/structure:flex"
           data-slot="breadcrumb"
         >
           <ol
@@ -111,7 +111,7 @@ exports[`Shop page Renders Shop page 1`] = `
         <button
           aria-expanded="false"
           aria-haspopup="menu"
-          class="flex min-[850px]:hidden cursor-pointer"
+          class="flex @bp-850/structure:hidden cursor-pointer"
           data-state="closed"
           id="radix-«r0»"
           type="button"
@@ -243,7 +243,9 @@ exports[`Shop page Renders Shop page 1`] = `
       </div>
     </header>
   </div>
-  <main>
+  <main
+    class="@container/main"
+  >
     <div
       class="max-w-container mx-auto flex flex-col px-10"
     >
@@ -307,7 +309,7 @@ exports[`Shop page Renders Shop page 1`] = `
       >
         <img
           alt="shop banner"
-          class="w-auto h-custom-h-lg min-[950px]:w-full min-[950px]:h-auto object-cover"
+          class="w-auto h-custom-h-lg @bp-950/main:w-full @bp-950/main:h-auto object-cover"
           src="/assets/shop-banner.svg"
         />
         <div
@@ -319,7 +321,7 @@ exports[`Shop page Renders Shop page 1`] = `
             Best Deals
           </span>
           <h1
-            class="text-4xl min-[720px]:text-fs-xl font-semibold mt-3 text-white"
+            class="text-4xl @bp-720/main:text-fs-xl font-semibold mt-3 text-white"
           >
             Sale of the Month
           </h1>
@@ -423,10 +425,10 @@ exports[`Shop page Renders Shop page 1`] = `
           </button>
         </div>
         <div
-          class="bg-theme-brand rounded-full flex flex-col p-3 text-center absolute right-2 top-2 min-[400px]:right-1/12 min-[400px]:top-1/12 min-[720px]:p-6 min-[1180px]:right-3/12"
+          class="bg-theme-brand rounded-full flex flex-col p-3 text-center absolute right-2 top-2 @bp-400/main:right-1/12 @bp-400/main:top-1/12 @bp-720/main:p-6 @bp-1180/main:right-3/12"
         >
           <span
-            class="text-xl min-[720px]:text-2xl font-semibold text-white"
+            class="text-xl @bp-720/main:text-2xl font-semibold text-white"
           >
             56%
           </span>
@@ -438,10 +440,10 @@ exports[`Shop page Renders Shop page 1`] = `
         </div>
       </section>
       <section
-        class="flex flex-col gap-2.5 justify-between mt-5 min-[1200px]:gap-0 min-[1200px]:flex-row"
+        class="flex flex-col gap-2.5 justify-between mt-5 @bp-1200/main:gap-0 @bp-1200/main:flex-row"
       >
         <div
-          class="flex flex-col gap-4 min-[600px]:flex-row"
+          class="flex flex-col gap-4 @bp-600/main:flex-row"
         >
           <button
             aria-expanded="false"
@@ -556,7 +558,7 @@ exports[`Shop page Renders Shop page 1`] = `
           </button>
         </div>
         <div
-          class="flex flex-col gap-4 min-[600px]:flex-row"
+          class="flex flex-col gap-4 @bp-600/main:flex-row"
         >
           <button
             aria-expanded="false"
@@ -639,10 +641,10 @@ exports[`Shop page Renders Shop page 1`] = `
       class="border-b-1 border-t-1 border-theme-gray-250 p-5 mt-5"
     >
       <div
-        class="max-w-container mx-auto px-10 flex flex-col gap-2.5 justify-between min-[700px]:gap-0 min-[700px]:flex-row"
+        class="max-w-container mx-auto px-10 flex flex-col gap-2.5 justify-between @bp-700/main:gap-0 @bp-700/main:flex-row"
       >
         <div
-          class="flex flex-col gap-2.5 min-[520px]:flex-row min-[520px]:gap-6"
+          class="flex flex-col gap-2.5 @bp-520/main:flex-row @bp-520/main:gap-6"
         >
           <span
             class="text-charcoalGray-60 dark:text-gray-60 text-sm"
@@ -728,7 +730,7 @@ exports[`Shop page Renders Shop page 1`] = `
       class="max-w-container mx-auto mt-20 px-10"
     >
       <div
-        class="w-full grid grid-cols-1 justify-items-center gap-4 min-[890px]:grid-cols-2 min-[1280px]:grid-cols-3 min-[1280px]:justify-items-start"
+        class="w-full grid grid-cols-1 justify-items-center gap-4 @bp-890/main:grid-cols-2 @bp-1280/main:grid-cols-3 @bp-1280/main:justify-items-start"
       >
         <div
           class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
@@ -3314,7 +3316,7 @@ exports[`Shop page Renders Shop page 1`] = `
         </div>
       </div>
       <div
-        class="flex flex-col gap-2.5 justify-between items-center mt-space-2xl min-[750px]:gap-0 min-[750px]:flex-row"
+        class="flex flex-col gap-2.5 justify-between items-center mt-space-2xl @bp-750/main:gap-0 @bp-750/main:flex-row"
       >
         <span
           class="text-sm dark:text-white"
@@ -3413,17 +3415,17 @@ exports[`Shop page Renders Shop page 1`] = `
     >
       <img
         alt="shop hero image"
-        class="w-auto h-custom-h-2xl min-[750px]:w-full min-[750px]:h-full object-cover"
+        class="w-auto h-custom-h-2xl @bp-750/main:w-full @bp-750/main:h-full object-cover"
         src="/assets/shop-hero-img.svg"
       />
       <div
         class="absolute inset-0 flex justify-center items-center px-10"
       >
         <div
-          class="border-4 border-white p-10 text-center min-[1080px]:p-20"
+          class="border-4 border-white p-10 text-center @bp-1080/main:p-20"
         >
           <h2
-            class="block text-white text-4xl min-[850px]:text-fs-2xl"
+            class="block text-white text-4xl @bp-850/main:text-fs-2xl"
           >
             -50 PROMOTION HOT SUMMER
           </h2>
@@ -3447,7 +3449,7 @@ exports[`Shop page Renders Shop page 1`] = `
     >
       <section
         aria-label="feature bar"
-        class="grid grid-cols-1 min-[600px]:grid-cols-2 gap-5 min-[1090px]:grid-cols-4 my-space-6xl"
+        class="grid grid-cols-1 @bp-600/main:grid-cols-2 gap-5 @bp-1090/main:grid-cols-4 my-space-6xl"
       >
         <div
           class="flex gap-[13px]"
@@ -3609,7 +3611,7 @@ exports[`Shop page Renders Shop page 1`] = `
     </div>
     <section
       aria-label="subscribe"
-      class="max-h-custom-h-3xl w-full h-full relative"
+      class="max-h-custom-h-3xl w-full h-custom-h-3xl relative"
     >
       <img
         alt=""
@@ -3671,7 +3673,7 @@ exports[`Shop page Renders Shop page 1`] = `
     </section>
   </main>
   <div
-    class="max-w-container mx-auto px-10 mt-space-2xl"
+    class="@container/structure max-w-container mx-auto px-10 mt-space-2xl"
   >
     <footer
       class="px-4 text-center mb-space-2xl"
@@ -3720,7 +3722,7 @@ exports[`Shop page Renders Shop page 1`] = `
         </a>
         <nav
           aria-label="breadcrumb"
-          class="hidden min-[850px]:flex"
+          class="hidden @bp-850/structure:flex"
           data-slot="breadcrumb"
         >
           <ol
@@ -3778,7 +3780,7 @@ exports[`Shop page Renders Shop page 1`] = `
         <button
           aria-expanded="false"
           aria-haspopup="menu"
-          class="flex min-[850px]:hidden cursor-pointer"
+          class="flex @bp-850/structure:hidden cursor-pointer"
           data-state="closed"
           id="radix-«rc»"
           type="button"

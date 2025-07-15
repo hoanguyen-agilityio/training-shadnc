@@ -17,7 +17,7 @@ export const DeliveryPromise = () => {
   ];
 
   return (
-    <section className="flex flex-col items-center gap-[30px] min-[1300px]:flex-row">
+    <section className="flex flex-col items-center gap-[30px] @bp-1300/main:flex-row">
       <div>
         <h3 className="text-fs-2xl dark:text-white">We Delivered, You Enjoy Your Order.</h3>
         <p className="text-lg text-charcoalGray-60 dark:text-gray-60 mt-3">

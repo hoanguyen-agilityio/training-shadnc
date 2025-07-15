@@ -49,7 +49,7 @@ exports[`Footer component Renders footer component 1`] = `
       </a>
       <nav
         aria-label="breadcrumb"
-        class="hidden min-[850px]:flex"
+        class="hidden @bp-850/structure:flex"
         data-slot="breadcrumb"
       >
         <ol
@@ -107,7 +107,7 @@ exports[`Footer component Renders footer component 1`] = `
       <button
         aria-expanded="false"
         aria-haspopup="menu"
-        class="flex min-[850px]:hidden cursor-pointer"
+        class="flex @bp-850/structure:hidden cursor-pointer"
         data-state="closed"
         id="radix-«r0»"
         type="button"

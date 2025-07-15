@@ -82,6 +82,34 @@
   /* Border Radius */
   --radius-radius-md: 10px;
   --radius-radius-3xl: 43px;
+
+  /* Responsive */
+  --container-bp-400: 400px;
+  --container-bp-500: 500px;
+  --container-bp-520: 520px;
+  --container-bp-600: 600px;
+  --container-bp-650: 650px;
+  --container-bp-670: 670px;
+  --container-bp-680: 680px;
+  --container-bp-700: 700px;
+  --container-bp-720: 720px;
+  --container-bp-730: 730px;
+  --container-bp-750: 750px;
+  --container-bp-800: 800px;
+  --container-bp-850: 850px;
+  --container-bp-890: 890px;
+  --container-bp-950: 950px;
+  --container-bp-1000: 1000px;
+  --container-bp-1080: 1080px;
+  --container-bp-1090: 1090px;
+  --container-bp-1140: 1140px;
+  --container-bp-1150: 1150px;
+  --container-bp-1180: 1180px;
+  --container-bp-1200: 1200px;
+  --container-bp-1280: 1280px;
+  --container-bp-1300: 1300px;
+  --container-bp-1310: 1310px;
+  --container-8xl: 96rem;
 }
 
 /* [data-radix-popper-content-wrapper] {

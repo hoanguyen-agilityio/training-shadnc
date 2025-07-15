@@ -3,7 +3,7 @@
 exports[`Delivery promise Component renders delivery promise component 1`] = `
 <div>
   <section
-    class="flex flex-col items-center gap-[30px] min-[1300px]:flex-row"
+    class="flex flex-col items-center gap-[30px] @bp-1300/main:flex-row"
   >
     <div>
       <h3

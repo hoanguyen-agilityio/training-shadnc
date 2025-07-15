@@ -6,10 +6,10 @@ exports[`Active filter Component renders active filter component 1`] = `
     class="border-b-1 border-t-1 border-theme-gray-250 p-5 mt-5"
   >
     <div
-      class="max-w-container mx-auto px-10 flex flex-col gap-2.5 justify-between min-[700px]:gap-0 min-[700px]:flex-row"
+      class="max-w-container mx-auto px-10 flex flex-col gap-2.5 justify-between @bp-700/main:gap-0 @bp-700/main:flex-row"
     >
       <div
-        class="flex flex-col gap-2.5 min-[520px]:flex-row min-[520px]:gap-6"
+        class="flex flex-col gap-2.5 @bp-520/main:flex-row @bp-520/main:gap-6"
       >
         <span
           class="text-charcoalGray-60 dark:text-gray-60 text-sm"

@@ -4,7 +4,7 @@ exports[`Subscribe component Renders subscribe component 1`] = `
 <div>
   <section
     aria-label="subscribe"
-    class="max-h-custom-h-3xl w-full h-full relative"
+    class="max-h-custom-h-3xl w-full h-custom-h-3xl relative"
   >
     <img
       alt=""

@@ -7,15 +7,15 @@ export const Banner = ({ title }: IBanner) => {
     <section className="relative w-full overflow-visible mt-space-3xl">
       <img src="/assets/common-bg-banner.svg" alt="background banner" className="w-full" />
 
-      <h1 className="text-white text-4xl min-[500px]:text-fs-xl font-semibold absolute top-1/2 left-10 transform -translate-y-1/2">
+      <h1 className="text-white text-4xl @bp-500/main:text-fs-xl font-semibold absolute top-1/2 left-10 transform -translate-y-1/2">
         {title}
       </h1>
 
-      <div className="absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-1/5  min-[1000px]:-translate-x-1/2 overflow-visible">
+      <div className="absolute top-1/2 right-0 transform -translate-y-1/2 -translate-x-1/5 @bp-1000/main:-translate-x-1/2 overflow-visible">
         <img
           src="/assets/common-banner.svg"
           alt="common banner"
-          className="w-custom-xs h-custom-h-xl min-[650px]:w-custom-lg min-[800px]:w-custom-4xl min-[800px]:h-[400px] min-[1150px]:w-full min-[1150px]:h-auto"
+          className="w-custom-xs h-custom-h-xl @bp-650/main:w-custom-lg @bp-800/main:w-custom-4xl @bp-800/main:h-[400px] @bp-1150/main:w-full @bp-1150/main:h-auto"
         />
       </div>
     </section>

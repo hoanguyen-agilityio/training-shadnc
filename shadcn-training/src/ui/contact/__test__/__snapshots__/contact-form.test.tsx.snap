@@ -152,7 +152,7 @@ exports[`Contact form Component renders contact form component 1`] = `
                 placeholder=""
                 step="60"
                 type="time"
-                value="17:04"
+                value="09:34"
               />
             </div>
           </div>

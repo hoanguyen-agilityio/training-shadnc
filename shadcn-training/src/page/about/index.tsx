@@ -12,10 +12,10 @@ import { DeliveryPromise, OrganicFoodStore } from '@/ui';
 export const AboutPage = () => {
   return (
     <>
-      <div className="max-w-container mx-auto px-10">
+      <div className="@container/structure max-w-container mx-auto px-10">
         <Header />
       </div>
-      <main>
+      <main className="@container/main">
         <div className="max-w-container mx-auto flex flex-col px-10">
           <NavigationTrail breadcrumbName="FAQ’s" />
           <Banner title="About US" />
@@ -39,7 +39,7 @@ export const AboutPage = () => {
         </section>
         <Subscribe />
       </main>
-      <div className="max-w-container mx-auto px-10 mt-space-2xl">
+      <div className="@container/structure max-w-container mx-auto px-10 mt-space-2xl">
         <Footer />
       </div>
     </>
