@@ -1,4 +1,3 @@
-// src/api/userController.ts
 import { Webhook } from 'svix';
 import { Request, Response } from 'express';
 
@@ -72,7 +71,7 @@ export const handleWebhook = async (
         break;
       }
 
-      case 'session.created':
+      case 'session.created': {
         if (evt.timestamp && user) {
           await fetch(`${mockApiUrl}/${user.id}`, {
             method: 'PATCH',
@@ -81,6 +80,29 @@ export const handleWebhook = async (
           });
         }
         break;
+      }
+
+      case 'user.deleted': {
+        if (!evt.data.id) {
+          throw new Error('User ID is missing in event data');
+        }
+
+        const existingUser = await getUserById(evt.data.id);
+        if (existingUser) {
+          const deleteRes = await fetch(`${mockApiUrl}/${existingUser.id}`, {
+            method: 'DELETE',
+          });
+
+          if (!deleteRes.ok) {
+            const errText = await deleteRes.text();
+            console.error(`Failed to delete user in mock API:`, errText);
+            throw new Error('Failed to delete user in mock API');
+          }
+
+          console.log(`Deleted user ${evt.data.id} from mock API.`);
+        }
+        break;
+      }
 
       default:
         console.log(`Unhandled event type: ${eventType}`);
@@ -90,5 +112,29 @@ export const handleWebhook = async (
   } catch (err) {
     console.error(`Error handling ${eventType}:`, err);
     res.status(500).json({ success: false, message: `Error handling ${eventType}` });
+  }
+};
+
+export const deleteUserHandler = async (req: Request, res: Response, mockApiUrl: string) => {
+  const userId = req.params.id;
+
+  if (!userId) {
+    return res.status(400).json({ success: false, message: 'User ID is required' });
+  }
+
+  try {
+    const response = await fetch(`${mockApiUrl}/${userId}`, {
+      method: 'DELETE',
+    });
+
+    if (!response.ok) {
+      const text = await response.text();
+      return res.status(500).json({ success: false, message: text });
+    }
+
+    res.status(200).json({ success: true, message: 'User deleted successfully' });
+  } catch (err) {
+    console.error('Error deleting user:', err);
+    res.status(500).json({ success: false, message: 'Internal server error' });
   }
 };
