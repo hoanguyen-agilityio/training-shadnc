@@ -8,6 +8,10 @@ interface SpinnerProps {
 
 export const Spinner = ({ size = 24, className }: SpinnerProps) => {
   return (
-    <Loader2 className={cn('animate-spin text-primary', className)} size={size} strokeWidth={2} />
+    <Loader2
+      className={cn('animate-spin text-primary dark:text-white', className)}
+      size={size}
+      strokeWidth={2}
+    />
   );
 };

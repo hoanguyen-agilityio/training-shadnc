@@ -14,7 +14,7 @@ export const HomePage = () => {
       <div className="@container/structure max-w-container mx-auto px-10 bg-white dark:bg-black">
         <Header />
       </div>
-      <main className="@container/main">
+      <main className="@container/main mt-space-6xl">
         <div className="max-w-container mx-auto flex flex-col gap-[60px] px-10 bg-white dark:bg-black">
           <HomeBanner />
           <CollectionHero />

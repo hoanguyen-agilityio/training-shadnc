@@ -15,6 +15,7 @@
     "test": "jest --config jest.config.json --coverage --updateSnapshot"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.34.0",
     "@hookform/resolvers": "^5.1.1",
     "@radix-ui/react-aspect-ratio": "^1.1.7",
     "@radix-ui/react-avatar": "^1.1.10",

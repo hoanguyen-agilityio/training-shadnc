@@ -3,17 +3,16 @@ import { Link } from 'react-router-dom';
 import { ReactNode } from 'react';
 
 // Components
-import { Logo, WavingHandIcon } from '@/components/icons';
+import { Logo } from '@/components/icons';
 import { ROUTES } from '@/constants';
+import { ClerkLoading } from '@clerk/clerk-react';
+import { LoadingPage } from '@/page';
 
 interface IAuthLayout {
-  title: string;
-  icon?: boolean;
-  description: string;
   children: ReactNode;
 }
 
-export const AuthLayout = ({ title, description, icon, children }: IAuthLayout) => (
+export const AuthLayout = ({ children }: IAuthLayout) => (
   <main className="@container/main relative w-full h-screen overflow-hidden">
     <img
       src="/assets/side-img.svg"
@@ -29,13 +28,9 @@ export const AuthLayout = ({ title, description, icon, children }: IAuthLayout) 
     </Link>
     <div className="absolute top-0 right-0 h-full w-full @bp-1200/main:w-[40%] flex justify-center items-center px-6 bg-white z-10 dark:bg-black">
       <div className="flex flex-col gap-[30px] max-w-custom-7xl-plus w-full">
-        <div className="flex flex-col gap-[5px]">
-          <div className="flex gap-2.5">
-            <span className="text-fs-2xl dark:text-white">{title}</span>
-            {icon && <WavingHandIcon width="64px" height="64px" />}
-          </div>
-          <span className="text-lg text-charcoalGray-60 dark:text-gray-60">{description}</span>
-        </div>
+        <ClerkLoading>
+          <LoadingPage />
+        </ClerkLoading>
         {children}
       </div>
     </div>

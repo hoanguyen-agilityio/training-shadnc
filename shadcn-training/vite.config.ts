@@ -49,7 +49,11 @@ export default defineConfig({
   define: {
     'process.env': {
       VITE_ACCOUNT_URL: JSON.stringify(process.env.VITE_ACCOUNT_URL),
+      VITE_CLERK_PUBLISHABLE_KEY: JSON.stringify(process.env.VITE_CLERK_PUBLISHABLE_KEY),
     },
     'process.env.VITE_ACCOUNT_URL': JSON.stringify(process.env.VITE_ACCOUNT_URL),
+    'process.env.VITE_CLERK_PUBLISHABLE_KEY': JSON.stringify(
+      process.env.VITE_CLERK_PUBLISHABLE_KEY,
+    ),
   },
 });
