@@ -3,11 +3,23 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import express from 'express';
 import { createServer as createViteServer } from 'vite';
+import { handleWebhook } from './api/userController';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+const SIGNING_SECRET = process.env.VITE_SIGNING_SECRET!;
+const port = process.env.PORT || 5173;
+const mockApiUrl = process.env.VITE_ACCOUNT_URL!;
+
 async function createServer() {
   const app = express();
+
+  app.post('/api/webhooks', express.raw({ type: 'application/json' }), async (req, res) => {
+    await handleWebhook(req, res, mockApiUrl, SIGNING_SECRET);
+  });
 
   // Create Vite server in middleware mode and configure the app type as
   // 'custom', disabling Vite's own HTML serving logic so parent server
@@ -60,8 +72,8 @@ async function createServer() {
     }
   });
 
-  app.listen(5173, () => {
-    console.log('🟢 SSR server running at: http://localhost:5173');
+  app.listen(port, () => {
+    console.log(`Server started at http://localhost:${port}`);
   });
 }
 
