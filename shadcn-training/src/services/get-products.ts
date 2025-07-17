@@ -8,10 +8,7 @@ export const getProductsTab = async () => {
   }
 
   try {
-    console.log({ VITE_PRODUCTS_TAB });
-
     const data: IProductCard[] = await apiRequest(VITE_PRODUCTS_TAB, 'GET');
-    console.log('====data=====', data.reverse());
 
     return data.reverse();
   } catch (error) {

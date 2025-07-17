@@ -1,6 +1,4 @@
-import { Button } from '@/components';
 import { Tabs } from '@/components/common/tabs';
-import { ChevronIcon } from '@/components/icons';
 import { TABS_LABEL } from '@/mocks';
 import { useHomePageProductsByTab } from '@/utils';
 
@@ -17,15 +15,6 @@ export const NewArrivals = () => {
         </p>
       </div>
       <Tabs tabs={TABS_LABEL} cards={homePageProductsByTab} />
-      <div className="flex justify-center mt-space-4xl">
-        <Button
-          label="View More"
-          icon={<ChevronIcon fill="white" />}
-          disabled
-          size="sm"
-          className="flex flex-row-reverse !leading-7"
-        />
-      </div>
     </section>
   );
 };
