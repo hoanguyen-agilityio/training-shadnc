@@ -16,3 +16,20 @@ export const getProductsTab = async () => {
     return [];
   }
 };
+
+export const getProducts = async () => {
+  const VITE_PRODUCTS = process.env.VITE_PRODUCTS;
+
+  if (!VITE_PRODUCTS) {
+    throw new Error('Missing VITE_PRODUCTS in environment variables');
+  }
+
+  try {
+    const data: IProductCard[] = await apiRequest(VITE_PRODUCTS, 'GET');
+
+    return data.reverse();
+  } catch (error) {
+    console.error(`An error occurred while getting users: ${error}`);
+    return [];
+  }
+};

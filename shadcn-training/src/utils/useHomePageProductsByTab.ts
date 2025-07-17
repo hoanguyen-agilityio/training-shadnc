@@ -5,7 +5,7 @@ import { use } from 'react';
 import { IProductCard } from '@/types';
 
 // Apis
-import { getProductsTab } from '@/services';
+import { getProducts, getProductsTab } from '@/services';
 
 let cachedProductsPromise: Promise<IProductCard[]> | null = null;
 
@@ -15,4 +15,14 @@ export const useHomePageProductsByTab = (): IProductCard[] => {
   }
 
   return use(cachedProductsPromise) as IProductCard[];
+};
+
+let cachedProductsCardPromise: Promise<IProductCard[]> | null = null;
+
+export const useProducts = (): IProductCard[] => {
+  if (!cachedProductsCardPromise) {
+    cachedProductsCardPromise = getProducts() as Promise<IProductCard[]>;
+  }
+
+  return use(cachedProductsCardPromise) as IProductCard[];
 };
