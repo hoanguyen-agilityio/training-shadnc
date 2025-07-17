@@ -1,6 +1,6 @@
 import { IProductCard } from '@/types/product-card';
 
-const PRODUCTS_HOME_PAGE: (IProductCard & { value: string })[] = [
+const PRODUCTS_HOME_PAGE: IProductCard[] = [
   // lorem1
   {
     img: 'https://picsum.photos/seed/1/354/244',

@@ -51,6 +51,7 @@ export default defineConfig({
       VITE_CLERK_PUBLISHABLE_KEY: JSON.stringify(process.env.VITE_CLERK_PUBLISHABLE_KEY),
       VITE_CLERK_SECRET_KEY: JSON.stringify(process.env.VITE_CLERK_SECRET_KEY),
       VITE_SIGNING_SECRET: JSON.stringify(process.env.VITE_SIGNING_SECRET),
+      VITE_PRODUCTS_TAB: JSON.stringify(process.env.VITE_PRODUCTS_TAB),
     },
     'process.env.VITE_ACCOUNT_URL': JSON.stringify(process.env.VITE_ACCOUNT_URL),
     'process.env.VITE_CLERK_PUBLISHABLE_KEY': JSON.stringify(
@@ -58,5 +59,6 @@ export default defineConfig({
     ),
     'process.env.VITE_CLERK_SECRET_KEY': JSON.stringify(process.env.VITE_CLERK_SECRET_KEY),
     'process.env.VITE_SIGNING_SECRET': JSON.stringify(process.env.VITE_SIGNING_SECRET),
+    'process.env.VITE_PRODUCTS_TAB': JSON.stringify(process.env.VITE_PRODUCTS_TAB),
   },
 });

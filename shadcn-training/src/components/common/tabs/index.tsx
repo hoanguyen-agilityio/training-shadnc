@@ -10,7 +10,7 @@ interface ICard {
     label: string;
     value: string;
   }[];
-  cards: (IProductCard & { value: string })[];
+  cards: IProductCard[];
 }
 
 export const Tabs = ({ tabs, cards }: ICard) => {
@@ -28,24 +28,26 @@ export const Tabs = ({ tabs, cards }: ICard) => {
         </TabsList>
       </div>
       <div className="w-full grid grid-cols-1 justify-items-center gap-4 @bp-890:grid-cols-2 @bp-1200:grid-cols-3 @bp-1280:justify-items-start">
-        {cards.map(
-          ({ img, imgAlt, variant, title, brand, rating, price, reviewLabel, value }, index) => {
-            return (
-              <TabsContent value={value} key={index}>
-                <ProductCard
-                  img={img}
-                  imgAlt={imgAlt}
-                  variant={variant}
-                  title={title}
-                  brand={brand}
-                  rating={rating}
-                  price={price}
-                  reviewLabel={reviewLabel}
-                />
-              </TabsContent>
-            );
-          },
-        )}
+        {cards
+          .filter((card) => typeof card.value === 'string')
+          .map(
+            ({ img, imgAlt, variant, title, brand, rating, price, reviewLabel, value }, index) => {
+              return (
+                <TabsContent value={value as string} key={index}>
+                  <ProductCard
+                    img={img}
+                    imgAlt={imgAlt}
+                    variant={variant}
+                    title={title}
+                    brand={brand}
+                    rating={rating}
+                    price={price}
+                    reviewLabel={reviewLabel}
+                  />
+                </TabsContent>
+              );
+            },
+          )}
       </div>
     </TabShadcn>
   );
