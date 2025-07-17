@@ -1,40 +1,36 @@
+// src/components/MetaTags.tsx
+import { META_DATA } from '@/constants';
 import { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export const MetaTags = () => {
+  const { pathname } = useLocation();
   const [url, setUrl] = useState('');
+  const meta = META_DATA[pathname] || META_DATA['*'];
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      setUrl(window.location.href);
+      setUrl(window.location.origin);
     }
   }, []);
 
+  const fullUrl = `${url}${pathname}`;
+  const imageUrl = meta.image ? `${url}${meta.image}` : undefined;
+
   return (
     <>
-      <title>ShadCN Training | Modern Fashion & Lifestyle</title>
-      <meta
-        name="description"
-        content="Explore the latest trends in fashion and lifestyle. Shop new arrivals and curated collections on ShadCN Training."
-      />
-      <meta property="og:title" content="ShadCN Training | Modern Fashion & Lifestyle" />
-      <meta
-        property="og:description"
-        content="Discover stylish collections, new fashion arrivals, and more from ShadCN Training."
-      />
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+      <meta property="og:title" content={meta.title} />
+      <meta property="og:description" content={meta.description} />
       <meta property="og:type" content="website" />
-      {url && <meta property="og:url" content={url} />}
-      <meta property="og:image" content={`${url}left-home-banner.svg`} />
+      <meta property="og:url" content={fullUrl} />
+      {imageUrl && <meta property="og:image" content={imageUrl} />}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="ShadCN Training | Modern Fashion & Lifestyle" />
-      <meta
-        name="twitter:description"
-        content="Shop modern collections and fashion-forward designs at ShadCN Training."
-      />
-      {url && <meta name="twitter:url" content={url} />}
-      <meta
-        name="twitter:image"
-        content="https://shadcn-training.vercel.app/left-home-banner.svg"
-      />
+      <meta name="twitter:title" content={meta.title} />
+      <meta name="twitter:description" content={meta.description} />
+      <meta name="twitter:url" content={fullUrl} />
+      {imageUrl && <meta name="twitter:image" content={imageUrl} />}
     </>
   );
 };
