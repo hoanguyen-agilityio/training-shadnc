@@ -20,7 +20,7 @@ import {
 } from '@/page';
 
 // Components
-import { AuthGuard, ThemeProvider, ErrorBoundary } from '@/components';
+import { AuthGuard, ThemeProvider, ErrorBoundary, CookieConsent } from '@/components';
 import clerkLocalization from './lib/clerk-localization';
 
 function App() {
@@ -109,6 +109,7 @@ function App() {
             />
           </Routes>
         </ErrorBoundary>
+        <CookieConsent />
       </ThemeProvider>
     </ClerkProvider>
   );
