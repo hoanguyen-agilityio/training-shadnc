@@ -13,6 +13,7 @@ export * from './mode-toggle';
 export * from './error-boundary';
 export * from './date-picker';
 export * from './meta';
+export * from './cookie-consent';
 
 export * from './common/menu';
 export * from './common/button';
