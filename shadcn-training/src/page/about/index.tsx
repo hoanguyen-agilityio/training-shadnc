@@ -4,6 +4,7 @@ import {
   CarouselWithTopControls,
   Subscribe,
   Banner,
+  MetaTags,
 } from '@/components';
 
 import { Footer, Header } from '@/layouts';
@@ -12,6 +13,7 @@ import { DeliveryPromise, OrganicFoodStore } from '@/ui';
 export const AboutPage = () => {
   return (
     <>
+      <MetaTags />
       <div className="@container/structure max-w-container mx-auto px-10">
         <Header />
       </div>

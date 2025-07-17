@@ -1,10 +1,16 @@
-import { Banner, NavigationTrail } from '@/components';
+// Layouts
 import { Footer, Header } from '@/layouts';
-import { ContactSection } from '@/ui/contact';
+
+// Uis
+import { ContactSection } from '@/ui';
+
+// Components
+import { Banner, MetaTags, NavigationTrail } from '@/components';
 
 export const ContactPage = () => {
   return (
     <>
+      <MetaTags />
       <div className="@container/structure max-w-container mx-auto px-10">
         <Header />
       </div>

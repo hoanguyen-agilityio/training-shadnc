@@ -12,6 +12,7 @@ export * from './pagination';
 export * from './mode-toggle';
 export * from './error-boundary';
 export * from './date-picker';
+export * from './meta';
 
 export * from './common/menu';
 export * from './common/button';

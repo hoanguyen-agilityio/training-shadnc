@@ -25,6 +25,7 @@ import {
   FeatureBar,
   Pagination,
   Subscribe,
+  MetaTags,
 } from '@/components';
 
 export const ShopPage = () => {
@@ -38,6 +39,7 @@ export const ShopPage = () => {
   const totalPages = Math.ceil(PRODUCTS_SHOP_PAGE.length / productsPerPage);
   return (
     <>
+      <MetaTags />
       <div className="@container/structure max-w-container mx-auto px-10">
         <Header />
       </div>
