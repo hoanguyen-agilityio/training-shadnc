@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import express from 'express';
 import { createServer as createViteServer } from 'vite';
-import { deleteUserHandler, handleWebhook } from './api/userController';
+import { deleteUserHandler, editUserHandler, handleWebhook } from './api/userController';
 import dotenv from 'dotenv';
 
 dotenv.config();
@@ -17,12 +17,26 @@ const mockApiUrl = process.env.VITE_ACCOUNT_URL!;
 async function createServer() {
   const app = express();
 
+  /**
+   * Clerk webhook receiver.
+   * Must use raw body for Svix verification.
+   */
   app.post('/api/webhooks', express.raw({ type: 'application/json' }), async (req, res) => {
     await handleWebhook(req, res, mockApiUrl, SIGNING_SECRET);
   });
 
+  /**
+   * API endpoint to delete a user manually from app.
+   */
   app.delete('/api/users/:id', async (req, res) => {
     await deleteUserHandler(req, res, mockApiUrl);
+  });
+
+  /**
+   * API endpoint to update user manually from app.
+   */
+  app.patch('/api/users/:id', express.json(), async (req, res) => {
+    await editUserHandler(req, res, mockApiUrl);
   });
 
   // Create Vite server in middleware mode and configure the app type as

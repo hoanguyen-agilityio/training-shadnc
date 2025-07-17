@@ -1,6 +1,18 @@
 import { Webhook } from 'svix';
 import { Request, Response } from 'express';
 
+interface WebhookEventData {
+  id?: string;
+  first_name?: string;
+  last_name?: string;
+  email_addresses?: { email_address: string }[];
+  [key: string]: unknown;
+}
+
+/**
+ * Handles incoming webhook events from Clerk (e.g., user.created, user.updated, etc.)
+ * Verifies the event signature, parses the data, and performs appropriate actions on mock API.
+ */
 export const handleWebhook = async (
   req: Request,
   res: Response,
@@ -18,16 +30,9 @@ export const handleWebhook = async (
     return res.status(400).json({ success: false, message: 'Missing svix headers' });
   }
 
-  interface WebhookEventData {
-    id?: string;
-    first_name?: string;
-    last_name?: string;
-    email_addresses?: { email_address: string }[];
-    [key: string]: unknown;
-  }
-
   let evt: { type: string; data: WebhookEventData; timestamp?: string };
 
+  // Verify signature
   try {
     evt = wh.verify(req.body, {
       'svix-id': svix_id,
@@ -40,6 +45,7 @@ export const handleWebhook = async (
 
   const eventType = evt.type;
 
+  // Utility to get user from mock API by Clerk ID
   const getUserById = async (id: string) => {
     const res = await fetch(`${mockApiUrl}?userId=${id}`);
     if (!res.ok) return null;
@@ -51,6 +57,7 @@ export const handleWebhook = async (
 
   try {
     switch (eventType) {
+      // Handle new user creation (from Clerk) and sync to mock API.
       case 'user.created': {
         if (!evt.data.id) {
           throw new Error('User ID is missing in event data');
@@ -71,6 +78,7 @@ export const handleWebhook = async (
         break;
       }
 
+      // Update last sign-in time from a session.created event.
       case 'session.created': {
         if (evt.timestamp && user) {
           await fetch(`${mockApiUrl}/${user.id}`, {
@@ -82,6 +90,7 @@ export const handleWebhook = async (
         break;
       }
 
+      // Delete user from mock API when deleted from Clerk.
       case 'user.deleted': {
         if (!evt.data.id) {
           throw new Error('User ID is missing in event data');
@@ -104,6 +113,35 @@ export const handleWebhook = async (
         break;
       }
 
+      // Update user profile in mock API when updated in Clerk.
+      case 'user.updated': {
+        if (!evt.data.id) {
+          throw new Error('User ID is missing in event data');
+        }
+
+        const existingUser = await getUserById(evt.data.id);
+        if (existingUser) {
+          const updateResponse = await fetch(`${mockApiUrl}/${existingUser.id}`, {
+            method: 'PATCH',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              firstName: evt.data.first_name,
+              lastName: evt.data.last_name,
+              email: evt.data.email_addresses?.[0]?.email_address || '',
+            }),
+          });
+
+          if (!updateResponse.ok) {
+            const errorText = await updateResponse.text();
+            console.error('Failed to update user in mock API:', errorText);
+            throw new Error('Failed to update user in mock API');
+          }
+
+          console.log(`Updated user ${evt.data.id} in mock API.`);
+        }
+        break;
+      }
+
       default:
         console.log(`Unhandled event type: ${eventType}`);
     }
@@ -115,6 +153,9 @@ export const handleWebhook = async (
   }
 };
 
+/**
+ * API handler for deleting a user via REST endpoint (called manually from app).
+ */
 export const deleteUserHandler = async (req: Request, res: Response, mockApiUrl: string) => {
   const userId = req.params.id;
 
@@ -135,6 +176,36 @@ export const deleteUserHandler = async (req: Request, res: Response, mockApiUrl:
     res.status(200).json({ success: true, message: 'User deleted successfully' });
   } catch (err) {
     console.error('Error deleting user:', err);
+    res.status(500).json({ success: false, message: 'Internal server error' });
+  }
+};
+
+/**
+ * API handler for editing a user via REST endpoint (called manually from app).
+ */
+export const editUserHandler = async (req: Request, res: Response, mockApiUrl: string) => {
+  const userId = req.params.id;
+  const { firstName, lastName, email } = req.body;
+
+  if (!userId || !firstName || !lastName || !email) {
+    return res.status(400).json({ success: false, message: 'Missing required user fields' });
+  }
+
+  try {
+    const response = await fetch(`${mockApiUrl}/${userId}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ firstName, lastName, email }),
+    });
+
+    if (!response.ok) {
+      const text = await response.text();
+      return res.status(500).json({ success: false, message: text });
+    }
+
+    res.status(200).json({ success: true, message: 'User updated successfully' });
+  } catch (err) {
+    console.error('Error updating user:', err);
     res.status(500).json({ success: false, message: 'Internal server error' });
   }
 };
