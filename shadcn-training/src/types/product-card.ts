@@ -9,4 +9,5 @@ export interface IProductCard {
   rating: number;
   reviewLabel?: string;
   variant?: ProductCardVariant;
+  value?: string;
 }

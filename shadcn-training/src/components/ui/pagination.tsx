@@ -61,7 +61,7 @@ function PaginationPrevious({ className, ...props }: React.ComponentProps<typeof
       aria-label="Go to previous page"
       size="default"
       className={cn(
-        'border border-white p-space-md rounded-l-lg w-full font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer',
+        'border border-white p-space-md rounded-l-lg rounded-r-none w-full font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer',
         className,
       )}
       {...props}

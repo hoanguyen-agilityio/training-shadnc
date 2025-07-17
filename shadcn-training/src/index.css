@@ -164,13 +164,8 @@
   --button-size: 48px;
 
   /* Font Sizes */
-  --text-xs: 12px;
-  --text-sm: 14px;
-  --text-md: 16px;
-  --text-lg: 18px;
-  --text-xl: 24px;
-  --text-2xl: 32px;
-  --text-4xl: 46px;
+  --text-fs-3xl: 40px;
+  --text-fs-4xl: 46px;
 
   /* Border Radius */
   --radius-sm: 4px;
