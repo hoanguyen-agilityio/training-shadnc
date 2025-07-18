@@ -1,3 +1,4 @@
+// api/userController.ts
 import { Webhook } from 'svix';
 import { Request, Response } from 'express';
 
@@ -14,6 +15,7 @@ interface WebhookEventData {
  * Verifies the event signature, parses the data, and performs appropriate actions on mock API.
  */
 export const handleWebhook = async (
+  rawBody: Buffer,
   req: Request,
   res: Response,
   mockApiUrl: string,
@@ -34,7 +36,7 @@ export const handleWebhook = async (
 
   // Verify signature
   try {
-    evt = wh.verify(req.body, {
+    evt = wh.verify(rawBody, {
       'svix-id': svix_id,
       'svix-timestamp': svix_timestamp,
       'svix-signature': svix_signature,

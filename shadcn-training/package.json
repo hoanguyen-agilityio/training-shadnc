@@ -36,6 +36,7 @@
     "embla-carousel-react": "^8.6.0",
     "express": "^5.1.0",
     "lucide-react": "^0.523.0",
+    "raw-body": "^3.0.0",
     "react": "^19.1.0",
     "react-day-picker": "^9.8.0",
     "react-dom": "^19.1.0",

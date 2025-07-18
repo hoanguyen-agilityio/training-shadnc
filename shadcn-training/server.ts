@@ -3,8 +3,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import express from 'express';
 import { createServer as createViteServer } from 'vite';
-import { deleteUserHandler, editUserHandler, handleWebhook } from './api/userController';
 import dotenv from 'dotenv';
+import { deleteUserHandler, editUserHandler, handleWebhook } from './api/userController';
 
 dotenv.config();
 
@@ -22,7 +22,7 @@ async function createServer() {
    * Must use raw body for Svix verification.
    */
   app.post('/api/webhooks', express.raw({ type: 'application/json' }), async (req, res) => {
-    await handleWebhook(req, res, mockApiUrl, SIGNING_SECRET);
+    await handleWebhook(req.body, req, res, mockApiUrl, SIGNING_SECRET);
   });
 
   /**

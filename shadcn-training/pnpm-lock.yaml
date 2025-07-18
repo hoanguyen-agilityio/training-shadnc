@@ -68,6 +68,9 @@ dependencies:
   lucide-react:
     specifier: ^0.523.0
     version: 0.523.0(react@19.1.0)
+  raw-body:
+    specifier: ^3.0.0
+    version: 3.0.0
   react:
     specifier: ^19.1.0
     version: 19.1.0
