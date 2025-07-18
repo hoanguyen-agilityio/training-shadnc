@@ -11,7 +11,6 @@ import { ActiveFilter, HeroImg, ShopBanner } from '@/ui';
 import {
   CATEGORY_OPTIONS,
   PRICE_OPTIONS,
-  PRODUCTS_SHOP_PAGE,
   RATING_OPTIONS,
   SHOW_OPTIONS,
   SORT_OPTIONS,
@@ -25,19 +24,23 @@ import {
   FeatureBar,
   Pagination,
   Subscribe,
+  MetaTags,
 } from '@/components';
+import { useProducts } from '@/utils';
 
 export const ShopPage = () => {
+  const products = useProducts();
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 12;
 
   const indexOfLastProduct = currentPage * productsPerPage;
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
-  const currentProducts = PRODUCTS_SHOP_PAGE.slice(indexOfFirstProduct, indexOfLastProduct);
+  const currentProducts = products.slice(indexOfFirstProduct, indexOfLastProduct);
 
-  const totalPages = Math.ceil(PRODUCTS_SHOP_PAGE.length / productsPerPage);
+  const totalPages = Math.ceil(products.length / productsPerPage);
   return (
     <>
+      <MetaTags />
       <div className="@container/structure max-w-container mx-auto px-10">
         <Header />
       </div>
@@ -78,9 +81,8 @@ export const ShopPage = () => {
           </div>
           <div className="flex flex-col gap-2.5 justify-between items-center mt-space-2xl @bp-750/main:gap-0 @bp-750/main:flex-row">
             <span className="text-sm font-medium dark:text-white">
-              Showing {indexOfFirstProduct + 1}–
-              {Math.min(indexOfLastProduct, PRODUCTS_SHOP_PAGE.length)} of{' '}
-              {PRODUCTS_SHOP_PAGE.length} items
+              Showing {indexOfFirstProduct + 1}–{Math.min(indexOfLastProduct, products.length)} of{' '}
+              {products.length} items
             </span>
             <Pagination
               totalPages={totalPages}

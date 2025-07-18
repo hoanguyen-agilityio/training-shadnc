@@ -1,16 +1,13 @@
-/// <reference types="vitest/config" />
 import path from 'path';
-import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-
-// https://vite.dev/config/
+import tailwindcss from '@tailwindcss/vite';
 import { fileURLToPath } from 'node:url';
 import { storybookTest } from '@storybook/addon-vitest/vitest-plugin';
+
 const dirname =
   typeof __dirname !== 'undefined' ? __dirname : path.dirname(fileURLToPath(import.meta.url));
 
-// More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: {
@@ -18,13 +15,15 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  // ✅ move allowedHosts here
+  server: {
+    allowedHosts: ['romantic-verified-haddock.ngrok-free.app'],
+  },
   test: {
     projects: [
       {
         extends: true,
         plugins: [
-          // The plugin will run tests for the stories defined in your Storybook config
-          // See options at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon#storybooktest
           storybookTest({
             configDir: path.join(dirname, '.storybook'),
           }),
@@ -49,7 +48,19 @@ export default defineConfig({
   define: {
     'process.env': {
       VITE_ACCOUNT_URL: JSON.stringify(process.env.VITE_ACCOUNT_URL),
+      VITE_CLERK_PUBLISHABLE_KEY: JSON.stringify(process.env.VITE_CLERK_PUBLISHABLE_KEY),
+      VITE_CLERK_SECRET_KEY: JSON.stringify(process.env.VITE_CLERK_SECRET_KEY),
+      VITE_SIGNING_SECRET: JSON.stringify(process.env.VITE_SIGNING_SECRET),
+      VITE_PRODUCTS_TAB: JSON.stringify(process.env.VITE_PRODUCTS_TAB),
+      VITE_PRODUCTS: JSON.stringify(process.env.VITE_PRODUCTS),
     },
     'process.env.VITE_ACCOUNT_URL': JSON.stringify(process.env.VITE_ACCOUNT_URL),
+    'process.env.VITE_CLERK_PUBLISHABLE_KEY': JSON.stringify(
+      process.env.VITE_CLERK_PUBLISHABLE_KEY,
+    ),
+    'process.env.VITE_CLERK_SECRET_KEY': JSON.stringify(process.env.VITE_CLERK_SECRET_KEY),
+    'process.env.VITE_SIGNING_SECRET': JSON.stringify(process.env.VITE_SIGNING_SECRET),
+    'process.env.VITE_PRODUCTS_TAB': JSON.stringify(process.env.VITE_PRODUCTS_TAB),
+    'process.env.VITE_PRODUCTS': JSON.stringify(process.env.VITE_PRODUCTS),
   },
 });

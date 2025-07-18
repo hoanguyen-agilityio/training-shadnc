@@ -1,3 +1,21 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "buildCommand": "pnpm run build",
+  "devCommand": "pnpm run dev",
+  "outputDirectory": "dist/client",
+  "redirects": [
+    {
+      "source": "/create_user",
+      "destination": "/api/create_user",
+      "permanent": false
+    },
+    {
+      "source": "/users/:clerkId",
+      "destination": "/api/users/[clerkId]",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    { "source": "/api/webhooks", "destination": "/api/webhooks/index.ts" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
