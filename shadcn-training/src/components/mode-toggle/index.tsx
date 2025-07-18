@@ -8,7 +8,11 @@ import { useTheme } from '@/components';
 // Components
 import { Button } from '../ui/button';
 
-export const ModeToggle = () => {
+interface IModeToggle {
+  className?: string;
+}
+
+export const ModeToggle = ({ className }: IModeToggle) => {
   const { theme, setTheme } = useTheme();
 
   const isDark =
@@ -30,6 +34,7 @@ export const ModeToggle = () => {
         'relative h-14 w-28 rounded-full p-1 transition-all duration-300 ease-in-out',
         'hover:scale-105 focus:scale-105',
         isDark ? 'bg-gray-800 hover:bg-gray-700' : 'bg-gray-200 hover:bg-gray-300',
+        className,
       )}
     >
       {/* Sun Icon */}

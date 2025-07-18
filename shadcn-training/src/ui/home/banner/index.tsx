@@ -10,9 +10,9 @@ export const HomeBanner = () => (
       alt="left home banner"
       className="w-full min-w-custom-xs object-contain"
     />
-    <div className="flex flex-col gap-9 w-full">
+    <div className="flex flex-col gap-9 w-full justify-between">
       <img src={'/assets/psyllium-home-banner.svg'} alt="" className="w-full object-contain" />
-      <div className="flex flex-col items-center justify-center text-center px-4">
+      <div className="flex flex-col items-center justify-center text-center">
         <h1 className="text-[clamp(2rem,8vw,5rem)] uppercase leading-none dark:text-white">
           Ultimate
         </h1>

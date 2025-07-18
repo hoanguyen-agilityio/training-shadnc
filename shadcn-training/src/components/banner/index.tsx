@@ -7,7 +7,7 @@ export const Banner = ({ title }: IBanner) => {
     <section className="relative w-full overflow-visible mt-space-3xl">
       <img src="/assets/common-bg-banner.svg" alt="background banner" className="w-full" />
 
-      <h1 className="text-white leading-lh-3xl text-4xl @bp-500/main:text-fs-xl font-semibold absolute top-1/2 left-10 transform -translate-y-1/2">
+      <h1 className="text-white leading-lh-3xl text-3xl @bp-500/main:text-fs-xl font-semibold absolute top-1/2 left-10 transform -translate-y-1/2">
         {title}
       </h1>
 

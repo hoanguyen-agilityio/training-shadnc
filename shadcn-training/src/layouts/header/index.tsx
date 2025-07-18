@@ -20,7 +20,7 @@ export const Header = () => {
 
   return (
     <header className="flex items-center justify-between mt-5 border-b-1 border-theme-gray-250 pb-5">
-      <div className="flex items-center @bp-680/structure:gap-8 gap-0">
+      <div className="flex items-center @bp-850/structure:gap-8 gap-0">
         <Link to={ROUTES.HOME} aria-label="logo">
           <Logo width="100px" height="100px" />
         </Link>
@@ -40,14 +40,19 @@ export const Header = () => {
       </div>
 
       <div className="flex items-center gap-4">
-        <ModeToggle />
+        <ModeToggle className="hidden @bp-850/structure:flex" />
 
         <SignedIn>
           <UserButton />
         </SignedIn>
 
         <SignedOut>
-          <Button label="Sign Up" size="sm" onClick={handleNavigateToSignupPage} />
+          <Button
+            className="text-base"
+            label="Sign Up"
+            size="default"
+            onClick={handleNavigateToSignupPage}
+          />
         </SignedOut>
       </div>
     </header>

@@ -32,11 +32,18 @@ export const ShopBanner = () => {
         </div>
         <Button label="Shop Now" size="default" disabled className="mt-8 cursor-not-allowed" />
       </div>
-      <div className="bg-theme-brand rounded-full flex flex-col p-3 text-center absolute right-2 top-2 @bp-400/main:right-1/12 @bp-400/main:top-1/12 @bp-720/main:p-6 @bp-1180/main:right-3/12">
-        <span className="text-xl @bp-720/main:text-2xl font-semibold text-white leading-9">
+      <div
+        className="bg-theme-brand rounded-full aspect-square w-14 @bp-720/main:w-20
+             flex flex-col justify-center items-center text-center
+             absolute right-2 top-2
+             @bp-400/main:right-1/12 @bp-400/main:top-1/12 @bp-1180/main:right-3/12 @bp-1180/main:w-custom-xs @bp-1180/main:h-custom-xs"
+      >
+        <span className="text-base @bp-720/main:text-2xl font-semibold text-white leading-none">
           56%
         </span>
-        <span className="text-xs text-white opacity-80 leading-lh-sm">OFF</span>
+        <span className="text-[10px] @bp-720/main:text-xs text-white opacity-80 leading-tight">
+          OFF
+        </span>
       </div>
     </section>
   );
