@@ -15,9 +15,10 @@ import {
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@radix-ui/react-dropdown-menu';
+} from '@/components/ui/dropdown-menu';
 import HamburgerIcon from '@/components/icons/hamburger-icon';
 import { MenuProps } from '@/types';
+import { ModeToggle } from '@/components/mode-toggle';
 
 export const Menu = ({ menuItems }: MenuProps) => {
   const location = useLocation();
@@ -58,7 +59,7 @@ export const Menu = ({ menuItems }: MenuProps) => {
             'dark:bg-black dark:text-white dark:border-gray-700',
           )}
         >
-          {menuItems.map((item, index) => (
+          {menuItems.map((item) => (
             <div key={item.label}>
               <DropdownMenuItem
                 disabled={item.disabled}
@@ -70,11 +71,13 @@ export const Menu = ({ menuItems }: MenuProps) => {
               >
                 {item.href ? <Link to={item.href}>{item.label}</Link> : <span>{item.label}</span>}
               </DropdownMenuItem>
-              {index < menuItems.length - 1 && (
-                <DropdownMenuSeparator className="border border-black mt-2 dark:border-white" />
-              )}
+
+              <DropdownMenuSeparator className="border border-black mt-2 dark:border-white" />
             </div>
           ))}
+          <DropdownMenuItem asChild>
+            <ModeToggle />
+          </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
     </>
