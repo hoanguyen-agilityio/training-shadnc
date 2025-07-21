@@ -9,7 +9,7 @@ exports[`About page Renders About page 1`] = `
       class="flex items-center justify-between mt-5 border-b-1 border-theme-gray-250 pb-5"
     >
       <div
-        class="flex items-center @bp-680/structure:gap-8 gap-0"
+        class="flex items-center @bp-850/structure:gap-8 gap-0"
       >
         <a
           aria-label="logo"
@@ -50,119 +50,13 @@ exports[`About page Renders About page 1`] = `
             </defs>
           </svg>
         </a>
-        <nav
-          aria-label="breadcrumb"
-          class="hidden @bp-850/structure:flex"
-          data-slot="breadcrumb"
-        >
-          <ol
-            class="text-muted-foreground flex-wrap items-center gap-1.5 text-sm break-words flex sm:gap-8"
-            data-slot="breadcrumb-list"
-          >
-            <li
-              class="inline-flex items-center gap-1.5"
-              data-slot="breadcrumb-item"
-            >
-              <a
-                class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white"
-                data-slot="breadcrumb-link"
-                href="/shop"
-              >
-                Shop
-              </a>
-            </li>
-            <li
-              class="inline-flex items-center gap-1.5"
-              data-slot="breadcrumb-item"
-            >
-              <a
-                class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white cursor-not-allowed"
-                data-slot="breadcrumb-link"
-              >
-                New Arrivals
-              </a>
-            </li>
-            <li
-              class="inline-flex items-center gap-1.5"
-              data-slot="breadcrumb-item"
-            >
-              <a
-                class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white"
-                data-slot="breadcrumb-link"
-                href="/about"
-              >
-                About Us
-              </a>
-            </li>
-            <li
-              class="inline-flex items-center gap-1.5"
-              data-slot="breadcrumb-item"
-            >
-              <a
-                class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white"
-                data-slot="breadcrumb-link"
-                href="/sign-in"
-              >
-                Sign in
-              </a>
-            </li>
-          </ol>
-        </nav>
-        <button
-          aria-expanded="false"
-          aria-haspopup="menu"
-          class="flex @bp-850/structure:hidden cursor-pointer"
-          data-state="closed"
-          id="radix-«r0»"
-          type="button"
-        >
-          <svg
-            class="text-black dark:text-white"
-            enable-background="new 0 0 32 32"
-            fill="currentColor"
-            height="24px"
-            id="Glyph"
-            version="1.1"
-            viewBox="0 0 32 32"
-            width="24px"
-            xml:space="preserve"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
-            <g
-              id="SVGRepo_bgCarrier"
-              stroke-width="0"
-            />
-            <g
-              id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <g
-              id="SVGRepo_iconCarrier"
-            >
-              <path
-                d="M26,16c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,14,26,14.896,26,16z"
-                id="XMLID_314_"
-              />
-              <path
-                d="M26,8c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,6,26,6.896,26,8z"
-                id="XMLID_315_"
-              />
-              <path
-                d="M26,24c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,22,26,22.896,26,24z"
-                id="XMLID_316_"
-              />
-            </g>
-          </svg>
-        </button>
       </div>
       <div
         class="flex items-center gap-4"
       >
         <button
           aria-label="Light mode switch"
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-black text-green-50 hover:text-accent-foreground dark:hover:bg-accent/50 px-space-xl rounded-radius-3xl relative h-14 w-28 rounded-full p-1 transition-all duration-300 ease-in-out hover:scale-105 focus:scale-105 bg-gray-200 hover:bg-gray-300"
+          class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-black text-green-50 hover:text-accent-foreground dark:hover:bg-accent/50 px-space-xl rounded-radius-3xl relative h-14 w-28 rounded-full p-1 transition-all duration-300 ease-in-out hover:scale-105 focus:scale-105 bg-gray-200 hover:bg-gray-300 hidden @bp-850/structure:flex"
           data-slot="button"
         >
           <div
@@ -233,12 +127,6 @@ exports[`About page Renders About page 1`] = `
               />
             </svg>
           </div>
-        </button>
-        <button
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-radius-md px-space-2xl cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2"
-          data-slot="button"
-        >
-          Sign Up
         </button>
       </div>
     </header>
@@ -313,7 +201,7 @@ exports[`About page Renders About page 1`] = `
           src="/assets/common-bg-banner.svg"
         />
         <h1
-          class="text-white text-4xl @bp-500/main:text-fs-xl font-semibold absolute top-1/2 left-10 transform -translate-y-1/2"
+          class="text-white leading-lh-3xl text-3xl @bp-500/main:text-fs-xl font-semibold absolute top-1/2 left-10 transform -translate-y-1/2"
         >
           About US
         </h1>
@@ -335,12 +223,12 @@ exports[`About page Renders About page 1`] = `
         class="text-center max-w-container mx-auto px-10"
       >
         <h2
-          class="text-fs-2xl"
+          class="font-scope text-fs-2xl"
         >
           100% Trusted Organic Food Store
         </h2>
         <p
-          class="text-lg text-charcoalGray-60 dark:text-gray-60 mt-space-2xl"
+          class="text-lg leading-7 text-charcoalGray-60 dark:text-gray-60 mt-space-2xl"
         >
           Morbi porttitor ligula in nunc varius sagittis. Proin dui nisi, laoreet ut tempor ac, cursus vitae eros. Cras quis ultricies elit. Proin ac lectus arcu. Maecenas aliquet vel tellus at accumsan. Donec a eros non massa vulputate ornare. Vivamus ornare commodo ante, at commodo felis congue vitae.
         </p>
@@ -358,12 +246,12 @@ exports[`About page Renders About page 1`] = `
         >
           <div>
             <h3
-              class="text-fs-2xl"
+              class="font-scope text-fs-2xl"
             >
               100% Trusted Organic Food Store
             </h3>
             <p
-              class="text-lg text-charcoalGray-60 dark:text-gray-60 mt-5"
+              class="text-lg leading-7 text-charcoalGray-60 dark:text-gray-60 mt-5"
             >
               Pellentesque a ante vulputate leo porttitor luctus sed eget eros. Nulla et rhoncus neque. Duis non diam eget est luctus tincidunt a a mi. Nulla eu eros consequat tortor tincidunt feugiat.
             </p>
@@ -411,12 +299,12 @@ exports[`About page Renders About page 1`] = `
               </svg>
               <div>
                 <h3
-                  class="text-lg"
+                  class="text-lg leading-7"
                 >
                   100% Organic food
                 </h3>
                 <p
-                  class="text-sm text-charcoalGray-60 dark:text-gray-60"
+                  class="text-sm leading-6 text-charcoalGray-60 dark:text-gray-60"
                 >
                   100% healthy & Fresh food.
                 </p>
@@ -467,12 +355,12 @@ exports[`About page Renders About page 1`] = `
               </svg>
               <div>
                 <h3
-                  class="text-lg"
+                  class="text-lg leading-7"
                 >
                   100% Secure Payment
                 </h3>
                 <p
-                  class="text-sm text-charcoalGray-60 dark:text-gray-60"
+                  class="text-sm leading-6 text-charcoalGray-60 dark:text-gray-60"
                 >
                   We ensure your money is save
                 </p>
@@ -502,12 +390,12 @@ exports[`About page Renders About page 1`] = `
               </svg>
               <div>
                 <h3
-                  class="text-lg"
+                  class="text-lg leading-7"
                 >
                   Great Support 24/7
                 </h3>
                 <p
-                  class="text-sm text-charcoalGray-60 dark:text-gray-60"
+                  class="text-sm leading-6 text-charcoalGray-60 dark:text-gray-60"
                 >
                   Instant access to Contact
                 </p>
@@ -603,12 +491,12 @@ exports[`About page Renders About page 1`] = `
               </svg>
               <div>
                 <h3
-                  class="text-lg"
+                  class="text-lg leading-7"
                 >
                   Customer Feedback
                 </h3>
                 <p
-                  class="text-sm text-charcoalGray-60 dark:text-gray-60"
+                  class="text-sm leading-6 text-charcoalGray-60 dark:text-gray-60"
                 >
                   Our happy customer
                 </p>
@@ -638,12 +526,12 @@ exports[`About page Renders About page 1`] = `
               </svg>
               <div>
                 <h3
-                  class="text-lg"
+                  class="text-lg leading-7"
                 >
                   Free Shipping
                 </h3>
                 <p
-                  class="text-sm text-charcoalGray-60 dark:text-gray-60"
+                  class="text-sm leading-6 text-charcoalGray-60 dark:text-gray-60"
                 >
                   Free shipping with discount
                 </p>
@@ -673,12 +561,12 @@ exports[`About page Renders About page 1`] = `
               </svg>
               <div>
                 <h3
-                  class="text-lg"
+                  class="text-lg leading-7"
                 >
                   100% Organic Food
                 </h3>
                 <p
-                  class="text-sm text-charcoalGray-60 dark:text-gray-60"
+                  class="text-sm leading-6 text-charcoalGray-60 dark:text-gray-60"
                 >
                   100% healthy & Fresh food.
                 </p>
@@ -696,12 +584,12 @@ exports[`About page Renders About page 1`] = `
       >
         <div>
           <h3
-            class="text-fs-2xl dark:text-white"
+            class="font-scope text-fs-2xl dark:text-white"
           >
             We Delivered, You Enjoy Your Order.
           </h3>
           <p
-            class="text-lg text-charcoalGray-60 dark:text-gray-60 mt-3"
+            class="text-lg leading-7 text-charcoalGray-60 dark:text-gray-60 mt-3"
           >
             Ut suscipit egestas suscipit. Sed posuere pellentesque nunc, ultrices consectetur velit dapibus eu. Mauris sollicitudin dignissim diam, ac mattis eros accumsan rhoncus. Curabitur auctor bibendum nunc eget elementum.
           </p>
@@ -749,7 +637,7 @@ exports[`About page Renders About page 1`] = `
                 </defs>
               </svg>
               <span
-                class="text-base text-charcoalGray-60 dark:text-gray-60"
+                class="text-base leading-6 text-charcoalGray-60 dark:text-gray-60"
               >
                 Sed in metus pellentesque.
               </span>
@@ -795,7 +683,7 @@ exports[`About page Renders About page 1`] = `
                 </defs>
               </svg>
               <span
-                class="text-base text-charcoalGray-60 dark:text-gray-60"
+                class="text-base leading-6 text-charcoalGray-60 dark:text-gray-60"
               >
                 Fusce et ex commodo, aliquam nulla efficitur, tempus lorem.
               </span>
@@ -841,7 +729,7 @@ exports[`About page Renders About page 1`] = `
                 </defs>
               </svg>
               <span
-                class="text-base text-charcoalGray-60 dark:text-gray-60"
+                class="text-base leading-6 text-charcoalGray-60 dark:text-gray-60"
               >
                 Maecenas ut nunc fringilla erat varius.
               </span>
@@ -860,12 +748,12 @@ exports[`About page Renders About page 1`] = `
           class="max-w-custom-8xl-plus text-center mx-auto mb-10"
         >
           <h3
-            class="text-fs-2xl dark:text-white"
+            class="font-scope text-fs-2xl dark:text-white"
           >
             Our Awesome Team
           </h3>
           <p
-            class="text-lg text-charcoalGray-60 dark:text-gray-60 mt-3"
+            class="text-lg leading-7 text-charcoalGray-60 dark:text-gray-60 mt-3"
           >
             Pellentesque a ante vulputate leo porttitor luctus sed eget eros. Nulla et rhoncus neque. Duis non diam eget est luctus tincidunt a a mi.
           </p>
@@ -1010,7 +898,7 @@ exports[`About page Renders About page 1`] = `
                       data-slot="card-content"
                     >
                       <span
-                        class="text-lg font-semibold text-black dark:text-white"
+                        class="text-lg font-medium text-black dark:text-white"
                       >
                         Jenny Wilson
                       </span>
@@ -1158,7 +1046,7 @@ exports[`About page Renders About page 1`] = `
                       data-slot="card-content"
                     >
                       <span
-                        class="text-lg font-semibold text-black dark:text-white"
+                        class="text-lg font-medium text-black dark:text-white"
                       >
                         Jane Cooper
                       </span>
@@ -1306,7 +1194,7 @@ exports[`About page Renders About page 1`] = `
                       data-slot="card-content"
                     >
                       <span
-                        class="text-lg font-semibold text-black dark:text-white"
+                        class="text-lg font-medium text-black dark:text-white"
                       >
                         Cody Fisher
                       </span>
@@ -1454,7 +1342,7 @@ exports[`About page Renders About page 1`] = `
                       data-slot="card-content"
                     >
                       <span
-                        class="text-lg font-semibold text-black dark:text-white"
+                        class="text-lg font-medium text-black dark:text-white"
                       >
                         Robert Fox
                       </span>
@@ -1602,7 +1490,7 @@ exports[`About page Renders About page 1`] = `
                       data-slot="card-content"
                     >
                       <span
-                        class="text-lg font-semibold text-black dark:text-white"
+                        class="text-lg font-medium text-black dark:text-white"
                       >
                         Kristin Watson
                       </span>
@@ -1750,7 +1638,7 @@ exports[`About page Renders About page 1`] = `
                       data-slot="card-content"
                     >
                       <span
-                        class="text-lg font-semibold text-black dark:text-white"
+                        class="text-lg font-medium text-black dark:text-white"
                       >
                         Leslie Alexander
                       </span>
@@ -1898,7 +1786,7 @@ exports[`About page Renders About page 1`] = `
                       data-slot="card-content"
                     >
                       <span
-                        class="text-lg font-semibold text-black dark:text-white"
+                        class="text-lg font-medium text-black dark:text-white"
                       >
                         Guy Hawkins
                       </span>
@@ -2046,7 +1934,7 @@ exports[`About page Renders About page 1`] = `
                       data-slot="card-content"
                     >
                       <span
-                        class="text-lg font-semibold text-black dark:text-white"
+                        class="text-lg font-medium text-black dark:text-white"
                       >
                         Arlene McCoy
                       </span>
@@ -2077,10 +1965,10 @@ exports[`About page Renders About page 1`] = `
         class="w-full max-w-7xl mx-auto p-6"
       >
         <div
-          class="flex items-center justify-between mb-space-4xl"
+          class="flex flex-col justify-between mb-space-4xl @bp-520/main:flex-row @bp-520/main:items-center"
         >
           <h3
-            class="text-fs-2xl dark:text-white"
+            class="font-scope text-fs-2xl dark:text-white"
           >
             Client Testimonial
           </h3>
@@ -2197,12 +2085,12 @@ exports[`About page Renders About page 1`] = `
                       </span>
                       <div>
                         <h4
-                          class="font-semibold text-black dark:text-white text-sm"
+                          class="font-semibold leading-6 text-black dark:text-white text-sm"
                         >
                           Robert Fox
                         </h4>
                         <p
-                          class="text-charcoalGray-60 dark:text-theme-gray-450 text-xs font-normal"
+                          class="text-charcoalGray-60 leading-5 dark:text-theme-gray-450 text-xs font-normal"
                         >
                           Customer
                         </p>
@@ -2339,12 +2227,12 @@ exports[`About page Renders About page 1`] = `
                       </span>
                       <div>
                         <h4
-                          class="font-semibold text-black dark:text-white text-sm"
+                          class="font-semibold leading-6 text-black dark:text-white text-sm"
                         >
                           Dianne Russell
                         </h4>
                         <p
-                          class="text-charcoalGray-60 dark:text-theme-gray-450 text-xs font-normal"
+                          class="text-charcoalGray-60 leading-5 dark:text-theme-gray-450 text-xs font-normal"
                         >
                           Customer
                         </p>
@@ -2481,12 +2369,12 @@ exports[`About page Renders About page 1`] = `
                       </span>
                       <div>
                         <h4
-                          class="font-semibold text-black dark:text-white text-sm"
+                          class="font-semibold leading-6 text-black dark:text-white text-sm"
                         >
                           Eleanor Pena
                         </h4>
                         <p
-                          class="text-charcoalGray-60 dark:text-theme-gray-450 text-xs font-normal"
+                          class="text-charcoalGray-60 leading-5 dark:text-theme-gray-450 text-xs font-normal"
                         >
                           Customer
                         </p>
@@ -2623,12 +2511,12 @@ exports[`About page Renders About page 1`] = `
                       </span>
                       <div>
                         <h4
-                          class="font-semibold text-black dark:text-white text-sm"
+                          class="font-semibold leading-6 text-black dark:text-white text-sm"
                         >
                           Eleanor Pena
                         </h4>
                         <p
-                          class="text-charcoalGray-60 dark:text-theme-gray-450 text-xs font-normal"
+                          class="text-charcoalGray-60 leading-5 dark:text-theme-gray-450 text-xs font-normal"
                         >
                           Customer
                         </p>
@@ -2735,7 +2623,7 @@ exports[`About page Renders About page 1`] = `
         class="absolute inset-0 flex flex-col justify-center items-center text-center px-4"
       >
         <h2
-          class="text-fs-2xl text-charcoalGray-60 dark:text-gray-60"
+          class="font-scope text-fs-2xl text-charcoalGray-60 dark:text-gray-60"
         >
           Subscribe To Our Newsletter
         </h2>
@@ -2894,8 +2782,9 @@ exports[`About page Renders About page 1`] = `
           aria-expanded="false"
           aria-haspopup="menu"
           class="flex @bp-850/structure:hidden cursor-pointer"
+          data-slot="dropdown-menu-trigger"
           data-state="closed"
-          id="radix-«r2»"
+          id="radix-«r0»"
           type="button"
         >
           <svg

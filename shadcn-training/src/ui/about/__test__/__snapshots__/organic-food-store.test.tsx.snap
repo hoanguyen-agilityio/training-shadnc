@@ -9,12 +9,12 @@ exports[`Organic food store Component renders organic food store component 1`] =
       class="text-center max-w-container mx-auto px-10"
     >
       <h2
-        class="text-fs-2xl"
+        class="font-scope text-fs-2xl"
       >
         100% Trusted Organic Food Store
       </h2>
       <p
-        class="text-lg text-charcoalGray-60 dark:text-gray-60 mt-space-2xl"
+        class="text-lg leading-7 text-charcoalGray-60 dark:text-gray-60 mt-space-2xl"
       >
         Morbi porttitor ligula in nunc varius sagittis. Proin dui nisi, laoreet ut tempor ac, cursus vitae eros. Cras quis ultricies elit. Proin ac lectus arcu. Maecenas aliquet vel tellus at accumsan. Donec a eros non massa vulputate ornare. Vivamus ornare commodo ante, at commodo felis congue vitae.
       </p>
@@ -32,12 +32,12 @@ exports[`Organic food store Component renders organic food store component 1`] =
       >
         <div>
           <h3
-            class="text-fs-2xl"
+            class="font-scope text-fs-2xl"
           >
             100% Trusted Organic Food Store
           </h3>
           <p
-            class="text-lg text-charcoalGray-60 dark:text-gray-60 mt-5"
+            class="text-lg leading-7 text-charcoalGray-60 dark:text-gray-60 mt-5"
           >
             Pellentesque a ante vulputate leo porttitor luctus sed eget eros. Nulla et rhoncus neque. Duis non diam eget est luctus tincidunt a a mi. Nulla eu eros consequat tortor tincidunt feugiat.
           </p>
@@ -85,12 +85,12 @@ exports[`Organic food store Component renders organic food store component 1`] =
             </svg>
             <div>
               <h3
-                class="text-lg"
+                class="text-lg leading-7"
               >
                 100% Organic food
               </h3>
               <p
-                class="text-sm text-charcoalGray-60 dark:text-gray-60"
+                class="text-sm leading-6 text-charcoalGray-60 dark:text-gray-60"
               >
                 100% healthy & Fresh food.
               </p>
@@ -141,12 +141,12 @@ exports[`Organic food store Component renders organic food store component 1`] =
             </svg>
             <div>
               <h3
-                class="text-lg"
+                class="text-lg leading-7"
               >
                 100% Secure Payment
               </h3>
               <p
-                class="text-sm text-charcoalGray-60 dark:text-gray-60"
+                class="text-sm leading-6 text-charcoalGray-60 dark:text-gray-60"
               >
                 We ensure your money is save
               </p>
@@ -176,12 +176,12 @@ exports[`Organic food store Component renders organic food store component 1`] =
             </svg>
             <div>
               <h3
-                class="text-lg"
+                class="text-lg leading-7"
               >
                 Great Support 24/7
               </h3>
               <p
-                class="text-sm text-charcoalGray-60 dark:text-gray-60"
+                class="text-sm leading-6 text-charcoalGray-60 dark:text-gray-60"
               >
                 Instant access to Contact
               </p>
@@ -277,12 +277,12 @@ exports[`Organic food store Component renders organic food store component 1`] =
             </svg>
             <div>
               <h3
-                class="text-lg"
+                class="text-lg leading-7"
               >
                 Customer Feedback
               </h3>
               <p
-                class="text-sm text-charcoalGray-60 dark:text-gray-60"
+                class="text-sm leading-6 text-charcoalGray-60 dark:text-gray-60"
               >
                 Our happy customer
               </p>
@@ -312,12 +312,12 @@ exports[`Organic food store Component renders organic food store component 1`] =
             </svg>
             <div>
               <h3
-                class="text-lg"
+                class="text-lg leading-7"
               >
                 Free Shipping
               </h3>
               <p
-                class="text-sm text-charcoalGray-60 dark:text-gray-60"
+                class="text-sm leading-6 text-charcoalGray-60 dark:text-gray-60"
               >
                 Free shipping with discount
               </p>
@@ -347,12 +347,12 @@ exports[`Organic food store Component renders organic food store component 1`] =
             </svg>
             <div>
               <h3
-                class="text-lg"
+                class="text-lg leading-7"
               >
                 100% Organic Food
               </h3>
               <p
-                class="text-sm text-charcoalGray-60 dark:text-gray-60"
+                class="text-sm leading-6 text-charcoalGray-60 dark:text-gray-60"
               >
                 100% healthy & Fresh food.
               </p>

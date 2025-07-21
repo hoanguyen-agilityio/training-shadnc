@@ -2,9 +2,15 @@
 import '@testing-library/jest-dom';
 import { render, fireEvent, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
+import { ClerkProvider } from '@clerk/clerk-react';
+import dotenv from 'dotenv';
 
 // Components
 import { NotFoundPage } from '..';
+
+dotenv.config();
+
+const PUBLISHABLE_KEY = process.env.VITE_CLERK_PUBLISHABLE_KEY;
 
 const mockNavigate = jest.fn();
 
@@ -33,7 +39,9 @@ describe('Not Found page', () => {
   test('Renders Not Found page', () => {
     const { container } = render(
       <MemoryRouter>
-        <NotFoundPage />
+        <ClerkProvider publishableKey={PUBLISHABLE_KEY!}>
+          <NotFoundPage />
+        </ClerkProvider>
       </MemoryRouter>,
     );
     expect(container).toMatchSnapshot();
@@ -42,7 +50,9 @@ describe('Not Found page', () => {
   test('navigates to home when "BACK TO HOME" button is clicked', () => {
     render(
       <MemoryRouter>
-        <NotFoundPage />
+        <ClerkProvider publishableKey={PUBLISHABLE_KEY!}>
+          <NotFoundPage />
+        </ClerkProvider>
       </MemoryRouter>,
     );
 

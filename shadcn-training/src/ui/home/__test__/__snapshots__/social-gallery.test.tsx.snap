@@ -13,12 +13,12 @@ exports[`Social gallery Component renders social gallery component 1`] = `
         class="flex flex-col justify-center w-full @bp-1140/main:w-custom-6xl-plus items-center @bp-1140/main:items-start text-center @bp-1140/main:text-left"
       >
         <h2
-          class="text-fs-2xl dark:text-white"
+          class="font-scope text-fs-2xl dark:text-white"
         >
           New In
         </h2>
         <p
-          class="text-lg dark:text-slate-400"
+          class="text-lg leading-7 dark:text-slate-400"
         >
           Shop the latest fashion trends from the top luxury designers.
         </p>

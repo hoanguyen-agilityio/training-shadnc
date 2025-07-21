@@ -142,7 +142,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                 data-slot="card-content"
               >
                 <span
-                  class="text-lg font-semibold text-black dark:text-white"
+                  class="text-lg font-medium text-black dark:text-white"
                 >
                   Jenny Wilson
                 </span>
@@ -290,7 +290,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                 data-slot="card-content"
               >
                 <span
-                  class="text-lg font-semibold text-black dark:text-white"
+                  class="text-lg font-medium text-black dark:text-white"
                 >
                   Jane Cooper
                 </span>
@@ -438,7 +438,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                 data-slot="card-content"
               >
                 <span
-                  class="text-lg font-semibold text-black dark:text-white"
+                  class="text-lg font-medium text-black dark:text-white"
                 >
                   Cody Fisher
                 </span>
@@ -586,7 +586,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                 data-slot="card-content"
               >
                 <span
-                  class="text-lg font-semibold text-black dark:text-white"
+                  class="text-lg font-medium text-black dark:text-white"
                 >
                   Robert Fox
                 </span>
@@ -734,7 +734,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                 data-slot="card-content"
               >
                 <span
-                  class="text-lg font-semibold text-black dark:text-white"
+                  class="text-lg font-medium text-black dark:text-white"
                 >
                   Kristin Watson
                 </span>
@@ -882,7 +882,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                 data-slot="card-content"
               >
                 <span
-                  class="text-lg font-semibold text-black dark:text-white"
+                  class="text-lg font-medium text-black dark:text-white"
                 >
                   Leslie Alexander
                 </span>
@@ -1030,7 +1030,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                 data-slot="card-content"
               >
                 <span
-                  class="text-lg font-semibold text-black dark:text-white"
+                  class="text-lg font-medium text-black dark:text-white"
                 >
                   Guy Hawkins
                 </span>
@@ -1178,7 +1178,7 @@ exports[`CarouselWithSideControls component Renders CarouselWithSideControls com
                 data-slot="card-content"
               >
                 <span
-                  class="text-lg font-semibold text-black dark:text-white"
+                  class="text-lg font-medium text-black dark:text-white"
                 >
                   Arlene McCoy
                 </span>

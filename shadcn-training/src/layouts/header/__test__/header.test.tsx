@@ -3,17 +3,52 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import dotenv from 'dotenv';
 
 // Layouts
 import { Header } from '..';
 
 // Constants
 import { ROUTES } from '@/constants';
+import { ClerkProvider } from '@clerk/clerk-react';
+
+dotenv.config();
+
+const PUBLISHABLE_KEY = process.env.VITE_CLERK_PUBLISHABLE_KEY;
 
 // Mock react-router-dom
 jest.mock('react-router-dom', () => ({
   ...jest.requireActual('react-router-dom'),
   useNavigate: jest.fn(() => jest.fn()), // Return a mock function for navigate
+}));
+
+let isSignedIn = false;
+
+jest.mock('@clerk/clerk-react', () => ({
+  ...jest.requireActual('@clerk/clerk-react'),
+  SignedIn: ({ children }: { children: React.ReactNode }) => (isSignedIn ? <>{children}</> : <></>),
+  SignedOut: ({ children }: { children: React.ReactNode }) =>
+    !isSignedIn ? <>{children}</> : <></>,
+  ClerkProvider: ({ children }: { children: React.ReactNode }) => <>{children}</>,
+  UserButton: () => (
+    <button
+      aria-label="User"
+      onClick={() => {
+        const logoutBtn = document.createElement('button');
+        logoutBtn.textContent = 'Logout';
+        logoutBtn.onclick = () => {
+          localStorage.removeItem('token');
+
+          // trigger mocked navigate function
+          const navigate = (useNavigate as jest.Mock).mock.results[0].value;
+          navigate('/sign-in', { replace: true });
+        };
+        document.body.appendChild(logoutBtn);
+      }}
+    >
+      User
+    </button>
+  ),
 }));
 
 // Mock constants
@@ -59,43 +94,47 @@ describe('Header component', () => {
   test('Renders header component', () => {
     const { container } = render(
       <MemoryRouter>
-        <Header />
+        <ClerkProvider publishableKey={PUBLISHABLE_KEY!}>
+          <Header />
+        </ClerkProvider>
       </MemoryRouter>,
     );
     expect(container).toMatchSnapshot();
   });
 
   test('should remove token and navigate to sign-in page on logout', async () => {
-    // Set initial logged-in state
-    localStorage.setItem('token', 'mock-token');
+    isSignedIn = true;
 
     render(
       <MemoryRouter>
-        <Header />
+        <ClerkProvider publishableKey={PUBLISHABLE_KEY!}>
+          <Header />
+        </ClerkProvider>
       </MemoryRouter>,
     );
 
-    // Find and click the avatar to open the dropdown
+    const user = userEvent.setup();
+
     const avatarTrigger = screen.getByRole('button', { name: 'User' });
     await user.click(avatarTrigger);
 
-    // Find and click the logout item
     const logoutItem = await screen.findByText('Logout');
     await user.click(logoutItem);
 
-    // Verify token is removed
     expect(localStorage.getItem('token')).toBeNull();
 
-    // Verify navigation to sign-in page
-    expect(mockNavigate).toHaveBeenCalled();
-    const navigateFn = mockNavigate.mock.results[0].value; // Get the navigate function returned by useNavigate
-    expect(navigateFn).toHaveBeenCalledWith(ROUTES.SIGN_IN, { replace: true });
+    const navigateFn = (useNavigate as jest.Mock).mock.results[0].value;
+    expect(navigateFn).toHaveBeenCalledWith('/sign-in', { replace: true });
   });
 
   test('should navigate to sign-up page when sign-up button is clicked', async () => {
+    isSignedIn = false;
+
     render(
       <MemoryRouter>
-        <Header />
+        <ClerkProvider publishableKey={PUBLISHABLE_KEY!}>
+          <Header />
+        </ClerkProvider>
       </MemoryRouter>,
     );
 

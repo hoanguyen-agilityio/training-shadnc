@@ -108,6 +108,7 @@ exports[`Footer component Renders footer component 1`] = `
         aria-expanded="false"
         aria-haspopup="menu"
         class="flex @bp-850/structure:hidden cursor-pointer"
+        data-slot="dropdown-menu-trigger"
         data-state="closed"
         id="radix-«r0»"
         type="button"

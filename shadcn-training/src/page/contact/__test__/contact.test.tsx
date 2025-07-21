@@ -2,9 +2,15 @@
 import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
+import dotenv from 'dotenv';
+import { ClerkProvider } from '@clerk/clerk-react';
 
 // Components
 import { ContactPage } from '..';
+
+dotenv.config();
+
+const PUBLISHABLE_KEY = process.env.VITE_CLERK_PUBLISHABLE_KEY;
 
 beforeAll(() => {
   Object.defineProperty(window, 'matchMedia', {
@@ -26,7 +32,9 @@ describe('Contact page', () => {
   test('Renders Contact page', () => {
     const { container } = render(
       <MemoryRouter>
-        <ContactPage />
+        <ClerkProvider publishableKey={PUBLISHABLE_KEY!}>
+          <ContactPage />
+        </ClerkProvider>
       </MemoryRouter>,
     );
     expect(container).toMatchSnapshot();

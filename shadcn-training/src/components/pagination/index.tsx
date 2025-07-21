@@ -7,6 +7,7 @@ import {
   PaginationPrevious,
   PaginationEllipsis,
 } from '@/components/ui/pagination';
+import { useEffect, useState } from 'react';
 
 interface IPagination {
   totalPages: number;
@@ -15,52 +16,56 @@ interface IPagination {
 }
 
 export const Pagination = ({ totalPages, currentPage, onPageChange }: IPagination) => {
-  const handlePageClick = (page: number) => {
-    if (page !== currentPage) {
-      onPageChange(page);
-    }
+  const [isCompact, setIsCompact] = useState(false);
+
+  useEffect(() => {
+    const checkWidth = () => setIsCompact(window.innerWidth <= 500);
+    checkWidth();
+    window.addEventListener('resize', checkWidth);
+    return () => window.removeEventListener('resize', checkWidth);
+  }, []);
+
+  const goToPrevious = () => {
+    if (currentPage > 1) onPageChange(currentPage - 1);
+  };
+
+  const goToNext = () => {
+    if (currentPage < totalPages) onPageChange(currentPage + 1);
   };
 
   const renderPages = () => {
     const pages: React.ReactNode[] = [];
 
-    // Always render the first page
+    // Always show page 1
     pages.push(
       <PaginationItem key={1}>
-        <PaginationLink isActive={currentPage === 1} onClick={() => handlePageClick(1)}>
+        <PaginationLink isActive={currentPage === 1} onClick={() => onPageChange(1)}>
           1
         </PaginationLink>
       </PaginationItem>,
     );
 
-    // Determine if ellipsis and last page are needed
     if (totalPages <= 3) {
       for (let i = 2; i <= totalPages; i++) {
         pages.push(
           <PaginationItem key={i}>
-            <PaginationLink isActive={currentPage === i} onClick={() => handlePageClick(i)}>
+            <PaginationLink isActive={currentPage === i} onClick={() => onPageChange(i)}>
               {i}
             </PaginationLink>
           </PaginationItem>,
         );
       }
     } else {
-      // Show second and third page or current range
       if (currentPage <= 2) {
-        pages.push(
-          <PaginationItem key={2}>
-            <PaginationLink isActive={currentPage === 2} onClick={() => handlePageClick(2)}>
-              2
-            </PaginationLink>
-          </PaginationItem>,
-        );
-        pages.push(
-          <PaginationItem key={3}>
-            <PaginationLink isActive={currentPage === 3} onClick={() => handlePageClick(3)}>
-              3
-            </PaginationLink>
-          </PaginationItem>,
-        );
+        for (let i = 2; i <= 3; i++) {
+          pages.push(
+            <PaginationItem key={i}>
+              <PaginationLink isActive={currentPage === i} onClick={() => onPageChange(i)}>
+                {i}
+              </PaginationLink>
+            </PaginationItem>,
+          );
+        }
         pages.push(
           <PaginationItem key="ellipsis-end">
             <PaginationEllipsis />
@@ -72,28 +77,16 @@ export const Pagination = ({ totalPages, currentPage, onPageChange }: IPaginatio
             <PaginationEllipsis />
           </PaginationItem>,
         );
-        pages.push(
-          <PaginationItem key={totalPages - 2}>
-            <PaginationLink
-              isActive={currentPage === totalPages - 2}
-              onClick={() => handlePageClick(totalPages - 2)}
-            >
-              {totalPages - 2}
-            </PaginationLink>
-          </PaginationItem>,
-        );
-        pages.push(
-          <PaginationItem key={totalPages - 1}>
-            <PaginationLink
-              isActive={currentPage === totalPages - 1}
-              onClick={() => handlePageClick(totalPages - 1)}
-            >
-              {totalPages - 1}
-            </PaginationLink>
-          </PaginationItem>,
-        );
+        for (let i = totalPages - 2; i < totalPages; i++) {
+          pages.push(
+            <PaginationItem key={i}>
+              <PaginationLink isActive={currentPage === i} onClick={() => onPageChange(i)}>
+                {i}
+              </PaginationLink>
+            </PaginationItem>,
+          );
+        }
       } else {
-        // Middle page range
         pages.push(
           <PaginationItem key="ellipsis-start">
             <PaginationEllipsis />
@@ -101,7 +94,7 @@ export const Pagination = ({ totalPages, currentPage, onPageChange }: IPaginatio
         );
         pages.push(
           <PaginationItem key={currentPage}>
-            <PaginationLink isActive onClick={() => handlePageClick(currentPage)}>
+            <PaginationLink isActive onClick={() => onPageChange(currentPage)}>
               {currentPage}
             </PaginationLink>
           </PaginationItem>,
@@ -113,12 +106,11 @@ export const Pagination = ({ totalPages, currentPage, onPageChange }: IPaginatio
         );
       }
 
-      // Always render the last page
       pages.push(
         <PaginationItem key={totalPages}>
           <PaginationLink
             isActive={currentPage === totalPages}
-            onClick={() => handlePageClick(totalPages)}
+            onClick={() => onPageChange(totalPages)}
           >
             {totalPages}
           </PaginationLink>
@@ -133,19 +125,23 @@ export const Pagination = ({ totalPages, currentPage, onPageChange }: IPaginatio
     <PaginationShadcn>
       <PaginationContent>
         <PaginationItem>
-          <PaginationPrevious
-            onClick={currentPage > 1 ? () => onPageChange(currentPage - 1) : undefined}
-            aria-disabled={currentPage === 1}
-          />
+          <PaginationPrevious onClick={goToPrevious} aria-disabled={currentPage === 1}>
+            {isCompact ? 'First' : undefined}
+          </PaginationPrevious>
         </PaginationItem>
 
-        {renderPages()}
+        {isCompact ? (
+          <PaginationItem>
+            <PaginationLink isActive>{currentPage}</PaginationLink>
+          </PaginationItem>
+        ) : (
+          renderPages()
+        )}
 
         <PaginationItem>
-          <PaginationNext
-            onClick={currentPage < totalPages ? () => onPageChange(currentPage + 1) : undefined}
-            aria-disabled={currentPage === totalPages}
-          />
+          <PaginationNext onClick={goToNext} aria-disabled={currentPage === totalPages}>
+            {isCompact ? 'Next' : undefined}
+          </PaginationNext>
         </PaginationItem>
       </PaginationContent>
     </PaginationShadcn>

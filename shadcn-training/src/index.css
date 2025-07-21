@@ -200,7 +200,7 @@ body {
 .cl-internal-zar2af {
   box-shadow: none;
   width: var(--width-full);
-  padding: 0 var(--space-lg);
+  /* padding: 0 var(--space-lg); */
 }
 
 .cl-internal-27sfhy {

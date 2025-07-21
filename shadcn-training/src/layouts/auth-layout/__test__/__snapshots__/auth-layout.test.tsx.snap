@@ -57,22 +57,25 @@ exports[`AuthLayout component Renders AuthLayout component 1`] = `
         class="flex flex-col gap-[30px] max-w-custom-7xl-plus w-full"
       >
         <div
-          class="flex flex-col gap-[5px]"
+          class="flex justify-center items-center h-screen"
         >
-          <div
-            class="flex gap-2.5"
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-loader-circle animate-spin text-primary dark:text-white"
+            fill="none"
+            height="48"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="48"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <span
-              class="text-fs-2xl dark:text-white"
-            >
-              Welcome
-            </span>
-          </div>
-          <span
-            class="text-lg text-charcoalGray-60 dark:text-gray-60"
-          >
-            Please login here
-          </span>
+            <path
+              d="M21 12a9 9 0 1 1-6.219-8.56"
+            />
+          </svg>
         </div>
         <div>
           <p>

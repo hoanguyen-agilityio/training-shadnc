@@ -9,11 +9,11 @@ exports[`Tabs component Renders tabs component 1`] = `
     dir="ltr"
   >
     <div
-      class="flex justify-center w-full overflow-x-auto whitespace-nowrap"
+      class="flex w-full overflow-x-auto whitespace-nowrap"
     >
       <div
         aria-orientation="horizontal"
-        class="bg-muted text-muted-foreground inline-flex w-fit items-center justify-center rounded-lg p-[3px] gap-4"
+        class="bg-muted text-muted-foreground inline-flex w-fit items-center justify-center rounded-lg p-[3px] gap-4 leading-4 mx-auto"
         data-orientation="horizontal"
         data-slot="tabs-list"
         role="tablist"
@@ -23,7 +23,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem1"
           aria-selected="true"
-          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 min-w-custom-h-sm"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -38,7 +38,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem2"
           aria-selected="false"
-          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 min-w-custom-h-sm"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -53,7 +53,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem3"
           aria-selected="false"
-          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 min-w-custom-h-sm"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -68,7 +68,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem4"
           aria-selected="false"
-          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 min-w-custom-h-sm"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -83,7 +83,7 @@ exports[`Tabs component Renders tabs component 1`] = `
         <button
           aria-controls="radix-«r0»-content-lorem5"
           aria-selected="false"
-          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4"
+          class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 min-w-custom-h-sm"
           data-orientation="horizontal"
           data-radix-collection-item=""
           data-slot="tabs-trigger"
@@ -98,21 +98,21 @@ exports[`Tabs component Renders tabs component 1`] = `
       </div>
     </div>
     <div
-      class="w-full grid grid-cols-1 justify-items-center gap-4 @bp-890:grid-cols-2 @bp-1200:grid-cols-3 @bp-1280:justify-items-start"
+      aria-labelledby="radix-«r0»-trigger-lorem1"
+      class="flex-1 outline-none"
+      data-orientation="horizontal"
+      data-slot="tabs-content"
+      data-state="active"
+      id="radix-«r0»-content-lorem1"
+      role="tabpanel"
+      style="animation-duration: 0s;"
+      tabindex="0"
     >
       <div
-        aria-labelledby="radix-«r0»-trigger-lorem1"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="active"
-        id="radix-«r0»-content-lorem1"
-        role="tabpanel"
-        style="animation-duration: 0s;"
-        tabindex="0"
+        class="w-full grid grid-cols-1 justify-items-center gap-4 @bp-890:grid-cols-2 @bp-1200:grid-cols-3 @bp-1280:justify-items-start"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -248,20 +248,8 @@ exports[`Tabs component Renders tabs component 1`] = `
             </div>
           </div>
         </div>
-      </div>
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem1"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="active"
-        id="radix-«r0»-content-lorem1"
-        role="tabpanel"
-        style="animation-duration: 0s;"
-        tabindex="0"
-      >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -383,20 +371,8 @@ exports[`Tabs component Renders tabs component 1`] = `
             </div>
           </div>
         </div>
-      </div>
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem1"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="active"
-        id="radix-«r0»-content-lorem1"
-        role="tabpanel"
-        style="animation-duration: 0s;"
-        tabindex="0"
-      >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -504,20 +480,8 @@ exports[`Tabs component Renders tabs component 1`] = `
             </div>
           </div>
         </div>
-      </div>
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem1"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="active"
-        id="radix-«r0»-content-lorem1"
-        role="tabpanel"
-        style="animation-duration: 0s;"
-        tabindex="0"
-      >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -639,20 +603,8 @@ exports[`Tabs component Renders tabs component 1`] = `
             </div>
           </div>
         </div>
-      </div>
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem1"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="active"
-        id="radix-«r0»-content-lorem1"
-        role="tabpanel"
-        style="animation-duration: 0s;"
-        tabindex="0"
-      >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -788,20 +740,8 @@ exports[`Tabs component Renders tabs component 1`] = `
             </div>
           </div>
         </div>
-      </div>
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem1"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="active"
-        id="radix-«r0»-content-lorem1"
-        role="tabpanel"
-        style="animation-duration: 0s;"
-        tabindex="0"
-      >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
         >
           <div
@@ -938,337 +878,51 @@ exports[`Tabs component Renders tabs component 1`] = `
           </div>
         </div>
       </div>
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem2"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem2"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem2"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem2"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem2"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem2"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem2"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem2"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem2"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem2"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem2"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem2"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem3"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem3"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem3"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem3"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem3"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem3"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem3"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem3"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem3"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem3"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem3"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem3"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem4"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem4"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem4"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem4"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem4"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem4"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem4"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem4"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem4"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem4"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem4"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem4"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem5"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem5"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem5"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem5"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem5"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem5"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem5"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem5"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem5"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem5"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem5"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem5"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem6"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem6"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem6"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem6"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem6"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem6"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem6"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem6"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem6"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem6"
-        role="tabpanel"
-        tabindex="0"
-      />
-      <div
-        aria-labelledby="radix-«r0»-trigger-lorem6"
-        class="flex-1 outline-none"
-        data-orientation="horizontal"
-        data-slot="tabs-content"
-        data-state="inactive"
-        hidden=""
-        id="radix-«r0»-content-lorem6"
-        role="tabpanel"
-        tabindex="0"
-      />
     </div>
+    <div
+      aria-labelledby="radix-«r0»-trigger-lorem2"
+      class="flex-1 outline-none"
+      data-orientation="horizontal"
+      data-slot="tabs-content"
+      data-state="inactive"
+      hidden=""
+      id="radix-«r0»-content-lorem2"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="radix-«r0»-trigger-lorem3"
+      class="flex-1 outline-none"
+      data-orientation="horizontal"
+      data-slot="tabs-content"
+      data-state="inactive"
+      hidden=""
+      id="radix-«r0»-content-lorem3"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="radix-«r0»-trigger-lorem4"
+      class="flex-1 outline-none"
+      data-orientation="horizontal"
+      data-slot="tabs-content"
+      data-state="inactive"
+      hidden=""
+      id="radix-«r0»-content-lorem4"
+      role="tabpanel"
+      tabindex="0"
+    />
+    <div
+      aria-labelledby="radix-«r0»-trigger-lorem5"
+      class="flex-1 outline-none"
+      data-orientation="horizontal"
+      data-slot="tabs-content"
+      data-state="inactive"
+      hidden=""
+      id="radix-«r0»-content-lorem5"
+      role="tabpanel"
+      tabindex="0"
+    />
   </div>
 </div>
 `;

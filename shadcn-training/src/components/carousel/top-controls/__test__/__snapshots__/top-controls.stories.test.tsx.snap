@@ -6,10 +6,10 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
     class="w-full max-w-7xl mx-auto p-6"
   >
     <div
-      class="flex items-center justify-between mb-space-4xl"
+      class="flex flex-col justify-between mb-space-4xl @bp-520/main:flex-row @bp-520/main:items-center"
     >
       <h3
-        class="text-fs-2xl dark:text-white"
+        class="font-scope text-fs-2xl dark:text-white"
       >
         Client Testimonial
       </h3>
@@ -126,12 +126,12 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                   </span>
                   <div>
                     <h4
-                      class="font-semibold text-black dark:text-white text-sm"
+                      class="font-semibold leading-6 text-black dark:text-white text-sm"
                     >
                       Robert Fox
                     </h4>
                     <p
-                      class="text-charcoalGray-60 dark:text-theme-gray-450 text-xs font-normal"
+                      class="text-charcoalGray-60 leading-5 dark:text-theme-gray-450 text-xs font-normal"
                     >
                       Customer
                     </p>
@@ -268,12 +268,12 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                   </span>
                   <div>
                     <h4
-                      class="font-semibold text-black dark:text-white text-sm"
+                      class="font-semibold leading-6 text-black dark:text-white text-sm"
                     >
                       Dianne Russell
                     </h4>
                     <p
-                      class="text-charcoalGray-60 dark:text-theme-gray-450 text-xs font-normal"
+                      class="text-charcoalGray-60 leading-5 dark:text-theme-gray-450 text-xs font-normal"
                     >
                       Customer
                     </p>
@@ -410,12 +410,12 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                   </span>
                   <div>
                     <h4
-                      class="font-semibold text-black dark:text-white text-sm"
+                      class="font-semibold leading-6 text-black dark:text-white text-sm"
                     >
                       Eleanor Pena
                     </h4>
                     <p
-                      class="text-charcoalGray-60 dark:text-theme-gray-450 text-xs font-normal"
+                      class="text-charcoalGray-60 leading-5 dark:text-theme-gray-450 text-xs font-normal"
                     >
                       Customer
                     </p>
@@ -552,12 +552,12 @@ exports[`CarouselWithTopControls component Renders carouselWithTopControls compo
                   </span>
                   <div>
                     <h4
-                      class="font-semibold text-black dark:text-white text-sm"
+                      class="font-semibold leading-6 text-black dark:text-white text-sm"
                     >
                       Eleanor Pena
                     </h4>
                     <p
-                      class="text-charcoalGray-60 dark:text-theme-gray-450 text-xs font-normal"
+                      class="text-charcoalGray-60 leading-5 dark:text-theme-gray-450 text-xs font-normal"
                     >
                       Customer
                     </p>

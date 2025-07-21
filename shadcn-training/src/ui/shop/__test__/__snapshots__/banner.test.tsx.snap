@@ -14,12 +14,12 @@ exports[`Shop banner Component renders shop banner component 1`] = `
       class="text-center absolute inset-0 flex flex-col justify-center items-center w-full"
     >
       <span
-        class="text-sm uppercase text-white"
+        class="text-sm leading-lh-sm uppercase text-white"
       >
         Best Deals
       </span>
       <h1
-        class="text-4xl @bp-720/main:text-fs-xl font-semibold mt-3 text-white"
+        class="text-4xl leading-lh-3xl @bp-720/main:text-fs-xl font-semibold mt-3 text-white"
       >
         Sale of the Month
       </h1>
@@ -33,12 +33,12 @@ exports[`Shop banner Component renders shop banner component 1`] = `
             class="flex flex-col items-center gap-1"
           >
             <span
-              class="text-2xl font-semibold text-white"
+              class="text-2xl leading-9 font-semibold text-white"
             >
               00
             </span>
             <span
-              class="text-xs opacity-50 text-white"
+              class="text-xs leading-3 opacity-50 text-white"
             >
               DAYS
             </span>
@@ -56,12 +56,12 @@ exports[`Shop banner Component renders shop banner component 1`] = `
             class="flex flex-col items-center gap-1"
           >
             <span
-              class="text-2xl font-semibold text-white"
+              class="text-2xl leading-9 font-semibold text-white"
             >
               02
             </span>
             <span
-              class="text-xs opacity-50 text-white"
+              class="text-xs leading-3 opacity-50 text-white"
             >
               HOURS
             </span>
@@ -79,12 +79,12 @@ exports[`Shop banner Component renders shop banner component 1`] = `
             class="flex flex-col items-center gap-1"
           >
             <span
-              class="text-2xl font-semibold text-white"
+              class="text-2xl leading-9 font-semibold text-white"
             >
               18
             </span>
             <span
-              class="text-xs opacity-50 text-white"
+              class="text-xs leading-3 opacity-50 text-white"
             >
               MINS
             </span>
@@ -102,12 +102,12 @@ exports[`Shop banner Component renders shop banner component 1`] = `
             class="flex flex-col items-center gap-1"
           >
             <span
-              class="text-2xl font-semibold text-white"
+              class="text-2xl leading-9 font-semibold text-white"
             >
               46
             </span>
             <span
-              class="text-xs opacity-50 text-white"
+              class="text-xs leading-3 opacity-50 text-white"
             >
               SECS
             </span>
@@ -123,15 +123,18 @@ exports[`Shop banner Component renders shop banner component 1`] = `
       </button>
     </div>
     <div
-      class="bg-theme-brand rounded-full flex flex-col p-3 text-center absolute right-2 top-2 @bp-400/main:right-1/12 @bp-400/main:top-1/12 @bp-720/main:p-6 @bp-1180/main:right-3/12"
+      class="bg-theme-brand rounded-full aspect-square w-14 @bp-720/main:w-20
+             flex flex-col justify-center items-center text-center
+             absolute right-2 top-2
+             @bp-400/main:right-1/12 @bp-400/main:top-1/12 @bp-1180/main:right-3/12 @bp-1180/main:w-custom-xs @bp-1180/main:h-custom-xs"
     >
       <span
-        class="text-xl @bp-720/main:text-2xl font-semibold text-white"
+        class="text-base @bp-720/main:text-2xl font-semibold text-white leading-none"
       >
         56%
       </span>
       <span
-        class="text-xs text-white opacity-80"
+        class="text-[10px] @bp-720/main:text-xs text-white opacity-80 leading-tight"
       >
         OFF
       </span>

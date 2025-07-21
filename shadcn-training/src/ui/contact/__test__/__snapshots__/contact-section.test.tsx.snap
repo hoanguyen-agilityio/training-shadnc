@@ -46,12 +46,12 @@ exports[`Contact section Component renders contact section component 1`] = `
           class="flex flex-col gap-1 text-center dark:text-white"
         >
           <span
-            class="text-base"
+            class="text-base leading-7"
           >
             2715 Ash Dr. San Jose, South
           </span>
           <span
-            class="text-base"
+            class="text-base leading-7"
           >
             Dakota 83475
           </span>
@@ -105,12 +105,12 @@ exports[`Contact section Component renders contact section component 1`] = `
           class="flex flex-col gap-1 text-center dark:text-white"
         >
           <span
-            class="text-base"
+            class="text-base leading-7"
           >
             Proxy@gmail.com
           </span>
           <span
-            class="text-base"
+            class="text-base leading-7"
           >
             Help.proxy@gmail.com
           </span>
@@ -153,12 +153,12 @@ exports[`Contact section Component renders contact section component 1`] = `
           class="flex flex-col gap-1 text-center dark:text-white"
         >
           <span
-            class="text-base"
+            class="text-base leading-7"
           >
             (219) 555-0114
           </span>
           <span
-            class="text-base"
+            class="text-base leading-7"
           >
             (164) 333-0487
           </span>
@@ -315,7 +315,7 @@ exports[`Contact section Component renders contact section component 1`] = `
                   placeholder=""
                   step="60"
                   type="time"
-                  value="10:09"
+                  value="10:07"
                 />
               </div>
             </div>

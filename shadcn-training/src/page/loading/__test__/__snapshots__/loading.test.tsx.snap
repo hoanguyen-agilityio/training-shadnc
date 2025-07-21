@@ -7,7 +7,7 @@ exports[`Loading page Renders Loading page 1`] = `
   >
     <svg
       aria-hidden="true"
-      class="lucide lucide-loader-circle animate-spin text-primary"
+      class="lucide lucide-loader-circle animate-spin text-primary dark:text-white"
       fill="none"
       height="48"
       stroke="currentColor"
