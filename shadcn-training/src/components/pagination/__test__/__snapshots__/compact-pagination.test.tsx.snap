@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`CompactPagination component renders CompactPagination correctly 1`] = `
+<div>
+  <nav
+    aria-label="pagination"
+    class="flex @bp-500/main:hidden"
+    data-slot="pagination"
+    role="navigation"
+  >
+    <ul
+      class="flex flex-row items-center shadow-lg rounded-l-lg rounded-r-lg"
+      data-slot="pagination-content"
+    >
+      <li
+        data-slot="pagination-item"
+      >
+        <a
+          aria-disabled="true"
+          aria-label="Go to previous page"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 py-2.5 rounded-radius-md px-space-2xl px-5 py-space-md size-auto rounded-none aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80 border border-white p-space-md rounded-l-lg rounded-r-none w-full font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer"
+          data-slot="pagination-link"
+        >
+          <span
+            class=""
+          >
+            First
+          </span>
+        </a>
+      </li>
+      <li
+        data-slot="pagination-item"
+      >
+        <a
+          aria-current="page"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-green-700 text-white shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-green-50 dark:border-input dark:hover:bg-input/50 px-5 py-space-md border size-auto rounded-none font-bold cursor-pointer border-theme-gray-300 aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
+          data-active="true"
+          data-slot="pagination-link"
+        >
+          1
+        </a>
+      </li>
+      <li
+        data-slot="pagination-item"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="Go to next page"
+          class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 py-2.5 rounded-radius-md px-space-2xl px-5 py-space-md size-auto rounded-none aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80 border border-white p-space-md rounded-r-lg rounded-l-none font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer"
+          data-slot="pagination-link"
+        >
+          <span
+            class=""
+          >
+            Next
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

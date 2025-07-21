@@ -3,3 +3,4 @@ export * from './menu';
 export * from './product-card';
 export * from './user';
 export * from './meta-data';
+export * from './pagination';

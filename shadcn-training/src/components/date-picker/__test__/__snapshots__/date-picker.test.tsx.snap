@@ -71,7 +71,7 @@ exports[`DatePicker Component renders date picker component 1`] = `
           placeholder=""
           step="60"
           type="time"
-          value="10:07"
+          value="14:21"
         />
       </div>
     </div>
