@@ -1,3 +1,267 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`New arrivals Component renders new arrivals component 1`] = `<div />`;
+exports[`New arrivals Component renders new arrivals component 1`] = `
+<div>
+  <section
+    aria-label="new arrivals"
+    class="max-w-container mx-auto"
+  >
+    <div
+      class="flex flex-col text-center gap-3.5 mb-4 items-center"
+    >
+      <h2
+        class="font-scope text-fs-2xl text-theme-gray-900 dark:text-white"
+      >
+        New Arrivals
+      </h2>
+      <p
+        class="text-lg leading-7 text-charcoalGray-60 dark:text-gray-60 w-full max-w-custom-9xl-plus"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque duis ultrices sollicitudin aliquam sem. Scelerisque duis ultrices sollicitudin
+      </p>
+    </div>
+    <div
+      class="flex flex-col gap-[50px]"
+      data-orientation="horizontal"
+      data-slot="tabs"
+      dir="ltr"
+    >
+      <div
+        class="flex w-full overflow-x-auto whitespace-nowrap"
+      >
+        <div
+          aria-orientation="horizontal"
+          class="bg-muted text-muted-foreground inline-flex w-fit items-center justify-center rounded-lg p-[3px] gap-4 leading-4 mx-auto"
+          data-orientation="horizontal"
+          data-slot="tabs-list"
+          role="tablist"
+          style="outline: none;"
+          tabindex="0"
+        >
+          <button
+            aria-controls="radix-«r0»-content-lorem1"
+            aria-selected="true"
+            class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 min-w-custom-h-sm"
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-slot="tabs-trigger"
+            data-state="active"
+            id="radix-«r0»-trigger-lorem1"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Lorem ipsum
+          </button>
+          <button
+            aria-controls="radix-«r0»-content-lorem2"
+            aria-selected="false"
+            class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 min-w-custom-h-sm"
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-slot="tabs-trigger"
+            data-state="inactive"
+            id="radix-«r0»-trigger-lorem2"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Dolor sit
+          </button>
+          <button
+            aria-controls="radix-«r0»-content-lorem3"
+            aria-selected="false"
+            class="cursor-pointer data-[state=active]:bg-black dark:data-[state=active]:bg-theme-gray-800 data-[state=active]:text-white dark:data-[state=active]:text-white bg-theme-gray-50 rounded-radius-md focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input text-charcoalGray-60 dark:text-black inline-flex flex-1 items-center justify-center gap-1.5 border border-transparent py-5 px-10 font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 min-w-custom-h-sm"
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-slot="tabs-trigger"
+            data-state="inactive"
+            id="radix-«r0»-trigger-lorem3"
+            role="tab"
+            tabindex="-1"
+            type="button"
+          >
+            Amet consectetur
+          </button>
+        </div>
+      </div>
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem1"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="active"
+        id="radix-«r0»-content-lorem1"
+        role="tabpanel"
+        style="animation-duration: 0s;"
+        tabindex="0"
+      >
+        <div
+          class="w-full grid grid-cols-1 justify-items-center gap-4 @bp-890:grid-cols-2 @bp-1200:grid-cols-3 @bp-1280:justify-items-start"
+        >
+          <div
+            class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
+            data-slot="card"
+            data-testid="product-card"
+          >
+            <div
+              class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
+              data-slot="card-header"
+            >
+              <div
+                class="relative"
+              >
+                <img
+                  alt="img product"
+                  src="https://picsum.photos/seed/1/354/244"
+                />
+              </div>
+            </div>
+            <div
+              class="flex flex-col gap-6"
+              data-slot="card-content"
+            >
+              <div
+                class="flex gap-2 justify-between items-center"
+              >
+                <div>
+                  <div
+                    class="font-semibold text-xl dark:text-white"
+                    data-slot="card-title"
+                  >
+                    Lorem ipsum 1
+                  </div>
+                  <div
+                    class="text-xs text-charcoalGray-60 dark:text-slate-400"
+                    data-slot="card-description"
+                  >
+                    Al Karam
+                  </div>
+                </div>
+                <div
+                  class="flex gap-1"
+                >
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <svg
+                    fill="none"
+                    height="19px"
+                    viewBox="0 0 20 19"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
+                      fill="#FCA120"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="text-muted-foreground text-xs dark:text-white"
+                data-slot="card-description"
+              >
+                (4.1k) Customer Reviews
+              </div>
+              <div
+                class="flex justify-between items-center"
+              >
+                <div
+                  class="text-muted-foreground text-2xl font-bold dark:text-white"
+                  data-slot="card-description"
+                >
+                  $95.50
+                </div>
+                <div
+                  class="text-xs text-red-600 dark:text-red-400"
+                  data-slot="card-description"
+                >
+                  Almost Sold Out
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem2"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem2"
+        role="tabpanel"
+        tabindex="0"
+      />
+      <div
+        aria-labelledby="radix-«r0»-trigger-lorem3"
+        class="flex-1 outline-none"
+        data-orientation="horizontal"
+        data-slot="tabs-content"
+        data-state="inactive"
+        hidden=""
+        id="radix-«r0»-content-lorem3"
+        role="tabpanel"
+        tabindex="0"
+      />
+    </div>
+  </section>
+</div>
+`;
