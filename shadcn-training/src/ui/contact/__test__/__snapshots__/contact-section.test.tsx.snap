@@ -315,7 +315,7 @@ exports[`Contact section Component renders contact section component 1`] = `
                   placeholder=""
                   step="60"
                   type="time"
-                  value="16:25"
+                  value="16:35"
                 />
               </div>
             </div>
