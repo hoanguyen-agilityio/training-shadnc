@@ -3,11 +3,11 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 
 // Components
-import { NewIn } from '..';
+import { SocialGallery } from '..';
 
 describe('Social gallery Component', () => {
   test('renders social gallery component', () => {
-    const { container } = render(<NewIn />);
+    const { container } = render(<SocialGallery />);
 
     expect(container).toMatchSnapshot();
   });
