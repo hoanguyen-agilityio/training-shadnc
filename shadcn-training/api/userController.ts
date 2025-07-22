@@ -1,6 +1,10 @@
 // api/userController.ts
 import { Webhook } from 'svix';
-import { Request, Response } from 'express';
+import type { VercelRequest, VercelResponse } from '@vercel/node';
+import type { Request as ExpressRequest, Response as ExpressResponse } from 'express';
+
+type UniversalRequest = VercelRequest | ExpressRequest;
+type UniversalResponse = VercelResponse | ExpressResponse;
 
 interface WebhookEventData {
   id?: string;
@@ -16,8 +20,8 @@ interface WebhookEventData {
  */
 export const handleWebhook = async (
   rawBody: Buffer,
-  req: Request,
-  res: Response,
+  req: UniversalRequest,
+  res: UniversalResponse,
   mockApiUrl: string,
   signingSecret: string,
 ) => {
@@ -155,12 +159,23 @@ export const handleWebhook = async (
   }
 };
 
+function isExpressRequest(req: UniversalRequest): req is ExpressRequest {
+  return 'params' in req;
+}
+
 /**
  * API handler for deleting a user via REST endpoint (called manually from app).
  */
-export const deleteUserHandler = async (req: Request, res: Response, mockApiUrl: string) => {
-  const userId = req.params.id;
+export const deleteUserHandler = async (
+  req: UniversalRequest,
+  res: UniversalResponse,
+  mockApiUrl: string,
+) => {
+  if (!isExpressRequest(req)) {
+    return res.status(400).json({ success: false, message: 'Unsupported request type' });
+  }
 
+  const userId = req.params.id;
   if (!userId) {
     return res.status(400).json({ success: false, message: 'User ID is required' });
   }
@@ -185,7 +200,15 @@ export const deleteUserHandler = async (req: Request, res: Response, mockApiUrl:
 /**
  * API handler for editing a user via REST endpoint (called manually from app).
  */
-export const editUserHandler = async (req: Request, res: Response, mockApiUrl: string) => {
+export const editUserHandler = async (
+  req: UniversalRequest,
+  res: UniversalResponse,
+  mockApiUrl: string,
+) => {
+  if (!isExpressRequest(req)) {
+    return res.status(400).json({ success: false, message: 'Unsupported request type' });
+  }
+
   const userId = req.params.id;
   const { firstName, lastName, email } = req.body;
 
