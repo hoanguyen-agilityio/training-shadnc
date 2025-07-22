@@ -12,7 +12,7 @@ const clerkLocalization = {
   signUp: {
     start: {
       title: 'Create New Account',
-      actionText: 'Please enter details',
+      subtitle: 'Please enter details',
     },
   },
   formFieldInputPlaceholder__emailAddress: 'robertfox@example.com',
