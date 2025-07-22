@@ -27,18 +27,6 @@ jest.mock('react-router-dom', () => {
   };
 });
 
-jest.mock('@/utils', () => ({
-  ...jest.requireActual('@/utils'),
-  useInitialUsers: () => [
-    {
-      email: 'admin@gmail.com',
-      password: '@Admin123456',
-      firstName: 'Test',
-      lastName: 'User',
-    },
-  ],
-}));
-
 jest.mock('@/services', () => ({
   createUser: (...args: User[]) => mockCreateUser(...args),
 }));

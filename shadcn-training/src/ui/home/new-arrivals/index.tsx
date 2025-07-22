@@ -1,6 +1,11 @@
-import { Tabs } from '@/components/common/tabs';
+// Hooks
+import { useHomePageProductsByTab } from '@/hooks';
+
+// Mocks
 import { TABS_LABEL } from '@/mocks';
-import { useHomePageProductsByTab } from '@/utils';
+
+// Components
+import { Tabs } from '@/components';
 
 export const NewArrivals = () => {
   const homePageProductsByTab = useHomePageProductsByTab();

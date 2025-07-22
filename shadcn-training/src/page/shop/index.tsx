@@ -7,6 +7,9 @@ import { Footer, Header } from '@/layouts';
 // Ui
 import { ActiveFilter, HeroImg, ShopBanner } from '@/ui';
 
+// Hooks
+import { useProducts } from '@/hooks';
+
 // Mocks
 import {
   CATEGORY_OPTIONS,
@@ -26,7 +29,6 @@ import {
   Subscribe,
   MetaTags,
 } from '@/components';
-import { useProducts } from '@/utils';
 
 export const ShopPage = () => {
   const products = useProducts();

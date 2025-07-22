@@ -6,7 +6,7 @@ import '@testing-library/jest-dom';
 import { NewArrivals } from '..';
 
 // Mocks
-jest.mock('@/utils', () => ({
+jest.mock('@/hooks', () => ({
   useHomePageProductsByTab: () => [
     {
       img: 'https://picsum.photos/seed/1/354/244',

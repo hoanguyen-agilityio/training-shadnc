@@ -23,18 +23,6 @@ jest.mock('react-router-dom', () => {
   };
 });
 
-jest.mock('@/utils', () => ({
-  ...jest.requireActual('@/utils'),
-  useInitialUsers: () => [
-    {
-      email: 'admin@gmail.com',
-      password: '@Admin123456',
-      firstName: 'Test',
-      lastName: 'User',
-    },
-  ],
-}));
-
 beforeAll(() => {
   // MatchMedia mock
   Object.defineProperty(window, 'matchMedia', {
@@ -75,56 +63,4 @@ describe('LoginPage', () => {
     );
     expect(container).toMatchSnapshot();
   });
-
-  // test('logs in with valid credentials', async () => {
-  //   const setItemSpy = jest.spyOn(Storage.prototype, 'setItem');
-
-  //   render(
-  //     <MemoryRouter>
-  //       <LoginPage />
-  //     </MemoryRouter>,
-  //   );
-
-  //   fireEvent.change(screen.getByPlaceholderText('robertfox@example.com'), {
-  //     target: { value: 'admin@gmail.com' },
-  //   });
-
-  //   fireEvent.change(screen.getByPlaceholderText('**************'), {
-  //     target: { value: '@Admin123456' },
-  //   });
-
-  //   fireEvent.click(screen.getByRole('button', { name: /login/i }));
-
-  //   await waitFor(() => {
-  //     expect(setItemSpy).toHaveBeenCalledWith('token', 'admin@gmail.com');
-  //     expect(mockNavigate).toHaveBeenCalledWith('/');
-  //   });
-  // });
-
-  // test('shows error on invalid login attempt', async () => {
-  //   render(
-  //     <MemoryRouter>
-  //       <LoginPage />
-  //     </MemoryRouter>,
-  //   );
-
-  //   // Input invalid credentials
-  //   fireEvent.change(screen.getByPlaceholderText('robertfox@example.com'), {
-  //     target: { value: 'wronguser@example.com' },
-  //   });
-
-  //   fireEvent.change(screen.getByPlaceholderText('**************'), {
-  //     target: { value: 'wrongPassword123' },
-  //   });
-
-  //   fireEvent.click(screen.getByRole('button', { name: /login/i }));
-
-  //   await waitFor(() => {
-  //     expect(screen.getByText(/Email or password is incorrect/i)).toBeInTheDocument();
-  //   });
-
-  //   // Ensure it did not navigate or store token
-  //   expect(mockNavigate).not.toHaveBeenCalled();
-  //   expect(localStorage.getItem('token')).toBeNull();
-  // });
 });

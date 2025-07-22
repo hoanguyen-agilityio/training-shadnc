@@ -12,7 +12,7 @@ dotenv.config();
 const PUBLISHABLE_KEY = process.env.VITE_CLERK_PUBLISHABLE_KEY;
 
 // Mock products
-jest.mock('@/utils', () => ({
+jest.mock('@/hooks', () => ({
   useProducts: () =>
     Array.from({ length: 30 }, (_, i) => ({
       img: '',
