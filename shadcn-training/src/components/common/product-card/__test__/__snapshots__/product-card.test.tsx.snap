@@ -3,8 +3,9 @@
 exports[`Menu component Renders menu component 1`] = `
 <div>
   <div
-    class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+    class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
     data-slot="card"
+    data-testid="product-card"
   >
     <div
       class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"

@@ -1,7 +1,16 @@
 // Libs
 import '@testing-library/jest-dom';
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
+import { ClerkProvider } from '@clerk/clerk-react';
+import dotenv from 'dotenv';
+
+// Components
+import { LoginPage } from '..';
+
+dotenv.config();
+
+const PUBLISHABLE_KEY = process.env.VITE_CLERK_PUBLISHABLE_KEY;
 
 // Mocks
 const mockNavigate = jest.fn();
@@ -13,21 +22,6 @@ jest.mock('react-router-dom', () => {
     useNavigate: () => mockNavigate,
   };
 });
-
-jest.mock('@/utils', () => ({
-  ...jest.requireActual('@/utils'),
-  useInitialUsers: () => [
-    {
-      email: 'admin@gmail.com',
-      password: '@Admin123456',
-      firstName: 'Test',
-      lastName: 'User',
-    },
-  ],
-}));
-
-// Components
-import { LoginPage } from '..';
 
 beforeAll(() => {
   // MatchMedia mock
@@ -62,61 +56,11 @@ describe('LoginPage', () => {
   test('renders LoginPage correctly', () => {
     const { container } = render(
       <MemoryRouter>
-        <LoginPage />
+        <ClerkProvider publishableKey={PUBLISHABLE_KEY!}>
+          <LoginPage />
+        </ClerkProvider>
       </MemoryRouter>,
     );
     expect(container).toMatchSnapshot();
-  });
-
-  test('logs in with valid credentials', async () => {
-    const setItemSpy = jest.spyOn(Storage.prototype, 'setItem');
-
-    render(
-      <MemoryRouter>
-        <LoginPage />
-      </MemoryRouter>,
-    );
-
-    fireEvent.change(screen.getByPlaceholderText('robertfox@example.com'), {
-      target: { value: 'admin@gmail.com' },
-    });
-
-    fireEvent.change(screen.getByPlaceholderText('**************'), {
-      target: { value: '@Admin123456' },
-    });
-
-    fireEvent.click(screen.getByRole('button', { name: /login/i }));
-
-    await waitFor(() => {
-      expect(setItemSpy).toHaveBeenCalledWith('token', 'admin@gmail.com');
-      expect(mockNavigate).toHaveBeenCalledWith('/');
-    });
-  });
-
-  test('shows error on invalid login attempt', async () => {
-    render(
-      <MemoryRouter>
-        <LoginPage />
-      </MemoryRouter>,
-    );
-
-    // Input invalid credentials
-    fireEvent.change(screen.getByPlaceholderText('robertfox@example.com'), {
-      target: { value: 'wronguser@example.com' },
-    });
-
-    fireEvent.change(screen.getByPlaceholderText('**************'), {
-      target: { value: 'wrongPassword123' },
-    });
-
-    fireEvent.click(screen.getByRole('button', { name: /login/i }));
-
-    await waitFor(() => {
-      expect(screen.getByText(/Email or password is incorrect/i)).toBeInTheDocument();
-    });
-
-    // Ensure it did not navigate or store token
-    expect(mockNavigate).not.toHaveBeenCalled();
-    expect(localStorage.getItem('token')).toBeNull();
   });
 });

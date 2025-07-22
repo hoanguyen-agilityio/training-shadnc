@@ -14,10 +14,11 @@ export * from './error-boundary';
 export * from './date-picker';
 export * from './meta';
 export * from './cookie-consent';
+export * from './theme';
 
 export * from './common/menu';
 export * from './common/button';
 export * from './common/input';
 export * from './common/product-card';
 export * from './common/dropdown';
-export * from './theme';
+export * from './common/tabs';

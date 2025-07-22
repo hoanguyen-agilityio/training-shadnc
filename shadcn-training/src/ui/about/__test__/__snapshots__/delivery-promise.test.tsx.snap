@@ -7,12 +7,12 @@ exports[`Delivery promise Component renders delivery promise component 1`] = `
   >
     <div>
       <h3
-        class="text-fs-2xl dark:text-white"
+        class="font-scope text-fs-2xl dark:text-white"
       >
         We Delivered, You Enjoy Your Order.
       </h3>
       <p
-        class="text-lg text-charcoalGray-60 dark:text-gray-60 mt-3"
+        class="text-lg leading-7 text-charcoalGray-60 dark:text-gray-60 mt-3"
       >
         Ut suscipit egestas suscipit. Sed posuere pellentesque nunc, ultrices consectetur velit dapibus eu. Mauris sollicitudin dignissim diam, ac mattis eros accumsan rhoncus. Curabitur auctor bibendum nunc eget elementum.
       </p>
@@ -60,7 +60,7 @@ exports[`Delivery promise Component renders delivery promise component 1`] = `
             </defs>
           </svg>
           <span
-            class="text-base text-charcoalGray-60 dark:text-gray-60"
+            class="text-base leading-6 text-charcoalGray-60 dark:text-gray-60"
           >
             Sed in metus pellentesque.
           </span>
@@ -106,7 +106,7 @@ exports[`Delivery promise Component renders delivery promise component 1`] = `
             </defs>
           </svg>
           <span
-            class="text-base text-charcoalGray-60 dark:text-gray-60"
+            class="text-base leading-6 text-charcoalGray-60 dark:text-gray-60"
           >
             Fusce et ex commodo, aliquam nulla efficitur, tempus lorem.
           </span>
@@ -152,7 +152,7 @@ exports[`Delivery promise Component renders delivery promise component 1`] = `
             </defs>
           </svg>
           <span
-            class="text-base text-charcoalGray-60 dark:text-gray-60"
+            class="text-base leading-6 text-charcoalGray-60 dark:text-gray-60"
           >
             Maecenas ut nunc fringilla erat varius.
           </span>

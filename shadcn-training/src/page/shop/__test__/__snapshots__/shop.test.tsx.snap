@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`Shop page Renders Shop page 1`] = `
+exports[`Shop page pagination logic Renders Shop page 1`] = `
 <div>
   <div
     class="@container/structure max-w-container mx-auto px-10"
@@ -9,7 +9,7 @@ exports[`Shop page Renders Shop page 1`] = `
       class="flex items-center justify-between mt-5 border-b-1 border-theme-gray-250 pb-5"
     >
       <div
-        class="flex items-center @bp-680/structure:gap-8 gap-0"
+        class="flex items-center @bp-850/structure:gap-8 gap-0"
       >
         <a
           aria-label="logo"
@@ -50,119 +50,13 @@ exports[`Shop page Renders Shop page 1`] = `
             </defs>
           </svg>
         </a>
-        <nav
-          aria-label="breadcrumb"
-          class="hidden @bp-850/structure:flex"
-          data-slot="breadcrumb"
-        >
-          <ol
-            class="text-muted-foreground flex-wrap items-center gap-1.5 text-sm break-words flex sm:gap-8"
-            data-slot="breadcrumb-list"
-          >
-            <li
-              class="inline-flex items-center gap-1.5"
-              data-slot="breadcrumb-item"
-            >
-              <a
-                class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white"
-                data-slot="breadcrumb-link"
-                href="/shop"
-              >
-                Shop
-              </a>
-            </li>
-            <li
-              class="inline-flex items-center gap-1.5"
-              data-slot="breadcrumb-item"
-            >
-              <a
-                class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white cursor-not-allowed"
-                data-slot="breadcrumb-link"
-              >
-                New Arrivals
-              </a>
-            </li>
-            <li
-              class="inline-flex items-center gap-1.5"
-              data-slot="breadcrumb-item"
-            >
-              <a
-                class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white"
-                data-slot="breadcrumb-link"
-                href="/about"
-              >
-                About Us
-              </a>
-            </li>
-            <li
-              class="inline-flex items-center gap-1.5"
-              data-slot="breadcrumb-item"
-            >
-              <a
-                class="transition-colors font-poppins hover:text-green-50 text-base dark:text-white"
-                data-slot="breadcrumb-link"
-                href="/sign-in"
-              >
-                Sign in
-              </a>
-            </li>
-          </ol>
-        </nav>
-        <button
-          aria-expanded="false"
-          aria-haspopup="menu"
-          class="flex @bp-850/structure:hidden cursor-pointer"
-          data-state="closed"
-          id="radix-«r0»"
-          type="button"
-        >
-          <svg
-            class="text-black dark:text-white"
-            enable-background="new 0 0 32 32"
-            fill="currentColor"
-            height="24px"
-            id="Glyph"
-            version="1.1"
-            viewBox="0 0 32 32"
-            width="24px"
-            xml:space="preserve"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
-            <g
-              id="SVGRepo_bgCarrier"
-              stroke-width="0"
-            />
-            <g
-              id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <g
-              id="SVGRepo_iconCarrier"
-            >
-              <path
-                d="M26,16c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,14,26,14.896,26,16z"
-                id="XMLID_314_"
-              />
-              <path
-                d="M26,8c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,6,26,6.896,26,8z"
-                id="XMLID_315_"
-              />
-              <path
-                d="M26,24c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,22,26,22.896,26,24z"
-                id="XMLID_316_"
-              />
-            </g>
-          </svg>
-        </button>
       </div>
       <div
         class="flex items-center gap-4"
       >
         <button
           aria-label="Light mode switch"
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-black text-green-50 hover:text-accent-foreground dark:hover:bg-accent/50 px-space-xl rounded-radius-3xl relative h-14 w-28 rounded-full p-1 transition-all duration-300 ease-in-out hover:scale-105 focus:scale-105 bg-gray-200 hover:bg-gray-300"
+          class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-black text-green-50 hover:text-accent-foreground dark:hover:bg-accent/50 px-space-xl rounded-radius-3xl relative h-14 w-28 rounded-full p-1 transition-all duration-300 ease-in-out hover:scale-105 focus:scale-105 bg-gray-200 hover:bg-gray-300 hidden @bp-850/structure:flex"
           data-slot="button"
         >
           <div
@@ -233,12 +127,6 @@ exports[`Shop page Renders Shop page 1`] = `
               />
             </svg>
           </div>
-        </button>
-        <button
-          class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-4 rounded-radius-md px-space-2xl cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2"
-          data-slot="button"
-        >
-          Sign Up
         </button>
       </div>
     </header>
@@ -316,12 +204,12 @@ exports[`Shop page Renders Shop page 1`] = `
           class="text-center absolute inset-0 flex flex-col justify-center items-center w-full"
         >
           <span
-            class="text-sm uppercase text-white"
+            class="text-sm leading-lh-sm uppercase text-white"
           >
             Best Deals
           </span>
           <h1
-            class="text-4xl @bp-720/main:text-fs-xl font-semibold mt-3 text-white"
+            class="text-4xl leading-lh-3xl @bp-720/main:text-fs-xl font-semibold mt-3 text-white"
           >
             Sale of the Month
           </h1>
@@ -335,12 +223,12 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex flex-col items-center gap-1"
               >
                 <span
-                  class="text-2xl font-semibold text-white"
+                  class="text-2xl leading-9 font-semibold text-white"
                 >
                   00
                 </span>
                 <span
-                  class="text-xs opacity-50 text-white"
+                  class="text-xs leading-3 opacity-50 text-white"
                 >
                   DAYS
                 </span>
@@ -358,12 +246,12 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex flex-col items-center gap-1"
               >
                 <span
-                  class="text-2xl font-semibold text-white"
+                  class="text-2xl leading-9 font-semibold text-white"
                 >
                   02
                 </span>
                 <span
-                  class="text-xs opacity-50 text-white"
+                  class="text-xs leading-3 opacity-50 text-white"
                 >
                   HOURS
                 </span>
@@ -381,12 +269,12 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex flex-col items-center gap-1"
               >
                 <span
-                  class="text-2xl font-semibold text-white"
+                  class="text-2xl leading-9 font-semibold text-white"
                 >
                   18
                 </span>
                 <span
-                  class="text-xs opacity-50 text-white"
+                  class="text-xs leading-3 opacity-50 text-white"
                 >
                   MINS
                 </span>
@@ -404,12 +292,12 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="flex flex-col items-center gap-1"
               >
                 <span
-                  class="text-2xl font-semibold text-white"
+                  class="text-2xl leading-9 font-semibold text-white"
                 >
                   46
                 </span>
                 <span
-                  class="text-xs opacity-50 text-white"
+                  class="text-xs leading-3 opacity-50 text-white"
                 >
                   SECS
                 </span>
@@ -425,15 +313,18 @@ exports[`Shop page Renders Shop page 1`] = `
           </button>
         </div>
         <div
-          class="bg-theme-brand rounded-full flex flex-col p-3 text-center absolute right-2 top-2 @bp-400/main:right-1/12 @bp-400/main:top-1/12 @bp-720/main:p-6 @bp-1180/main:right-3/12"
+          class="bg-theme-brand rounded-full aspect-square w-14 @bp-720/main:w-20
+             flex flex-col justify-center items-center text-center
+             absolute right-2 top-2
+             @bp-400/main:right-1/12 @bp-400/main:top-1/12 @bp-1180/main:right-3/12 @bp-1180/main:w-custom-xs @bp-1180/main:h-custom-xs"
         >
           <span
-            class="text-xl @bp-720/main:text-2xl font-semibold text-white"
+            class="text-base @bp-720/main:text-2xl font-semibold text-white leading-none"
           >
             56%
           </span>
           <span
-            class="text-xs text-white opacity-80"
+            class="text-[10px] @bp-720/main:text-xs text-white opacity-80 leading-tight"
           >
             OFF
           </span>
@@ -451,7 +342,7 @@ exports[`Shop page Renders Shop page 1`] = `
             class="relative w-custom-md"
             data-slot="dropdown-menu-trigger"
             data-state="closed"
-            id="radix-«r2»"
+            id="radix-«r0»"
             type="button"
           >
             <span
@@ -488,7 +379,7 @@ exports[`Shop page Renders Shop page 1`] = `
             class="relative w-custom-md"
             data-slot="dropdown-menu-trigger"
             data-state="closed"
-            id="radix-«r4»"
+            id="radix-«r2»"
             type="button"
           >
             <span
@@ -525,7 +416,7 @@ exports[`Shop page Renders Shop page 1`] = `
             class="relative w-custom-md"
             data-slot="dropdown-menu-trigger"
             data-state="closed"
-            id="radix-«r6»"
+            id="radix-«r4»"
             type="button"
           >
             <span
@@ -566,7 +457,7 @@ exports[`Shop page Renders Shop page 1`] = `
             class="relative w-custom-md"
             data-slot="dropdown-menu-trigger"
             data-state="closed"
-            id="radix-«r8»"
+            id="radix-«r6»"
             type="button"
           >
             <span
@@ -603,7 +494,7 @@ exports[`Shop page Renders Shop page 1`] = `
             class="relative w-custom-md"
             data-slot="dropdown-menu-trigger"
             data-state="closed"
-            id="radix-«ra»"
+            id="radix-«r8»"
             type="button"
           >
             <span
@@ -655,7 +546,7 @@ exports[`Shop page Renders Shop page 1`] = `
             class="flex items-center gap-2"
           >
             <span
-              class="text-sm text-black dark:text-white"
+              class="text-sm text-black dark:text-white font-medium"
             >
               Wing Chair
             </span>
@@ -684,7 +575,7 @@ exports[`Shop page Renders Shop page 1`] = `
             class="flex items-center gap-2"
           >
             <span
-              class="text-sm text-black dark:text-white"
+              class="text-sm text-black dark:text-white font-medium"
             >
               Min $300 - Max 500
             </span>
@@ -714,7 +605,7 @@ exports[`Shop page Renders Shop page 1`] = `
           class="flex gap-1"
         >
           <span
-            class="text-sm text-black dark:text-white"
+            class="text-sm text-black dark:text-white font-medium"
           >
             2,547
           </span>
@@ -733,8 +624,9 @@ exports[`Shop page Renders Shop page 1`] = `
         class="w-full grid grid-cols-1 justify-items-center gap-4 @bp-890/main:grid-cols-2 @bp-1280/main:grid-cols-3 @bp-1280/main:justify-items-start"
       >
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
+          data-testid="product-card"
         >
           <div
             class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
@@ -744,8 +636,7 @@ exports[`Shop page Renders Shop page 1`] = `
               class="relative"
             >
               <img
-                alt="img product"
-                src="https://picsum.photos/seed/1/350/446"
+                alt=""
               />
               <div
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -843,13 +734,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="font-semibold text-xl dark:text-white"
                 data-slot="card-title"
               >
-                Chinese cabbage
+                Product 1
               </div>
               <div
                 class="text-xs text-charcoalGray-60 dark:text-slate-400"
                 data-slot="card-description"
               >
-                Al Karam
+                Brand A
               </div>
             </div>
             <div
@@ -914,25 +805,11 @@ exports[`Shop page Renders Shop page 1`] = `
                     fill-rule="evenodd"
                   />
                 </svg>
-                <svg
-                  fill="none"
-                  height="19px"
-                  viewBox="0 0 20 19"
-                  width="20px"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    clip-rule="evenodd"
-                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
-                    fill="#FCA120"
-                    fill-rule="evenodd"
-                  />
-                </svg>
               </div>
               <span
                 class="text-charcoalGray-60 dark:text-slate-400"
               >
-                (524 Feedback)
+                (52 Feedback)
               </span>
             </div>
             <div
@@ -942,7 +819,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
-                $95.50
+                $16.00
               </div>
               <div
                 class="text-xs text-red-600 dark:text-red-400"
@@ -954,8 +831,9 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
+          data-testid="product-card"
         >
           <div
             class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
@@ -965,8 +843,7 @@ exports[`Shop page Renders Shop page 1`] = `
               class="relative"
             >
               <img
-                alt="img product"
-                src="https://picsum.photos/seed/2/350/446"
+                alt=""
               />
               <div
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -1064,13 +941,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="font-semibold text-xl dark:text-white"
                 data-slot="card-title"
               >
-                Organic carrots
+                Product 2
               </div>
               <div
                 class="text-xs text-charcoalGray-60 dark:text-slate-400"
                 data-slot="card-description"
               >
-                Fresh Farm
+                Brand A
               </div>
             </div>
             <div
@@ -1139,7 +1016,7 @@ exports[`Shop page Renders Shop page 1`] = `
               <span
                 class="text-charcoalGray-60 dark:text-slate-400"
               >
-                (321 Feedback)
+                (52 Feedback)
               </span>
             </div>
             <div
@@ -1149,7 +1026,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
-                $25.00
+                $16.00
               </div>
               <div
                 class="text-xs text-red-600 dark:text-red-400"
@@ -1161,8 +1038,9 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
+          data-testid="product-card"
         >
           <div
             class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
@@ -1172,8 +1050,7 @@ exports[`Shop page Renders Shop page 1`] = `
               class="relative"
             >
               <img
-                alt="img product"
-                src="https://picsum.photos/seed/3/350/446"
+                alt=""
               />
               <div
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -1271,13 +1148,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="font-semibold text-xl dark:text-white"
                 data-slot="card-title"
               >
-                Tomatoes
+                Product 3
               </div>
               <div
                 class="text-xs text-charcoalGray-60 dark:text-slate-400"
                 data-slot="card-description"
               >
-                Green Valley
+                Brand A
               </div>
             </div>
             <div
@@ -1342,25 +1219,11 @@ exports[`Shop page Renders Shop page 1`] = `
                     fill-rule="evenodd"
                   />
                 </svg>
-                <svg
-                  fill="none"
-                  height="19px"
-                  viewBox="0 0 20 19"
-                  width="20px"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    clip-rule="evenodd"
-                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
-                    fill="#FCA120"
-                    fill-rule="evenodd"
-                  />
-                </svg>
               </div>
               <span
                 class="text-charcoalGray-60 dark:text-slate-400"
               >
-                (153 Feedback)
+                (52 Feedback)
               </span>
             </div>
             <div
@@ -1370,7 +1233,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
-                $15.00
+                $16.00
               </div>
               <div
                 class="text-xs text-red-600 dark:text-red-400"
@@ -1382,8 +1245,9 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
+          data-testid="product-card"
         >
           <div
             class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
@@ -1393,8 +1257,7 @@ exports[`Shop page Renders Shop page 1`] = `
               class="relative"
             >
               <img
-                alt="img product"
-                src="https://picsum.photos/seed/4/350/446"
+                alt=""
               />
               <div
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -1492,13 +1355,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="font-semibold text-xl dark:text-white"
                 data-slot="card-title"
               >
-                Bell Peppers
+                Product 4
               </div>
               <div
                 class="text-xs text-charcoalGray-60 dark:text-slate-400"
                 data-slot="card-description"
               >
-                Veggie House
+                Brand A
               </div>
             </div>
             <div
@@ -1567,7 +1430,7 @@ exports[`Shop page Renders Shop page 1`] = `
               <span
                 class="text-charcoalGray-60 dark:text-slate-400"
               >
-                (201 Feedback)
+                (52 Feedback)
               </span>
             </div>
             <div
@@ -1577,7 +1440,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
-                $30.00
+                $16.00
               </div>
               <div
                 class="text-xs text-red-600 dark:text-red-400"
@@ -1589,8 +1452,9 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
+          data-testid="product-card"
         >
           <div
             class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
@@ -1600,8 +1464,7 @@ exports[`Shop page Renders Shop page 1`] = `
               class="relative"
             >
               <img
-                alt="img product"
-                src="https://picsum.photos/seed/5/350/446"
+                alt=""
               />
               <div
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -1699,13 +1562,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="font-semibold text-xl dark:text-white"
                 data-slot="card-title"
               >
-                Broccoli
+                Product 5
               </div>
               <div
                 class="text-xs text-charcoalGray-60 dark:text-slate-400"
                 data-slot="card-description"
               >
-                Nature Fresh
+                Brand A
               </div>
             </div>
             <div
@@ -1770,25 +1633,11 @@ exports[`Shop page Renders Shop page 1`] = `
                     fill-rule="evenodd"
                   />
                 </svg>
-                <svg
-                  fill="none"
-                  height="19px"
-                  viewBox="0 0 20 19"
-                  width="20px"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    clip-rule="evenodd"
-                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
-                    fill="#FCA120"
-                    fill-rule="evenodd"
-                  />
-                </svg>
               </div>
               <span
                 class="text-charcoalGray-60 dark:text-slate-400"
               >
-                (300 Feedback)
+                (52 Feedback)
               </span>
             </div>
             <div
@@ -1798,7 +1647,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
-                $40.00
+                $16.00
               </div>
               <div
                 class="text-xs text-red-600 dark:text-red-400"
@@ -1810,8 +1659,9 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
+          data-testid="product-card"
         >
           <div
             class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
@@ -1821,8 +1671,7 @@ exports[`Shop page Renders Shop page 1`] = `
               class="relative"
             >
               <img
-                alt="img product"
-                src="https://picsum.photos/seed/6/350/446"
+                alt=""
               />
               <div
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -1920,13 +1769,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="font-semibold text-xl dark:text-white"
                 data-slot="card-title"
               >
-                Spinach
+                Product 6
               </div>
               <div
                 class="text-xs text-charcoalGray-60 dark:text-slate-400"
                 data-slot="card-description"
               >
-                Healthy Choice
+                Brand A
               </div>
             </div>
             <div
@@ -1995,7 +1844,7 @@ exports[`Shop page Renders Shop page 1`] = `
               <span
                 class="text-charcoalGray-60 dark:text-slate-400"
               >
-                (120 Feedback)
+                (52 Feedback)
               </span>
             </div>
             <div
@@ -2005,7 +1854,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
-                $22.00
+                $16.00
               </div>
               <div
                 class="text-xs text-red-600 dark:text-red-400"
@@ -2017,8 +1866,9 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
+          data-testid="product-card"
         >
           <div
             class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
@@ -2028,8 +1878,7 @@ exports[`Shop page Renders Shop page 1`] = `
               class="relative"
             >
               <img
-                alt="img product"
-                src="https://picsum.photos/seed/7/350/446"
+                alt=""
               />
               <div
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -2127,13 +1976,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="font-semibold text-xl dark:text-white"
                 data-slot="card-title"
               >
-                Lettuce
+                Product 7
               </div>
               <div
                 class="text-xs text-charcoalGray-60 dark:text-slate-400"
                 data-slot="card-description"
               >
-                Al Karam
+                Brand A
               </div>
             </div>
             <div
@@ -2198,25 +2047,11 @@ exports[`Shop page Renders Shop page 1`] = `
                     fill-rule="evenodd"
                   />
                 </svg>
-                <svg
-                  fill="none"
-                  height="19px"
-                  viewBox="0 0 20 19"
-                  width="20px"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    clip-rule="evenodd"
-                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
-                    fill="#FCA120"
-                    fill-rule="evenodd"
-                  />
-                </svg>
               </div>
               <span
                 class="text-charcoalGray-60 dark:text-slate-400"
               >
-                (132 Feedback)
+                (52 Feedback)
               </span>
             </div>
             <div
@@ -2226,7 +2061,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
-                $18.50
+                $16.00
               </div>
               <div
                 class="text-xs text-red-600 dark:text-red-400"
@@ -2238,8 +2073,9 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
+          data-testid="product-card"
         >
           <div
             class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
@@ -2249,8 +2085,7 @@ exports[`Shop page Renders Shop page 1`] = `
               class="relative"
             >
               <img
-                alt="img product"
-                src="https://picsum.photos/seed/8/350/446"
+                alt=""
               />
               <div
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -2348,13 +2183,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="font-semibold text-xl dark:text-white"
                 data-slot="card-title"
               >
-                Cucumbers
+                Product 8
               </div>
               <div
                 class="text-xs text-charcoalGray-60 dark:text-slate-400"
                 data-slot="card-description"
               >
-                Green Valley
+                Brand A
               </div>
             </div>
             <div
@@ -2423,7 +2258,7 @@ exports[`Shop page Renders Shop page 1`] = `
               <span
                 class="text-charcoalGray-60 dark:text-slate-400"
               >
-                (98 Feedback)
+                (52 Feedback)
               </span>
             </div>
             <div
@@ -2433,7 +2268,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
-                $14.00
+                $16.00
               </div>
               <div
                 class="text-xs text-red-600 dark:text-red-400"
@@ -2445,8 +2280,9 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
+          data-testid="product-card"
         >
           <div
             class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
@@ -2456,8 +2292,7 @@ exports[`Shop page Renders Shop page 1`] = `
               class="relative"
             >
               <img
-                alt="img product"
-                src="https://picsum.photos/seed/9/350/446"
+                alt=""
               />
               <div
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -2555,13 +2390,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="font-semibold text-xl dark:text-white"
                 data-slot="card-title"
               >
-                Red Onions
+                Product 9
               </div>
               <div
                 class="text-xs text-charcoalGray-60 dark:text-slate-400"
                 data-slot="card-description"
               >
-                Fresh Farm
+                Brand A
               </div>
             </div>
             <div
@@ -2626,25 +2461,11 @@ exports[`Shop page Renders Shop page 1`] = `
                     fill-rule="evenodd"
                   />
                 </svg>
-                <svg
-                  fill="none"
-                  height="19px"
-                  viewBox="0 0 20 19"
-                  width="20px"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    clip-rule="evenodd"
-                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
-                    fill="#FCA120"
-                    fill-rule="evenodd"
-                  />
-                </svg>
               </div>
               <span
                 class="text-charcoalGray-60 dark:text-slate-400"
               >
-                (143 Feedback)
+                (52 Feedback)
               </span>
             </div>
             <div
@@ -2654,7 +2475,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
-                $12.00
+                $16.00
               </div>
               <div
                 class="text-xs text-red-600 dark:text-red-400"
@@ -2666,8 +2487,9 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
+          data-testid="product-card"
         >
           <div
             class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
@@ -2677,8 +2499,7 @@ exports[`Shop page Renders Shop page 1`] = `
               class="relative"
             >
               <img
-                alt="img product"
-                src="https://picsum.photos/seed/10/350/446"
+                alt=""
               />
               <div
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -2776,13 +2597,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="font-semibold text-xl dark:text-white"
                 data-slot="card-title"
               >
-                Garlic
+                Product 10
               </div>
               <div
                 class="text-xs text-charcoalGray-60 dark:text-slate-400"
                 data-slot="card-description"
               >
-                Nature Fresh
+                Brand A
               </div>
             </div>
             <div
@@ -2847,25 +2668,11 @@ exports[`Shop page Renders Shop page 1`] = `
                     fill-rule="evenodd"
                   />
                 </svg>
-                <svg
-                  fill="none"
-                  height="19px"
-                  viewBox="0 0 20 19"
-                  width="20px"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    clip-rule="evenodd"
-                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
-                    fill="#FCA120"
-                    fill-rule="evenodd"
-                  />
-                </svg>
               </div>
               <span
                 class="text-charcoalGray-60 dark:text-slate-400"
               >
-                (190 Feedback)
+                (52 Feedback)
               </span>
             </div>
             <div
@@ -2875,7 +2682,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
-                $10.00
+                $16.00
               </div>
               <div
                 class="text-xs text-red-600 dark:text-red-400"
@@ -2887,8 +2694,9 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
+          data-testid="product-card"
         >
           <div
             class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
@@ -2898,8 +2706,7 @@ exports[`Shop page Renders Shop page 1`] = `
               class="relative"
             >
               <img
-                alt="img product"
-                src="https://picsum.photos/seed/11/350/446"
+                alt=""
               />
               <div
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -2997,13 +2804,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="font-semibold text-xl dark:text-white"
                 data-slot="card-title"
               >
-                Zucchini
+                Product 11
               </div>
               <div
                 class="text-xs text-charcoalGray-60 dark:text-slate-400"
                 data-slot="card-description"
               >
-                Veggie House
+                Brand A
               </div>
             </div>
             <div
@@ -3072,7 +2879,7 @@ exports[`Shop page Renders Shop page 1`] = `
               <span
                 class="text-charcoalGray-60 dark:text-slate-400"
               >
-                (101 Feedback)
+                (52 Feedback)
               </span>
             </div>
             <div
@@ -3082,7 +2889,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
-                $20.00
+                $16.00
               </div>
               <div
                 class="text-xs text-red-600 dark:text-red-400"
@@ -3094,8 +2901,9 @@ exports[`Shop page Renders Shop page 1`] = `
           </div>
         </div>
         <div
-          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-custom-6xl group"
+          class="bg-card text-card-foreground flex flex-col gap-6 p-5 shadow-sm dark:bg-zinc-800 w-full max-w-custom-6xl group"
           data-slot="card"
+          data-testid="product-card"
         >
           <div
             class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"
@@ -3105,8 +2913,7 @@ exports[`Shop page Renders Shop page 1`] = `
               class="relative"
             >
               <img
-                alt="img product"
-                src="https://picsum.photos/seed/12/350/446"
+                alt=""
               />
               <div
                 class="flex gap-2 absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -3204,13 +3011,13 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="font-semibold text-xl dark:text-white"
                 data-slot="card-title"
               >
-                Eggplant
+                Product 12
               </div>
               <div
                 class="text-xs text-charcoalGray-60 dark:text-slate-400"
                 data-slot="card-description"
               >
-                Al Karam
+                Brand A
               </div>
             </div>
             <div
@@ -3275,25 +3082,11 @@ exports[`Shop page Renders Shop page 1`] = `
                     fill-rule="evenodd"
                   />
                 </svg>
-                <svg
-                  fill="none"
-                  height="19px"
-                  viewBox="0 0 20 19"
-                  width="20px"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    clip-rule="evenodd"
-                    d="M12.3316 7.12771L10.167 0L8.00235 7.12771H0.666992L6.60178 11.742L4.39913 19L10.167 14.5146L15.9348 19L13.7322 11.742L19.667 7.12771H12.3316Z"
-                    fill="#FCA120"
-                    fill-rule="evenodd"
-                  />
-                </svg>
               </div>
               <span
                 class="text-charcoalGray-60 dark:text-slate-400"
               >
-                (88 Feedback)
+                (52 Feedback)
               </span>
             </div>
             <div
@@ -3303,7 +3096,7 @@ exports[`Shop page Renders Shop page 1`] = `
                 class="text-muted-foreground text-2xl font-bold dark:text-white"
                 data-slot="card-description"
               >
-                $24.00
+                $16.00
               </div>
               <div
                 class="text-xs text-red-600 dark:text-red-400"
@@ -3319,7 +3112,7 @@ exports[`Shop page Renders Shop page 1`] = `
         class="flex flex-col gap-2.5 justify-between items-center mt-space-2xl @bp-750/main:gap-0 @bp-750/main:flex-row"
       >
         <span
-          class="text-sm dark:text-white"
+          class="text-sm font-medium dark:text-white"
         >
           Showing 
           1
@@ -3327,12 +3120,12 @@ exports[`Shop page Renders Shop page 1`] = `
           12
            of
            
-          36
+          30
            items
         </span>
         <nav
           aria-label="pagination"
-          class=""
+          class="flex @bp-500/main:hidden"
           data-slot="pagination"
           role="navigation"
         >
@@ -3346,7 +3139,63 @@ exports[`Shop page Renders Shop page 1`] = `
               <a
                 aria-disabled="true"
                 aria-label="Go to previous page"
-                class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 py-2.5 rounded-radius-md px-space-2xl px-5 py-space-md size-auto rounded-none aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80 border border-white p-space-md rounded-l-lg w-full font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 py-2.5 rounded-radius-md px-space-2xl px-5 py-space-md size-auto rounded-none aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80 border border-white p-space-md rounded-l-lg rounded-r-none w-full font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer"
+                data-slot="pagination-link"
+              >
+                <span
+                  class=""
+                >
+                  First
+                </span>
+              </a>
+            </li>
+            <li
+              data-slot="pagination-item"
+            >
+              <a
+                aria-current="page"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-green-700 text-white shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-green-50 dark:border-input dark:hover:bg-input/50 px-5 py-space-md border size-auto rounded-none font-bold cursor-pointer border-theme-gray-300 aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80"
+                data-active="true"
+                data-slot="pagination-link"
+              >
+                1
+              </a>
+            </li>
+            <li
+              data-slot="pagination-item"
+            >
+              <a
+                aria-disabled="false"
+                aria-label="Go to next page"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 py-2.5 rounded-radius-md px-space-2xl px-5 py-space-md size-auto rounded-none aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80 border border-white p-space-md rounded-r-lg rounded-l-none font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer"
+                data-slot="pagination-link"
+              >
+                <span
+                  class=""
+                >
+                  Next
+                </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav
+          aria-label="pagination"
+          class="hidden @bp-500/main:flex"
+          data-slot="pagination"
+          role="navigation"
+        >
+          <ul
+            class="flex flex-row items-center shadow-lg rounded-l-lg rounded-r-lg"
+            data-slot="pagination-content"
+          >
+            <li
+              data-slot="pagination-item"
+            >
+              <a
+                aria-disabled="true"
+                aria-label="Go to previous page"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-white dark:bg-black hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 py-2.5 rounded-radius-md px-space-2xl px-5 py-space-md size-auto rounded-none aria-disabled:bg-theme-gray-100 aria-disabled:text-theme-gray-600 aria-disabled:cursor-not-allowed dark:aria-disabled:bg-black/80 border border-white p-space-md rounded-l-lg rounded-r-none w-full font-bold text-sm text-green-700 dark:text-green-50 cursor-pointer"
                 data-slot="pagination-link"
               >
                 <span
@@ -3425,7 +3274,7 @@ exports[`Shop page Renders Shop page 1`] = `
           class="border-4 border-white p-10 text-center @bp-1080/main:p-20"
         >
           <h2
-            class="block text-white text-4xl @bp-850/main:text-fs-2xl"
+            class="block text-white text-fs-4xl @bp-850/main:text-fs-2xl font-scope"
           >
             -50 PROMOTION HOT SUMMER
           </h2>
@@ -3622,7 +3471,7 @@ exports[`Shop page Renders Shop page 1`] = `
         class="absolute inset-0 flex flex-col justify-center items-center text-center px-4"
       >
         <h2
-          class="text-fs-2xl text-charcoalGray-60 dark:text-gray-60"
+          class="font-scope text-fs-2xl text-charcoalGray-60 dark:text-gray-60"
         >
           Subscribe To Our Newsletter
         </h2>
@@ -3781,8 +3630,9 @@ exports[`Shop page Renders Shop page 1`] = `
           aria-expanded="false"
           aria-haspopup="menu"
           class="flex @bp-850/structure:hidden cursor-pointer"
+          data-slot="dropdown-menu-trigger"
           data-state="closed"
-          id="radix-«rc»"
+          id="radix-«ra»"
           type="button"
         >
           <svg

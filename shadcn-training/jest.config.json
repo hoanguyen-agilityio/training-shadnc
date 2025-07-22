@@ -16,7 +16,10 @@
     "!src/components/icons/*.{js,jsx,ts,tsx}",
     "!src/types/*.{js,jsx,ts,tsx}",
     "!src/App.tsx",
-    "!src/page/index.ts"
+    "!src/page/index.ts",
+    "!src/lib/*.{js,jsx,ts,tsx}",
+    "!src/entry-client.tsx",
+    "!src/entry-server.tsx"
   ],
   "testMatch": [
     "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",

@@ -57,181 +57,26 @@ exports[`SignUpPage renders SignUpPage correctly 1`] = `
         class="flex flex-col gap-[30px] max-w-custom-7xl-plus w-full"
       >
         <div
-          class="flex flex-col gap-[5px]"
+          class="flex justify-center items-center h-screen"
         >
-          <div
-            class="flex gap-2.5"
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-loader-circle animate-spin text-primary dark:text-white"
+            fill="none"
+            height="48"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="48"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <span
-              class="text-fs-2xl dark:text-white"
-            >
-              Create New Account
-            </span>
-          </div>
-          <span
-            class="text-lg text-charcoalGray-60 dark:text-gray-60"
-          >
-            Please enter details
-          </span>
+            <path
+              d="M21 12a9 9 0 1 1-6.219-8.56"
+            />
+          </svg>
         </div>
-        <form
-          class="space-y-8"
-        >
-          <div
-            class="grid gap-2"
-            data-slot="form-item"
-          >
-            <div
-              class="grid w-full items-center gap-3"
-            >
-              <label
-                class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
-                data-slot="label"
-              >
-                First Name
-              </label>
-              <input
-                aria-describedby="«r0»-form-item-description"
-                aria-invalid="false"
-                aria-label="first name"
-                class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 rounded-md bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 rounded-radius-md border border-theme-gray-400 py-4 px-3"
-                data-slot="form-control"
-                id="«r0»-form-item"
-                name="firstName"
-                placeholder="Robert"
-                type="text"
-                value=""
-              />
-            </div>
-          </div>
-          <div
-            class="grid gap-2"
-            data-slot="form-item"
-          >
-            <div
-              class="grid w-full items-center gap-3"
-            >
-              <label
-                class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
-                data-slot="label"
-              >
-                Last Name
-              </label>
-              <input
-                aria-describedby="«r1»-form-item-description"
-                aria-invalid="false"
-                aria-label="last name"
-                class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 rounded-md bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 rounded-radius-md border border-theme-gray-400 py-4 px-3"
-                data-slot="form-control"
-                id="«r1»-form-item"
-                name="lastName"
-                placeholder="Fox"
-                type="text"
-                value=""
-              />
-            </div>
-          </div>
-          <div
-            class="grid gap-2"
-            data-slot="form-item"
-          >
-            <div
-              class="grid w-full items-center gap-3"
-            >
-              <label
-                class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
-                data-slot="label"
-              >
-                Email Address
-              </label>
-              <input
-                aria-describedby="«r2»-form-item-description"
-                aria-invalid="false"
-                aria-label="email address"
-                class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 rounded-md bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 rounded-radius-md border border-theme-gray-400 py-4 px-3"
-                data-slot="form-control"
-                id="«r2»-form-item"
-                name="email"
-                placeholder="robertfox@example.com"
-                type="email"
-                value=""
-              />
-            </div>
-          </div>
-          <div
-            class="grid gap-2"
-            data-slot="form-item"
-          >
-            <div
-              class="grid w-full items-center gap-3"
-            >
-              <label
-                class="flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 dark:text-white"
-                data-slot="label"
-              >
-                Password
-              </label>
-              <input
-                aria-describedby="«r3»-form-item-description"
-                aria-invalid="false"
-                aria-label="password"
-                class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 flex w-full min-w-0 rounded-md bg-transparent shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:text-white focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive font-poppins text-base focus:border-theme-gray-650 focus:ring-0 ring-0 rounded-radius-md border border-theme-gray-400 py-4 px-3"
-                data-slot="form-control"
-                id="password"
-                name="password"
-                placeholder="**************"
-                type="password"
-                value=""
-              />
-            </div>
-          </div>
-          <div
-            class="flex items-center gap-2 dark:text-white"
-          >
-            <button
-              aria-checked="false"
-              aria-label="checkbox"
-              class="peer border-input dark:bg-input/30 data-[state=checked]:bg-theme-gray-550 data-[state=checked]:text-white dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-sm border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
-              data-slot="checkbox"
-              data-state="unchecked"
-              role="checkbox"
-              type="button"
-              value="on"
-            />
-            <input
-              aria-hidden="true"
-              style="position: absolute; pointer-events: none; opacity: 0; margin: 0px; transform: translateX(-100%); width: 0px; height: 0px;"
-              tabindex="-1"
-              type="checkbox"
-              value="on"
-            />
-            <span>
-              I agree to the 
-              <b>
-                Terms & Conditions
-              </b>
-            </span>
-          </div>
-          <button
-            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-black text-white shadow-xs hover:brightness-110 dark:bg-white dark:text-black py-2.5 rounded-radius-md px-space-2xl cursor-pointer transition-all duration-200 ease-in-out active:scale-95 focus:outline-none focus:ring-2 w-full"
-            data-slot="button"
-            type="submit"
-          >
-            <svg
-              fill="none"
-              viewBox="0 0 25 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                class="fill-current"
-                clip-rule="evenodd"
-                d="M9.62588 17.8644C9.58598 17.8216 9.55432 17.7706 9.53272 17.7146C9.51112 17.6585 9.5 17.5984 9.5 17.5377C9.5 17.477 9.51112 17.4169 9.53272 17.3608C9.55432 17.3048 9.58598 17.2538 9.62588 17.211L14.4649 11.9999L9.62588 6.7888C9.58604 6.74589 9.55444 6.69495 9.53288 6.63889C9.51132 6.58283 9.50022 6.52275 9.50022 6.46207C9.50022 6.40139 9.51132 6.3413 9.53288 6.28524C9.55444 6.22918 9.58604 6.17824 9.62588 6.13534C9.66571 6.09243 9.71301 6.05839 9.76506 6.03517C9.8171 6.01195 9.87289 6 9.92923 6C9.98557 6 10.0414 6.01195 10.0934 6.03517C10.1454 6.05839 10.1927 6.09243 10.2326 6.13534L15.3741 11.6731C15.414 11.716 15.4457 11.7669 15.4673 11.823C15.4889 11.8791 15.5 11.9392 15.5 11.9999C15.5 12.0606 15.4889 12.1207 15.4673 12.1768C15.4457 12.2328 15.414 12.2837 15.3741 12.3266L10.2326 17.8644C10.1928 17.9074 10.1455 17.9415 10.0934 17.9648C10.0414 17.988 9.98559 18 9.92923 18C9.87287 18 9.81707 17.988 9.76501 17.9648C9.71296 17.9415 9.66568 17.9074 9.62588 17.8644Z"
-                fill-rule="evenodd"
-              />
-            </svg>
-            SIGNUP
-          </button>
-        </form>
       </div>
     </div>
   </main>

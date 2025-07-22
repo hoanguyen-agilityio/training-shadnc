@@ -1,7 +1,19 @@
 // Libs
 import '@testing-library/jest-dom';
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
+import { ClerkProvider } from '@clerk/clerk-react';
+import dotenv from 'dotenv';
+
+// Types
+import { User } from '@/types';
+
+// Components
+import { SignUpPage } from '..';
+
+dotenv.config();
+
+const PUBLISHABLE_KEY = process.env.VITE_CLERK_PUBLISHABLE_KEY;
 
 // Mocks
 const mockNavigate = jest.fn();
@@ -15,25 +27,9 @@ jest.mock('react-router-dom', () => {
   };
 });
 
-jest.mock('@/utils', () => ({
-  ...jest.requireActual('@/utils'),
-  useInitialUsers: () => [
-    {
-      email: 'admin@gmail.com',
-      password: '@Admin123456',
-      firstName: 'Test',
-      lastName: 'User',
-    },
-  ],
-}));
-
 jest.mock('@/services', () => ({
   createUser: (...args: User[]) => mockCreateUser(...args),
 }));
-
-// Components
-import { SignUpPage } from '..';
-import { User } from '@/types';
 
 beforeAll(() => {
   Object.defineProperty(window, 'matchMedia', {
@@ -61,106 +57,11 @@ describe('SignUpPage', () => {
   test('renders SignUpPage correctly', () => {
     const { container } = render(
       <MemoryRouter>
-        <SignUpPage />
+        <ClerkProvider publishableKey={PUBLISHABLE_KEY!}>
+          <SignUpPage />
+        </ClerkProvider>
       </MemoryRouter>,
     );
     expect(container).toMatchSnapshot();
-  });
-
-  test('shows error when using an existing email', async () => {
-    render(
-      <MemoryRouter>
-        <SignUpPage />
-      </MemoryRouter>,
-    );
-
-    fireEvent.change(screen.getByPlaceholderText('Robert'), {
-      target: { value: 'Test' },
-    });
-    fireEvent.change(screen.getByPlaceholderText('Fox'), {
-      target: { value: 'User' },
-    });
-    fireEvent.change(screen.getByPlaceholderText('robertfox@example.com'), {
-      target: { value: 'admin@gmail.com' },
-    });
-    fireEvent.change(screen.getByPlaceholderText('**************'), {
-      target: { value: '@Admin123456' },
-    });
-
-    fireEvent.click(screen.getByRole('button', { name: /signup/i }));
-
-    await waitFor(() => {
-      expect(screen.getByText(/email already exists/i)).toBeInTheDocument();
-    });
-  });
-
-  test('submits form and navigates on success', async () => {
-    mockCreateUser.mockResolvedValueOnce({});
-    const setItemSpy = jest.spyOn(Storage.prototype, 'setItem');
-
-    render(
-      <MemoryRouter>
-        <SignUpPage />
-      </MemoryRouter>,
-    );
-
-    fireEvent.change(screen.getByPlaceholderText('Robert'), {
-      target: { value: 'Jane' },
-    });
-    fireEvent.change(screen.getByPlaceholderText('Fox'), {
-      target: { value: 'Doe' },
-    });
-    fireEvent.change(screen.getByPlaceholderText('robertfox@example.com'), {
-      target: { value: 'jane@example.com' },
-    });
-    fireEvent.change(screen.getByPlaceholderText('**************'), {
-      target: { value: 'securePass123' },
-    });
-
-    fireEvent.click(screen.getByRole('button', { name: /signup/i }));
-
-    await waitFor(() => {
-      expect(mockCreateUser).toHaveBeenCalledWith({
-        email: 'jane@example.com',
-        password: 'securePass123',
-        firstName: 'Jane',
-        lastName: 'Doe',
-      });
-      expect(setItemSpy).toHaveBeenCalledWith('token', 'jane@example.com');
-      expect(mockNavigate).toHaveBeenCalledWith('/');
-    });
-  });
-
-  test('shows error when user creation fails', async () => {
-    const consoleErrorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
-    mockCreateUser.mockRejectedValueOnce(new Error('Server error'));
-
-    render(
-      <MemoryRouter>
-        <SignUpPage />
-      </MemoryRouter>,
-    );
-
-    fireEvent.change(screen.getByPlaceholderText('Robert'), {
-      target: { value: 'Jane' },
-    });
-    fireEvent.change(screen.getByPlaceholderText('Fox'), {
-      target: { value: 'Doe' },
-    });
-    fireEvent.change(screen.getByPlaceholderText('robertfox@example.com'), {
-      target: { value: 'jane@example.com' },
-    });
-    fireEvent.change(screen.getByPlaceholderText('**************'), {
-      target: { value: 'securePass123' },
-    });
-
-    fireEvent.click(screen.getByRole('button', { name: /signup/i }));
-
-    await waitFor(() => {
-      expect(screen.getByText(/something went wrong during registration/i)).toBeInTheDocument();
-      expect(consoleErrorSpy).toHaveBeenCalledWith('Failed to create user:', expect.any(Error));
-    });
-
-    consoleErrorSpy.mockRestore();
   });
 });

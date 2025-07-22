@@ -2,9 +2,15 @@
 import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
+import { ClerkProvider } from '@clerk/clerk-react';
+import dotenv from 'dotenv';
 
 // Components
 import { AboutPage } from '..';
+
+dotenv.config();
+
+const PUBLISHABLE_KEY = process.env.VITE_CLERK_PUBLISHABLE_KEY;
 
 jest.mock('@/components/ui/carousel', () => {
   const actual = jest.requireActual('@/components/ui/carousel');
@@ -38,7 +44,9 @@ describe('About page', () => {
   test('Renders About page', () => {
     const { container } = render(
       <MemoryRouter>
-        <AboutPage />
+        <ClerkProvider publishableKey={PUBLISHABLE_KEY!}>
+          <AboutPage />
+        </ClerkProvider>
       </MemoryRouter>,
     );
     expect(container).toMatchSnapshot();

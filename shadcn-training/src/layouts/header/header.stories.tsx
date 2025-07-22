@@ -4,6 +4,9 @@ import { MemoryRouter } from 'react-router-dom';
 
 // Layouts
 import { Header } from './index';
+import { ClerkProvider } from '@clerk/clerk-react';
+
+const PUBLISHABLE_KEY = process.env.VITE_CLERK_PUBLISHABLE_KEY;
 
 export default {
   title: 'Layouts/Header',
@@ -11,7 +14,11 @@ export default {
   decorators: [
     (Story) => (
       <MemoryRouter>
-        <Story />
+        <ClerkProvider publishableKey={PUBLISHABLE_KEY!}>
+          <div className="@container/structure">
+            <Story />
+          </div>
+        </ClerkProvider>
       </MemoryRouter>
     ),
   ],

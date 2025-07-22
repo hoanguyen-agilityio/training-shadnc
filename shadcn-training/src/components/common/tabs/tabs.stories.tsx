@@ -10,7 +10,13 @@ import { PRODUCTS_HOME_PAGE, TABS_LABEL } from '@/mocks';
 export default {
   title: 'Components/Common/Tabs',
   component: Tabs,
-  decorators: [],
+  decorators: [
+    (Story) => (
+      <div className="@container/main">
+        <Story />
+      </div>
+    ),
+  ],
 } as Meta;
 
 type Story = StoryObj<typeof Tabs>;
