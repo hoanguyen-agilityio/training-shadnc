@@ -9,7 +9,7 @@ export default {
   component: Banner,
   decorators: [
     (Story) => (
-      <div className="max-w-container">
+      <div className="@container/main max-w-container">
         <Story />
       </div>
     ),

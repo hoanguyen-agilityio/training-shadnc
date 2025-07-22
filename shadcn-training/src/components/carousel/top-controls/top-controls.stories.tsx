@@ -7,7 +7,13 @@ import { CarouselWithTopControls } from './index';
 export default {
   title: 'Components/Carousel/CarouselWithTopControls',
   component: CarouselWithTopControls,
-  decorators: [],
+  decorators: [
+    (Story) => (
+      <div className="@container/main">
+        <Story />
+      </div>
+    ),
+  ],
 } as Meta;
 
 type Story = StoryObj<typeof CarouselWithTopControls>;

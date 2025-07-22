@@ -7,7 +7,13 @@ import { FeatureBar } from './index';
 export default {
   title: 'Components/FeatureBar',
   component: FeatureBar,
-  decorators: [],
+  decorators: [
+    (Story) => (
+      <div className="@container/main">
+        <Story />
+      </div>
+    ),
+  ],
 } as Meta;
 
 type Story = StoryObj<typeof FeatureBar>;

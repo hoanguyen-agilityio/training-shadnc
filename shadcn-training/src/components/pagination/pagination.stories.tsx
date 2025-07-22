@@ -7,7 +7,13 @@ import { Pagination } from './index';
 export default {
   title: 'Components/Pagination',
   component: Pagination,
-  decorators: [],
+  decorators: [
+    (Story) => (
+      <div className="@container/main">
+        <Story />
+      </div>
+    ),
+  ],
 } as Meta;
 
 type Story = StoryObj<typeof Pagination>;
